@@ -1,0 +1,90 @@
+# 
+# events
+# 
+# Eventid|Name|Starttime|Endtime|Latitude|Longitude|LocuncertKm|CrownLat|CrownLon|TipLat|TipLon|Type|AreaTotal|AreaSource|AreaSourceLow|AreaSourceHigh|Volume|VolumeLow|VolumeHigh|Mass|MassLow|MassHigh|H|HLow|HHigh|L|LLow|LHigh|HFreefall|HFreefallLow|HFreefallHigh|UpstreamDrainarea|PeakDischarge|PeakDischargeLow|PeakDischargeHigh|PeakFlowheight|PeakFlowheightLow|PeakFlowheightHigh|Otherdataquality1to5|LPpotential|MaxdistvhfKm|MaxdistvhfReached|MaxdisthfKm|MaxdisthfReached|MaxdistipKm|MaxdistipReached|MaxdistlpKm|MaxdistlpReached|InfraDetected|MaxdistinfraKm|MaxdistinfraReached|DatLocation|Sources
+199|Saint Sauveur, France|2018-02-17 21:06:34|2018-02-17 21:07:47|44.54|6.51|3.0|None|None|None|None|landslide|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|1|0|None|None|111.0|0|None|None|0.0|None|None|None|None|RESIF, INGV|Collins, E.A., Allstadt, K.E., Groult, C., Hibert, C., Malet, J.-P., Toney, L.D., and Bessette-Kirton, E., 2022, Seismogenic Landslides and other Mass Movements: U.S. Geological Survey data release, https://doi.org/10.5066/P90VGCSK.
+
+
+# 
+# information
+# 
+# Iid|Eventid|RefId|Note|PhoId|GISId|ApplyAlso
+491|199|220|This event occurred in limestones, marlstones and clays based on ELSUS v2 (Wilde and others, 2018).|None|None|None
+539|199|199|Location coordinates, maximum location uncertainty, and type were taken from Renass (2018)a.|None|None|None
+530|191|None|Horizontal components for several stations which detected these events were not reviewed.|None|None|192,193,194,195,196,197,198,199,200,201,202,203,204,205,206,207,208,209,210,211,212,213,214,215,216,217,218,219,220,221,222,223,224,225,226,227,228,229,230,231,232,233,234,235,236,237,238,239,240,241,242,243,244,245,246,247,248,249,250,251,252,253,254,255,256,257,258
+
+# 
+# photos
+# 
+# PhotoId|Eventid|Photographer|Description|Latitude|Longitude|Date|FileExtension|ApplyAlso
+1061|199|Elaine Collins|Raw waveforms from closest stations. Data was demeaned but no other processing was applied. Dashed lines show approximate start and end times of event (from database). Figure generation is automated and there may be artifacts present.|None|None|None|EventData/199_SaintSauveurFrance_17Feb2018/photos_figures/199_SaintSauveurFrance_17Feb2018_waveforms_raw.png|None
+1062|199|Elaine Collins|High frequency (1-5 Hz) ground velocity waveforms for station response from closest stations with detections. Dashed lines show approximate start and end times of event (from database). Waveforms are corrected for station response after removing the mean. Figure generation is automated and there may be artifacts present. Clipped waveforms have not been removed before station correction so check raw plots before interpreting high amplitude signals.|None|None|None|EventData/199_SaintSauveurFrance_17Feb2018/photos_figures/199_SaintSauveurFrance_17Feb2018_waveforms_1-5Hz.png|None
+1063|199|Elaine Collins|Spectrograms of velocity waveforms corrected for station sensitivity from closest stations with detections. Figure generation is automated and there may be artifacts present|None|None|None|EventData/199_SaintSauveurFrance_17Feb2018/photos_figures/199_SaintSauveurFrance_17Feb2018_spectrogram.png|None
+1064|199|Elaine Collins|Multitaper spectra (same units as Power Spectral Density) of velocity waveforms corrected for station sensitivity from closest stations with detections. Linear trend was removed and a taper was applied before generating spectra. Figure generation is automated and there may be artifacts present. Since station response was not removed to avoid adding artifacts at low frequencies for short and intermediate period stations, the lower frequency amplitudes should be interpreted with care.|None|None|None|EventData/199_SaintSauveurFrance_17Feb2018/photos_figures/199_SaintSauveurFrance_17Feb2018_spectra.png|None
+
+# 
+# reference
+# 
+# Refid|Eventid|ApplyAlso|LongRef|ShortRef|FileExtension|Url
+199|199||Renass, Feb 2018, Éboulement de magnitude 0.9, proche de Gap [Bulletin], Accessed 5 Nov 2021, at https://renass.unistra.fr/fr/evenements/fr2018xvvbwd/|Renass (2018)a|None|https://renass.unistra.fr/fr/evenements/fr2018xvvbwd/
+
+# 
+# sta_nearby
+# 
+# SRid|Eventid|Sid|StasourceRadiusKm|Az|Baz|DetectVHF|DetectHF|DetectIP|DetectLP|DetectINFRA
+185394|199|37823|8.937444763038277|83.06627515160568|263.1448086320232|None|1|None|None|None
+185395|199|37834|22.610252917547225|122.91186763746737|303.0791988889233|None|1|None|None|None
+185396|199|37833|24.80822707305727|105.19573154356898|285.4072319505438|None|1|None|None|None
+185397|199|37822|25.66459869165324|54.01313750567676|234.1973548627942|None|1|None|None|None
+185398|199|37816|27.658770760818395|4.885107204017231|184.90601641066803|None|1|None|None|None
+185399|199|37819|43.873177593413416|314.2615316606819|133.9819219155678|None|1|None|None|None
+185400|199|38164|47.79172274837301|27.550387112762998|207.74744483736202|None|1|None|None|None
+185401|199|38178|52.38578318031574|155.86690617470592|336.0538164420128|None|1|None|None|None
+185402|199|38179|52.97642347307087|205.48471511715195|25.28578702387852|None|1|None|None|None
+185403|199|38180|58.39378693048809|132.392639006164|312.7702045042342|None|1|None|None|None
+185404|199|38181|58.39378693048809|132.392639006164|312.7702045042342|None|1|None|None|None
+185405|199|37818|58.45470976954154|13.09123654475755|193.20960799652374|None|1|None|None|None
+185406|199|37824|65.16375893325545|310.330467462373|129.88709634703315|None|1|None|None|None
+185407|199|38182|72.67736445729173|116.45481835145343|297.02588454107706|None|1|None|None|None
+185408|199|38183|74.65027168795244|168.89504835997627|349.0197270877592|None|1|None|None|None
+185409|199|38184|79.00978528391019|132.6033426188083|313.11080014128396|None|1|None|None|None
+185410|199|38185|88.54571382526478|185.35911747475427|5.287659114714116|None|1|None|None|None
+185411|199|38186|99.89026054180631|117.66100559003824|298.434888952762|None|1|None|None|None
+185412|199|38187|103.4216894267161|126.00580303459151|306.7348416327769|None|1|None|None|None
+185413|199|38188|105.43836068128176|231.29609549130066|50.58005410144116|None|1|None|None|None
+185414|199|38189|105.86548892877285|231.05746421945076|50.34103933323492|None|1|None|None|None
+185415|199|38190|106.06479752447137|231.50471769047883|50.78233292162946|None|1|None|None|None
+185416|199|38191|106.39558718464819|230.7961098786553|50.07888870668497|None|1|None|None|None
+185417|199|38192|106.90419034399592|231.56498078210902|50.83634263979232|None|1|None|None|None
+185418|199|37979|110.75681602051975|106.91003807941601|287.8403923371681|None|1|None|None|None
+
+# 
+# stations
+# 
+# Sid|Name|Network|Channel|LocationCode|Latitude|Longitude|ElevationMasl|Source
+37823|CREF|FR|EHZ|00|44.549681|6.621956|1692.0|RESIF
+37834|JAUF|FR|EHZ|00|44.429|6.7488|1639.0|RESIF
+37833|SURF|FR|HHZ|00|44.480935|6.811695|1820.0|RESIF
+37822|OGCE|FR|EHZ|00|44.675625|6.772324|1789.0|RESIF
+37816|OGAG|FR|HHZ|00|44.78784|6.539745|1280.0|RESIF
+37819|OGVG|FR|HHZ|00|44.81517|6.11233|1090.0|RESIF
+38164|RRL|GU|HHZ||44.921|6.79|2086.0|INGV
+38178|ENAUX|FR|HHZ|00|44.1095|6.7775|1350.0|RESIF
+38179|OGDI|FR|HHZ|00|44.1093|6.2253|770.0|RESIF
+38180|ISO|FR|HHZ|00|44.184|7.05|910.0|RESIF
+38181|ISO|FR|BHZ|01|44.184|7.05|910.0|RESIF
+37818|BNI|MN|HHZ||45.052|6.678|1395.0|INGV,IRIS
+37824|ORIF|RD|BHZ||44.9183|5.88|0.0|RESIF
+38182|STV|GU|HHZ||44.2451|7.3263|968.0|INGV
+38183|SALSA|FR|HHZ|00|43.881|6.6888|1186.0|RESIF
+38184|SPIF|FR|HHZ|00|44.0558|7.2366|1380.0|RESIF
+38185|TRIGF|FR|HHZ|00|43.7471|6.4074|1010.0|RESIF
+38186|PIAF|FR|HHZ|00|44.116444|7.617472|937.0|RESIF
+38187|SAOF|FR|HHZ|00|43.9872|7.5545|594.0|RESIF
+38188|RUSF|FR|HHZ|01|43.9412|5.4837|499.2|RESIF
+38189|RUSF|FR|HHZ|05|43.9357|5.4831|484.9|RESIF
+38190|RUSF|FR|HHZ|04|43.9403|5.4746|495.5|RESIF
+38191|RUSF|FR|HHZ|06|43.9293|5.4819|486.3|RESIF
+38192|RUSF|FR|HHZ|03|43.9363|5.4656|491.2|RESIF
+37979|GBOS|GU|HHZ||44.2416|7.8399|845.0|INGV
+

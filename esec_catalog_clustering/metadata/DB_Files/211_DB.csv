@@ -1,0 +1,46 @@
+# 
+# events
+# 
+# Eventid|Name|Starttime|Endtime|Latitude|Longitude|LocuncertKm|CrownLat|CrownLon|TipLat|TipLon|Type|AreaTotal|AreaSource|AreaSourceLow|AreaSourceHigh|Volume|VolumeLow|VolumeHigh|Mass|MassLow|MassHigh|H|HLow|HHigh|L|LLow|LHigh|HFreefall|HFreefallLow|HFreefallHigh|UpstreamDrainarea|PeakDischarge|PeakDischargeLow|PeakDischargeHigh|PeakFlowheight|PeakFlowheightLow|PeakFlowheightHigh|Otherdataquality1to5|LPpotential|MaxdistvhfKm|MaxdistvhfReached|MaxdisthfKm|MaxdisthfReached|MaxdistipKm|MaxdistipReached|MaxdistlpKm|MaxdistlpReached|InfraDetected|MaxdistinfraKm|MaxdistinfraReached|DatLocation|Sources
+211|Regitzer Spitz, Switzerland|2012-11-25 11:29:00|2012-11-25 11:29:53|47.0405|9.5012|0.1|None|None|None|None|rock fall|None|None|None|None|180.0|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|3|0|None|None|41.0|0|None|None|0.0|None|None|None|None|ETH|Collins, E.A., Allstadt, K.E., Groult, C., Hibert, C., Malet, J.-P., Toney, L.D., and Bessette-Kirton, E., 2022, Seismogenic Landslides and other Mass Movements: U.S. Geological Survey data release, https://doi.org/10.5066/P90VGCSK.
+
+
+# 
+# information
+# 
+# Iid|Eventid|RefId|Note|PhoId|GISId|ApplyAlso
+570|211|206|A local magnitude of 1.0 was estimated for this event by the Austrian seismological service, ZAMG (Fuchs and others, 2018).|None|None|212
+490|252|220|This event occurred in limestones based on ELSUS v2 (Wilde and others, 2018).|None|None|197,200,196,195,245,246,247,194,211,253,219,237,208,215,230,224,212,260
+497|205|206|Location, type, and volumes (where applicable) were taken from Fuchs and others (2018). Fuchs and others (2018) estimated volumes from photographs which matched volumes from news articles and on-site geological estimates. Fuchs and others (2018) note that volumes may have large uncertainities and should be considered as order of magnitude estimates.|None|None|206,208,209,210,211,212,213,214,215,216,230,231,232
+530|191|None|Horizontal components for several stations which detected these events were not reviewed.|None|None|192,193,194,195,196,197,198,199,200,201,202,203,204,205,206,207,208,209,210,211,212,213,214,215,216,217,218,219,220,221,222,223,224,225,226,227,228,229,230,231,232,233,234,235,236,237,238,239,240,241,242,243,244,245,246,247,248,249,250,251,252,253,254,255,256,257,258
+
+# 
+# photos
+# 
+# PhotoId|Eventid|Photographer|Description|Latitude|Longitude|Date|FileExtension|ApplyAlso
+1109|211|Elaine Collins|Raw waveforms from closest stations. Data was demeaned but no other processing was applied. Dashed lines show approximate start and end times of event (from database). Figure generation is automated and there may be artifacts present.|None|None|None|EventData/211_RegitzerSpitzSwitzerland_25Nov2012/photos_figures/211_RegitzerSpitzSwitzerland_25Nov2012_waveforms_raw.png|None
+1110|211|Elaine Collins|High frequency (1-5 Hz) ground velocity waveforms for station response from closest stations with detections. Dashed lines show approximate start and end times of event (from database). Waveforms are corrected for station response after removing the mean. Figure generation is automated and there may be artifacts present. Clipped waveforms have not been removed before station correction so check raw plots before interpreting high amplitude signals.|None|None|None|EventData/211_RegitzerSpitzSwitzerland_25Nov2012/photos_figures/211_RegitzerSpitzSwitzerland_25Nov2012_waveforms_1-5Hz.png|None
+1111|211|Elaine Collins|Spectrograms of velocity waveforms corrected for station sensitivity from closest stations with detections. Figure generation is automated and there may be artifacts present|None|None|None|EventData/211_RegitzerSpitzSwitzerland_25Nov2012/photos_figures/211_RegitzerSpitzSwitzerland_25Nov2012_spectrogram.png|None
+1112|211|Elaine Collins|Multitaper spectra (same units as Power Spectral Density) of velocity waveforms corrected for station sensitivity from closest stations with detections. Linear trend was removed and a taper was applied before generating spectra. Figure generation is automated and there may be artifacts present. Since station response was not removed to avoid adding artifacts at low frequencies for short and intermediate period stations, the lower frequency amplitudes should be interpreted with care.|None|None|None|EventData/211_RegitzerSpitzSwitzerland_25Nov2012/photos_figures/211_RegitzerSpitzSwitzerland_25Nov2012_spectra.png|None
+
+
+# 
+# sta_nearby
+# 
+# SRid|Eventid|Sid|StasourceRadiusKm|Az|Baz|DetectVHF|DetectHF|DetectIP|DetectLP|DetectINFRA
+185879|211|37864|9.177115541361552|276.0833092787461|95.99516074590828|None|1|None|None|None
+185880|211|37870|28.245497746395372|358.5531943230636|178.54628107242388|None|1|None|None|None
+185881|211|37875|36.11976652761696|341.43992168252413|161.32827589032914|None|1|None|None|None
+185882|211|37856|38.01135687273777|231.31065552213394|51.02610834688194|None|1|None|None|None
+185883|211|37851|40.76373906243568|134.94356312239037|315.21984666470104|None|1|None|None|None
+
+# 
+# stations
+# 
+# Sid|Name|Network|Channel|LocationCode|Latitude|Longitude|ElevationMasl|Source
+37864|PLONS|CH|HHZ||47.04921|9.38076|1022.0|ETH
+37870|LIENZ|CH|HHZ||47.294437|9.491773|1567.0|ETH,IRIS
+37875|SGT04|CH|HHZ||47.348435|9.349025|987.0|ETH
+37856|PANIX|CH|HHZ||46.825743|9.111708|1433.0|ETH
+37851|DAVOX|CH|HHZ||46.7805|9.87952|1830.0|ETH
+

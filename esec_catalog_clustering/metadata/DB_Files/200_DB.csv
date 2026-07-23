@@ -1,0 +1,54 @@
+# 
+# events
+# 
+# Eventid|Name|Starttime|Endtime|Latitude|Longitude|LocuncertKm|CrownLat|CrownLon|TipLat|TipLon|Type|AreaTotal|AreaSource|AreaSourceLow|AreaSourceHigh|Volume|VolumeLow|VolumeHigh|Mass|MassLow|MassHigh|H|HLow|HHigh|L|LLow|LHigh|HFreefall|HFreefallLow|HFreefallHigh|UpstreamDrainarea|PeakDischarge|PeakDischargeLow|PeakDischargeHigh|PeakFlowheight|PeakFlowheightLow|PeakFlowheightHigh|Otherdataquality1to5|LPpotential|MaxdistvhfKm|MaxdistvhfReached|MaxdisthfKm|MaxdisthfReached|MaxdistipKm|MaxdistipReached|MaxdistlpKm|MaxdistlpReached|InfraDetected|MaxdistinfraKm|MaxdistinfraReached|DatLocation|Sources
+200|Dent du Ratier, France|2017-12-02 12:05:07|2017-12-02 12:05:35|44.75|6.72|3.0|None|None|None|None|landslide|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|1|0|None|None|42.0|0|None|None|0.0|None|None|None|None|RESIF, INGV|Collins, E.A., Allstadt, K.E., Groult, C., Hibert, C., Malet, J.-P., Toney, L.D., and Bessette-Kirton, E., 2022, Seismogenic Landslides and other Mass Movements: U.S. Geological Survey data release, https://doi.org/10.5066/P90VGCSK.
+
+
+# 
+# information
+# 
+# Iid|Eventid|RefId|Note|PhoId|GISId|ApplyAlso
+540|200|200|Location coordinates, maximum location uncertainty, and type were taken from Renass (2017)e.|None|None|None
+490|252|220|This event occurred in limestones based on ELSUS v2 (Wilde and others, 2018).|None|None|197,200,196,195,245,246,247,194,211,253,219,237,208,215,230,224,212,260
+530|191|None|Horizontal components for several stations which detected these events were not reviewed.|None|None|192,193,194,195,196,197,198,199,200,201,202,203,204,205,206,207,208,209,210,211,212,213,214,215,216,217,218,219,220,221,222,223,224,225,226,227,228,229,230,231,232,233,234,235,236,237,238,239,240,241,242,243,244,245,246,247,248,249,250,251,252,253,254,255,256,257,258
+
+# 
+# photos
+# 
+# PhotoId|Eventid|Photographer|Description|Latitude|Longitude|Date|FileExtension|ApplyAlso
+1065|200|Elaine Collins|Raw waveforms from closest stations. Data was demeaned but no other processing was applied. Dashed lines show approximate start and end times of event (from database). Figure generation is automated and there may be artifacts present.|None|None|None|EventData/200_DentduRatierFrance_02Dec2017/photos_figures/200_DentduRatierFrance_02Dec2017_waveforms_raw.png|None
+1066|200|Elaine Collins|High frequency (1-5 Hz) ground velocity waveforms for station response from closest stations with detections. Dashed lines show approximate start and end times of event (from database). Waveforms are corrected for station response after removing the mean. Figure generation is automated and there may be artifacts present. Clipped waveforms have not been removed before station correction so check raw plots before interpreting high amplitude signals.|None|None|None|EventData/200_DentduRatierFrance_02Dec2017/photos_figures/200_DentduRatierFrance_02Dec2017_waveforms_1-5Hz.png|None
+1067|200|Elaine Collins|Spectrograms of velocity waveforms corrected for station sensitivity from closest stations with detections. Figure generation is automated and there may be artifacts present|None|None|None|EventData/200_DentduRatierFrance_02Dec2017/photos_figures/200_DentduRatierFrance_02Dec2017_spectrogram.png|None
+1068|200|Elaine Collins|Multitaper spectra (same units as Power Spectral Density) of velocity waveforms corrected for station sensitivity from closest stations with detections. Linear trend was removed and a taper was applied before generating spectra. Figure generation is automated and there may be artifacts present. Since station response was not removed to avoid adding artifacts at low frequencies for short and intermediate period stations, the lower frequency amplitudes should be interpreted with care.|None|None|None|EventData/200_DentduRatierFrance_02Dec2017/photos_figures/200_DentduRatierFrance_02Dec2017_spectra.png|None
+
+# 
+# reference
+# 
+# Refid|Eventid|ApplyAlso|LongRef|ShortRef|FileExtension|Url
+200|200||Renass, Dec 2017, Glissement de terrain de magnitude 0.7, proche de Turin [Bulletin], Accessed 5 Nov 2021, at https://renass.unistra.fr/fr/evenements/fr2017xhesju/|Renass (2017)e|None|https://renass.unistra.fr/fr/evenements/fr2017xhesju/
+
+# 
+# sta_nearby
+# 
+# SRid|Eventid|Sid|StasourceRadiusKm|Az|Baz|DetectVHF|DetectHF|DetectIP|DetectLP|DetectINFRA
+185419|200|38193|13.133524433676019|69.18876561875017|249.29828603635093|None|1|None|None|None
+185420|200|37816|14.83893309035038|286.4830387669741|106.35609426738415|None|1|None|None|None
+185421|200|38164|19.799274074122394|16.214723853215546|196.26407907171645|None|1|None|None|None
+185422|200|37833|30.78641080659611|166.2871283886755|346.35153012084925|None|1|None|None|None
+185423|200|37818|33.74340814467557|354.36991039309305|174.34026316403057|None|1|None|None|None
+185424|200|37834|35.76635556739302|176.3215227350792|356.3417410644046|None|1|None|None|None
+185425|200|38177|41.3962993827218|130.61315217949297|310.89113421708134|None|1|None|None|None
+
+# 
+# stations
+# 
+# Sid|Name|Network|Channel|LocationCode|Latitude|Longitude|ElevationMasl|Source
+38193|AIGH|1N|HHZ|00|44.791983|6.875508|1924.0|RESIF
+37816|OGAG|FR|HHZ|00|44.78784|6.539745|1280.0|RESIF
+38164|RRL|GU|HHZ||44.921|6.79|2086.0|INGV
+37833|SURF|FR|HHZ|00|44.480935|6.811695|1820.0|RESIF
+37818|BNI|MN|HHZ||45.052|6.678|1395.0|INGV,IRIS
+37834|JAUF|FR|EHZ|00|44.429|6.7488|1639.0|RESIF
+38177|PZZ|GU|HHZ||44.5065|7.1157|1397.0|INGV
+

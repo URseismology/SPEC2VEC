@@ -1,0 +1,56 @@
+# 
+# events
+# 
+# Eventid|Name|Starttime|Endtime|Latitude|Longitude|LocuncertKm|CrownLat|CrownLon|TipLat|TipLon|Type|AreaTotal|AreaSource|AreaSourceLow|AreaSourceHigh|Volume|VolumeLow|VolumeHigh|Mass|MassLow|MassHigh|H|HLow|HHigh|L|LLow|LHigh|HFreefall|HFreefallLow|HFreefallHigh|UpstreamDrainarea|PeakDischarge|PeakDischargeLow|PeakDischargeHigh|PeakFlowheight|PeakFlowheightLow|PeakFlowheightHigh|Otherdataquality1to5|LPpotential|MaxdistvhfKm|MaxdistvhfReached|MaxdisthfKm|MaxdisthfReached|MaxdistipKm|MaxdistipReached|MaxdistlpKm|MaxdistlpReached|InfraDetected|MaxdistinfraKm|MaxdistinfraReached|DatLocation|Sources
+144|Chalk Cliffs, sediment-covered bed|2014-07-04 19:32:12|2014-07-04 19:42:43|38.733311|-106.1870315|0.0|None|None|None|None|debris flow|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|0.06|None|None|None|0.75|None|None|5|0|0.003|1|None|None|None|None|0.0|None|None|None|None|EventData/144_ChalkCliffssediment-coveredbed_04Jul2014/144_ChalkCliffssediment-coveredbed_04Jul2014_seismic_data.zip|Kean, J.W., Coe., J.A., Coviello, V., Smith, J.B., McCoy, S.W., Arattano, M., 2015, Estimating rates of debris flow entrainment from ground vibrations: Geophys. Res. Lett, 42, 6365-6372, doi: 10.1002/2015GL064811.
+
+
+# 
+# information
+# 
+# Iid|Eventid|RefId|Note|PhoId|GISId|ApplyAlso
+429|144|156|This event, the 4 July 2014 debris flow at the USGS Chalk Cliffs debris flow monitoring site, along with one that occurred on 1 Aug 2014, was studied in detail by Kean and others (2015). They used seismic data to measurement entrainment. Refer to paper for details on monitoring site setup and instrumentation.|None|None|None
+430|144|156|Debris flow over sediment-covered bed|None|None|None
+431|144|156|Event information (drainage area, flow height etc.) from Kean and others (2015)|None|None|None
+432|144|160|Converted original ascii files digitized by Campbell Scientific to miniseed files, including geophones, precip, basal forces, flow depth, applied corrections to physical units. See README.txt for notes from J.W. Kean on how to do this|None|None|None
+433|144|160|Corrected seismic data only for sensitivity (32 V/m/s), not for entire station response. Flipped signs of geophone A when doing correction for consistency with geophone B, DHZ channels of corrected miniseed files (labeled with mps.m) are positive up, DH1 channels are positive cross-stream (toward east) and DH2 channels are positive upstream (toward north). See notes in README.txt for how K.Allstadt processed the data to create miniseed files.|None|None|None
+434|144|160|Python code used to convert .dat files to miniseed files|None|None|None
+435|144|158|Original ascii files|None|None|None
+436|144|158|geophoneA and geophoneB are both 4.5 Hz triaxial geophones made by Geospace and assembled by the Italian company Solgeo|None|None|None
+437|144|158|geophoneA is mounted on its side on a rock to protect it from rockfall and may not be functioning correctly as such|None|None|None
+438|144|None|Since this is a debris flow monitored as it passed a specific location, the coordinates are taken as that of the force plate located close to the geophones.|None|None|None
+
+# 
+# photos
+# 
+# PhotoId|Eventid|Photographer|Description|Latitude|Longitude|Date|FileExtension|ApplyAlso
+750|144|Kate Allstadt|Figure showing unfiltered plots of all included data|None|None|None|EventData/144_ChalkCliffssediment-coveredbed_04Jul2014/photos_figures/144_ChalkCliffssediment-coveredbed_04Jul2014_source-KateAllstadt_1.png|None
+
+# 
+# reference
+# 
+# Refid|Eventid|ApplyAlso|LongRef|ShortRef|FileExtension|Url
+160|144|None|Kate Allstadt (pers. comm.)|Allstadt (pers. comm.)|references/Allstadt_pers_comm.zip|None
+
+# 
+# sta_nearby
+# 
+# SRid|Eventid|Sid|StasourceRadiusKm|Az|Baz|DetectVHF|DetectHF|DetectIP|DetectLP|DetectINFRA
+169757|144|36159|0.018164087733473187|84.38832821428642|264.38845829656617|1|None|0|0|None
+169758|144|36160|0.018164087733473187|84.38832821428642|264.38845829656617|1|None|0|0|None
+169759|144|36161|0.018164087733473187|84.38832821428642|264.38845829656617|1|None|0|0|None
+169760|144|36162|0.0029410855290328856|191.07927204254085|11.07926797551617|1|None|0|0|None
+169761|144|36163|0.0029410855290328856|191.07927204254085|11.07926797551617|1|None|0|0|None
+169762|144|36164|0.0029410855290328856|191.07927204254085|11.07926797551617|1|None|0|0|None
+
+# 
+# stations
+# 
+# Sid|Name|Network|Channel|LocationCode|Latitude|Longitude|ElevationMasl|Source
+36159|gpA|chalk|DHZ||38.733327|-106.1868236|2777.8|USGS
+36160|gpA|chalk|DH1||38.733327|-106.1868236|2777.8|USGS
+36161|gpA|chalk|DH2||38.733327|-106.1868236|2777.8|USGS
+36162|gpB|chalk|DHZ||38.733285|-106.187038|2783.2|USGS
+36163|gpB|chalk|DH1||38.733285|-106.187038|2783.2|USGS
+36164|gpB|chalk|DH2||38.733285|-106.187038|2783.2|USGS
+

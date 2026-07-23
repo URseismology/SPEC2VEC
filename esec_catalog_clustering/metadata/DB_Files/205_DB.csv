@@ -1,0 +1,60 @@
+# 
+# events
+# 
+# Eventid|Name|Starttime|Endtime|Latitude|Longitude|LocuncertKm|CrownLat|CrownLon|TipLat|TipLon|Type|AreaTotal|AreaSource|AreaSourceLow|AreaSourceHigh|Volume|VolumeLow|VolumeHigh|Mass|MassLow|MassHigh|H|HLow|HHigh|L|LLow|LHigh|HFreefall|HFreefallLow|HFreefallHigh|UpstreamDrainarea|PeakDischarge|PeakDischargeLow|PeakDischargeHigh|PeakFlowheight|PeakFlowheightLow|PeakFlowheightHigh|Otherdataquality1to5|LPpotential|MaxdistvhfKm|MaxdistvhfReached|MaxdisthfKm|MaxdisthfReached|MaxdistipKm|MaxdistipReached|MaxdistlpKm|MaxdistlpReached|InfraDetected|MaxdistinfraKm|MaxdistinfraReached|DatLocation|Sources
+205|Einserkofel, Italy|2007-10-12 07:39:24|2007-10-12 07:40:56|46.639|12.3483|0.0|None|None|None|None|rock slide|None|None|None|None|60000.0|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|3|0|None|None|189.0|0|None|None|0.0|None|None|None|None|LMU, ETH, INGV|Collins, E.A., Allstadt, K.E., Groult, C., Hibert, C., Malet, J.-P., Toney, L.D., and Bessette-Kirton, E., 2022, Seismogenic Landslides and other Mass Movements: U.S. Geological Survey data release, https://doi.org/10.5066/P90VGCSK.
+
+
+# 
+# information
+# 
+# Iid|Eventid|RefId|Note|PhoId|GISId|ApplyAlso
+497|205|206|Location, type, and volumes (where applicable) were taken from Fuchs and others (2018). Fuchs and others (2018) estimated volumes from photographs which matched volumes from news articles and on-site geological estimates. Fuchs and others (2018) note that volumes may have large uncertainities and should be considered as order of magnitude estimates.|None|None|206,208,209,210,211,212,213,214,215,216,230,231,232
+565|205|206|A local magnitude of 2.0 was estimated for this event by the Austrian seismological service, ZAMG (Fuchs and others, 2018).|None|None|None
+577|205|230|A report and video of this event are provided at https://tirv1.orf.at/stories/228199 (Tirol ORF, 2007).|None|None|None
+583|205|None|Location uncertainty was estimated from the maximum distance between event coordinates and suspected crown location using Google Earth and photographs of event site, when available.|None|None|206,208,209,215,216,228,230,231,232,243,244
+494|228|220|This event occurred in limestones, marlstones and marls based on ELSUS v2 (Wilde and others, 2018).|None|None|223,214,205,216
+530|191|None|Horizontal components for several stations which detected these events were not reviewed.|None|None|192,193,194,195,196,197,198,199,200,201,202,203,204,205,206,207,208,209,210,211,212,213,214,215,216,217,218,219,220,221,222,223,224,225,226,227,228,229,230,231,232,233,234,235,236,237,238,239,240,241,242,243,244,245,246,247,248,249,250,251,252,253,254,255,256,257,258
+
+# 
+# photos
+# 
+# PhotoId|Eventid|Photographer|Description|Latitude|Longitude|Date|FileExtension|ApplyAlso
+1085|205|Elaine Collins|Raw waveforms from closest stations. Data was demeaned but no other processing was applied. Dashed lines show approximate start and end times of event (from database). Figure generation is automated and there may be artifacts present.|None|None|None|EventData/205_EinserkofelItaly_12Oct2007/photos_figures/205_EinserkofelItaly_12Oct2007_waveforms_raw.png|None
+1086|205|Elaine Collins|High frequency (1-5 Hz) ground velocity waveforms for station response from closest stations with detections. Dashed lines show approximate start and end times of event (from database). Waveforms are corrected for station response after removing the mean. Figure generation is automated and there may be artifacts present. Clipped waveforms have not been removed before station correction so check raw plots before interpreting high amplitude signals.|None|None|None|EventData/205_EinserkofelItaly_12Oct2007/photos_figures/205_EinserkofelItaly_12Oct2007_waveforms_1-5Hz.png|None
+1087|205|Elaine Collins|Spectrograms of velocity waveforms corrected for station sensitivity from closest stations with detections. Figure generation is automated and there may be artifacts present|None|None|None|EventData/205_EinserkofelItaly_12Oct2007/photos_figures/205_EinserkofelItaly_12Oct2007_spectrogram.png|None
+1088|205|Elaine Collins|Multitaper spectra (same units as Power Spectral Density) of velocity waveforms corrected for station sensitivity from closest stations with detections. Linear trend was removed and a taper was applied before generating spectra. Figure generation is automated and there may be artifacts present. Since station response was not removed to avoid adding artifacts at low frequencies for short and intermediate period stations, the lower frequency amplitudes should be interpreted with care.|None|None|None|EventData/205_EinserkofelItaly_12Oct2007/photos_figures/205_EinserkofelItaly_12Oct2007_spectra.png|None
+
+# 
+# reference
+# 
+# Refid|Eventid|ApplyAlso|LongRef|ShortRef|FileExtension|Url
+206|205|206,207,208,209,210,211,212,213,214,215,216,230,231,232|Fuchs, F., Lenhardt, W., Bokelmann, G., and the AlpArray Working Group, 2018, Seismic detection of rockslides at regional scale: examples from the Eastern Alps and feasibility of kurtosis-based event location: Earth Surf. Dynam., v. 6, no. 4, p. 955–970, doi: https://doi.org/10.5194/esurf-6-955-2018|Fuchs and others (2018)|None|https://www.researchgate.net/publication/326303696_Seismic_detection_of_rockslides_at_regional_scale_Examples_from_the_Eastern_Alps_and_feasibility_of_kurtosis-based_event_location
+230|205|None|Tirol ORF, Oct 2007, Enormer Felssturz hielt Einsatzkräfte in Atem [Article], Accessed 31 Jan 2022, at https://tirv1.orf.at/stories/228199|Tirol ORF (2007)|None|https://tirv1.orf.at/stories/228199
+
+# 
+# sta_nearby
+# 
+# SRid|Eventid|Sid|StasourceRadiusKm|Az|Baz|DetectVHF|DetectHF|DetectIP|DetectLP|DetectINFRA
+185581|205|37966|33.33721708912768|97.95157634309837|278.2656221520525|None|1|None|None|None
+185582|205|37994|126.2262550002773|13.104408514430656|193.3843657394493|None|1|None|None|None
+185583|205|37997|126.70417484577202|15.358343311263367|195.68657696908076|None|1|None|None|None
+185584|205|37998|128.13834593672803|16.16752789171835|196.51659571481352|None|1|None|None|None
+185585|205|37855|152.1067319591789|263.8959733814053|82.46175955046375|None|1|None|None|None
+185586|205|37860|155.0472077005893|245.9721427619701|64.6448944313633|None|1|None|None|None
+185587|205|37854|159.20019079355998|270.01324279065494|88.49767383799326|None|1|None|None|None
+185588|205|37851|188.88252841937208|275.660932618861|93.8638011826028|None|1|None|None|None
+
+# 
+# stations
+# 
+# Sid|Name|Network|Channel|LocationCode|Latitude|Longitude|ElevationMasl|Source
+37966|FVI|IV|EHZ||46.59658|12.7804|1024.0|INGV
+37994|RWMO|BW|EHZ||47.744171|12.729887|763.0|LMU
+37997|RJOB|BW|EHZ||47.737167|12.795714|860.0|LMU
+37998|RTBE|BW|EHZ||47.745098|12.824082|1162.0|LMU
+37855|BRMO|IV|BHZ||46.47616|10.37218|1380.0|INGV
+37860|MABI|IV|HHZ||46.05492|10.514|1853.0|INGV
+37854|FUORN|CH|HHZ||46.620334|10.26352|2286.0|ETH,IRIS
+37851|DAVOX|CH|HHZ||46.7805|9.87952|1830.0|ETH
+

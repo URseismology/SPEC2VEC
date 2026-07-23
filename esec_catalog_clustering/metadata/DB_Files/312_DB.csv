@@ -1,0 +1,205 @@
+# 
+# events
+# 
+# Eventid|Name|Starttime|Endtime|Latitude|Longitude|LocuncertKm|CrownLat|CrownLon|TipLat|TipLon|Type|AreaTotal|AreaSource|AreaSourceLow|AreaSourceHigh|Volume|VolumeLow|VolumeHigh|Mass|MassLow|MassHigh|H|HLow|HHigh|L|LLow|LHigh|HFreefall|HFreefallLow|HFreefallHigh|UpstreamDrainarea|PeakDischarge|PeakDischargeLow|PeakDischargeHigh|PeakFlowheight|PeakFlowheightLow|PeakFlowheightHigh|Otherdataquality1to5|LPpotential|MaxdistvhfKm|MaxdistvhfReached|MaxdisthfKm|MaxdisthfReached|MaxdistipKm|MaxdistipReached|MaxdistlpKm|MaxdistlpReached|InfraDetected|MaxdistinfraKm|MaxdistinfraReached|DatLocation|Sources
+312|Fagraskógarfjall, Iceland|2018-07-07 05:16:51|2018-07-07 05:18:58|64.7943|-22.1336|0.0|64.7943|-22.1336|64.7791|-22.0955|landslide|1500000.0|None|None|None|13500000.0|7000000.0|20000000.0|None|None|None|500.0|None|None|2000.0|None|2500.0|None|None|None|None|None|None|None|None|None|None|5|1|None|None|96.0|1|None|None|39.0|1|0|0.0|None|IRIS, ETH, GEOFON|Collins, E.A., Allstadt, K.E., Groult, C., Hibert, C., Malet, J.-P., Toney, L.D., and Jensen, E.K., 2022, Seismogenic Landslides and other Mass Movements (ver. 3.0, May 2025): U.S. Geological Survey data release, https://doi.org/10.5066/P90VGCSK.
+
+
+# 
+# information
+# 
+# Iid|Eventid|RefId|Note|PhoId|GISId|ApplyAlso
+792|312|330|The low volume estimate is based on the intial volume that failed and the high volume estimate is from the final landslide volume which accounts for entrained material. Both estimates are from Larkin and others (2020) and are based on reports from the Icelandic Meteorological Office. The best volume estimate is an average of these low and high estimates. Runout is also taken from Larkin and others (2020) and represents the post-failure displacement length.|None|None|None
+793|312|331|This event occurred on the Fagraskógarfjall mountain in the Hítardalur valley in western Iceland and is thought to have failed in an older landslide deposit.  A small failure from the mountainside was reported the night before the main failure by a fox hunter. The main failure briefly dammed the Hítará river but the water found a new channel the next day (Icelandic Met Office, 2018).|None|None|None
+794|312|None|The crown and toe locations are based on Google Earth imagery from 2019-05-26. H and L_high are estimated using these locations and Google Earth.|None|None|None
+795|312|331|Total area taken from Icelandic Met Office (2018) and represents the total area of the debris tongue. This may be a low estimate since it is unclear if the total area estimate includes the source area.|None|None|None
+796|312|331|Photographs of the deposit can be seen at https://en.vedur.is/about-imo/news/a-large-landslide-falls-in-hitardalur-valley (Icelandic Met Office, 2018).|None|None|None
+
+# 
+# photos
+# 
+# PhotoId|Eventid|Photographer|Description|Latitude|Longitude|Date|FileExtension|ApplyAlso
+1631|312|Elaine Collins|Raw waveforms from closest stations. Data was demeaned but no other processing was applied. Dashed lines show approximate start and end times of event (from database). Figure generation is automated and there may be artifacts present.|None|None|None|EventData/312_FagraskógarfjallIceland_07Jul2018/photos_figures/312_FagraskógarfjallIceland_07Jul2018_waveforms_raw.png|None
+1632|312|Elaine Collins|High frequency (1-5 Hz) ground velocity waveforms from closest stations with detections. Dashed lines show approximate start and end times of event (from database). Waveforms are corrected for station response after removing the mean. Figure generation is automated and there may be artifacts present. Clipped waveforms have not been removed before station correction so check raw plots before interpreting high amplitude signals.|None|None|None|EventData/312_FagraskógarfjallIceland_07Jul2018/photos_figures/312_FagraskógarfjallIceland_07Jul2018_waveforms_1-5Hz.png|None
+1633|312|Elaine Collins|Long period (20-60 sec) ground displacement waveforms from closest stations with detections. Dashed lines show approximate start and end times of event (from database, based on high frequency waveform). Waveforms are corrected for station response after detrending using a linear fit and tapering. Zero mean cosine filter applied with station correction may cause acausal arrivals. Figure generation is automated and there may be artifacts present. Signals with clipped waveforms and data gaps have not been removed so check raw figures before interpreting.|None|None|None|EventData/312_FagraskógarfjallIceland_07Jul2018/photos_figures/312_FagraskógarfjallIceland_07Jul2018_waveforms_20-60sec.png|None
+1634|312|Elaine Collins|Displacement spectrum from closest broadband stations with detections, corrected for station response with no prefiltering after detrending using a linear fit and tapering. Note that long period signals often contain noise unrelated to the event signal of interest, especially on horizontal components (e.g. tilt), so interpret with care. Figure generation is automated and there may be artifacts present. Signals with clipped waveforms and data gaps have not been removed so check raw figures before interpreting.|None|None|None|EventData/312_FagraskógarfjallIceland_07Jul2018/photos_figures/312_FagraskógarfjallIceland_07Jul2018_displspectra.png|None
+1635|312|Elaine Collins|Spectrograms of velocity waveforms corrected for station sensitivity from closest stations with detections. Figure generation is automated and there may be artifacts present|None|None|None|EventData/312_FagraskógarfjallIceland_07Jul2018/photos_figures/312_FagraskógarfjallIceland_07Jul2018_spectrogram.png|None
+1636|312|Elaine Collins|Multitaper spectra (same units as Power Spectral Density) of velocity waveforms corrected for station sensitivity from closest stations with detections. Linear trend was removed and a taper was applied before generating spectra. Figure generation is automated and there may be artifacts present. Since station response was not removed to avoid adding artifacts at low frequencies for short and intermediate period stations, the lower frequency amplitudes should be interpreted with care.|None|None|None|EventData/312_FagraskógarfjallIceland_07Jul2018/photos_figures/312_FagraskógarfjallIceland_07Jul2018_spectra.png|None
+
+# 
+# reference
+# 
+# Refid|Eventid|ApplyAlso|LongRef|ShortRef|FileExtension|Url
+330|312|None|Larkin, H., Magnall, N., Thomas, A., Holley, R. , and McCormack, H. , 2020, Utilising satellite-based techniques to identify and monitor slope instabilities: the Fagraskógarfjall and Limnes landslides, Slope Stability 2020: Proceedings of the 2020 International Symposium on Slope Stability in Open Pit Mining and Civil Engineering, Australian Centre for Geomechanics, Perth, p. 1455-1466,  doi: 10.36487/ACG_repo/2025_100|Larkin and others (2020)|None|https://papers.acg.uwa.edu.au/p/2025_100_Magnall/
+331|312|None|Icelandic Met Office, 10 Jul 2018, A large landslide falls in Hítardalur valley, Accessed 2 Jul 2024, at https://en.vedur.is/about-imo/news/a-large-landslide-falls-in-hitardalur-valley|Icelandic Met Office (2018)|None|https://en.vedur.is/about-imo/news/a-large-landslide-falls-in-hitardalur-valley
+
+# 
+# sta_nearby
+# 
+# SRid|Eventid|Sid|StasourceRadiusKm|Az|Baz|DetectVHF|DetectHF|DetectIP|DetectLP|DetectINFRA
+231170|312|42829|38.741|97.39|278.12|None|1|None|1|None
+231171|312|42830|38.741|97.39|278.12|None|1|None|1|None
+231172|312|42831|38.741|97.39|278.12|None|1|None|1|None
+231173|312|49487|87.16|149.85|330.66|None|0|None|0|None
+231174|312|49488|87.16|149.85|330.66|None|0|None|0|None
+231175|312|49489|87.16|149.85|330.66|None|0|None|0|None
+231176|312|49490|93.821|154.25|335.0|None|1|None|0|None
+231177|312|49491|93.821|154.25|335.0|None|1|None|0|None
+231178|312|49492|93.821|154.25|335.0|None|1|None|0|None
+231179|312|49493|85.257|150.13|330.91|None|0|None|0|None
+231180|312|49494|85.257|150.13|330.91|None|0|None|0|None
+231181|312|49495|85.257|150.13|330.91|None|0|None|0|None
+231182|312|49496|90.115|156.47|337.14|None|1|None|0|None
+231183|312|49497|90.115|156.47|337.14|None|1|None|0|None
+231184|312|49498|90.115|156.47|337.14|None|1|None|0|None
+231185|312|49499|95.564|155.89|336.61|None|1|None|0|None
+231186|312|49500|95.564|155.89|336.61|None|1|None|0|None
+231187|312|49501|95.564|155.89|336.61|None|1|None|0|None
+231188|312|49502|89.741|153.94|334.67|None|None|None|0|None
+231189|312|49503|89.741|153.94|334.67|None|None|None|0|None
+231190|312|49504|89.741|153.94|334.67|None|None|None|0|None
+231191|312|49505|88.828|151.69|332.47|None|1|None|0|None
+231192|312|49506|88.828|151.69|332.47|None|1|None|0|None
+231193|312|49507|88.828|151.69|332.47|None|1|None|0|None
+231194|312|49508|91.115|160.17|340.74|None|1|None|0|None
+231195|312|49509|91.115|160.17|340.74|None|1|None|0|None
+231196|312|49510|91.115|160.17|340.74|None|1|None|0|None
+231197|312|49511|86.43|151.92|332.67|None|0|None|0|None
+231198|312|49512|86.43|151.92|332.67|None|0|None|0|None
+231199|312|49513|86.43|151.92|332.67|None|None|None|0|None
+231200|312|49514|88.633|157.87|338.49|None|1|None|0|None
+231201|312|49515|88.633|157.87|338.49|None|1|None|0|None
+231202|312|49516|88.633|157.87|338.49|None|1|None|0|None
+231203|312|49517|268.332|60.37|245.03|None|0|None|0|None
+231204|312|49518|268.332|60.37|245.03|None|0|None|0|None
+231205|312|49519|268.332|60.37|245.03|None|0|None|0|None
+231206|312|49520|275.089|60.09|244.86|None|0|None|0|None
+231207|312|49521|275.089|60.09|244.86|None|0|None|0|None
+231208|312|49522|275.089|60.09|244.86|None|0|None|0|None
+231209|312|49523|267.886|61.24|245.92|None|0|None|0|None
+231210|312|49524|267.886|61.24|245.92|None|0|None|0|None
+231211|312|49525|267.886|61.24|245.92|None|0|None|0|None
+231212|312|49526|272.088|59.77|244.47|None|0|None|0|None
+231213|312|49527|272.088|59.77|244.47|None|0|None|0|None
+231214|312|49528|272.088|59.77|244.47|None|0|None|0|None
+231215|312|49529|255.443|59.46|243.85|None|0|None|0|None
+231216|312|49530|255.443|59.46|243.85|None|0|None|0|None
+231217|312|49531|255.443|59.46|243.85|None|0|None|0|None
+231218|312|49532|266.857|61.96|246.65|None|0|None|0|None
+231219|312|49533|266.857|61.96|246.65|None|0|None|0|None
+231220|312|49534|266.857|61.96|246.65|None|0|None|0|None
+231221|312|49535|276.459|61.92|246.79|None|0|None|0|None
+231222|312|49536|276.459|61.92|246.79|None|0|None|0|None
+231223|312|49537|276.459|61.92|246.79|None|0|None|0|None
+231224|312|49538|260.689|62.49|247.08|None|0|None|0|None
+231225|312|49539|260.689|62.49|247.08|None|0|None|0|None
+231226|312|49540|260.689|62.49|247.08|None|0|None|0|None
+231227|312|49541|266.315|59.9|244.5|None|0|None|0|None
+231228|312|49542|266.315|59.9|244.5|None|0|None|0|None
+231229|312|49543|266.315|59.9|244.5|None|0|None|0|None
+231230|312|49544|266.124|57.37|241.86|None|0|None|0|None
+231231|312|49545|266.124|57.37|241.86|None|0|None|0|None
+231232|312|49546|266.124|57.37|241.86|None|0|None|0|None
+231233|312|49547|269.194|60.82|245.51|None|0|None|0|None
+231234|312|49548|269.194|60.82|245.51|None|0|None|0|None
+231235|312|49549|269.194|60.82|245.51|None|0|None|0|None
+231236|312|49550|269.511|60.94|245.64|None|0|None|0|None
+231237|312|49551|269.511|60.94|245.64|None|0|None|0|None
+231238|312|49552|269.511|60.94|245.64|None|0|None|0|None
+231239|312|49553|270.218|61.09|245.81|None|0|None|0|None
+231240|312|49554|270.218|61.09|245.81|None|0|None|0|None
+231241|312|49555|270.218|61.09|245.81|None|0|None|0|None
+231242|312|23640|559.145|316.92|128.43|None|0|None|0|None
+231243|312|23641|559.145|316.92|128.43|None|0|None|0|None
+231244|312|23642|559.145|316.92|128.43|None|0|None|0|None
+231245|312|23643|559.145|316.92|128.43|None|0|None|0|None
+231246|312|23644|559.145|316.92|128.43|None|0|None|0|None
+231247|312|23645|559.145|316.92|128.43|None|0|None|0|None
+231248|312|49562|38.741|97.39|278.12|None|None|None|None|0
+231249|312|49563|38.741|97.39|278.12|None|None|None|None|None
+
+# 
+# stations
+# 
+# Sid|Name|Network|Channel|LocationCode|Latitude|Longitude|ElevationMasl|Source
+42829|BORG|II|BH1|00|64.7474|-21.3268|110.0|IRIS
+42830|BORG|II|BH2|00|64.7474|-21.3268|110.0|IRIS
+42831|BORG|II|BHZ|00|64.7474|-21.3268|110.0|IRIS
+49487|NESJV|OR|HHE|00|64.1155|-21.235119|160.78|ETH
+49488|NESJV|OR|HHN|00|64.1155|-21.235119|160.78|ETH
+49489|NESJV|OR|HHZ|00|64.1155|-21.235119|160.78|ETH
+49490|LSKAR|OR|HHE|00|64.0339|-21.2996|396.97|ETH
+49491|LSKAR|OR|HHN|00|64.0339|-21.2996|396.97|ETH
+49492|LSKAR|OR|HHZ|00|64.0339|-21.2996|396.97|ETH
+49493|GRAFN|OR|HHE|00|64.12855|-21.261739|306.89|ETH
+49494|GRAFN|OR|HHN|00|64.12855|-21.261739|306.89|ETH
+49495|GRAFN|OR|HHZ|00|64.12855|-21.261739|306.89|ETH
+49496|HUMLI|OR|HHE|00|64.0513|-21.3971|320.97|ETH
+49497|HUMLI|OR|HHN|00|64.0513|-21.3971|320.97|ETH
+49498|HUMLI|OR|HHZ|00|64.0513|-21.3971|320.97|ETH
+49499|HVH|OR|HHE|00|64.0097|-21.3354|368.44|ETH
+49500|HVH|OR|HHN|00|64.0097|-21.3354|368.44|ETH
+49501|HVH|OR|HHZ|00|64.0097|-21.3354|368.44|ETH
+49502|INNST|OR|HHE|00|64.0689|-21.326|488.39|ETH
+49503|INNST|OR|HHN|00|64.0689|-21.326|488.39|ETH
+49504|INNST|OR|HHZ|00|64.0689|-21.326|488.39|ETH
+49505|KOLDU|OR|HHE|00|64.09023|-21.26998|355.7|ETH
+49506|KOLDU|OR|HHN|00|64.09023|-21.26998|355.7|ETH
+49507|KOLDU|OR|HHZ|00|64.09023|-21.26998|355.7|ETH
+49508|KRIST|OR|HHE|00|64.02407|-21.5015|355.9|ETH
+49509|KRIST|OR|HHN|00|64.02407|-21.5015|355.9|ETH
+49510|KRIST|OR|HHZ|00|64.02407|-21.5015|355.9|ETH
+49511|SKEGG|OR|HHE|00|64.107917|-21.298833|379.23|ETH
+49512|SKEGG|OR|HHN|00|64.107917|-21.298833|379.23|ETH
+49513|SKEGG|OR|HHZ|00|64.107917|-21.298833|379.23|ETH
+49514|SVIN|OR|HHE|00|64.0562|-21.45|253.34|ETH
+49515|SVIN|OR|HHN|00|64.0562|-21.45|253.34|ETH
+49516|SVIN|OR|HHZ|00|64.0562|-21.45|253.34|ETH
+49517|TH01|3P|HHZ|00|65.899075|-17.011321|308.825|GEOFON
+49518|TH01|3P|HHN|00|65.899075|-17.011321|308.825|GEOFON
+49519|TH01|3P|HHE|00|65.899075|-17.011321|308.825|GEOFON
+49520|TH02|3P|HHZ|00|65.935732|-16.889526|357.441|GEOFON
+49521|TH02|3P|HHN|00|65.935732|-16.889526|357.441|GEOFON
+49522|TH02|3P|HHE|00|65.935732|-16.889526|357.441|GEOFON
+49523|TH03|3P|HHZ|00|65.864229|-16.983212|346.932|GEOFON
+49524|TH03|3P|HHN|00|65.864229|-16.983212|346.932|GEOFON
+49525|TH03|3P|HHE|00|65.864229|-16.983212|346.932|GEOFON
+49526|TH04|3P|HHZ|00|65.936618|-16.963495|302.246|GEOFON
+49527|TH04|3P|HHN|00|65.936618|-16.963495|302.246|GEOFON
+49528|TH04|3P|HHE|00|65.936618|-16.963495|302.246|GEOFON
+49529|TH05|3P|HHZ|00|65.882865|-17.305678|185.702|GEOFON
+49530|TH05|3P|HHN|00|65.882865|-17.305678|185.702|GEOFON
+49531|TH05|3P|HHE|00|65.882865|-17.305678|185.702|GEOFON
+49532|TH06|3P|HHZ|00|65.832884|-16.974195|387.735|GEOFON
+49533|TH06|3P|HHN|00|65.832884|-16.974195|387.735|GEOFON
+49534|TH06|3P|HHE|00|65.832884|-16.974195|387.735|GEOFON
+49535|TH07|3P|HHZ|00|65.868483|-16.782713|471.934|GEOFON
+49536|TH07|3P|HHN|00|65.868483|-16.782713|471.934|GEOFON
+49537|TH07|3P|HHE|00|65.868483|-16.782713|471.934|GEOFON
+49538|TH08|3P|HHZ|00|65.791374|-17.077607|353.45|GEOFON
+49539|TH08|3P|HHN|00|65.791374|-17.077607|353.45|GEOFON
+49540|TH08|3P|HHE|00|65.791374|-17.077607|353.45|GEOFON
+49541|TH09|3P|HHZ|00|65.909193|-17.071909|313.29|GEOFON
+49542|TH09|3P|HHN|00|65.909193|-17.071909|313.29|GEOFON
+49543|TH09|3P|HHE|00|65.909193|-17.071909|313.29|GEOFON
+49544|THR1|3P|HHZ|00|66.0027|-17.1925|334.064|GEOFON
+49545|THR1|3P|HHN|00|66.0027|-17.1925|334.064|GEOFON
+49546|THR1|3P|HHE|00|66.0027|-17.1925|334.064|GEOFON
+49547|THW1|3P|HHZ|00|65.8853|-16.975|331.79|GEOFON
+49548|THW1|3P|HHN|00|65.8853|-16.975|331.79|GEOFON
+49549|THW1|3P|HHE|00|65.8853|-16.975|331.79|GEOFON
+49550|THC1|3P|HHZ|00|65.881797|-16.963475|340.44|GEOFON
+49551|THC1|3P|HHN|00|65.881797|-16.963475|340.44|GEOFON
+49552|THC1|3P|HHE|00|65.881797|-16.963475|340.44|GEOFON
+49553|THE1|3P|HHZ|00|65.878674|-16.943032|378.1|GEOFON
+49554|THE1|3P|HHN|00|65.878674|-16.943032|378.1|GEOFON
+49555|THE1|3P|HHE|00|65.878674|-16.943032|378.1|GEOFON
+23640|SOEG|DK|BH1||68.2035|-31.3755|179.0|IRIS,GEOFON
+23641|SOEG|DK|BH2||68.2035|-31.3755|179.0|IRIS,GEOFON
+23642|SOEG|DK|BHZ||68.2035|-31.3755|179.0|IRIS,GEOFON
+23643|SOEG|DK|HH1||68.2035|-31.3755|179.0|IRIS,GEOFON
+23644|SOEG|DK|HH2||68.2035|-31.3755|179.0|IRIS,GEOFON
+23645|SOEG|DK|HHZ||68.2035|-31.3755|179.0|IRIS,GEOFON
+49562|BORG|II|BDF|00|64.7474|-21.3268|110.0|IRIS
+49563|BORG|II|LDF|00|64.7474|-21.3268|110.0|IRIS
+

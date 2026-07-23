@@ -1,0 +1,294 @@
+# 
+# events
+# 
+# Eventid|Name|Starttime|Endtime|Latitude|Longitude|LocuncertKm|CrownLat|CrownLon|TipLat|TipLon|Type|AreaTotal|AreaSource|AreaSourceLow|AreaSourceHigh|Volume|VolumeLow|VolumeHigh|Mass|MassLow|MassHigh|H|HLow|HHigh|L|LLow|LHigh|HFreefall|HFreefallLow|HFreefallHigh|UpstreamDrainarea|PeakDischarge|PeakDischargeLow|PeakDischargeHigh|PeakFlowheight|PeakFlowheightLow|PeakFlowheightHigh|Otherdataquality1to5|LPpotential|MaxdistvhfKm|MaxdistvhfReached|MaxdisthfKm|MaxdisthfReached|MaxdistipKm|MaxdistipReached|MaxdistlpKm|MaxdistlpReached|InfraDetected|MaxdistinfraKm|MaxdistinfraReached|DatLocation|Sources
+106|Russell Cliff main, Mount Rainier|1989-08-16 17:21:12|1989-08-16 17:30:12|46.8746|-121.7537|0.5|None|None|None|None|rock fall, debris avalanche|15000.0|None|None|None|300000.0|100000.0|500000.0|None|None|None|2500.0|None|None|7800.0|None|None|None|None|None|None|None|None|None|None|None|None|3|0|None|None|193.0|0|None|None|0.0|None|None|None|None|IRIS|Allstadt, Kate E., McVey, Brennah G., and Malone, Stephen D., 2017, Seismogenic Landslides, Debris Flows, and Outburst Floods in the Western United States and Canada from 1977 to 2017: U.S. Geological Survey data release, https://doi.org/10.5066/F7251H3W.
+
+
+# 
+# information
+# 
+# Iid|Eventid|RefId|Note|PhoId|GISId|ApplyAlso
+205|106|None|H, L estimate made by David Frank, based on photos, calculations in attached email text.|72|None|121,122,123
+206|106|None|Topo map figure from David Frank, Tony Qamar, and Robert Norris used to obtain approximate location of this event.|73|None|121,122,123
+343|106|46|Volume estimate from Norris (1994) applied only to event 106, not to the precursors, based on interpretation in text that the main event was much larger than what Norris calls "precursors". Norris gives just a range of 1-5 x 10^5 m3, best estimate is taken in the middle (3 x 10^5 m3)|None|None|121,122,123
+351|106|None|Archived seismic data is cut off too early so durations and end times could not be measured, but we do know from Norris (1994) that the shaking lasted for 9 minutes on RCS for the main event (106).|None|None|121,123
+358|106|None|Event 106 is what seems to be the biggest of at least four rock falls, as there was data from three rockfall-like signals in the minutes before this event (121,122,123). For data to have been saved from events in 1989, they must have triggered the earthquake detection algorithm since continuous data was not saved. There could have been more related rock falls that did not generate signals large enough to trigger the detection algorithm.|None|None|121,122,123
+359|106|None|At larger source-station distances, the P and S waves can be differentiated for these events (though they are not clearly pickable in most cases), indicating that the sources were impulsive, likely rock falls.|None|None|121,122,123
+
+# 
+# photos
+# 
+# PhotoId|Eventid|Photographer|Description|Latitude|Longitude|Date|FileExtension|ApplyAlso
+71|106|David Frank, Tony Qamar, Robert Norris|Photos of Curtis Ridge Avalanche||||EventData/106_RussellCliffmainMountRainier_16Aug1989/photos_figures/106_RussellCliffmainMountRainier_16Aug1989_source-DavidFrank-TonyQamar-RobertNorris_1.jpg|121,122,123
+72|106|David Frank, Tony Qamar, Robert Norris|Before and After Photos, with notes (Personal Communication)|None|None|None|EventData/106_RussellCliffmainMountRainier_16Aug1989/photos_figures/106_RussellCliffmainMountRainier_16Aug1989_source-DavidFrank-TonyQamar-RobertNorris_4.pdf|121,122,123
+73|106|David Frank, Tony Qamar, Robert Norris|Topo Map with approximate source location|None|None|None|EventData/106_RussellCliffmainMountRainier_16Aug1989/photos_figures/106_RussellCliffmainMountRainier_16Aug1989_source-DavidFrank-TonyQamar-RobertNorris_6.png|121,122,123
+274|106|Kate Allstadt|Raw waveforms from closest stations. Data was demeaned but no other processing was applied. Dashed lines show approximate start and end times of event (from database). Figure generation is automated and there may be artifacts present.|None|None|None|EventData/106_RussellCliffmainMountRainier_16Aug1989/photos_figures/106_RussellCliffmainMountRainier_16Aug1989_waveforms_raw.png|None
+275|106|Kate Allstadt|High frequency (1-5 Hz) ground velocity waveforms for station response from closest stations with detections. Dashed lines show approximate start and end times of event (from database). Waveforms are corrected for station response after removing the mean. Figure generation is automated and there may be artifacts present. Clipped waveforms have not been removed before station correction so check raw plots before interpreting high amplitude signals.|None|None|None|EventData/106_RussellCliffmainMountRainier_16Aug1989/photos_figures/106_RussellCliffmainMountRainier_16Aug1989_waveforms_1-5Hz.png|None
+276|106|Kate Allstadt|Spectrograms of velocity waveforms corrected for station sensitivity from closest stations with detections. Figure generation is automated and there may be artifacts present|None|None|None|EventData/106_RussellCliffmainMountRainier_16Aug1989/photos_figures/106_RussellCliffmainMountRainier_16Aug1989_spectrogram.png|None
+277|106|Kate Allstadt|Multitaper spectra (same units as Power Spectral Density) of velocity waveforms corrected for station sensitivity from closest stations with detections. Linear trend was removed and a taper was applied before generating spectra. Figure generation is automated and there may be artifacts present. Since station response was not removed to avoid adding artifacts at low frequencies for short and intermediate period stations, the lower frequency amplitudes should be interpreted with care.|None|None|None|EventData/106_RussellCliffmainMountRainier_16Aug1989/photos_figures/106_RussellCliffmainMountRainier_16Aug1989_spectra.png|None
+1378|106|David Frank, Tony Qamar, Robert Norris|Photos of Curtis Ridge Avalanche|||2016-07-20 14:26:47|EventData/106_RussellCliffmainMountRainier_16Aug1989/photos_figures/106_RussellCliffmainMountRainier_16Aug1989_source-DavidFrank-TonyQamar-RobertNorris_2.jpg|121,122,123
+1379|106|David Frank, Tony Qamar, Robert Norris|Photos of Curtis Ridge Avalanche||||EventData/106_RussellCliffmainMountRainier_16Aug1989/photos_figures/106_RussellCliffmainMountRainier_16Aug1989_source-DavidFrank-TonyQamar-RobertNorris_3.jpg|121,122,123
+
+# 
+# reference
+# 
+# Refid|Eventid|ApplyAlso|LongRef|ShortRef|FileExtension|Url
+49|106|121,122,123,126|Norris, R.D., 1994, Seismicity of rockfalls and avalanches at three Cascade Range volcanoes: Implications for seismic detection of hazardous mass movements: Bulletin of the Seismological Society of America, v. 84, no. 6, p. 1925-1939.|Norris (1994)|None|None
+
+# 
+# sta_nearby
+# 
+# SRid|Eventid|Sid|StasourceRadiusKm|Az|Baz|DetectVHF|DetectHF|DetectIP|DetectLP|DetectINFRA
+113203|106|128|81.103|171.67|351.78|None|1|None|None|None
+113204|106|20735|47.059|205.06|24.87|None|None|None|None|None
+113205|106|136|36.906|162.72|342.82|None|1|None|None|None
+113206|106|143|14.43|197.22|17.18|None|1|None|None|None
+113207|106|147|14.43|197.22|17.18|None|None|None|None|None
+113208|106|161|1.684|104.41|284.42|None|1|None|None|None
+113209|106|162|9.145|227.56|47.49|None|1|None|None|None
+113210|106|183|25.604|139.74|319.89|None|1|None|None|None
+113211|106|20736|73.166|251.08|70.42|None|1|None|None|None
+113212|106|348|126.691|177.47|357.52|None|1|None|None|None
+113213|106|129|87.17|195.04|14.82|None|1|None|None|None
+113214|106|357|75.578|230.0|49.45|None|1|None|None|None
+113215|106|130|81.244|202.19|21.9|None|1|None|None|None
+113216|106|131|77.696|215.69|35.26|None|0|None|None|None
+113217|106|132|90.481|87.11|267.97|None|1|None|None|None
+113218|106|133|88.258|211.52|31.09|None|1|None|None|None
+113219|106|134|9.737|40.28|220.34|None|1|None|None|None
+113220|106|135|43.715|295.3|114.92|None|0|None|None|None
+113221|106|366|124.31|144.57|325.24|None|1|None|None|None
+113222|106|138|36.647|355.02|174.99|None|1|None|None|None
+113223|106|371|106.354|173.43|353.54|None|1|None|None|None
+113224|106|139|84.46|202.98|22.67|None|1|None|None|None
+113225|106|140|86.47|200.87|20.58|None|1|None|None|None
+113226|106|141|56.932|216.64|36.32|None|1|None|None|None
+113227|106|376|47.141|241.01|60.62|None|1|None|None|None
+113228|106|378|102.756|209.22|28.75|None|None|None|None|None
+113229|106|381|115.987|106.03|287.09|None|1|None|None|None
+113230|106|152|100.781|200.66|20.32|None|1|None|None|None
+113231|106|153|72.628|102.18|282.85|None|1|None|None|None
+113232|106|395|82.077|203.95|23.64|None|1|None|None|None
+113233|106|163|18.489|294.77|114.61|None|1|None|None|None
+113234|106|164|84.284|206.23|25.88|None|1|None|None|None
+113235|106|165|76.051|202.93|22.65|None|1|None|None|None
+113236|106|172|79.463|207.16|26.82|None|1|None|None|None
+113237|106|176|93.707|69.07|249.92|None|1|None|None|None
+113238|106|177|68.205|211.53|31.19|None|1|None|None|None
+113239|106|181|73.339|66.14|246.79|None|0|None|None|None
+113240|106|20737|101.755|111.75|292.65|None|1|None|None|None
+113241|106|436|81.118|204.46|24.15|None|1|None|None|None
+113242|106|350|121.336|249.05|67.98|None|None|None|None|None
+113243|106|352|141.54|107.17|288.45|None|1|None|None|None
+113244|106|353|142.83|92.16|273.53|None|None|None|None|None
+113245|106|358|105.974|276.47|95.46|None|1|None|None|None
+113246|106|364|134.687|52.45|233.5|None|1|None|None|None
+113247|106|373|103.309|359.37|179.36|None|1|None|None|None
+113248|106|379|154.94|100.09|281.54|None|None|None|None|None
+113249|106|151|77.025|298.5|117.85|None|0|None|None|None
+113250|106|20738|164.232|178.61|358.65|None|None|None|None|None
+113251|106|385|189.353|124.92|306.37|None|None|None|None|None
+113252|106|386|166.112|199.27|18.76|None|None|None|None|None
+113253|106|388|174.776|114.15|295.65|None|0|None|None|None
+113254|106|396|65.152|356.49|176.45|None|1|None|None|None
+113255|106|397|173.883|107.09|288.66|None|1|None|None|None
+113256|106|399|110.881|223.6|42.88|None|1|None|None|None
+113257|106|403|96.337|334.32|153.91|None|None|None|None|None
+113258|106|404|96.337|334.32|153.91|None|None|None|None|None
+113259|106|405|96.337|334.32|153.91|None|0|None|None|None
+113260|106|20739|84.226|333.84|153.47|None|0|None|None|None
+113261|106|414|176.194|180.96|0.94|None|1|None|None|None
+113262|106|422|174.454|172.58|352.78|None|1|None|None|None
+113263|106|424|168.776|153.16|333.87|None|None|None|None|None
+113264|106|425|156.989|177.91|357.96|None|1|None|None|None
+113265|106|426|150.171|188.58|8.37|None|1|None|None|None
+113266|106|20740|134.779|85.42|266.71|None|None|None|None|None
+113267|106|429|167.421|93.75|275.34|None|1|None|None|None
+113268|106|20741|165.962|209.11|28.36|None|0|None|None|None
+113269|106|10095|188.656|109.04|290.72|None|None|None|None|None
+113270|106|349|109.026|348.93|168.72|None|0|None|None|None
+113271|106|441|165.551|50.72|231.98|None|1|None|None|None
+113272|106|359|180.497|90.89|272.62|None|1|None|None|None
+113273|106|360|172.193|71.1|252.68|None|None|None|None|None
+113274|106|20742|217.589|98.97|281.01|None|None|None|None|None
+113275|106|365|177.898|99.11|280.78|None|1|None|None|None
+113276|106|367|108.326|314.07|133.32|None|1|None|None|None
+113277|106|372|130.788|311.6|130.64|None|1|None|None|None
+113278|106|374|215.761|136.02|317.41|None|None|None|None|None
+113279|106|446|147.422|354.97|174.84|None|1|None|None|None
+113280|106|375|192.123|224.83|43.57|None|0|None|None|None
+113281|106|377|178.112|94.8|276.5|None|1|None|None|None
+113282|106|380|186.367|100.03|281.78|None|None|None|None|None
+113283|106|449|170.286|38.18|219.22|None|None|None|None|None
+113284|106|382|156.91|236.81|55.58|None|1|None|None|None
+113285|106|383|153.896|270.83|89.36|None|0|None|None|None
+113286|106|20743|193.056|94.21|276.05|None|None|None|None|None
+113287|106|387|123.216|329.02|148.4|None|None|None|None|None
+113288|106|392|176.018|86.61|268.29|None|None|None|None|None
+113289|106|393|176.018|86.61|268.29|None|None|None|None|None
+113290|106|394|176.018|86.61|268.29|None|None|None|None|None
+113291|106|409|130.498|292.85|111.69|None|1|None|None|None
+113292|106|420|202.083|176.3|356.42|None|None|None|None|None
+113293|106|421|218.483|163.98|344.53|None|None|None|None|None
+113294|106|423|195.261|192.05|11.68|None|None|None|None|None
+113295|106|428|209.617|153.47|334.32|None|None|None|None|None
+113296|106|460|164.011|55.39|236.71|None|1|None|None|None
+113297|106|433|195.063|103.81|285.6|None|None|None|None|None
+113298|106|435|198.895|86.0|267.9|None|None|None|None|None
+131437|106|442|193.851|49.72|231.18|None|None|None|None|None
+131807|106|440|155.93|324.3|143.4|None|None|None|None|None
+131808|106|351|247.112|178.83|358.87|None|None|None|None|None
+131809|106|465|174.402|351.05|170.78|None|1|None|None|None
+131810|106|466|290.028|66.26|248.87|None|None|None|None|None
+131811|106|445|277.728|166.8|347.37|None|None|None|None|None
+131812|106|23701|224.634|221.77|40.39|None|None|None|None|None
+131813|106|447|289.112|111.42|293.93|None|None|None|None|None
+131814|106|469|212.569|357.08|176.97|None|None|None|None|None
+131815|106|470|216.304|338.45|157.65|None|None|None|None|None
+131816|106|471|355.666|171.99|352.43|None|None|None|None|None
+131817|106|23702|381.241|64.41|247.83|None|None|None|None|None
+131818|106|472|217.674|307.2|125.49|None|None|None|None|None
+131819|106|452|168.098|288.14|106.6|None|None|None|None|None
+131820|106|453|237.788|75.01|257.24|None|None|None|None|None
+131821|106|23703|230.096|302.25|120.33|None|None|None|None|None
+131822|106|454|171.386|340.29|159.71|None|None|None|None|None
+131823|106|477|207.365|298.33|116.54|None|None|None|None|None
+131824|106|455|180.832|306.09|124.65|None|1|None|None|None
+131825|106|23704|264.815|307.34|125.24|None|None|None|None|None
+131826|106|478|237.216|305.52|123.61|None|None|None|None|None
+131827|106|480|175.873|5.77|185.94|None|1|None|None|None
+131828|106|457|200.26|61.81|243.54|None|None|None|None|None
+131829|106|481|202.441|315.19|133.78|None|None|None|None|None
+131830|106|458|307.768|177.73|357.84|None|None|None|None|None
+131831|106|459|277.454|161.03|341.85|None|None|None|None|None
+131832|106|23705|241.54|111.86|293.96|None|None|None|None|None
+
+# 
+# stations
+# 
+# Sid|Name|Network|Channel|LocationCode|Latitude|Longitude|ElevationMasl|Source
+128|ASR|UW|EHZ||46.15259|-121.60164|1357.0|IRIS
+20735|COW|UW|EHZ||46.49083|-122.01332|305.0|IRIS
+136|GLK|UW|EHZ||46.5575|-121.61073|1305.0|IRIS
+143|LO2|UW|EHZ||46.7506|-121.8096|853.0|IRIS
+147|LON|UW|EHZ||46.7506|-121.8096|853.0|IRIS
+161|RCS|UW|EHZ||46.87083|-121.73231|2877.0|IRIS
+162|RER|UW|EHZ||46.81905|-121.84213|1756.0|IRIS
+183|WPW|UW|EHZ||46.69864|-121.53734|1280.0|IRIS
+20736|APW|UW|EHZ||46.6576|-122.65798|457.0|IRIS
+348|AUG|UW|EHZ||45.73595|-121.68174|865.0|IRIS
+129|CDF|UW|EHZ||46.11689|-122.04623|756.0|IRIS
+357|CMM|UW|EHZ||46.43511|-122.50705|620.0|IRIS
+130|EDM|UW|EHZ||46.19717|-122.15121|1609.0|IRIS
+131|ELK|UW|EHZ||46.30539|-122.34205|1270.0|IRIS
+132|ELL|UW|EHZ||46.90951|-120.56751|789.0|IRIS
+133|FL2|UW|EHZ||46.19622|-122.35149|1378.0|IRIS
+134|FMW|UW|EHZ||46.94139|-121.67101|1859.0|IRIS
+135|GHW|UW|EHZ||47.04149|-122.27373|268.0|IRIS
+366|GL2|UW|EHZ||45.95957|-120.82409|1000.0|IRIS
+138|GSM|UW|EHZ||47.20299|-121.79572|1305.0|IRIS
+371|GUL|UW|EHZ||45.92401|-121.59675|1189.0|IRIS
+139|HSR|UW|EHZ||46.17428|-122.18065|1720.0|IRIS
+140|JUN|UW|EHZ||46.14706|-122.15243|1049.0|IRIS
+141|KOS|UW|EHZ||46.4628|-122.19602|610.0|IRIS
+376|LMW|UW|EHZ||46.66783|-122.29255|1195.0|IRIS
+378|LVP|UW|EHZ||46.06595|-122.40193|1130.0|IRIS
+381|MOX|UW|EHZ||46.57718|-120.29934|501.0|IRIS
+152|MTM|UW|EHZ||46.02533|-122.21287|1121.0|IRIS
+153|NAC|UW|EHZ||46.73301|-120.82485|728.0|IRIS
+395|REM|UW|EHZ||46.199|-122.18537|2102.0|IRIS
+163|RVC|UW|EHZ||46.94408|-121.97419|1000.0|IRIS
+164|SHW|UW|EHZ||46.19347|-122.23635|1425.0|IRIS
+165|SOS|UW|EHZ||46.24386|-122.13787|1270.0|IRIS
+172|STD|UW|EHZ||46.23761|-122.22396|1268.0|IRIS
+176|TBM|UW|EHZ||47.16985|-120.59918|1006.0|IRIS
+177|TDL|UW|EHZ||46.35067|-122.21704|1400.0|IRIS
+181|TWW|UW|EHZ||47.13801|-120.86952|1027.0|IRIS
+20737|YAK|UW|EHZ||46.52868|-120.52184|629.0|IRIS
+436|YEL|UW|EHZ||46.20955|-122.18899|1750.0|IRIS
+350|BOW|UW|EHZ||46.47483|-123.2293|870.0|IRIS
+352|BRV|UW|EHZ||46.48519|-119.99232|920.0|IRIS
+353|BVW|UW|EHZ||46.81083|-119.88349|670.0|IRIS
+358|CPW|UW|EHZ||46.97365|-123.13759|792.0|IRIS
+364|ETW|UW|EHZ||47.60418|-120.33352|1477.0|IRIS
+373|HTW|UW|EHZ||47.80377|-121.76887|833.0|IRIS
+379|MDW|UW|EHZ||46.61302|-119.76215|330.0|IRIS
+151|MEW|UW|EHZ||47.20176|-122.64707|97.0|IRIS
+20738|MHD|UW|EHZ||45.3975|-121.70292|2231.0|IRIS
+385|PAT|UW|EHZ||45.88185|-119.75347|262.0|IRIS
+386|PGO|UW|EHZ||45.46168|-122.4544|253.0|IRIS
+388|PRO|UW|EHZ||46.21252|-119.68681|553.0|IRIS
+396|RMW|UW|EHZ||47.45953|-121.80656|1024.0|IRIS
+397|RSW|UW|EHZ||46.39436|-119.59247|1045.0|IRIS
+399|RVW|UW|EHZ||46.14794|-122.74347|460.0|IRIS
+403|SEA|UW|EHE||47.65421|-122.30938|30.0|IRIS
+404|SEA|UW|EHN||47.65421|-122.30938|30.0|IRIS
+405|SEA|UW|EHZ||47.65421|-122.30938|30.0|IRIS
+20739|SPW|UW|EHZ||47.55352|-122.2471|8.0|IRIS
+414|TDH|UW|EHZ||45.28967|-121.79152|1541.0|IRIS
+422|VFP|UW|EHZ||45.3179|-121.46627|1716.0|IRIS
+424|VGB|UW|EHZ||45.51551|-120.77867|729.0|IRIS
+425|VLL|UW|EHZ||45.46317|-121.68035|1195.0|IRIS
+426|VLM|UW|EHZ||45.53834|-122.04036|1150.0|IRIS
+20740|VTG|UW|EHZ||46.95785|-119.9885|208.0|IRIS
+429|WA2|UW|EHZ||46.75519|-119.56681|244.0|IRIS
+20741|WP2|UW|EHZ||45.56539|-122.78788|338.0|IRIS
+10095|RED|HW|EHZ||46.29736|-119.4388|330.0|IRIS
+349|BHW|UW|EHZ||47.83665|-122.0334|198.0|IRIS
+441|CBS|UW|EHZ||47.80469|-120.04285|1067.0|IRIS
+359|CRF|UW|EHZ||46.82486|-119.38813|189.0|IRIS
+360|EPH|UW|EHZ||47.35619|-119.59715|661.0|IRIS
+20742|ET2|UW|EHZ||46.53486|-118.95145|330.0|IRIS
+365|GBL|UW|EHZ||46.59819|-119.46097|330.0|IRIS
+367|GMW|UW|EHZ||47.54773|-122.78759|506.0|IRIS
+372|HDW|UW|EHZ||47.64831|-123.0555|1006.0|IRIS
+374|JBO|UW|EHZ||45.46143|-119.83816|645.0|IRIS
+446|JCW|UW|EHZ||48.19533|-121.92746|792.0|IRIS
+375|KMO|UW|EHZ||45.63533|-123.49073|975.0|IRIS
+377|LOC|UW|EHZ||46.71686|-119.43197|210.0|IRIS
+380|MJ2|UW|EHZ||46.55736|-119.36013|146.0|IRIS
+449|NEL|UW|EHZ||48.07003|-120.34137|1500.0|IRIS
+382|NLO|UW|EHZ||46.08924|-123.45173|826.0|IRIS
+383|ONR|UW|EHZ||46.8769|-123.77253|257.0|IRIS
+20743|OT2|UW|EHZ||46.7192|-119.23496|329.0|IRIS
+387|PGW|UW|EHZ||47.82171|-122.60062|122.0|IRIS
+392|RC1|UW|EHE||46.94503|-119.44547|485.0|IRIS
+393|RC1|UW|EHN||46.94503|-119.44547|485.0|IRIS
+394|RC1|UW|EHZ||46.94503|-119.44547|485.0|IRIS
+409|SMW|UW|EHZ||47.31945|-123.34445|877.0|IRIS
+420|VBE|UW|EHZ||45.06017|-121.58801|1544.0|IRIS
+421|VCR|UW|EHZ||44.98267|-120.98932|1014.0|IRIS
+423|VG2|UW|EHZ||45.1554|-122.27203|823.0|IRIS
+428|VTH|UW|EHZ||45.18102|-120.56249|773.0|IRIS
+460|WAT|UW|EHZ||47.69852|-119.95517|821.0|IRIS
+433|WIW|UW|EHZ||46.42919|-119.2888|128.0|IRIS
+435|WRD|UW|EHZ||46.96986|-119.14596|375.0|IRIS
+442|DY2|UW|EHZ||47.98503|-119.7725|890.0|IRIS
+440|BLN|UW|EHZ||48.00717|-122.97313|585.0|IRIS
+351|BPO|UW|EHZ||44.65175|-121.68984|1957.0|IRIS
+465|CMW|UW|EHZ||48.42352|-122.12026|1190.0|IRIS
+466|DPW|UW|EHZ||47.87052|-118.20393|892.0|IRIS
+445|GMO|UW|EHZ||44.43896|-120.95734|1689.0|IRIS
+23701|GRO|UW|EHZ||45.35108|-123.66317|945.0|IRIS
+447|LNO|UW|EHZ||45.87169|-118.28624|771.0|IRIS
+469|MBW|UW|EHZ||48.78384|-121.90093|1676.0|IRIS
+470|MCW|UW|EHZ||48.67903|-122.83264|693.0|IRIS
+471|NCO|UW|EHZ||43.70384|-121.13946|1908.0|IRIS
+23702|NEW|UW|EHZ||48.26389|-117.12028|760.0|IRIS
+472|OBC|UW|EHZ||48.03511|-124.07882|938.0|IRIS
+452|OBH|UW|EHZ||47.32606|-123.86712|383.0|IRIS
+453|OD2|UW|EHZ||47.38754|-118.71077|553.0|IRIS
+23703|OFK|UW|EHZ||47.9498|-124.35913|134.0|IRIS
+454|OHW|UW|EHZ||48.32316|-122.53311|54.0|IRIS
+477|OOW|UW|EHZ||47.73414|-124.18747|561.0|IRIS
+455|OSD|UW|EHZ||47.81624|-123.70511|2008.0|IRIS
+23704|OSP|UW|EHZ||48.28464|-124.59115|585.0|IRIS
+478|OTR|UW|EHZ||48.08535|-124.34549|712.0|IRIS
+480|RPW|UW|EHZ||48.44817|-121.51485|850.0|IRIS
+457|SAW|UW|EHZ||47.70153|-119.40165|701.0|IRIS
+481|STW|UW|EHZ||48.15067|-123.67106|308.0|IRIS
+458|TCO|UW|EHZ||44.1075|-121.60173|1975.0|IRIS
+459|VIP|UW|EHZ||44.50802|-120.61997|1731.0|IRIS
+23705|WG3|UW|EHZ||46.02847|-118.85777|480.0|IRIS
+

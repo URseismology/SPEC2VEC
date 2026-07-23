@@ -1,0 +1,99 @@
+# 
+# events
+# 
+# Eventid|Name|Starttime|Endtime|Latitude|Longitude|LocuncertKm|CrownLat|CrownLon|TipLat|TipLon|Type|AreaTotal|AreaSource|AreaSourceLow|AreaSourceHigh|Volume|VolumeLow|VolumeHigh|Mass|MassLow|MassHigh|H|HLow|HHigh|L|LLow|LHigh|HFreefall|HFreefallLow|HFreefallHigh|UpstreamDrainarea|PeakDischarge|PeakDischargeLow|PeakDischargeHigh|PeakFlowheight|PeakFlowheightLow|PeakFlowheightHigh|Otherdataquality1to5|LPpotential|MaxdistvhfKm|MaxdistvhfReached|MaxdisthfKm|MaxdisthfReached|MaxdistipKm|MaxdistipReached|MaxdistlpKm|MaxdistlpReached|InfraDetected|MaxdistinfraKm|MaxdistinfraReached|DatLocation|Sources
+281|Ash Creek, Mount Shasta|2021-07-30 16:43:15|2021-07-31 01:01:55|41.4091|-122.1879|0.5|None|None|None|None|debris flow|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|4|0|11.0|1|16.0|1|None|None|0.0|None|None|0.0|None|NCEDC, IRIS|Collins, E.A., Allstadt, K.E., Groult, C., Hibert, C., Malet, J.-P., Toney, L.D., and Jensen, E.K., 2022, Seismogenic Landslides and other Mass Movements (ver. 2.0, December 2023): U.S. Geological Survey data release, https://doi.org/10.5066/P90VGCSK.
+
+# 
+# gisfiles
+# 
+# GisId|Eventid|Type|Source|Description|FileExtension|ApplyAlso
+168|281|Static map - pdf|QGIS - ecollins; Planet|Static map with pre- and post-event PlanetScope satellite imagery (~3m resolution). Channel widening can be seen in the post-event image.|EventData/281_AshCreekMountShasta_30Jul2021/maps_gis/281_AshCreekMountShasta_20210730_map.pdf|None
+202|281|Static map - png|QGIS - ecollins; Planet|Static map with pre- and post-event PlanetScope satellite imagery (~3m resolution). Channel widening can be seen in the post-event image.|EventData/281_AshCreekMountShasta_30Jul2021/maps_gis/281_AshCreekMountShasta_20210730_map.png|None
+
+# 
+# information
+# 
+# Iid|Eventid|RefId|Note|PhoId|GISId|ApplyAlso
+673|281|276|"Ash Creek accumulated 18" [of debris] at the 31 road Thursday/Friday (07/29 or 07/30)" - Note from Hotovec-Ellis (written commun., 2022).|None|None|None
+748|278|276|These events were detected using seismic stations surrounding Mount Shasta by Hotovec-Ellis (written commun., 2022) and confirmed by satellite imagery and/or ground-based reports.|None|None|279,280,281,282
+749|278|None|Location coordinates are estimated near the beginning of the channel or near the start of obvious changes in channel width, geometry, or color in the satellite imagery. Location uncertainty represents distance along the drainage.|None|None|279,280,281,282
+750|278|318|"The unusally warm summer of 2021 caused significant melting of snow and ice that contributed to at least 26 debris flows at Mount Shasta, California . . . The emergent, long-duration seismic signals associated with these events were primarily observed on relatively sparse networks designed for routine volcanic monitoring, allowing limited and delayed detection during daily analyst checks." - Quote from Hotovec-Ellis and others (2022)|None|None|279,280,281,282
+751|278|None|Satellite imagery for this event is only used to confirm the drainage and note changes in channel geometry. Total area, source area, H, and L are not estimated due to difficulty in interpreting the full extent of the flow using this resolution of imagery.|None|None|279,280,281,282
+
+# 
+# photos
+# 
+# PhotoId|Eventid|Photographer|Description|Latitude|Longitude|Date|FileExtension|ApplyAlso
+1454|281|Elaine Collins|Raw waveforms from closest stations. Data was demeaned but no other processing was applied. Dashed lines show approximate start and end times of event (from database). Figure generation is automated and there may be artifacts present.|None|None|None|EventData/281_AshCreekMountShasta_30Jul2021/photos_figures/281_AshCreekMountShasta_30Jul2021_waveforms_raw.png|None
+1455|281|Elaine Collins|High frequency (1-5 Hz) ground velocity waveforms from closest stations with detections. Dashed lines show approximate start and end times of event (from database). Waveforms are corrected for station response after removing the mean. Figure generation is automated and there may be artifacts present. Clipped waveforms have not been removed before station correction so check raw plots before interpreting high amplitude signals.|None|None|None|EventData/281_AshCreekMountShasta_30Jul2021/photos_figures/281_AshCreekMountShasta_30Jul2021_waveforms_1-5Hz.png|None
+1456|281|Elaine Collins|Spectrograms of velocity waveforms corrected for station sensitivity from closest stations with detections. Figure generation is automated and there may be artifacts present|None|None|None|EventData/281_AshCreekMountShasta_30Jul2021/photos_figures/281_AshCreekMountShasta_30Jul2021_spectrogram.png|None
+1457|281|Elaine Collins|Multitaper spectra (same units as Power Spectral Density) of velocity waveforms corrected for station sensitivity from closest stations with detections. Linear trend was removed and a taper was applied before generating spectra. Figure generation is automated and there may be artifacts present. Since station response was not removed to avoid adding artifacts at low frequencies for short and intermediate period stations, the lower frequency amplitudes should be interpreted with care.|None|None|None|EventData/281_AshCreekMountShasta_30Jul2021/photos_figures/281_AshCreekMountShasta_30Jul2021_spectra.png|None
+
+
+# 
+# sta_nearby
+# 
+# SRid|Eventid|Sid|StasourceRadiusKm|Az|Baz|DetectVHF|DetectHF|DetectIP|DetectLP|DetectINFRA
+199904|281|35721|10.045|89.76|269.84|None|None|None|None|None
+199905|281|35722|10.045|89.76|269.84|None|None|None|None|None
+199906|281|35723|10.045|89.76|269.84|1|1|None|0|None
+199907|281|35727|9.368|250.84|70.77|0|0|None|0|None
+199908|281|35728|9.368|250.84|70.77|0|0|None|0|None
+199909|281|35729|9.368|250.84|70.77|0|0|None|0|None
+199910|281|35733|7.163|185.3|5.3|0|1|None|0|None
+199911|281|35734|7.163|185.3|5.3|0|1|None|0|None
+199912|281|35735|7.163|185.3|5.3|0|1|None|0|None
+199913|281|8|15.97|159.76|339.81|0|1|None|0|None
+199914|281|9|15.97|159.76|339.81|0|1|None|0|None
+199915|281|10|15.97|159.76|339.81|0|1|None|0|None
+199916|281|1|25.617|284.56|104.36|None|None|None|None|None
+199917|281|2|25.617|284.56|104.36|None|None|None|None|None
+199918|281|3|25.617|284.56|104.36|None|None|None|None|None
+199919|281|64|25.776|105.4|285.6|None|0|None|None|None
+199920|281|4|10.352|332.95|152.92|0|0|None|None|None
+199921|281|5|17.233|272.57|92.44|None|0|None|None|None
+199922|281|7|24.648|351.5|171.47|None|0|None|None|None
+199923|281|11|9.186|17.53|197.55|0|1|None|None|None
+224552|281|37610|139.54|304.97|124.05|None|None|None|None|0
+224553|281|37611|139.54|304.97|124.05|None|None|None|None|None
+224554|281|37612|139.719|14.77|195.07|None|None|None|None|None
+224555|281|37613|139.719|14.77|195.07|None|None|None|None|None
+224556|281|37630|188.08|319.93|138.94|None|None|None|None|0
+224557|281|37631|188.08|319.93|138.94|None|None|None|None|None
+224558|281|37636|90.355|353.88|173.8|None|None|None|None|0
+224559|281|37637|90.355|353.88|173.8|None|None|None|None|None
+
+# 
+# stations
+# 
+# Sid|Name|Network|Channel|LocationCode|Latitude|Longitude|ElevationMasl|Source
+35721|LBR|NC|HH2|01|41.40942|-122.06776|1601.0|IRIS,NCEDC
+35722|LBR|NC|HH3|01|41.40942|-122.06776|1601.0|IRIS,NCEDC
+35723|LBR|NC|HHZ|01|41.40942|-122.06776|1601.0|IRIS,NCEDC
+35727|LDL|NC|HHE|01|41.38136|-122.29369|1705.0|IRIS,NCEDC
+35728|LDL|NC|HHN|01|41.38136|-122.29369|1705.0|IRIS,NCEDC
+35729|LDL|NC|HHZ|01|41.38136|-122.29369|1705.0|IRIS,NCEDC
+35733|LGY|NC|HHE|01|41.34488|-122.19581|2419.0|IRIS,NCEDC
+35734|LGY|NC|HHN|01|41.34488|-122.19581|2419.0|IRIS,NCEDC
+35735|LGY|NC|HHZ|01|41.34488|-122.19581|2419.0|IRIS,NCEDC
+8|LMC|NC|HHE||41.274158|-122.121971|1062.0|NCEDC
+9|LMC|NC|HHN||41.274158|-122.121971|1062.0|NCEDC
+10|LMC|NC|HHZ||41.274158|-122.121971|1062.0|NCEDC
+1|B039|PB|EH1||41.4667|-122.4847|923.9|IRIS
+2|B039|PB|EH2||41.4667|-122.4847|923.9|IRIS
+3|B039|PB|EHZ||41.4667|-122.4847|923.9|IRIS
+64|LBF|NC|EHZ||41.347065|-121.890976|1961.0|NCEDC
+4|LBO|NC|EHZ||41.4921|-122.24427|1544.0|NCEDC
+5|LCSB|NC|EHZ||41.415878|-122.393814|1115.0|NCEDC
+7|LHE|NC|EHZ|02|41.628582|-122.231636|2117.0|NCEDC
+11|LMP|NC|EHZ||41.487965|-122.154762|1860.0|NCEDC
+37610|CAVE|UO|BDF|EP|42.120899|-123.570702|440.0|IRIS,NCEDC
+37611|CAVE|UO|LDF|EP|42.120899|-123.570702|440.0|IRIS,NCEDC
+37612|CHIL|UO|BDF|EP|42.624599|-121.753601|1315.0|IRIS
+37613|CHIL|UO|LDF|EP|42.624599|-121.753601|1315.0|IRIS
+37630|ROGE|UO|BDF|EP|42.695499|-123.665398|989.0|IRIS,NCEDC
+37631|ROGE|UO|LDF|EP|42.695499|-123.665398|989.0|IRIS,NCEDC
+37636|WOOD|UO|BDF|EP|42.217899|-122.304604|1437.0|IRIS,NCEDC
+37637|WOOD|UO|LDF|EP|42.217899|-122.304604|1437.0|IRIS,NCEDC
+

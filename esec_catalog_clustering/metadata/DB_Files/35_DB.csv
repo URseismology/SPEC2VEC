@@ -1,0 +1,663 @@
+# 
+# events
+# 
+# Eventid|Name|Starttime|Endtime|Latitude|Longitude|LocuncertKm|CrownLat|CrownLon|TipLat|TipLon|Type|AreaTotal|AreaSource|AreaSourceLow|AreaSourceHigh|Volume|VolumeLow|VolumeHigh|Mass|MassLow|MassHigh|H|HLow|HHigh|L|LLow|LHigh|HFreefall|HFreefallLow|HFreefallHigh|UpstreamDrainarea|PeakDischarge|PeakDischargeLow|PeakDischargeHigh|PeakFlowheight|PeakFlowheightLow|PeakFlowheightHigh|Otherdataquality1to5|LPpotential|MaxdistvhfKm|MaxdistvhfReached|MaxdisthfKm|MaxdisthfReached|MaxdistipKm|MaxdistipReached|MaxdistlpKm|MaxdistlpReached|InfraDetected|MaxdistinfraKm|MaxdistinfraReached|DatLocation|Sources
+35|Mount St Helens|2015-08-14 21:35:27|2015-08-14 22:11:56|46.205076|-122.214418|1.0|46.205076|-122.214418|46.21042|-122.253492|debris flow|None|None|None|None|13000.0|4400.0|28000.0|None|None|None|820.0|1000.0|600.0|3420.0|3000.0|4000.0|None|None|None|None|None|None|None|None|None|None|2|0|None|None|19.0|1|None|None|0.0|None|0|0.0|None|IRIS|Allstadt, Kate E., McVey, Brennah G., and Malone, Stephen D., 2017, Seismogenic Landslides, Debris Flows, and Outburst Floods in the Western United States and Canada from 1977 to 2017: U.S. Geological Survey data release, https://doi.org/10.5066/F7251H3W.
+
+
+# 
+# information
+# 
+# Iid|Eventid|RefId|Note|PhoId|GISId|ApplyAlso
+47|35|86|We estimated volume based on Kurt Spicer's photos of the track of this event and the start and end point coordinates he gave us - we estimate that the area of deposition is 2.2-2.8 km long, 0.2 - 0.5m thick and the "track" was ~10-20m wide. This would give a volume range of 4400-28000 m3 with a best estimate of 13000 m3 if we take the central values of the dimension estimate ranges.|5|None|None
+281|35|86|Kurt Spicer (written communication): Start point 46.205076 -122.214418, End point 46.210420 -122.253492, path length 3.42 km|None|None|None
+282|35|86|Kurt Spicer (written communication) "A small debris flow, apparently triggered by brief rain on Friday (August 14) afternoon, traveled down the upper SF Toutle canyon, possibly as far as the Loowit trail crossing. The flow left a very distinct track down the canyon. The stream at the trail crossing was still running dirty and moving gravel and small cobble as of Saturday afternoon."|None|None|None
+283|35|86|Kurt Spicer (written communication) "There was some decent rain that afternoon, so that may have triggered it, but I am thinking it may have been a snow slide in the real steep head wall that got things moving."|None|None|None
+
+# 
+# photos
+# 
+# PhotoId|Eventid|Photographer|Description|Latitude|Longitude|Date|FileExtension|ApplyAlso
+5|35|Kurt Spicer|"...a couple of close ups of deposits I believe are near the down valley end of the flow.  Others are close ups of the flow path, and some broad views showing the entire upper valley flow path for perspective. Unfortunately, I did not get any looking directly up the head of the valley, so source is not really defined.  It did rain for a couple hours up there that day, but I think it must have been a slide of some kind that initiated it."|||2015-08-15 14:58:20|EventData/35_MountStHelens_14Aug2015/photos_figures/35_MountStHelens_14Aug2015_source-KurtSpicer_1.jpg|None
+536|35|Kate Allstadt|Raw waveforms from closest stations. Data was demeaned but no other processing was applied. Dashed lines show approximate start and end times of event (from database). Figure generation is automated and there may be artifacts present.|None|None|None|EventData/35_MountStHelens_14Aug2015/photos_figures/35_MountStHelens_14Aug2015_waveforms_raw.png|None
+537|35|Kate Allstadt|High frequency (1-5 Hz) ground velocity waveforms for station response from closest stations with detections. Dashed lines show approximate start and end times of event (from database). Waveforms are corrected for station response after removing the mean. Figure generation is automated and there may be artifacts present. Clipped waveforms have not been removed before station correction so check raw plots before interpreting high amplitude signals.|None|None|None|EventData/35_MountStHelens_14Aug2015/photos_figures/35_MountStHelens_14Aug2015_waveforms_1-5Hz.png|None
+538|35|Kate Allstadt|Spectrograms of velocity waveforms corrected for station sensitivity from closest stations with detections. Figure generation is automated and there may be artifacts present|None|None|None|EventData/35_MountStHelens_14Aug2015/photos_figures/35_MountStHelens_14Aug2015_spectrogram.png|None
+539|35|Kate Allstadt|Multitaper spectra (same units as Power Spectral Density) of velocity waveforms corrected for station sensitivity from closest stations with detections. Linear trend was removed and a taper was applied before generating spectra. Figure generation is automated and there may be artifacts present. Since station response was not removed to avoid adding artifacts at low frequencies for short and intermediate period stations, the lower frequency amplitudes should be interpreted with care.|None|None|None|EventData/35_MountStHelens_14Aug2015/photos_figures/35_MountStHelens_14Aug2015_spectra.png|None
+1446|35|Kurt Spicer|"...a couple of close ups of deposits I believe are near the down valley end of the flow.  Others are close ups of the flow path, and some broad views showing the entire upper valley flow path for perspective. Unfortunately, I did not get any looking directly up the head of the valley, so source is not really defined.  It did rain for a couple hours up there that day, but I think it must have been a slide of some kind that initiated it."|||2015-08-15 11:46:18|EventData/35_MountStHelens_14Aug2015/photos_figures/35_MountStHelens_14Aug2015_source-KurtSpicer_2.jpg|None
+1447|35|Kurt Spicer|"...a couple of close ups of deposits I believe are near the down valley end of the flow.  Others are close ups of the flow path, and some broad views showing the entire upper valley flow path for perspective. Unfortunately, I did not get any looking directly up the head of the valley, so source is not really defined.  It did rain for a couple hours up there that day, but I think it must have been a slide of some kind that initiated it."||||EventData/35_MountStHelens_14Aug2015/photos_figures/35_MountStHelens_14Aug2015_source-KurtSpicer_3.png|None
+1448|35|Kurt Spicer|"...a couple of close ups of deposits I believe are near the down valley end of the flow.  Others are close ups of the flow path, and some broad views showing the entire upper valley flow path for perspective. Unfortunately, I did not get any looking directly up the head of the valley, so source is not really defined.  It did rain for a couple hours up there that day, but I think it must have been a slide of some kind that initiated it."|||2015-08-15 11:26:59|EventData/35_MountStHelens_14Aug2015/photos_figures/35_MountStHelens_14Aug2015_source-KurtSpicer_4.jpg|None
+1449|35|Kurt Spicer|"...a couple of close ups of deposits I believe are near the down valley end of the flow.  Others are close ups of the flow path, and some broad views showing the entire upper valley flow path for perspective. Unfortunately, I did not get any looking directly up the head of the valley, so source is not really defined.  It did rain for a couple hours up there that day, but I think it must have been a slide of some kind that initiated it."|||2015-08-15 11:46:15|EventData/35_MountStHelens_14Aug2015/photos_figures/35_MountStHelens_14Aug2015_source-KurtSpicer_5.jpg|None
+1450|35|Kurt Spicer|"...a couple of close ups of deposits I believe are near the down valley end of the flow.  Others are close ups of the flow path, and some broad views showing the entire upper valley flow path for perspective. Unfortunately, I did not get any looking directly up the head of the valley, so source is not really defined.  It did rain for a couple hours up there that day, but I think it must have been a slide of some kind that initiated it."|||2015-08-15 11:59:40|EventData/35_MountStHelens_14Aug2015/photos_figures/35_MountStHelens_14Aug2015_source-KurtSpicer_6.jpg|None
+1451|35|Kurt Spicer|"...a couple of close ups of deposits I believe are near the down valley end of the flow.  Others are close ups of the flow path, and some broad views showing the entire upper valley flow path for perspective. Unfortunately, I did not get any looking directly up the head of the valley, so source is not really defined.  It did rain for a couple hours up there that day, but I think it must have been a slide of some kind that initiated it."|||2015-08-15 11:46:07|EventData/35_MountStHelens_14Aug2015/photos_figures/35_MountStHelens_14Aug2015_source-KurtSpicer_7.jpg|None
+1452|35|Kurt Spicer|"...a couple of close ups of deposits I believe are near the down valley end of the flow.  Others are close ups of the flow path, and some broad views showing the entire upper valley flow path for perspective. Unfortunately, I did not get any looking directly up the head of the valley, so source is not really defined.  It did rain for a couple hours up there that day, but I think it must have been a slide of some kind that initiated it."||||EventData/35_MountStHelens_14Aug2015/photos_figures/35_MountStHelens_14Aug2015_source-KurtSpicer_8.jpg|None
+1453|35|Kurt Spicer|"...a couple of close ups of deposits I believe are near the down valley end of the flow.  Others are close ups of the flow path, and some broad views showing the entire upper valley flow path for perspective. Unfortunately, I did not get any looking directly up the head of the valley, so source is not really defined.  It did rain for a couple hours up there that day, but I think it must have been a slide of some kind that initiated it."|||2015-08-15 11:46:12|EventData/35_MountStHelens_14Aug2015/photos_figures/35_MountStHelens_14Aug2015_source-KurtSpicer_9.jpg|None
+1454|35|Kurt Spicer|"...a couple of close ups of deposits I believe are near the down valley end of the flow.  Others are close ups of the flow path, and some broad views showing the entire upper valley flow path for perspective. Unfortunately, I did not get any looking directly up the head of the valley, so source is not really defined.  It did rain for a couple hours up there that day, but I think it must have been a slide of some kind that initiated it."|||2015-08-15 11:59:43|EventData/35_MountStHelens_14Aug2015/photos_figures/35_MountStHelens_14Aug2015_source-KurtSpicer_10.jpg|None
+1455|35|Kurt Spicer|"...a couple of close ups of deposits I believe are near the down valley end of the flow.  Others are close ups of the flow path, and some broad views showing the entire upper valley flow path for perspective. Unfortunately, I did not get any looking directly up the head of the valley, so source is not really defined.  It did rain for a couple hours up there that day, but I think it must have been a slide of some kind that initiated it."|||2015-08-15 14:58:08|EventData/35_MountStHelens_14Aug2015/photos_figures/35_MountStHelens_14Aug2015_source-KurtSpicer_11.jpg|None
+1456|35|Kurt Spicer|"...a couple of close ups of deposits I believe are near the down valley end of the flow.  Others are close ups of the flow path, and some broad views showing the entire upper valley flow path for perspective. Unfortunately, I did not get any looking directly up the head of the valley, so source is not really defined.  It did rain for a couple hours up there that day, but I think it must have been a slide of some kind that initiated it."|||2015-08-15 11:48:28|EventData/35_MountStHelens_14Aug2015/photos_figures/35_MountStHelens_14Aug2015_source-KurtSpicer_12.jpg|None
+1457|35|Kurt Spicer|"...a couple of close ups of deposits I believe are near the down valley end of the flow.  Others are close ups of the flow path, and some broad views showing the entire upper valley flow path for perspective. Unfortunately, I did not get any looking directly up the head of the valley, so source is not really defined.  It did rain for a couple hours up there that day, but I think it must have been a slide of some kind that initiated it."|||2015-08-15 11:59:11|EventData/35_MountStHelens_14Aug2015/photos_figures/35_MountStHelens_14Aug2015_source-KurtSpicer_13.jpg|None
+1458|35|Kurt Spicer|"...a couple of close ups of deposits I believe are near the down valley end of the flow.  Others are close ups of the flow path, and some broad views showing the entire upper valley flow path for perspective. Unfortunately, I did not get any looking directly up the head of the valley, so source is not really defined.  It did rain for a couple hours up there that day, but I think it must have been a slide of some kind that initiated it."|||2015-08-15 11:27:05|EventData/35_MountStHelens_14Aug2015/photos_figures/35_MountStHelens_14Aug2015_source-KurtSpicer_14.jpg|None
+1459|35|Kurt Spicer|"...a couple of close ups of deposits I believe are near the down valley end of the flow.  Others are close ups of the flow path, and some broad views showing the entire upper valley flow path for perspective. Unfortunately, I did not get any looking directly up the head of the valley, so source is not really defined.  It did rain for a couple hours up there that day, but I think it must have been a slide of some kind that initiated it."|||2015-08-15 11:27:09|EventData/35_MountStHelens_14Aug2015/photos_figures/35_MountStHelens_14Aug2015_source-KurtSpicer_15.jpg|None
+1460|35|Kurt Spicer|"...a couple of close ups of deposits I believe are near the down valley end of the flow.  Others are close ups of the flow path, and some broad views showing the entire upper valley flow path for perspective. Unfortunately, I did not get any looking directly up the head of the valley, so source is not really defined.  It did rain for a couple hours up there that day, but I think it must have been a slide of some kind that initiated it."|||2015-08-15 11:59:09|EventData/35_MountStHelens_14Aug2015/photos_figures/35_MountStHelens_14Aug2015_source-KurtSpicer_16.jpg|None
+1461|35|Kurt Spicer|"...a couple of close ups of deposits I believe are near the down valley end of the flow.  Others are close ups of the flow path, and some broad views showing the entire upper valley flow path for perspective. Unfortunately, I did not get any looking directly up the head of the valley, so source is not really defined.  It did rain for a couple hours up there that day, but I think it must have been a slide of some kind that initiated it."|||2015-08-15 11:46:26|EventData/35_MountStHelens_14Aug2015/photos_figures/35_MountStHelens_14Aug2015_source-KurtSpicer_17.jpg|None
+1462|35|Kurt Spicer|"...a couple of close ups of deposits I believe are near the down valley end of the flow.  Others are close ups of the flow path, and some broad views showing the entire upper valley flow path for perspective. Unfortunately, I did not get any looking directly up the head of the valley, so source is not really defined.  It did rain for a couple hours up there that day, but I think it must have been a slide of some kind that initiated it."|||2015-08-15 14:58:11|EventData/35_MountStHelens_14Aug2015/photos_figures/35_MountStHelens_14Aug2015_source-KurtSpicer_18.jpg|None
+1463|35|Kurt Spicer|"...a couple of close ups of deposits I believe are near the down valley end of the flow.  Others are close ups of the flow path, and some broad views showing the entire upper valley flow path for perspective. Unfortunately, I did not get any looking directly up the head of the valley, so source is not really defined.  It did rain for a couple hours up there that day, but I think it must have been a slide of some kind that initiated it."|||2015-08-15 14:44:49|EventData/35_MountStHelens_14Aug2015/photos_figures/35_MountStHelens_14Aug2015_source-KurtSpicer_19.jpg|None
+1464|35|Kurt Spicer|"...a couple of close ups of deposits I believe are near the down valley end of the flow.  Others are close ups of the flow path, and some broad views showing the entire upper valley flow path for perspective. Unfortunately, I did not get any looking directly up the head of the valley, so source is not really defined.  It did rain for a couple hours up there that day, but I think it must have been a slide of some kind that initiated it."|||2015-08-15 11:48:31|EventData/35_MountStHelens_14Aug2015/photos_figures/35_MountStHelens_14Aug2015_source-KurtSpicer_20.jpg|None
+1465|35|Kurt Spicer|"...a couple of close ups of deposits I believe are near the down valley end of the flow.  Others are close ups of the flow path, and some broad views showing the entire upper valley flow path for perspective. Unfortunately, I did not get any looking directly up the head of the valley, so source is not really defined.  It did rain for a couple hours up there that day, but I think it must have been a slide of some kind that initiated it."|||2015-08-15 11:40:58|EventData/35_MountStHelens_14Aug2015/photos_figures/35_MountStHelens_14Aug2015_source-KurtSpicer_21.jpg|None
+1466|35|Kurt Spicer|"...a couple of close ups of deposits I believe are near the down valley end of the flow.  Others are close ups of the flow path, and some broad views showing the entire upper valley flow path for perspective. Unfortunately, I did not get any looking directly up the head of the valley, so source is not really defined.  It did rain for a couple hours up there that day, but I think it must have been a slide of some kind that initiated it."|||2015-08-15 11:40:54|EventData/35_MountStHelens_14Aug2015/photos_figures/35_MountStHelens_14Aug2015_source-KurtSpicer_22.jpg|None
+1467|35|Kurt Spicer|"...a couple of close ups of deposits I believe are near the down valley end of the flow.  Others are close ups of the flow path, and some broad views showing the entire upper valley flow path for perspective. Unfortunately, I did not get any looking directly up the head of the valley, so source is not really defined.  It did rain for a couple hours up there that day, but I think it must have been a slide of some kind that initiated it."|||2015-08-15 11:48:34|EventData/35_MountStHelens_14Aug2015/photos_figures/35_MountStHelens_14Aug2015_source-KurtSpicer_23.jpg|None
+1468|35|Kurt Spicer|"...a couple of close ups of deposits I believe are near the down valley end of the flow.  Others are close ups of the flow path, and some broad views showing the entire upper valley flow path for perspective. Unfortunately, I did not get any looking directly up the head of the valley, so source is not really defined.  It did rain for a couple hours up there that day, but I think it must have been a slide of some kind that initiated it."|||2015-08-15 14:44:44|EventData/35_MountStHelens_14Aug2015/photos_figures/35_MountStHelens_14Aug2015_source-KurtSpicer_24.jpg|None
+1469|35|Kurt Spicer|"...a couple of close ups of deposits I believe are near the down valley end of the flow.  Others are close ups of the flow path, and some broad views showing the entire upper valley flow path for perspective. Unfortunately, I did not get any looking directly up the head of the valley, so source is not really defined.  It did rain for a couple hours up there that day, but I think it must have been a slide of some kind that initiated it."|||2015-08-15 14:40:18|EventData/35_MountStHelens_14Aug2015/photos_figures/35_MountStHelens_14Aug2015_source-KurtSpicer_25.jpg|None
+1470|35|Kurt Spicer|"...a couple of close ups of deposits I believe are near the down valley end of the flow.  Others are close ups of the flow path, and some broad views showing the entire upper valley flow path for perspective. Unfortunately, I did not get any looking directly up the head of the valley, so source is not really defined.  It did rain for a couple hours up there that day, but I think it must have been a slide of some kind that initiated it."|||2015-08-15 14:36:56|EventData/35_MountStHelens_14Aug2015/photos_figures/35_MountStHelens_14Aug2015_source-KurtSpicer_26.jpg|None
+1471|35|Kurt Spicer|"...a couple of close ups of deposits I believe are near the down valley end of the flow.  Others are close ups of the flow path, and some broad views showing the entire upper valley flow path for perspective. Unfortunately, I did not get any looking directly up the head of the valley, so source is not really defined.  It did rain for a couple hours up there that day, but I think it must have been a slide of some kind that initiated it."|||2015-08-15 12:00:53|EventData/35_MountStHelens_14Aug2015/photos_figures/35_MountStHelens_14Aug2015_source-KurtSpicer_27.jpg|None
+1472|35|Kurt Spicer|"...a couple of close ups of deposits I believe are near the down valley end of the flow.  Others are close ups of the flow path, and some broad views showing the entire upper valley flow path for perspective. Unfortunately, I did not get any looking directly up the head of the valley, so source is not really defined.  It did rain for a couple hours up there that day, but I think it must have been a slide of some kind that initiated it."|||2015-08-15 12:01:17|EventData/35_MountStHelens_14Aug2015/photos_figures/35_MountStHelens_14Aug2015_source-KurtSpicer_28.jpg|None
+1473|35|Kurt Spicer|"...a couple of close ups of deposits I believe are near the down valley end of the flow.  Others are close ups of the flow path, and some broad views showing the entire upper valley flow path for perspective. Unfortunately, I did not get any looking directly up the head of the valley, so source is not really defined.  It did rain for a couple hours up there that day, but I think it must have been a slide of some kind that initiated it."|||2015-08-15 12:01:44|EventData/35_MountStHelens_14Aug2015/photos_figures/35_MountStHelens_14Aug2015_source-KurtSpicer_29.jpg|None
+1474|35|Kurt Spicer|"...a couple of close ups of deposits I believe are near the down valley end of the flow.  Others are close ups of the flow path, and some broad views showing the entire upper valley flow path for perspective. Unfortunately, I did not get any looking directly up the head of the valley, so source is not really defined.  It did rain for a couple hours up there that day, but I think it must have been a slide of some kind that initiated it."|||2015-08-15 12:02:01|EventData/35_MountStHelens_14Aug2015/photos_figures/35_MountStHelens_14Aug2015_source-KurtSpicer_30.jpg|None
+1475|35|Kurt Spicer|"...a couple of close ups of deposits I believe are near the down valley end of the flow.  Others are close ups of the flow path, and some broad views showing the entire upper valley flow path for perspective. Unfortunately, I did not get any looking directly up the head of the valley, so source is not really defined.  It did rain for a couple hours up there that day, but I think it must have been a slide of some kind that initiated it."|||2015-08-15 12:01:19|EventData/35_MountStHelens_14Aug2015/photos_figures/35_MountStHelens_14Aug2015_source-KurtSpicer_31.jpg|None
+1476|35|Kurt Spicer|"...a couple of close ups of deposits I believe are near the down valley end of the flow.  Others are close ups of the flow path, and some broad views showing the entire upper valley flow path for perspective. Unfortunately, I did not get any looking directly up the head of the valley, so source is not really defined.  It did rain for a couple hours up there that day, but I think it must have been a slide of some kind that initiated it."|||2015-08-15 12:00:59|EventData/35_MountStHelens_14Aug2015/photos_figures/35_MountStHelens_14Aug2015_source-KurtSpicer_32.jpg|None
+1477|35|Kurt Spicer|"...a couple of close ups of deposits I believe are near the down valley end of the flow.  Others are close ups of the flow path, and some broad views showing the entire upper valley flow path for perspective. Unfortunately, I did not get any looking directly up the head of the valley, so source is not really defined.  It did rain for a couple hours up there that day, but I think it must have been a slide of some kind that initiated it."|||2015-08-15 13:33:45|EventData/35_MountStHelens_14Aug2015/photos_figures/35_MountStHelens_14Aug2015_source-KurtSpicer_33.jpg|None
+1478|35|Kurt Spicer|"...a couple of close ups of deposits I believe are near the down valley end of the flow.  Others are close ups of the flow path, and some broad views showing the entire upper valley flow path for perspective. Unfortunately, I did not get any looking directly up the head of the valley, so source is not really defined.  It did rain for a couple hours up there that day, but I think it must have been a slide of some kind that initiated it."|||2015-08-15 14:39:31|EventData/35_MountStHelens_14Aug2015/photos_figures/35_MountStHelens_14Aug2015_source-KurtSpicer_34.jpg|None
+1479|35|Kurt Spicer|"...a couple of close ups of deposits I believe are near the down valley end of the flow.  Others are close ups of the flow path, and some broad views showing the entire upper valley flow path for perspective. Unfortunately, I did not get any looking directly up the head of the valley, so source is not really defined.  It did rain for a couple hours up there that day, but I think it must have been a slide of some kind that initiated it."|||2015-08-15 13:15:50|EventData/35_MountStHelens_14Aug2015/photos_figures/35_MountStHelens_14Aug2015_source-KurtSpicer_35.jpg|None
+1480|35|Kurt Spicer|"...a couple of close ups of deposits I believe are near the down valley end of the flow.  Others are close ups of the flow path, and some broad views showing the entire upper valley flow path for perspective. Unfortunately, I did not get any looking directly up the head of the valley, so source is not really defined.  It did rain for a couple hours up there that day, but I think it must have been a slide of some kind that initiated it."|||2015-08-15 12:18:46|EventData/35_MountStHelens_14Aug2015/photos_figures/35_MountStHelens_14Aug2015_source-KurtSpicer_36.jpg|None
+1481|35|Kurt Spicer|"...a couple of close ups of deposits I believe are near the down valley end of the flow.  Others are close ups of the flow path, and some broad views showing the entire upper valley flow path for perspective. Unfortunately, I did not get any looking directly up the head of the valley, so source is not really defined.  It did rain for a couple hours up there that day, but I think it must have been a slide of some kind that initiated it."|||2015-08-15 13:33:37|EventData/35_MountStHelens_14Aug2015/photos_figures/35_MountStHelens_14Aug2015_source-KurtSpicer_37.jpg|None
+1482|35|Kurt Spicer|"...a couple of close ups of deposits I believe are near the down valley end of the flow.  Others are close ups of the flow path, and some broad views showing the entire upper valley flow path for perspective. Unfortunately, I did not get any looking directly up the head of the valley, so source is not really defined.  It did rain for a couple hours up there that day, but I think it must have been a slide of some kind that initiated it."|||2015-08-15 14:39:07|EventData/35_MountStHelens_14Aug2015/photos_figures/35_MountStHelens_14Aug2015_source-KurtSpicer_38.jpg|None
+1483|35|Kurt Spicer|"...a couple of close ups of deposits I believe are near the down valley end of the flow.  Others are close ups of the flow path, and some broad views showing the entire upper valley flow path for perspective. Unfortunately, I did not get any looking directly up the head of the valley, so source is not really defined.  It did rain for a couple hours up there that day, but I think it must have been a slide of some kind that initiated it."|||2015-08-15 12:16:04|EventData/35_MountStHelens_14Aug2015/photos_figures/35_MountStHelens_14Aug2015_source-KurtSpicer_39.jpg|None
+1484|35|Kurt Spicer|"...a couple of close ups of deposits I believe are near the down valley end of the flow.  Others are close ups of the flow path, and some broad views showing the entire upper valley flow path for perspective. Unfortunately, I did not get any looking directly up the head of the valley, so source is not really defined.  It did rain for a couple hours up there that day, but I think it must have been a slide of some kind that initiated it."|||2015-08-15 12:01:25|EventData/35_MountStHelens_14Aug2015/photos_figures/35_MountStHelens_14Aug2015_source-KurtSpicer_40.jpg|None
+1485|35|Kurt Spicer|"...a couple of close ups of deposits I believe are near the down valley end of the flow.  Others are close ups of the flow path, and some broad views showing the entire upper valley flow path for perspective. Unfortunately, I did not get any looking directly up the head of the valley, so source is not really defined.  It did rain for a couple hours up there that day, but I think it must have been a slide of some kind that initiated it."|||2015-08-15 12:01:21|EventData/35_MountStHelens_14Aug2015/photos_figures/35_MountStHelens_14Aug2015_source-KurtSpicer_41.jpg|None
+1486|35|Kurt Spicer|"...a couple of close ups of deposits I believe are near the down valley end of the flow.  Others are close ups of the flow path, and some broad views showing the entire upper valley flow path for perspective. Unfortunately, I did not get any looking directly up the head of the valley, so source is not really defined.  It did rain for a couple hours up there that day, but I think it must have been a slide of some kind that initiated it."|||2015-08-15 12:16:02|EventData/35_MountStHelens_14Aug2015/photos_figures/35_MountStHelens_14Aug2015_source-KurtSpicer_42.jpg|None
+1487|35|Kurt Spicer|"...a couple of close ups of deposits I believe are near the down valley end of the flow.  Others are close ups of the flow path, and some broad views showing the entire upper valley flow path for perspective. Unfortunately, I did not get any looking directly up the head of the valley, so source is not really defined.  It did rain for a couple hours up there that day, but I think it must have been a slide of some kind that initiated it."|||2015-08-15 14:39:13|EventData/35_MountStHelens_14Aug2015/photos_figures/35_MountStHelens_14Aug2015_source-KurtSpicer_43.jpg|None
+1488|35|Kurt Spicer|"...a couple of close ups of deposits I believe are near the down valley end of the flow.  Others are close ups of the flow path, and some broad views showing the entire upper valley flow path for perspective. Unfortunately, I did not get any looking directly up the head of the valley, so source is not really defined.  It did rain for a couple hours up there that day, but I think it must have been a slide of some kind that initiated it."|||2015-08-20 09:52:46|EventData/35_MountStHelens_14Aug2015/photos_figures/35_MountStHelens_14Aug2015_source-KurtSpicer_44.jpg|None
+1489|35|Kurt Spicer|"...a couple of close ups of deposits I believe are near the down valley end of the flow.  Others are close ups of the flow path, and some broad views showing the entire upper valley flow path for perspective. Unfortunately, I did not get any looking directly up the head of the valley, so source is not really defined.  It did rain for a couple hours up there that day, but I think it must have been a slide of some kind that initiated it."|||2015-08-15 12:18:49|EventData/35_MountStHelens_14Aug2015/photos_figures/35_MountStHelens_14Aug2015_source-KurtSpicer_45.jpg|None
+1490|35|Kurt Spicer|"...a couple of close ups of deposits I believe are near the down valley end of the flow.  Others are close ups of the flow path, and some broad views showing the entire upper valley flow path for perspective. Unfortunately, I did not get any looking directly up the head of the valley, so source is not really defined.  It did rain for a couple hours up there that day, but I think it must have been a slide of some kind that initiated it."|||2015-08-15 13:17:02|EventData/35_MountStHelens_14Aug2015/photos_figures/35_MountStHelens_14Aug2015_source-KurtSpicer_46.jpg|None
+1491|35|Kurt Spicer|"...a couple of close ups of deposits I believe are near the down valley end of the flow.  Others are close ups of the flow path, and some broad views showing the entire upper valley flow path for perspective. Unfortunately, I did not get any looking directly up the head of the valley, so source is not really defined.  It did rain for a couple hours up there that day, but I think it must have been a slide of some kind that initiated it."|||2015-08-15 13:32:58|EventData/35_MountStHelens_14Aug2015/photos_figures/35_MountStHelens_14Aug2015_source-KurtSpicer_47.jpg|None
+1492|35|Kurt Spicer|"...a couple of close ups of deposits I believe are near the down valley end of the flow.  Others are close ups of the flow path, and some broad views showing the entire upper valley flow path for perspective. Unfortunately, I did not get any looking directly up the head of the valley, so source is not really defined.  It did rain for a couple hours up there that day, but I think it must have been a slide of some kind that initiated it."|||2015-08-15 14:40:40|EventData/35_MountStHelens_14Aug2015/photos_figures/35_MountStHelens_14Aug2015_source-KurtSpicer_48.jpg|None
+1493|35|Kurt Spicer|"...a couple of close ups of deposits I believe are near the down valley end of the flow.  Others are close ups of the flow path, and some broad views showing the entire upper valley flow path for perspective. Unfortunately, I did not get any looking directly up the head of the valley, so source is not really defined.  It did rain for a couple hours up there that day, but I think it must have been a slide of some kind that initiated it."|||2015-08-15 12:18:01|EventData/35_MountStHelens_14Aug2015/photos_figures/35_MountStHelens_14Aug2015_source-KurtSpicer_49.jpg|None
+1494|35|Kurt Spicer|"...a couple of close ups of deposits I believe are near the down valley end of the flow.  Others are close ups of the flow path, and some broad views showing the entire upper valley flow path for perspective. Unfortunately, I did not get any looking directly up the head of the valley, so source is not really defined.  It did rain for a couple hours up there that day, but I think it must have been a slide of some kind that initiated it."|||2015-08-15 12:24:08|EventData/35_MountStHelens_14Aug2015/photos_figures/35_MountStHelens_14Aug2015_source-KurtSpicer_50.jpg|None
+1495|35|Kurt Spicer|"...a couple of close ups of deposits I believe are near the down valley end of the flow.  Others are close ups of the flow path, and some broad views showing the entire upper valley flow path for perspective. Unfortunately, I did not get any looking directly up the head of the valley, so source is not really defined.  It did rain for a couple hours up there that day, but I think it must have been a slide of some kind that initiated it."|||2015-08-15 12:16:07|EventData/35_MountStHelens_14Aug2015/photos_figures/35_MountStHelens_14Aug2015_source-KurtSpicer_51.jpg|None
+1496|35|Kurt Spicer|"...a couple of close ups of deposits I believe are near the down valley end of the flow.  Others are close ups of the flow path, and some broad views showing the entire upper valley flow path for perspective. Unfortunately, I did not get any looking directly up the head of the valley, so source is not really defined.  It did rain for a couple hours up there that day, but I think it must have been a slide of some kind that initiated it."|||2015-08-15 12:01:11|EventData/35_MountStHelens_14Aug2015/photos_figures/35_MountStHelens_14Aug2015_source-KurtSpicer_52.jpg|None
+1497|35|Kurt Spicer|"...a couple of close ups of deposits I believe are near the down valley end of the flow.  Others are close ups of the flow path, and some broad views showing the entire upper valley flow path for perspective. Unfortunately, I did not get any looking directly up the head of the valley, so source is not really defined.  It did rain for a couple hours up there that day, but I think it must have been a slide of some kind that initiated it."|||2015-08-15 12:01:14|EventData/35_MountStHelens_14Aug2015/photos_figures/35_MountStHelens_14Aug2015_source-KurtSpicer_53.jpg|None
+1498|35|Kurt Spicer|"...a couple of close ups of deposits I believe are near the down valley end of the flow.  Others are close ups of the flow path, and some broad views showing the entire upper valley flow path for perspective. Unfortunately, I did not get any looking directly up the head of the valley, so source is not really defined.  It did rain for a couple hours up there that day, but I think it must have been a slide of some kind that initiated it."|||2015-08-15 12:16:17|EventData/35_MountStHelens_14Aug2015/photos_figures/35_MountStHelens_14Aug2015_source-KurtSpicer_54.jpg|None
+1499|35|Kurt Spicer|"...a couple of close ups of deposits I believe are near the down valley end of the flow.  Others are close ups of the flow path, and some broad views showing the entire upper valley flow path for perspective. Unfortunately, I did not get any looking directly up the head of the valley, so source is not really defined.  It did rain for a couple hours up there that day, but I think it must have been a slide of some kind that initiated it."|||2015-08-15 12:24:04|EventData/35_MountStHelens_14Aug2015/photos_figures/35_MountStHelens_14Aug2015_source-KurtSpicer_55.jpg|None
+1500|35|Kurt Spicer|"...a couple of close ups of deposits I believe are near the down valley end of the flow.  Others are close ups of the flow path, and some broad views showing the entire upper valley flow path for perspective. Unfortunately, I did not get any looking directly up the head of the valley, so source is not really defined.  It did rain for a couple hours up there that day, but I think it must have been a slide of some kind that initiated it."|||2015-08-15 12:17:57|EventData/35_MountStHelens_14Aug2015/photos_figures/35_MountStHelens_14Aug2015_source-KurtSpicer_56.jpg|None
+1501|35|Kurt Spicer|"...a couple of close ups of deposits I believe are near the down valley end of the flow.  Others are close ups of the flow path, and some broad views showing the entire upper valley flow path for perspective. Unfortunately, I did not get any looking directly up the head of the valley, so source is not really defined.  It did rain for a couple hours up there that day, but I think it must have been a slide of some kind that initiated it."|||2015-08-15 14:40:21|EventData/35_MountStHelens_14Aug2015/photos_figures/35_MountStHelens_14Aug2015_source-KurtSpicer_57.jpg|None
+1502|35|Kurt Spicer|"...a couple of close ups of deposits I believe are near the down valley end of the flow.  Others are close ups of the flow path, and some broad views showing the entire upper valley flow path for perspective. Unfortunately, I did not get any looking directly up the head of the valley, so source is not really defined.  It did rain for a couple hours up there that day, but I think it must have been a slide of some kind that initiated it."|||2015-08-15 13:32:53|EventData/35_MountStHelens_14Aug2015/photos_figures/35_MountStHelens_14Aug2015_source-KurtSpicer_58.jpg|None
+1503|35|Kurt Spicer|"...a couple of close ups of deposits I believe are near the down valley end of the flow.  Others are close ups of the flow path, and some broad views showing the entire upper valley flow path for perspective. Unfortunately, I did not get any looking directly up the head of the valley, so source is not really defined.  It did rain for a couple hours up there that day, but I think it must have been a slide of some kind that initiated it."|||2015-08-15 14:40:48|EventData/35_MountStHelens_14Aug2015/photos_figures/35_MountStHelens_14Aug2015_source-KurtSpicer_59.jpg|None
+1504|35|Kurt Spicer|"...a couple of close ups of deposits I believe are near the down valley end of the flow.  Others are close ups of the flow path, and some broad views showing the entire upper valley flow path for perspective. Unfortunately, I did not get any looking directly up the head of the valley, so source is not really defined.  It did rain for a couple hours up there that day, but I think it must have been a slide of some kind that initiated it."|||2015-08-15 13:33:06|EventData/35_MountStHelens_14Aug2015/photos_figures/35_MountStHelens_14Aug2015_source-KurtSpicer_60.jpg|None
+1505|35|Kurt Spicer|"...a couple of close ups of deposits I believe are near the down valley end of the flow.  Others are close ups of the flow path, and some broad views showing the entire upper valley flow path for perspective. Unfortunately, I did not get any looking directly up the head of the valley, so source is not really defined.  It did rain for a couple hours up there that day, but I think it must have been a slide of some kind that initiated it."|||2015-08-15 12:01:07|EventData/35_MountStHelens_14Aug2015/photos_figures/35_MountStHelens_14Aug2015_source-KurtSpicer_61.jpg|None
+1506|35|Kurt Spicer|"...a couple of close ups of deposits I believe are near the down valley end of the flow.  Others are close ups of the flow path, and some broad views showing the entire upper valley flow path for perspective. Unfortunately, I did not get any looking directly up the head of the valley, so source is not really defined.  It did rain for a couple hours up there that day, but I think it must have been a slide of some kind that initiated it."|||2015-08-15 12:16:06|EventData/35_MountStHelens_14Aug2015/photos_figures/35_MountStHelens_14Aug2015_source-KurtSpicer_62.jpg|None
+1507|35|Kurt Spicer|"...a couple of close ups of deposits I believe are near the down valley end of the flow.  Others are close ups of the flow path, and some broad views showing the entire upper valley flow path for perspective. Unfortunately, I did not get any looking directly up the head of the valley, so source is not really defined.  It did rain for a couple hours up there that day, but I think it must have been a slide of some kind that initiated it."|||2015-08-15 12:00:21|EventData/35_MountStHelens_14Aug2015/photos_figures/35_MountStHelens_14Aug2015_source-KurtSpicer_63.jpg|None
+1508|35|Kurt Spicer|"...a couple of close ups of deposits I believe are near the down valley end of the flow.  Others are close ups of the flow path, and some broad views showing the entire upper valley flow path for perspective. Unfortunately, I did not get any looking directly up the head of the valley, so source is not really defined.  It did rain for a couple hours up there that day, but I think it must have been a slide of some kind that initiated it."|||2015-08-15 12:00:20|EventData/35_MountStHelens_14Aug2015/photos_figures/35_MountStHelens_14Aug2015_source-KurtSpicer_64.jpg|None
+1509|35|Kurt Spicer|"...a couple of close ups of deposits I believe are near the down valley end of the flow.  Others are close ups of the flow path, and some broad views showing the entire upper valley flow path for perspective. Unfortunately, I did not get any looking directly up the head of the valley, so source is not really defined.  It did rain for a couple hours up there that day, but I think it must have been a slide of some kind that initiated it."|||2015-08-15 12:16:05|EventData/35_MountStHelens_14Aug2015/photos_figures/35_MountStHelens_14Aug2015_source-KurtSpicer_65.jpg|None
+1510|35|Kurt Spicer|"...a couple of close ups of deposits I believe are near the down valley end of the flow.  Others are close ups of the flow path, and some broad views showing the entire upper valley flow path for perspective. Unfortunately, I did not get any looking directly up the head of the valley, so source is not really defined.  It did rain for a couple hours up there that day, but I think it must have been a slide of some kind that initiated it."|||2015-08-15 12:01:03|EventData/35_MountStHelens_14Aug2015/photos_figures/35_MountStHelens_14Aug2015_source-KurtSpicer_66.jpg|None
+1511|35|Kurt Spicer|"...a couple of close ups of deposits I believe are near the down valley end of the flow.  Others are close ups of the flow path, and some broad views showing the entire upper valley flow path for perspective. Unfortunately, I did not get any looking directly up the head of the valley, so source is not really defined.  It did rain for a couple hours up there that day, but I think it must have been a slide of some kind that initiated it."|||2015-08-15 13:33:15|EventData/35_MountStHelens_14Aug2015/photos_figures/35_MountStHelens_14Aug2015_source-KurtSpicer_67.jpg|None
+1512|35|Kurt Spicer|"...a couple of close ups of deposits I believe are near the down valley end of the flow.  Others are close ups of the flow path, and some broad views showing the entire upper valley flow path for perspective. Unfortunately, I did not get any looking directly up the head of the valley, so source is not really defined.  It did rain for a couple hours up there that day, but I think it must have been a slide of some kind that initiated it."|||2015-08-15 14:41:00|EventData/35_MountStHelens_14Aug2015/photos_figures/35_MountStHelens_14Aug2015_source-KurtSpicer_68.jpg|None
+1513|35|Kurt Spicer|"...a couple of close ups of deposits I believe are near the down valley end of the flow.  Others are close ups of the flow path, and some broad views showing the entire upper valley flow path for perspective. Unfortunately, I did not get any looking directly up the head of the valley, so source is not really defined.  It did rain for a couple hours up there that day, but I think it must have been a slide of some kind that initiated it."|||2015-08-15 12:24:48|EventData/35_MountStHelens_14Aug2015/photos_figures/35_MountStHelens_14Aug2015_source-KurtSpicer_69.jpg|None
+1514|35|Kurt Spicer|"...a couple of close ups of deposits I believe are near the down valley end of the flow.  Others are close ups of the flow path, and some broad views showing the entire upper valley flow path for perspective. Unfortunately, I did not get any looking directly up the head of the valley, so source is not really defined.  It did rain for a couple hours up there that day, but I think it must have been a slide of some kind that initiated it."|||2015-08-15 12:17:52|EventData/35_MountStHelens_14Aug2015/photos_figures/35_MountStHelens_14Aug2015_source-KurtSpicer_70.jpg|None
+1515|35|Kurt Spicer|"...a couple of close ups of deposits I believe are near the down valley end of the flow.  Others are close ups of the flow path, and some broad views showing the entire upper valley flow path for perspective. Unfortunately, I did not get any looking directly up the head of the valley, so source is not really defined.  It did rain for a couple hours up there that day, but I think it must have been a slide of some kind that initiated it."|||2015-08-15 12:23:36|EventData/35_MountStHelens_14Aug2015/photos_figures/35_MountStHelens_14Aug2015_source-KurtSpicer_71.jpg|None
+1516|35|Kurt Spicer|"...a couple of close ups of deposits I believe are near the down valley end of the flow.  Others are close ups of the flow path, and some broad views showing the entire upper valley flow path for perspective. Unfortunately, I did not get any looking directly up the head of the valley, so source is not really defined.  It did rain for a couple hours up there that day, but I think it must have been a slide of some kind that initiated it."|||2015-08-15 12:18:12|EventData/35_MountStHelens_14Aug2015/photos_figures/35_MountStHelens_14Aug2015_source-KurtSpicer_72.jpg|None
+1517|35|Kurt Spicer|"...a couple of close ups of deposits I believe are near the down valley end of the flow.  Others are close ups of the flow path, and some broad views showing the entire upper valley flow path for perspective. Unfortunately, I did not get any looking directly up the head of the valley, so source is not really defined.  It did rain for a couple hours up there that day, but I think it must have been a slide of some kind that initiated it."|||2015-08-15 12:17:31|EventData/35_MountStHelens_14Aug2015/photos_figures/35_MountStHelens_14Aug2015_source-KurtSpicer_73.jpg|None
+1518|35|Kurt Spicer|"...a couple of close ups of deposits I believe are near the down valley end of the flow.  Others are close ups of the flow path, and some broad views showing the entire upper valley flow path for perspective. Unfortunately, I did not get any looking directly up the head of the valley, so source is not really defined.  It did rain for a couple hours up there that day, but I think it must have been a slide of some kind that initiated it."|||2015-08-15 12:00:07|EventData/35_MountStHelens_14Aug2015/photos_figures/35_MountStHelens_14Aug2015_source-KurtSpicer_74.jpg|None
+1519|35|Kurt Spicer|"...a couple of close ups of deposits I believe are near the down valley end of the flow.  Others are close ups of the flow path, and some broad views showing the entire upper valley flow path for perspective. Unfortunately, I did not get any looking directly up the head of the valley, so source is not really defined.  It did rain for a couple hours up there that day, but I think it must have been a slide of some kind that initiated it."|||2015-08-15 12:00:24|EventData/35_MountStHelens_14Aug2015/photos_figures/35_MountStHelens_14Aug2015_source-KurtSpicer_75.jpg|None
+1520|35|Kurt Spicer|"...a couple of close ups of deposits I believe are near the down valley end of the flow.  Others are close ups of the flow path, and some broad views showing the entire upper valley flow path for perspective. Unfortunately, I did not get any looking directly up the head of the valley, so source is not really defined.  It did rain for a couple hours up there that day, but I think it must have been a slide of some kind that initiated it."|||2015-08-15 12:00:23|EventData/35_MountStHelens_14Aug2015/photos_figures/35_MountStHelens_14Aug2015_source-KurtSpicer_76.jpg|None
+1521|35|Kurt Spicer|"...a couple of close ups of deposits I believe are near the down valley end of the flow.  Others are close ups of the flow path, and some broad views showing the entire upper valley flow path for perspective. Unfortunately, I did not get any looking directly up the head of the valley, so source is not really defined.  It did rain for a couple hours up there that day, but I think it must have been a slide of some kind that initiated it."|||2015-08-15 12:00:03|EventData/35_MountStHelens_14Aug2015/photos_figures/35_MountStHelens_14Aug2015_source-KurtSpicer_77.jpg|None
+1522|35|Kurt Spicer|"...a couple of close ups of deposits I believe are near the down valley end of the flow.  Others are close ups of the flow path, and some broad views showing the entire upper valley flow path for perspective. Unfortunately, I did not get any looking directly up the head of the valley, so source is not really defined.  It did rain for a couple hours up there that day, but I think it must have been a slide of some kind that initiated it."|||2015-08-15 12:16:21|EventData/35_MountStHelens_14Aug2015/photos_figures/35_MountStHelens_14Aug2015_source-KurtSpicer_78.jpg|None
+1523|35|Kurt Spicer|"...a couple of close ups of deposits I believe are near the down valley end of the flow.  Others are close ups of the flow path, and some broad views showing the entire upper valley flow path for perspective. Unfortunately, I did not get any looking directly up the head of the valley, so source is not really defined.  It did rain for a couple hours up there that day, but I think it must have been a slide of some kind that initiated it."|||2015-08-15 12:18:15|EventData/35_MountStHelens_14Aug2015/photos_figures/35_MountStHelens_14Aug2015_source-KurtSpicer_79.jpg|None
+1524|35|Kurt Spicer|"...a couple of close ups of deposits I believe are near the down valley end of the flow.  Others are close ups of the flow path, and some broad views showing the entire upper valley flow path for perspective. Unfortunately, I did not get any looking directly up the head of the valley, so source is not really defined.  It did rain for a couple hours up there that day, but I think it must have been a slide of some kind that initiated it."|||2015-08-15 12:23:39|EventData/35_MountStHelens_14Aug2015/photos_figures/35_MountStHelens_14Aug2015_source-KurtSpicer_80.jpg|None
+1525|35|Kurt Spicer|"...a couple of close ups of deposits I believe are near the down valley end of the flow.  Others are close ups of the flow path, and some broad views showing the entire upper valley flow path for perspective. Unfortunately, I did not get any looking directly up the head of the valley, so source is not really defined.  It did rain for a couple hours up there that day, but I think it must have been a slide of some kind that initiated it."|||2015-08-15 12:17:54|EventData/35_MountStHelens_14Aug2015/photos_figures/35_MountStHelens_14Aug2015_source-KurtSpicer_81.jpg|None
+1526|35|Kurt Spicer|"...a couple of close ups of deposits I believe are near the down valley end of the flow.  Others are close ups of the flow path, and some broad views showing the entire upper valley flow path for perspective. Unfortunately, I did not get any looking directly up the head of the valley, so source is not really defined.  It did rain for a couple hours up there that day, but I think it must have been a slide of some kind that initiated it."|||2015-08-15 12:24:52|EventData/35_MountStHelens_14Aug2015/photos_figures/35_MountStHelens_14Aug2015_source-KurtSpicer_82.jpg|None
+1527|35|Kurt Spicer|"...a couple of close ups of deposits I believe are near the down valley end of the flow.  Others are close ups of the flow path, and some broad views showing the entire upper valley flow path for perspective. Unfortunately, I did not get any looking directly up the head of the valley, so source is not really defined.  It did rain for a couple hours up there that day, but I think it must have been a slide of some kind that initiated it."|||2015-08-15 14:44:37|EventData/35_MountStHelens_14Aug2015/photos_figures/35_MountStHelens_14Aug2015_source-KurtSpicer_83.jpg|None
+1528|35|Kurt Spicer|"...a couple of close ups of deposits I believe are near the down valley end of the flow.  Others are close ups of the flow path, and some broad views showing the entire upper valley flow path for perspective. Unfortunately, I did not get any looking directly up the head of the valley, so source is not really defined.  It did rain for a couple hours up there that day, but I think it must have been a slide of some kind that initiated it."|||2015-08-15 12:20:46|EventData/35_MountStHelens_14Aug2015/photos_figures/35_MountStHelens_14Aug2015_source-KurtSpicer_84.jpg|None
+1529|35|Kurt Spicer|"...a couple of close ups of deposits I believe are near the down valley end of the flow.  Others are close ups of the flow path, and some broad views showing the entire upper valley flow path for perspective. Unfortunately, I did not get any looking directly up the head of the valley, so source is not really defined.  It did rain for a couple hours up there that day, but I think it must have been a slide of some kind that initiated it."|||2015-08-15 12:18:09|EventData/35_MountStHelens_14Aug2015/photos_figures/35_MountStHelens_14Aug2015_source-KurtSpicer_85.jpg|None
+1530|35|Kurt Spicer|"...a couple of close ups of deposits I believe are near the down valley end of the flow.  Others are close ups of the flow path, and some broad views showing the entire upper valley flow path for perspective. Unfortunately, I did not get any looking directly up the head of the valley, so source is not really defined.  It did rain for a couple hours up there that day, but I think it must have been a slide of some kind that initiated it."|||2015-08-15 12:24:43|EventData/35_MountStHelens_14Aug2015/photos_figures/35_MountStHelens_14Aug2015_source-KurtSpicer_86.jpg|None
+1531|35|Kurt Spicer|"...a couple of close ups of deposits I believe are near the down valley end of the flow.  Others are close ups of the flow path, and some broad views showing the entire upper valley flow path for perspective. Unfortunately, I did not get any looking directly up the head of the valley, so source is not really defined.  It did rain for a couple hours up there that day, but I think it must have been a slide of some kind that initiated it."|||2015-08-15 12:17:49|EventData/35_MountStHelens_14Aug2015/photos_figures/35_MountStHelens_14Aug2015_source-KurtSpicer_87.jpg|None
+1532|35|Kurt Spicer|"...a couple of close ups of deposits I believe are near the down valley end of the flow.  Others are close ups of the flow path, and some broad views showing the entire upper valley flow path for perspective. Unfortunately, I did not get any looking directly up the head of the valley, so source is not really defined.  It did rain for a couple hours up there that day, but I think it must have been a slide of some kind that initiated it."|||2015-08-15 12:00:26|EventData/35_MountStHelens_14Aug2015/photos_figures/35_MountStHelens_14Aug2015_source-KurtSpicer_88.jpg|None
+1533|35|Kurt Spicer|"...a couple of close ups of deposits I believe are near the down valley end of the flow.  Others are close ups of the flow path, and some broad views showing the entire upper valley flow path for perspective. Unfortunately, I did not get any looking directly up the head of the valley, so source is not really defined.  It did rain for a couple hours up there that day, but I think it must have been a slide of some kind that initiated it."|||2015-08-15 12:00:11|EventData/35_MountStHelens_14Aug2015/photos_figures/35_MountStHelens_14Aug2015_source-KurtSpicer_89.jpg|None
+1534|35|Kurt Spicer|"...a couple of close ups of deposits I believe are near the down valley end of the flow.  Others are close ups of the flow path, and some broad views showing the entire upper valley flow path for perspective. Unfortunately, I did not get any looking directly up the head of the valley, so source is not really defined.  It did rain for a couple hours up there that day, but I think it must have been a slide of some kind that initiated it."|||2015-08-15 12:00:17|EventData/35_MountStHelens_14Aug2015/photos_figures/35_MountStHelens_14Aug2015_source-KurtSpicer_90.jpg|None
+1535|35|Kurt Spicer|"...a couple of close ups of deposits I believe are near the down valley end of the flow.  Others are close ups of the flow path, and some broad views showing the entire upper valley flow path for perspective. Unfortunately, I did not get any looking directly up the head of the valley, so source is not really defined.  It did rain for a couple hours up there that day, but I think it must have been a slide of some kind that initiated it."|||2015-08-15 12:00:29|EventData/35_MountStHelens_14Aug2015/photos_figures/35_MountStHelens_14Aug2015_source-KurtSpicer_91.jpg|None
+1536|35|Kurt Spicer|"...a couple of close ups of deposits I believe are near the down valley end of the flow.  Others are close ups of the flow path, and some broad views showing the entire upper valley flow path for perspective. Unfortunately, I did not get any looking directly up the head of the valley, so source is not really defined.  It did rain for a couple hours up there that day, but I think it must have been a slide of some kind that initiated it."|||2015-08-15 12:17:45|EventData/35_MountStHelens_14Aug2015/photos_figures/35_MountStHelens_14Aug2015_source-KurtSpicer_92.jpg|None
+1537|35|Kurt Spicer|"...a couple of close ups of deposits I believe are near the down valley end of the flow.  Others are close ups of the flow path, and some broad views showing the entire upper valley flow path for perspective. Unfortunately, I did not get any looking directly up the head of the valley, so source is not really defined.  It did rain for a couple hours up there that day, but I think it must have been a slide of some kind that initiated it."|||2015-08-15 12:24:39|EventData/35_MountStHelens_14Aug2015/photos_figures/35_MountStHelens_14Aug2015_source-KurtSpicer_93.jpg|None
+1538|35|Kurt Spicer|"...a couple of close ups of deposits I believe are near the down valley end of the flow.  Others are close ups of the flow path, and some broad views showing the entire upper valley flow path for perspective. Unfortunately, I did not get any looking directly up the head of the valley, so source is not really defined.  It did rain for a couple hours up there that day, but I think it must have been a slide of some kind that initiated it."|||2015-08-15 12:18:06|EventData/35_MountStHelens_14Aug2015/photos_figures/35_MountStHelens_14Aug2015_source-KurtSpicer_94.jpg|None
+1539|35|Kurt Spicer|"...a couple of close ups of deposits I believe are near the down valley end of the flow.  Others are close ups of the flow path, and some broad views showing the entire upper valley flow path for perspective. Unfortunately, I did not get any looking directly up the head of the valley, so source is not really defined.  It did rain for a couple hours up there that day, but I think it must have been a slide of some kind that initiated it."|||2015-08-15 12:20:42|EventData/35_MountStHelens_14Aug2015/photos_figures/35_MountStHelens_14Aug2015_source-KurtSpicer_95.jpg|None
+1540|35|Kurt Spicer|"...a couple of close ups of deposits I believe are near the down valley end of the flow.  Others are close ups of the flow path, and some broad views showing the entire upper valley flow path for perspective. Unfortunately, I did not get any looking directly up the head of the valley, so source is not really defined.  It did rain for a couple hours up there that day, but I think it must have been a slide of some kind that initiated it."|||2015-08-15 14:41:07|EventData/35_MountStHelens_14Aug2015/photos_figures/35_MountStHelens_14Aug2015_source-KurtSpicer_96.jpg|None
+1541|35|Kurt Spicer|"...a couple of close ups of deposits I believe are near the down valley end of the flow.  Others are close ups of the flow path, and some broad views showing the entire upper valley flow path for perspective. Unfortunately, I did not get any looking directly up the head of the valley, so source is not really defined.  It did rain for a couple hours up there that day, but I think it must have been a slide of some kind that initiated it."|||2015-08-15 12:18:18|EventData/35_MountStHelens_14Aug2015/photos_figures/35_MountStHelens_14Aug2015_source-KurtSpicer_97.jpg|None
+1542|35|Kurt Spicer|"...a couple of close ups of deposits I believe are near the down valley end of the flow.  Others are close ups of the flow path, and some broad views showing the entire upper valley flow path for perspective. Unfortunately, I did not get any looking directly up the head of the valley, so source is not really defined.  It did rain for a couple hours up there that day, but I think it must have been a slide of some kind that initiated it."|||2015-08-15 12:18:53|EventData/35_MountStHelens_14Aug2015/photos_figures/35_MountStHelens_14Aug2015_source-KurtSpicer_98.jpg|None
+1543|35|Kurt Spicer|"...a couple of close ups of deposits I believe are near the down valley end of the flow.  Others are close ups of the flow path, and some broad views showing the entire upper valley flow path for perspective. Unfortunately, I did not get any looking directly up the head of the valley, so source is not really defined.  It did rain for a couple hours up there that day, but I think it must have been a slide of some kind that initiated it."|||2015-08-15 12:17:34|EventData/35_MountStHelens_14Aug2015/photos_figures/35_MountStHelens_14Aug2015_source-KurtSpicer_99.jpg|None
+1544|35|Kurt Spicer|"...a couple of close ups of deposits I believe are near the down valley end of the flow.  Others are close ups of the flow path, and some broad views showing the entire upper valley flow path for perspective. Unfortunately, I did not get any looking directly up the head of the valley, so source is not really defined.  It did rain for a couple hours up there that day, but I think it must have been a slide of some kind that initiated it."|||2015-08-15 12:24:56|EventData/35_MountStHelens_14Aug2015/photos_figures/35_MountStHelens_14Aug2015_source-KurtSpicer_100.jpg|None
+1545|35|Kurt Spicer|"...a couple of close ups of deposits I believe are near the down valley end of the flow.  Others are close ups of the flow path, and some broad views showing the entire upper valley flow path for perspective. Unfortunately, I did not get any looking directly up the head of the valley, so source is not really defined.  It did rain for a couple hours up there that day, but I think it must have been a slide of some kind that initiated it."|||2015-08-15 14:36:59|EventData/35_MountStHelens_14Aug2015/photos_figures/35_MountStHelens_14Aug2015_source-KurtSpicer_101.jpg|None
+1546|35|Kurt Spicer|"...a couple of close ups of deposits I believe are near the down valley end of the flow.  Others are close ups of the flow path, and some broad views showing the entire upper valley flow path for perspective. Unfortunately, I did not get any looking directly up the head of the valley, so source is not really defined.  It did rain for a couple hours up there that day, but I think it must have been a slide of some kind that initiated it."|||2015-08-15 12:00:45|EventData/35_MountStHelens_14Aug2015/photos_figures/35_MountStHelens_14Aug2015_source-KurtSpicer_102.jpg|None
+1547|35|Kurt Spicer|"...a couple of close ups of deposits I believe are near the down valley end of the flow.  Others are close ups of the flow path, and some broad views showing the entire upper valley flow path for perspective. Unfortunately, I did not get any looking directly up the head of the valley, so source is not really defined.  It did rain for a couple hours up there that day, but I think it must have been a slide of some kind that initiated it."|||2015-08-15 11:59:59|EventData/35_MountStHelens_14Aug2015/photos_figures/35_MountStHelens_14Aug2015_source-KurtSpicer_103.jpg|None
+1548|35|Kurt Spicer|"...a couple of close ups of deposits I believe are near the down valley end of the flow.  Others are close ups of the flow path, and some broad views showing the entire upper valley flow path for perspective. Unfortunately, I did not get any looking directly up the head of the valley, so source is not really defined.  It did rain for a couple hours up there that day, but I think it must have been a slide of some kind that initiated it."|||2015-08-15 11:59:55|EventData/35_MountStHelens_14Aug2015/photos_figures/35_MountStHelens_14Aug2015_source-KurtSpicer_104.jpg|None
+1549|35|Kurt Spicer|"...a couple of close ups of deposits I believe are near the down valley end of the flow.  Others are close ups of the flow path, and some broad views showing the entire upper valley flow path for perspective. Unfortunately, I did not get any looking directly up the head of the valley, so source is not really defined.  It did rain for a couple hours up there that day, but I think it must have been a slide of some kind that initiated it."|||2015-08-15 12:00:38|EventData/35_MountStHelens_14Aug2015/photos_figures/35_MountStHelens_14Aug2015_source-KurtSpicer_105.jpg|None
+1550|35|Kurt Spicer|"...a couple of close ups of deposits I believe are near the down valley end of the flow.  Others are close ups of the flow path, and some broad views showing the entire upper valley flow path for perspective. Unfortunately, I did not get any looking directly up the head of the valley, so source is not really defined.  It did rain for a couple hours up there that day, but I think it must have been a slide of some kind that initiated it."|||2015-08-15 14:39:02|EventData/35_MountStHelens_14Aug2015/photos_figures/35_MountStHelens_14Aug2015_source-KurtSpicer_106.jpg|None
+1551|35|Kurt Spicer|"...a couple of close ups of deposits I believe are near the down valley end of the flow.  Others are close ups of the flow path, and some broad views showing the entire upper valley flow path for perspective. Unfortunately, I did not get any looking directly up the head of the valley, so source is not really defined.  It did rain for a couple hours up there that day, but I think it must have been a slide of some kind that initiated it."|||2015-08-15 12:25:01|EventData/35_MountStHelens_14Aug2015/photos_figures/35_MountStHelens_14Aug2015_source-KurtSpicer_107.jpg|None
+1552|35|Kurt Spicer|"...a couple of close ups of deposits I believe are near the down valley end of the flow.  Others are close ups of the flow path, and some broad views showing the entire upper valley flow path for perspective. Unfortunately, I did not get any looking directly up the head of the valley, so source is not really defined.  It did rain for a couple hours up there that day, but I think it must have been a slide of some kind that initiated it."|||2015-08-15 12:17:37|EventData/35_MountStHelens_14Aug2015/photos_figures/35_MountStHelens_14Aug2015_source-KurtSpicer_108.jpg|None
+1553|35|Kurt Spicer|"...a couple of close ups of deposits I believe are near the down valley end of the flow.  Others are close ups of the flow path, and some broad views showing the entire upper valley flow path for perspective. Unfortunately, I did not get any looking directly up the head of the valley, so source is not really defined.  It did rain for a couple hours up there that day, but I think it must have been a slide of some kind that initiated it."|||2015-08-15 12:18:58|EventData/35_MountStHelens_14Aug2015/photos_figures/35_MountStHelens_14Aug2015_source-KurtSpicer_109.jpg|None
+1554|35|Kurt Spicer|"...a couple of close ups of deposits I believe are near the down valley end of the flow.  Others are close ups of the flow path, and some broad views showing the entire upper valley flow path for perspective. Unfortunately, I did not get any looking directly up the head of the valley, so source is not really defined.  It did rain for a couple hours up there that day, but I think it must have been a slide of some kind that initiated it."|||2015-08-15 12:18:21|EventData/35_MountStHelens_14Aug2015/photos_figures/35_MountStHelens_14Aug2015_source-KurtSpicer_110.jpg|None
+1555|35|Kurt Spicer|"...a couple of close ups of deposits I believe are near the down valley end of the flow.  Others are close ups of the flow path, and some broad views showing the entire upper valley flow path for perspective. Unfortunately, I did not get any looking directly up the head of the valley, so source is not really defined.  It did rain for a couple hours up there that day, but I think it must have been a slide of some kind that initiated it."|||2015-08-15 12:17:42|EventData/35_MountStHelens_14Aug2015/photos_figures/35_MountStHelens_14Aug2015_source-KurtSpicer_111.jpg|None
+1556|35|Kurt Spicer|"...a couple of close ups of deposits I believe are near the down valley end of the flow.  Others are close ups of the flow path, and some broad views showing the entire upper valley flow path for perspective. Unfortunately, I did not get any looking directly up the head of the valley, so source is not really defined.  It did rain for a couple hours up there that day, but I think it must have been a slide of some kind that initiated it."|||2015-08-15 12:28:30|EventData/35_MountStHelens_14Aug2015/photos_figures/35_MountStHelens_14Aug2015_source-KurtSpicer_112.jpg|None
+1557|35|Kurt Spicer|"...a couple of close ups of deposits I believe are near the down valley end of the flow.  Others are close ups of the flow path, and some broad views showing the entire upper valley flow path for perspective. Unfortunately, I did not get any looking directly up the head of the valley, so source is not really defined.  It did rain for a couple hours up there that day, but I think it must have been a slide of some kind that initiated it."|||2015-08-15 12:18:38|EventData/35_MountStHelens_14Aug2015/photos_figures/35_MountStHelens_14Aug2015_source-KurtSpicer_113.jpg|None
+1558|35|Kurt Spicer|"...a couple of close ups of deposits I believe are near the down valley end of the flow.  Others are close ups of the flow path, and some broad views showing the entire upper valley flow path for perspective. Unfortunately, I did not get any looking directly up the head of the valley, so source is not really defined.  It did rain for a couple hours up there that day, but I think it must have been a slide of some kind that initiated it."|||2015-08-15 12:20:39|EventData/35_MountStHelens_14Aug2015/photos_figures/35_MountStHelens_14Aug2015_source-KurtSpicer_114.jpg|None
+1559|35|Kurt Spicer|"...a couple of close ups of deposits I believe are near the down valley end of the flow.  Others are close ups of the flow path, and some broad views showing the entire upper valley flow path for perspective. Unfortunately, I did not get any looking directly up the head of the valley, so source is not really defined.  It did rain for a couple hours up there that day, but I think it must have been a slide of some kind that initiated it."|||2015-08-15 11:59:46|EventData/35_MountStHelens_14Aug2015/photos_figures/35_MountStHelens_14Aug2015_source-KurtSpicer_115.jpg|None
+1560|35|Kurt Spicer|"...a couple of close ups of deposits I believe are near the down valley end of the flow.  Others are close ups of the flow path, and some broad views showing the entire upper valley flow path for perspective. Unfortunately, I did not get any looking directly up the head of the valley, so source is not really defined.  It did rain for a couple hours up there that day, but I think it must have been a slide of some kind that initiated it."|||2015-08-15 12:00:32|EventData/35_MountStHelens_14Aug2015/photos_figures/35_MountStHelens_14Aug2015_source-KurtSpicer_116.jpg|None
+1561|35|Kurt Spicer|"...a couple of close ups of deposits I believe are near the down valley end of the flow.  Others are close ups of the flow path, and some broad views showing the entire upper valley flow path for perspective. Unfortunately, I did not get any looking directly up the head of the valley, so source is not really defined.  It did rain for a couple hours up there that day, but I think it must have been a slide of some kind that initiated it."|||2015-08-15 12:01:29|EventData/35_MountStHelens_14Aug2015/photos_figures/35_MountStHelens_14Aug2015_source-KurtSpicer_117.jpg|None
+1562|35|Kurt Spicer|"...a couple of close ups of deposits I believe are near the down valley end of the flow.  Others are close ups of the flow path, and some broad views showing the entire upper valley flow path for perspective. Unfortunately, I did not get any looking directly up the head of the valley, so source is not really defined.  It did rain for a couple hours up there that day, but I think it must have been a slide of some kind that initiated it."|||2015-08-15 12:01:38|EventData/35_MountStHelens_14Aug2015/photos_figures/35_MountStHelens_14Aug2015_source-KurtSpicer_118.jpg|None
+1563|35|Kurt Spicer|"...a couple of close ups of deposits I believe are near the down valley end of the flow.  Others are close ups of the flow path, and some broad views showing the entire upper valley flow path for perspective. Unfortunately, I did not get any looking directly up the head of the valley, so source is not really defined.  It did rain for a couple hours up there that day, but I think it must have been a slide of some kind that initiated it."|||2015-08-15 12:00:36|EventData/35_MountStHelens_14Aug2015/photos_figures/35_MountStHelens_14Aug2015_source-KurtSpicer_119.jpg|None
+1564|35|Kurt Spicer|"...a couple of close ups of deposits I believe are near the down valley end of the flow.  Others are close ups of the flow path, and some broad views showing the entire upper valley flow path for perspective. Unfortunately, I did not get any looking directly up the head of the valley, so source is not really defined.  It did rain for a couple hours up there that day, but I think it must have been a slide of some kind that initiated it."|||2015-08-15 11:59:50|EventData/35_MountStHelens_14Aug2015/photos_figures/35_MountStHelens_14Aug2015_source-KurtSpicer_120.jpg|None
+1565|35|Kurt Spicer|"...a couple of close ups of deposits I believe are near the down valley end of the flow.  Others are close ups of the flow path, and some broad views showing the entire upper valley flow path for perspective. Unfortunately, I did not get any looking directly up the head of the valley, so source is not really defined.  It did rain for a couple hours up there that day, but I think it must have been a slide of some kind that initiated it."|||2015-08-15 12:20:17|EventData/35_MountStHelens_14Aug2015/photos_figures/35_MountStHelens_14Aug2015_source-KurtSpicer_121.jpg|None
+1566|35|Kurt Spicer|"...a couple of close ups of deposits I believe are near the down valley end of the flow.  Others are close ups of the flow path, and some broad views showing the entire upper valley flow path for perspective. Unfortunately, I did not get any looking directly up the head of the valley, so source is not really defined.  It did rain for a couple hours up there that day, but I think it must have been a slide of some kind that initiated it."|||2015-08-15 12:18:33|EventData/35_MountStHelens_14Aug2015/photos_figures/35_MountStHelens_14Aug2015_source-KurtSpicer_122.jpg|None
+1567|35|Kurt Spicer|"...a couple of close ups of deposits I believe are near the down valley end of the flow.  Others are close ups of the flow path, and some broad views showing the entire upper valley flow path for perspective. Unfortunately, I did not get any looking directly up the head of the valley, so source is not really defined.  It did rain for a couple hours up there that day, but I think it must have been a slide of some kind that initiated it."|||2015-08-15 12:28:26|EventData/35_MountStHelens_14Aug2015/photos_figures/35_MountStHelens_14Aug2015_source-KurtSpicer_123.jpg|None
+1568|35|Kurt Spicer|"...a couple of close ups of deposits I believe are near the down valley end of the flow.  Others are close ups of the flow path, and some broad views showing the entire upper valley flow path for perspective. Unfortunately, I did not get any looking directly up the head of the valley, so source is not really defined.  It did rain for a couple hours up there that day, but I think it must have been a slide of some kind that initiated it."|||2015-08-15 12:17:39|EventData/35_MountStHelens_14Aug2015/photos_figures/35_MountStHelens_14Aug2015_source-KurtSpicer_124.jpg|None
+1569|35|Kurt Spicer|"...a couple of close ups of deposits I believe are near the down valley end of the flow.  Others are close ups of the flow path, and some broad views showing the entire upper valley flow path for perspective. Unfortunately, I did not get any looking directly up the head of the valley, so source is not really defined.  It did rain for a couple hours up there that day, but I think it must have been a slide of some kind that initiated it."|||2015-08-15 11:58:35|EventData/35_MountStHelens_14Aug2015/photos_figures/35_MountStHelens_14Aug2015_source-KurtSpicer_125.jpg|None
+1570|35|Kurt Spicer|"...a couple of close ups of deposits I believe are near the down valley end of the flow.  Others are close ups of the flow path, and some broad views showing the entire upper valley flow path for perspective. Unfortunately, I did not get any looking directly up the head of the valley, so source is not really defined.  It did rain for a couple hours up there that day, but I think it must have been a slide of some kind that initiated it."|||2015-08-15 11:59:16|EventData/35_MountStHelens_14Aug2015/photos_figures/35_MountStHelens_14Aug2015_source-KurtSpicer_126.jpg|None
+1571|35|Kurt Spicer|"...a couple of close ups of deposits I believe are near the down valley end of the flow.  Others are close ups of the flow path, and some broad views showing the entire upper valley flow path for perspective. Unfortunately, I did not get any looking directly up the head of the valley, so source is not really defined.  It did rain for a couple hours up there that day, but I think it must have been a slide of some kind that initiated it."|||2015-08-15 11:59:17|EventData/35_MountStHelens_14Aug2015/photos_figures/35_MountStHelens_14Aug2015_source-KurtSpicer_127.jpg|None
+1572|35|Kurt Spicer|"...a couple of close ups of deposits I believe are near the down valley end of the flow.  Others are close ups of the flow path, and some broad views showing the entire upper valley flow path for perspective. Unfortunately, I did not get any looking directly up the head of the valley, so source is not really defined.  It did rain for a couple hours up there that day, but I think it must have been a slide of some kind that initiated it."|||2015-08-15 11:59:08|EventData/35_MountStHelens_14Aug2015/photos_figures/35_MountStHelens_14Aug2015_source-KurtSpicer_128.jpg|None
+1573|35|Kurt Spicer|"...a couple of close ups of deposits I believe are near the down valley end of the flow.  Others are close ups of the flow path, and some broad views showing the entire upper valley flow path for perspective. Unfortunately, I did not get any looking directly up the head of the valley, so source is not really defined.  It did rain for a couple hours up there that day, but I think it must have been a slide of some kind that initiated it."|||2015-08-15 11:50:13|EventData/35_MountStHelens_14Aug2015/photos_figures/35_MountStHelens_14Aug2015_source-KurtSpicer_129.jpg|None
+1574|35|Kurt Spicer|"...a couple of close ups of deposits I believe are near the down valley end of the flow.  Others are close ups of the flow path, and some broad views showing the entire upper valley flow path for perspective. Unfortunately, I did not get any looking directly up the head of the valley, so source is not really defined.  It did rain for a couple hours up there that day, but I think it must have been a slide of some kind that initiated it."|||2015-08-15 11:59:14|EventData/35_MountStHelens_14Aug2015/photos_figures/35_MountStHelens_14Aug2015_source-KurtSpicer_130.jpg|None
+1575|35|Kurt Spicer|"...a couple of close ups of deposits I believe are near the down valley end of the flow.  Others are close ups of the flow path, and some broad views showing the entire upper valley flow path for perspective. Unfortunately, I did not get any looking directly up the head of the valley, so source is not really defined.  It did rain for a couple hours up there that day, but I think it must have been a slide of some kind that initiated it."|||2015-08-15 11:58:30|EventData/35_MountStHelens_14Aug2015/photos_figures/35_MountStHelens_14Aug2015_source-KurtSpicer_131.jpg|None
+1576|35|Kurt Spicer|"...a couple of close ups of deposits I believe are near the down valley end of the flow.  Others are close ups of the flow path, and some broad views showing the entire upper valley flow path for perspective. Unfortunately, I did not get any looking directly up the head of the valley, so source is not really defined.  It did rain for a couple hours up there that day, but I think it must have been a slide of some kind that initiated it."|||2015-08-15 11:41:07|EventData/35_MountStHelens_14Aug2015/photos_figures/35_MountStHelens_14Aug2015_source-KurtSpicer_132.jpg|None
+1577|35|Kurt Spicer|"...a couple of close ups of deposits I believe are near the down valley end of the flow.  Others are close ups of the flow path, and some broad views showing the entire upper valley flow path for perspective. Unfortunately, I did not get any looking directly up the head of the valley, so source is not really defined.  It did rain for a couple hours up there that day, but I think it must have been a slide of some kind that initiated it."|||2015-08-15 11:41:12|EventData/35_MountStHelens_14Aug2015/photos_figures/35_MountStHelens_14Aug2015_source-KurtSpicer_133.jpg|None
+1578|35|Kurt Spicer|"...a couple of close ups of deposits I believe are near the down valley end of the flow.  Others are close ups of the flow path, and some broad views showing the entire upper valley flow path for perspective. Unfortunately, I did not get any looking directly up the head of the valley, so source is not really defined.  It did rain for a couple hours up there that day, but I think it must have been a slide of some kind that initiated it."|||2015-08-15 11:58:26|EventData/35_MountStHelens_14Aug2015/photos_figures/35_MountStHelens_14Aug2015_source-KurtSpicer_134.jpg|None
+1579|35|Kurt Spicer|"...a couple of close ups of deposits I believe are near the down valley end of the flow.  Others are close ups of the flow path, and some broad views showing the entire upper valley flow path for perspective. Unfortunately, I did not get any looking directly up the head of the valley, so source is not really defined.  It did rain for a couple hours up there that day, but I think it must have been a slide of some kind that initiated it."|||2015-08-15 11:59:12|EventData/35_MountStHelens_14Aug2015/photos_figures/35_MountStHelens_14Aug2015_source-KurtSpicer_135.jpg|None
+1580|35|Kurt Spicer|"...a couple of close ups of deposits I believe are near the down valley end of the flow.  Others are close ups of the flow path, and some broad views showing the entire upper valley flow path for perspective. Unfortunately, I did not get any looking directly up the head of the valley, so source is not really defined.  It did rain for a couple hours up there that day, but I think it must have been a slide of some kind that initiated it."|||2015-08-15 11:50:09|EventData/35_MountStHelens_14Aug2015/photos_figures/35_MountStHelens_14Aug2015_source-KurtSpicer_136.jpg|None
+1581|35|Kurt Spicer|"...a couple of close ups of deposits I believe are near the down valley end of the flow.  Others are close ups of the flow path, and some broad views showing the entire upper valley flow path for perspective. Unfortunately, I did not get any looking directly up the head of the valley, so source is not really defined.  It did rain for a couple hours up there that day, but I think it must have been a slide of some kind that initiated it."|||2015-08-15 11:59:23|EventData/35_MountStHelens_14Aug2015/photos_figures/35_MountStHelens_14Aug2015_source-KurtSpicer_137.jpg|None
+1582|35|Kurt Spicer|"...a couple of close ups of deposits I believe are near the down valley end of the flow.  Others are close ups of the flow path, and some broad views showing the entire upper valley flow path for perspective. Unfortunately, I did not get any looking directly up the head of the valley, so source is not really defined.  It did rain for a couple hours up there that day, but I think it must have been a slide of some kind that initiated it."|||2015-08-15 11:50:17|EventData/35_MountStHelens_14Aug2015/photos_figures/35_MountStHelens_14Aug2015_source-KurtSpicer_138.jpg|None
+1583|35|Kurt Spicer|"...a couple of close ups of deposits I believe are near the down valley end of the flow.  Others are close ups of the flow path, and some broad views showing the entire upper valley flow path for perspective. Unfortunately, I did not get any looking directly up the head of the valley, so source is not really defined.  It did rain for a couple hours up there that day, but I think it must have been a slide of some kind that initiated it."|||2015-08-15 11:57:01|EventData/35_MountStHelens_14Aug2015/photos_figures/35_MountStHelens_14Aug2015_source-KurtSpicer_139.jpg|None
+1584|35|Kurt Spicer|"...a couple of close ups of deposits I believe are near the down valley end of the flow.  Others are close ups of the flow path, and some broad views showing the entire upper valley flow path for perspective. Unfortunately, I did not get any looking directly up the head of the valley, so source is not really defined.  It did rain for a couple hours up there that day, but I think it must have been a slide of some kind that initiated it."|||2015-08-15 11:59:27|EventData/35_MountStHelens_14Aug2015/photos_figures/35_MountStHelens_14Aug2015_source-KurtSpicer_140.jpg|None
+1585|35|Kurt Spicer|"...a couple of close ups of deposits I believe are near the down valley end of the flow.  Others are close ups of the flow path, and some broad views showing the entire upper valley flow path for perspective. Unfortunately, I did not get any looking directly up the head of the valley, so source is not really defined.  It did rain for a couple hours up there that day, but I think it must have been a slide of some kind that initiated it."|||2015-08-15 11:57:08|EventData/35_MountStHelens_14Aug2015/photos_figures/35_MountStHelens_14Aug2015_source-KurtSpicer_141.jpg|None
+1586|35|Kurt Spicer|"...a couple of close ups of deposits I believe are near the down valley end of the flow.  Others are close ups of the flow path, and some broad views showing the entire upper valley flow path for perspective. Unfortunately, I did not get any looking directly up the head of the valley, so source is not really defined.  It did rain for a couple hours up there that day, but I think it must have been a slide of some kind that initiated it."|||2015-08-15 11:59:36|EventData/35_MountStHelens_14Aug2015/photos_figures/35_MountStHelens_14Aug2015_source-KurtSpicer_142.jpg|None
+1587|35|Kurt Spicer|"...a couple of close ups of deposits I believe are near the down valley end of the flow.  Others are close ups of the flow path, and some broad views showing the entire upper valley flow path for perspective. Unfortunately, I did not get any looking directly up the head of the valley, so source is not really defined.  It did rain for a couple hours up there that day, but I think it must have been a slide of some kind that initiated it."|||2015-08-15 11:59:33|EventData/35_MountStHelens_14Aug2015/photos_figures/35_MountStHelens_14Aug2015_source-KurtSpicer_143.jpg|None
+1588|35|Kurt Spicer|"...a couple of close ups of deposits I believe are near the down valley end of the flow.  Others are close ups of the flow path, and some broad views showing the entire upper valley flow path for perspective. Unfortunately, I did not get any looking directly up the head of the valley, so source is not really defined.  It did rain for a couple hours up there that day, but I think it must have been a slide of some kind that initiated it."|||2015-08-15 11:57:04|EventData/35_MountStHelens_14Aug2015/photos_figures/35_MountStHelens_14Aug2015_source-KurtSpicer_144.jpg|None
+
+# 
+# reference
+# 
+# Refid|Eventid|ApplyAlso|LongRef|ShortRef|FileExtension|Url
+86|35|None|Spicer, Kurt, 2015, written communication|Spicer (written commun., 2015)|None|None
+
+# 
+# sta_nearby
+# 
+# SRid|Eventid|Sid|StasourceRadiusKm|Az|Baz|DetectVHF|DetectHF|DetectIP|DetectLP|DetectINFRA
+18266|35|76|7.788|358.08|178.08|None|1|None|None|None
+18267|35|77|7.788|358.08|178.08|None|1|None|None|None
+18268|35|78|7.788|358.08|178.08|None|0|None|None|None
+18269|35|85|1.916|106.39|286.4|None|1|None|None|None
+18270|35|86|1.916|106.39|286.4|None|1|None|None|None
+18271|35|87|1.916|106.39|286.4|None|1|None|None|None
+18272|35|88|3.691|348.5|168.49|None|1|None|None|None
+18273|35|89|3.691|348.5|168.49|None|1|None|None|None
+18274|35|90|3.691|348.5|168.49|None|1|None|None|None
+18275|35|91|3.166|68.41|248.44|None|1|None|None|None
+18276|35|92|2.976|183.5|3.5|None|1|None|None|None
+18277|35|93|2.976|183.5|3.5|None|1|None|None|None
+18278|35|94|2.976|183.5|3.5|None|1|None|None|None
+18279|35|95|2.192|62.37|242.39|None|1|None|None|None
+18280|35|96|2.192|62.37|242.39|None|1|None|None|None
+18281|35|97|2.192|62.37|242.39|None|1|None|None|None
+18282|35|104|11.589|340.43|160.4|None|1|None|None|None
+18283|35|105|11.589|340.43|160.4|None|1|None|None|None
+18284|35|106|11.589|340.43|160.4|None|1|None|None|None
+18285|35|107|7.44|53.67|233.73|None|1|None|None|None
+18286|35|108|7.44|53.67|233.73|None|1|None|None|None
+18287|35|109|7.44|53.67|233.73|None|1|None|None|None
+18288|35|110|10.042|246.51|66.42|None|1|None|None|None
+18289|35|111|10.042|246.51|66.42|None|1|None|None|None
+18290|35|112|10.042|246.51|66.42|None|1|None|None|None
+18291|35|113|8.441|155.43|335.47|None|1|None|None|None
+18292|35|114|8.441|155.43|335.47|None|1|None|None|None
+18293|35|115|8.441|155.43|335.47|None|1|None|None|None
+18294|35|129|16.274|126.98|307.1|None|1|None|None|None
+18295|35|130|4.957|100.19|280.23|None|1|None|None|None
+18296|35|131|14.872|318.62|138.52|None|1|None|None|None
+18297|35|133|10.625|264.73|84.63|None|1|None|None|None
+18298|35|139|4.303|142.7|322.72|None|1|None|None|None
+18299|35|140|8.031|143.39|323.44|None|0|None|None|None
+18300|35|141|28.683|2.82|182.84|None|None|None|None|None
+18301|35|378|21.192|223.2|43.07|None|None|None|None|None
+18302|35|152|19.98|179.66|359.66|None|None|None|None|None
+18303|35|164|2.128|232.7|52.68|None|1|None|None|None
+18304|35|165|7.312|53.84|233.9|None|1|None|None|None
+18305|35|172|3.691|348.5|168.49|None|0|None|None|None
+18306|35|177|16.185|359.29|179.28|None|1|None|None|None
+18307|35|5585|29.275|338.84|158.74|None|None|None|None|None
+18308|35|5586|29.275|338.84|158.74|None|None|None|None|None
+18309|35|5587|29.275|338.84|158.74|None|None|None|None|None
+18310|35|5588|28.734|2.67|182.69|None|None|None|None|None
+18311|35|5589|28.734|2.67|182.69|None|None|None|None|None
+18312|35|5590|28.734|2.67|182.69|None|None|None|None|None
+18313|35|5591|24.506|327.25|147.13|None|None|None|None|None
+18314|35|5592|24.506|327.25|147.13|None|None|None|None|None
+18315|35|5593|24.506|327.25|147.13|None|None|None|None|None
+18316|35|5594|25.014|306.32|126.13|None|None|None|None|None
+18317|35|5595|25.014|306.32|126.13|None|None|None|None|None
+18318|35|5596|25.014|306.32|126.13|None|None|None|None|None
+18319|35|5597|14.907|318.78|138.69|None|None|None|None|None
+18320|35|5598|14.907|318.78|138.69|None|None|None|None|None
+18321|35|5599|14.907|318.78|138.69|None|None|None|None|None
+18322|35|5600|16.127|359.17|179.17|None|None|None|None|None
+18323|35|5601|16.127|359.17|179.17|None|None|None|None|None
+18324|35|5602|16.127|359.17|179.17|None|None|None|None|None
+18325|35|5603|21.671|40.65|220.78|None|None|None|None|None
+18326|35|5604|21.671|40.65|220.78|None|None|None|None|None
+18327|35|5605|21.671|40.65|220.78|None|None|None|None|None
+18328|35|5606|26.753|55.3|235.5|None|None|None|None|None
+18329|35|5607|26.753|55.3|235.5|None|None|None|None|None
+18330|35|5608|26.753|55.3|235.5|None|None|None|None|None
+18331|35|5609|30.122|283.66|103.38|None|None|None|None|None
+18332|35|5610|30.122|283.66|103.38|None|None|None|None|None
+18333|35|5611|30.122|283.66|103.38|None|None|None|None|None
+18334|35|5612|18.367|296.83|116.68|None|None|None|None|None
+18335|35|5613|18.367|296.83|116.68|None|None|None|None|None
+18336|35|5614|18.367|296.83|116.68|None|None|None|None|None
+18337|35|5615|13.163|50.82|230.92|None|None|None|None|None
+18338|35|5616|13.163|50.82|230.92|None|None|None|None|None
+18339|35|5617|13.163|50.82|230.92|None|None|None|None|None
+18340|35|5618|15.141|266.22|86.08|None|None|None|None|None
+18341|35|5619|15.141|266.22|86.08|None|None|None|None|None
+18342|35|5620|15.141|266.22|86.08|None|None|None|None|None
+18343|35|5621|6.657|295.78|115.73|None|None|None|None|None
+18344|35|5622|6.657|295.78|115.73|None|None|None|None|None
+18345|35|5623|6.657|295.78|115.73|None|None|None|None|None
+18346|35|5624|11.898|66.17|246.28|None|None|None|None|None
+18347|35|5625|11.898|66.17|246.28|None|None|None|None|None
+18348|35|5626|11.898|66.17|246.28|None|None|None|None|None
+18349|35|5627|19.287|73.59|253.76|None|None|None|None|None
+18350|35|5628|19.287|73.59|253.76|None|None|None|None|None
+18351|35|5629|19.287|73.59|253.76|None|None|None|None|None
+18352|35|5630|27.543|259.43|79.18|None|None|None|None|None
+18353|35|5631|27.543|259.43|79.18|None|None|None|None|None
+18354|35|5632|27.543|259.43|79.18|None|None|None|None|None
+18355|35|5633|5.531|220.18|40.14|None|None|None|None|None
+18356|35|5634|5.531|220.18|40.14|None|None|None|None|None
+18357|35|5635|5.531|220.18|40.14|None|None|None|None|None
+18358|35|5636|12.59|103.37|283.48|None|None|None|None|None
+18359|35|5637|12.59|103.37|283.48|None|None|None|None|None
+18360|35|5638|12.59|103.37|283.48|None|None|None|None|None
+18361|35|5639|22.734|95.76|275.97|None|None|None|None|None
+18362|35|5640|22.734|95.76|275.97|None|None|None|None|None
+18363|35|5641|22.734|95.76|275.97|None|None|None|None|None
+18364|35|5642|17.064|233.07|52.94|None|None|None|None|None
+18365|35|5643|17.064|233.07|52.94|None|None|None|None|None
+18366|35|5644|17.064|233.07|52.94|None|None|None|None|None
+18367|35|5645|9.781|170.04|350.05|None|None|None|None|None
+18368|35|5646|9.781|170.04|350.05|None|None|None|None|None
+18369|35|5647|9.781|170.04|350.05|None|None|None|None|None
+18370|35|5648|9.526|127.64|307.71|None|None|None|None|None
+18371|35|5649|9.526|127.64|307.71|None|None|None|None|None
+18372|35|5650|9.526|127.64|307.71|None|None|None|None|None
+18373|35|5651|16.251|126.8|306.92|None|None|None|None|None
+18374|35|5652|16.251|126.8|306.92|None|None|None|None|None
+18375|35|5653|16.251|126.8|306.92|None|None|None|None|None
+18376|35|5654|28.188|235.88|55.66|None|None|None|None|None
+18377|35|5655|28.188|235.88|55.66|None|None|None|None|None
+18378|35|5656|28.188|235.88|55.66|None|None|None|None|None
+18379|35|5657|16.436|152.17|332.24|None|None|None|None|None
+18380|35|5658|16.436|152.17|332.24|None|None|None|None|None
+18381|35|5659|16.436|152.17|332.24|None|None|None|None|None
+18382|35|5660|23.406|205.69|25.6|None|None|None|None|None
+18383|35|5661|23.406|205.69|25.6|None|None|None|None|None
+18384|35|5662|23.406|205.69|25.6|None|None|None|None|None
+18385|35|5663|18.511|190.23|10.2|None|None|None|None|None
+18386|35|5664|18.511|190.23|10.2|None|None|None|None|None
+18387|35|5665|18.511|190.23|10.2|None|None|None|None|None
+18388|35|5666|26.151|137.02|317.18|None|None|None|None|None
+18389|35|5667|26.151|137.02|317.18|None|None|None|None|None
+18390|35|5668|26.151|137.02|317.18|None|None|None|None|None
+18391|35|5669|25.751|156.46|336.55|None|None|None|None|None
+18392|35|5670|25.751|156.46|336.55|None|None|None|None|None
+18393|35|5671|25.751|156.46|336.55|None|None|None|None|None
+53954|35|123|47.58|325.34|145.08|None|None|None|None|None
+53955|35|124|47.58|325.34|145.08|None|None|None|None|None
+53956|35|125|47.58|325.34|145.08|None|None|None|None|None
+53957|35|126|47.58|325.34|145.08|None|None|None|None|None
+53958|35|399|41.342|261.35|80.97|None|None|None|None|None
+53959|35|3369|34.194|207.69|27.54|None|None|None|None|None
+53960|35|3370|34.194|207.69|27.54|None|None|None|None|None
+53961|35|3371|34.194|207.69|27.54|None|None|None|None|None
+53962|35|8234|46.502|353.7|173.65|None|None|None|None|None
+53963|35|8235|46.502|353.7|173.65|None|None|None|None|None
+53964|35|8236|46.502|353.7|173.65|None|None|None|None|None
+53965|35|5582|48.386|15.8|195.93|None|None|None|None|None
+53966|35|5583|48.386|15.8|195.93|None|None|None|None|None
+53967|35|5584|48.386|15.8|195.93|None|None|None|None|None
+53968|35|8237|38.816|6.49|186.53|None|None|None|None|None
+53969|35|8238|38.816|6.49|186.53|None|None|None|None|None
+53970|35|8239|38.816|6.49|186.53|None|None|None|None|None
+53971|35|8240|43.269|26.44|206.62|None|None|None|None|None
+53972|35|8241|43.269|26.44|206.62|None|None|None|None|None
+53973|35|8242|43.269|26.44|206.62|None|None|None|None|None
+53974|35|8243|35.696|352.12|172.08|None|None|None|None|None
+53975|35|8244|35.696|352.12|172.08|None|None|None|None|None
+53976|35|8245|35.696|352.12|172.08|None|None|None|None|None
+53977|35|8252|46.023|304.61|124.25|None|None|None|None|None
+53978|35|8253|46.023|304.61|124.25|None|None|None|None|None
+53979|35|8254|46.023|304.61|124.25|None|None|None|None|None
+53980|35|8255|39.129|314.69|134.43|None|None|None|None|None
+53981|35|8256|39.129|314.69|134.43|None|None|None|None|None
+53982|35|8257|39.129|314.69|134.43|None|None|None|None|None
+53983|35|8258|39.198|43.12|223.37|None|None|None|None|None
+53984|35|8259|39.198|43.12|223.37|None|None|None|None|None
+53985|35|8260|39.198|43.12|223.37|None|None|None|None|None
+53986|35|8261|29.463|33.61|213.76|None|None|None|None|None
+53987|35|8262|29.463|33.61|213.76|None|None|None|None|None
+53988|35|8263|29.463|33.61|213.76|None|None|None|None|None
+53989|35|8264|34.113|52.83|233.09|None|None|None|None|None
+53990|35|8265|34.113|52.83|233.09|None|None|None|None|None
+53991|35|8266|34.113|52.83|233.09|None|None|None|None|None
+53992|35|8267|44.271|295.24|114.87|None|None|None|None|None
+53993|35|8268|44.271|295.24|114.87|None|None|None|None|None
+53994|35|8269|44.271|295.24|114.87|None|None|None|None|None
+53995|35|8270|45.604|69.9|250.3|None|None|None|None|None
+53996|35|8271|45.604|69.9|250.3|None|None|None|None|None
+53997|35|8272|45.604|69.9|250.3|None|None|None|None|None
+53998|35|251|45.604|69.9|250.3|None|None|None|None|None
+53999|35|252|45.604|69.9|250.3|None|None|None|None|None
+54000|35|8273|46.119|278.36|97.94|None|None|None|None|None
+54001|35|8274|46.119|278.36|97.94|None|None|None|None|None
+54002|35|8275|46.119|278.36|97.94|None|None|None|None|None
+54003|35|8276|33.497|71.96|252.26|None|None|None|None|None
+54004|35|8277|33.497|71.96|252.26|None|None|None|None|None
+54005|35|8278|33.497|71.96|252.26|None|None|None|None|None
+54006|35|8279|34.864|272.2|91.88|None|None|None|None|None
+54007|35|8280|34.864|272.2|91.88|None|None|None|None|None
+54008|35|8281|34.864|272.2|91.88|None|None|None|None|None
+54009|35|3375|34.864|272.2|91.88|None|None|None|None|None
+54010|35|3376|34.864|272.2|91.88|None|None|None|None|None
+54011|35|8306|29.441|84.6|264.87|None|None|None|None|None
+54012|35|8307|29.441|84.6|264.87|None|None|None|None|None
+54013|35|8308|29.441|84.6|264.87|None|None|None|None|None
+54014|35|8309|41.406|87.62|268.01|None|None|None|None|None
+54015|35|8310|41.406|87.62|268.01|None|None|None|None|None
+54016|35|8311|41.406|87.62|268.01|None|None|None|None|None
+54017|35|8282|46.084|268.65|88.22|None|None|None|None|None
+54018|35|8283|46.084|268.65|88.22|None|None|None|None|None
+54019|35|8284|46.084|268.65|88.22|None|None|None|None|None
+54020|35|8285|38.306|259.08|78.73|None|None|None|None|None
+54021|35|8286|38.306|259.08|78.73|None|None|None|None|None
+54022|35|8287|38.306|259.08|78.73|None|None|None|None|None
+54023|35|8312|34.867|100.94|281.26|None|None|None|None|None
+54024|35|8313|34.867|100.94|281.26|None|None|None|None|None
+54025|35|8314|34.867|100.94|281.26|None|None|None|None|None
+54026|35|8321|29.418|118.55|298.79|None|None|None|None|None
+54027|35|8322|29.418|118.55|298.79|None|None|None|None|None
+54028|35|8323|29.418|118.55|298.79|None|None|None|None|None
+54029|35|8324|39.623|115.13|295.46|None|None|None|None|None
+54030|35|8325|39.623|115.13|295.46|None|None|None|None|None
+54031|35|8326|39.623|115.13|295.46|None|None|None|None|None
+54032|35|8288|41.772|240.6|60.26|None|None|None|None|None
+54033|35|8289|41.772|240.6|60.26|None|None|None|None|None
+54034|35|8290|41.772|240.6|60.26|None|None|None|None|None
+54035|35|8291|36.681|128.12|308.39|None|None|None|None|None
+54036|35|8292|36.681|128.12|308.39|None|None|None|None|None
+54037|35|8293|36.681|128.12|308.39|None|None|None|None|None
+54038|35|10016|41.641|222.17|41.91|None|None|None|None|None
+54039|35|10017|41.641|222.17|41.91|None|None|None|None|None
+54040|35|10018|41.641|222.17|41.91|None|None|None|None|None
+54041|35|10019|30.347|178.78|358.78|None|None|None|None|None
+54042|35|10020|30.347|178.78|358.78|None|None|None|None|None
+54043|35|10021|30.347|178.78|358.78|None|None|None|None|None
+54044|35|8294|36.958|164.16|344.25|None|None|None|None|None
+54045|35|8295|36.958|164.16|344.25|None|None|None|None|None
+54046|35|8296|36.958|164.16|344.25|None|None|None|None|None
+54047|35|10022|47.429|207.3|27.1|None|None|None|None|None
+54048|35|10023|47.429|207.3|27.1|None|None|None|None|None
+54049|35|10024|47.429|207.3|27.1|None|None|None|None|None
+54050|35|10025|45.531|196.54|16.42|None|None|None|None|None
+54051|35|10026|45.531|196.54|16.42|None|None|None|None|None
+54052|35|10027|45.531|196.54|16.42|None|None|None|None|None
+54053|35|10028|41.562|178.02|358.03|None|None|None|None|None
+54054|35|10029|41.562|178.02|358.03|None|None|None|None|None
+54055|35|10030|41.562|178.02|358.03|None|None|None|None|None
+54056|35|8297|44.372|147.99|328.21|None|None|None|None|None
+54057|35|8298|44.372|147.99|328.21|None|None|None|None|None
+54058|35|8299|44.372|147.99|328.21|None|None|None|None|None
+54059|35|8300|46.743|136.63|316.92|None|None|None|None|None
+54060|35|8301|46.743|136.63|316.92|None|None|None|None|None
+54061|35|8302|46.743|136.63|316.92|None|None|None|None|None
+54062|35|8333|44.89|169.3|349.38|None|None|None|None|None
+54063|35|8334|44.89|169.3|349.38|None|None|None|None|None
+54064|35|8335|44.89|169.3|349.38|None|None|None|None|None
+
+# 
+# stations
+# 
+# Sid|Name|Network|Channel|LocationCode|Latitude|Longitude|ElevationMasl|Source
+76|JRO|CC|BHE||46.2751|-122.217798|1280.0|IRIS
+77|JRO|CC|BHN||46.2751|-122.217798|1280.0|IRIS
+78|JRO|CC|BHZ||46.2751|-122.217798|1280.0|IRIS
+85|SEP|CC|EHE||46.20021|-122.1906|2116.0|IRIS
+86|SEP|CC|EHN||46.20021|-122.1906|2116.0|IRIS
+87|SEP|CC|EHZ||46.20021|-122.1906|2116.0|IRIS
+88|STD|CC|BHE||46.23761|-122.22396|1268.0|IRIS
+89|STD|CC|BHN||46.23761|-122.22396|1268.0|IRIS
+90|STD|CC|BHZ||46.23761|-122.22396|1268.0|IRIS
+91|SUG|CC|EHZ||46.21555|-122.17626|1859.0|IRIS
+92|SWF2|CC|BHE||46.17835|-122.21677|1548.0|IRIS
+93|SWF2|CC|BHN||46.17835|-122.21677|1548.0|IRIS
+94|SWF2|CC|BHZ||46.17835|-122.21677|1548.0|IRIS
+95|VALT|CC|BHE||46.21422|-122.18925|1681.0|IRIS
+96|VALT|CC|BHN||46.21422|-122.18925|1681.0|IRIS
+97|VALT|CC|BHZ||46.21422|-122.18925|1681.0|IRIS
+104|B201|PB|EH1||46.3033|-122.2648|990.0|IRIS
+105|B201|PB|EH2||46.3033|-122.2648|990.0|IRIS
+106|B201|PB|EHZ||46.3033|-122.2648|990.0|IRIS
+107|B202|PB|EH1||46.2447|-122.1367|1218.6|IRIS
+108|B202|PB|EH2||46.2447|-122.1367|1218.6|IRIS
+109|B202|PB|EHZ||46.2447|-122.1367|1218.6|IRIS
+110|B203|PB|EH1||46.169|-122.333667|814.4|IRIS
+111|B203|PB|EH2||46.169|-122.333667|814.4|IRIS
+112|B203|PB|EHZ||46.169|-122.333667|814.4|IRIS
+113|B204|PB|EH1||46.136|-122.169|784.2|IRIS
+114|B204|PB|EH2||46.136|-122.169|784.2|IRIS
+115|B204|PB|EHZ||46.136|-122.169|784.2|IRIS
+129|CDF|UW|EHZ||46.11689|-122.04623|756.0|IRIS
+130|EDM|UW|EHZ||46.19717|-122.15121|1609.0|IRIS
+131|ELK|UW|EHZ||46.30539|-122.34205|1270.0|IRIS
+133|FL2|UW|EHZ||46.19622|-122.35149|1378.0|IRIS
+139|HSR|UW|EHZ||46.17428|-122.18065|1720.0|IRIS
+140|JUN|UW|EHZ||46.14706|-122.15243|1049.0|IRIS
+141|KOS|UW|EHZ||46.4628|-122.19602|610.0|IRIS
+378|LVP|UW|EHZ||46.06595|-122.40193|1130.0|IRIS
+152|MTM|UW|EHZ||46.02533|-122.21287|1121.0|IRIS
+164|SHW|UW|EHZ||46.19347|-122.23635|1425.0|IRIS
+165|SOS|UW|EHZ||46.24386|-122.13787|1270.0|IRIS
+172|STD|UW|EHZ||46.23761|-122.22396|1268.0|IRIS
+177|TDL|UW|EHZ||46.35067|-122.21704|1400.0|IRIS
+5585|ME04|XD|BHE||46.45061|-122.35194|2394.0|IRIS
+5586|ME04|XD|BHN||46.45061|-122.35194|2394.0|IRIS
+5587|ME04|XD|BHZ||46.45061|-122.35194|2394.0|IRIS
+5588|ME06|XD|BHE||46.46329|-122.19697|2109.0|IRIS
+5589|ME06|XD|BHN||46.46329|-122.19697|2109.0|IRIS
+5590|ME06|XD|BHZ||46.46329|-122.19697|2109.0|IRIS
+5591|MF05|XD|BHE||46.39037|-122.38676|2386.0|IRIS
+5592|MF05|XD|BHN||46.39037|-122.38676|2386.0|IRIS
+5593|MF05|XD|BHZ||46.39037|-122.38676|2386.0|IRIS
+5594|MG03|XD|BHE||46.33807|-122.47619|2091.0|IRIS
+5595|MG03|XD|BHN||46.33807|-122.47619|2091.0|IRIS
+5596|MG03|XD|BHZ||46.33807|-122.47619|2091.0|IRIS
+5597|MG05|XD|BHE||46.30588|-122.34193|4208.0|IRIS
+5598|MG05|XD|BHN||46.30588|-122.34193|4208.0|IRIS
+5599|MG05|XD|BHZ||46.30588|-122.34193|4208.0|IRIS
+5600|MG06|XD|BHE||46.35014|-122.21745|4618.0|IRIS
+5601|MG06|XD|BHN||46.35014|-122.21745|4618.0|IRIS
+5602|MG06|XD|BHZ||46.35014|-122.21745|4618.0|IRIS
+5603|MG07|XD|BHE||46.35285|-122.03101|4780.0|IRIS
+5604|MG07|XD|BHN||46.35285|-122.03101|4780.0|IRIS
+5605|MG07|XD|BHZ||46.35285|-122.03101|4780.0|IRIS
+5606|MG08|XD|BHE||46.34174|-121.92873|5075.0|IRIS
+5607|MG08|XD|BHN||46.34174|-121.92873|5075.0|IRIS
+5608|MG08|XD|BHZ||46.34174|-121.92873|5075.0|IRIS
+5609|MH03|XD|BHE||46.26842|-122.59412|1222.0|IRIS
+5610|MH03|XD|BHN||46.26842|-122.59412|1222.0|IRIS
+5611|MH03|XD|BHZ||46.26842|-122.59412|1222.0|IRIS
+5612|MH04|XD|BHE||46.27946|-122.42707|3016.0|IRIS
+5613|MH04|XD|BHN||46.27946|-122.42707|3016.0|IRIS
+5614|MH04|XD|BHZ||46.27946|-122.42707|3016.0|IRIS
+5615|MH07|XD|BHE||46.27981|-122.08202|3679.0|IRIS
+5616|MH07|XD|BHN||46.27981|-122.08202|3679.0|IRIS
+5617|MH07|XD|BHZ||46.27981|-122.08202|3679.0|IRIS
+5618|MI04|XD|BHE||46.19594|-122.41015|3011.0|IRIS
+5619|MI04|XD|BHN||46.19594|-122.41015|3011.0|IRIS
+5620|MI04|XD|BHZ||46.19594|-122.41015|3011.0|IRIS
+5621|MI05|XD|BHE||46.2311|-122.29212|4118.0|IRIS
+5622|MI05|XD|BHN||46.2311|-122.29212|4118.0|IRIS
+5623|MI05|XD|BHZ||46.2311|-122.29212|4118.0|IRIS
+5624|MI07|XD|BHE||46.24823|-122.07328|3688.0|IRIS
+5625|MI07|XD|BHN||46.24823|-122.07328|3688.0|IRIS
+5626|MI07|XD|BHZ||46.24823|-122.07328|3688.0|IRIS
+5627|MI08|XD|BHE||46.25385|-121.97448|4088.0|IRIS
+5628|MI08|XD|BHN||46.25385|-121.97448|4088.0|IRIS
+5629|MI08|XD|BHZ||46.25385|-121.97448|4088.0|IRIS
+5630|MJ03|XD|BHE||46.1591|-122.56496|1079.0|IRIS
+5631|MJ03|XD|BHN||46.1591|-122.56496|1079.0|IRIS
+5632|MJ03|XD|BHZ||46.1591|-122.56496|1079.0|IRIS
+5633|MJ06|XD|BHE||46.16705|-122.26062|3201.0|IRIS
+5634|MJ06|XD|BHN||46.16705|-122.26062|3201.0|IRIS
+5635|MJ06|XD|BHZ||46.16705|-122.26062|3201.0|IRIS
+5636|MJ07|XD|BHE||46.17878|-122.05578|1669.0|IRIS
+5637|MJ07|XD|BHN||46.17878|-122.05578|1669.0|IRIS
+5638|MJ07|XD|BHZ||46.17878|-122.05578|1669.0|IRIS
+5639|MJ09|XD|BHE||46.18418|-121.92144|3452.0|IRIS
+5640|MJ09|XD|BHN||46.18418|-121.92144|3452.0|IRIS
+5641|MJ09|XD|BHZ||46.18418|-121.92144|3452.0|IRIS
+5642|MK04|XD|BHE||46.1127|-122.39086|1581.0|IRIS
+5643|MK04|XD|BHN||46.1127|-122.39086|1581.0|IRIS
+5644|MK04|XD|BHZ||46.1127|-122.39086|1581.0|IRIS
+5645|MK06|XD|BHE||46.11841|-122.19253|659.0|IRIS
+5646|MK06|XD|BHN||46.11841|-122.19253|659.0|IRIS
+5647|MK06|XD|BHZ||46.11841|-122.19253|659.0|IRIS
+5648|MK07|XD|BHE||46.1527|-122.11677|3047.0|IRIS
+5649|MK07|XD|BHN||46.1527|-122.11677|3047.0|IRIS
+5650|MK07|XD|BHZ||46.1527|-122.11677|3047.0|IRIS
+5651|MK08|XD|BHE||46.11738|-122.04607|2500.0|IRIS
+5652|MK08|XD|BHN||46.11738|-122.04607|2500.0|IRIS
+5653|MK08|XD|BHZ||46.11738|-122.04607|2500.0|IRIS
+5654|ML03|XD|BHE||46.06243|-122.51601|1168.0|IRIS
+5655|ML03|XD|BHN||46.06243|-122.51601|1168.0|IRIS
+5656|ML03|XD|BHZ||46.06243|-122.51601|1168.0|IRIS
+5657|ML07|XD|BHE||46.07427|-122.11523|1922.0|IRIS
+5658|ML07|XD|BHN||46.07427|-122.11523|1922.0|IRIS
+5659|ML07|XD|BHZ||46.07427|-122.11523|1922.0|IRIS
+5660|MM04|XD|BHE||46.01525|-122.34545|1025.0|IRIS
+5661|MM04|XD|BHN||46.01525|-122.34545|1025.0|IRIS
+5662|MM04|XD|BHZ||46.01525|-122.34545|1025.0|IRIS
+5663|MM06|XD|BHE||46.04118|-122.25688|1972.0|IRIS
+5664|MM06|XD|BHN||46.04118|-122.25688|1972.0|IRIS
+5665|MM06|XD|BHZ||46.04118|-122.25688|1972.0|IRIS
+5666|MM08|XD|BHE||46.03273|-121.98412|3342.0|IRIS
+5667|MM08|XD|BHN||46.03273|-121.98412|3342.0|IRIS
+5668|MM08|XD|BHZ||46.03273|-121.98412|3342.0|IRIS
+5669|MN07|XD|BHE||45.99261|-122.08166|2825.0|IRIS
+5670|MN07|XD|BHN||45.99261|-122.08166|2825.0|IRIS
+5671|MN07|XD|BHZ||45.99261|-122.08166|2825.0|IRIS
+123|E04D|TA|BHE||46.5566|-122.5673|204.0|IRIS
+124|E04D|TA|BHN||46.5566|-122.5673|204.0|IRIS
+125|E04D|TA|BHZ||46.5566|-122.5673|204.0|IRIS
+126|E04D|TA|BDF|EP|46.5566|-122.5673|204.0|IRIS
+399|RVW|UW|EHZ||46.14794|-122.74347|460.0|IRIS
+3369|YACT|UW|HHE||45.9325|-122.4193|211.2|IRIS
+3370|YACT|UW|HHN||45.9325|-122.4193|211.2|IRIS
+3371|YACT|UW|HHZ||45.9325|-122.4193|211.2|IRIS
+8234|MB05|XD|BHE||46.62087|-122.28102|2102.0|IRIS
+8235|MB05|XD|BHN||46.62087|-122.28102|2102.0|IRIS
+8236|MB05|XD|BHZ||46.62087|-122.28102|2102.0|IRIS
+5582|MB07|XD|BHE||46.62378|-122.04239|2516.0|IRIS
+5583|MB07|XD|BHN||46.62378|-122.04239|2516.0|IRIS
+5584|MB07|XD|BHZ||46.62378|-122.04239|2516.0|IRIS
+8237|MC06|XD|BHE||46.55202|-122.1572|2526.0|IRIS
+8238|MC06|XD|BHN||46.55202|-122.1572|2526.0|IRIS
+8239|MC06|XD|BHZ||46.55202|-122.1572|2526.0|IRIS
+8240|MC08|XD|BHE||46.55335|-121.96322|2076.0|IRIS
+8241|MC08|XD|BHN||46.55335|-121.96322|2076.0|IRIS
+8242|MC08|XD|BHZ||46.55335|-121.96322|2076.0|IRIS
+8243|MD05|XD|BHE||46.52316|-122.27817|2354.0|IRIS
+8244|MD05|XD|BHN||46.52316|-122.27817|2354.0|IRIS
+8245|MD05|XD|BHZ||46.52316|-122.27817|2354.0|IRIS
+8252|ME02|XD|BHE||46.43916|-122.70734|518.0|IRIS
+8253|ME02|XD|BHN||46.43916|-122.70734|518.0|IRIS
+8254|ME02|XD|BHZ||46.43916|-122.70734|518.0|IRIS
+8255|ME03|XD|BHE||46.45207|-122.57647|1017.0|IRIS
+8256|ME03|XD|BHN||46.45207|-122.57647|1017.0|IRIS
+8257|ME03|XD|BHZ||46.45207|-122.57647|1017.0|IRIS
+8258|ME08|XD|BHE||46.46195|-121.86564|1963.0|IRIS
+8259|ME08|XD|BHN||46.46195|-121.86564|1963.0|IRIS
+8260|ME08|XD|BHZ||46.46195|-121.86564|1963.0|IRIS
+8261|MF07|XD|BHE||46.42563|-122.00227|1690.0|IRIS
+8262|MF07|XD|BHN||46.42563|-122.00227|1690.0|IRIS
+8263|MF07|XD|BHZ||46.42563|-122.00227|1690.0|IRIS
+8264|MF09|XD|BHE||46.38994|-121.861|3911.0|IRIS
+8265|MF09|XD|BHN||46.38994|-121.861|3911.0|IRIS
+8266|MF09|XD|BHZ||46.38994|-121.861|3911.0|IRIS
+8267|MG02|XD|BHE||46.37375|-122.73487|531.0|IRIS
+8268|MG02|XD|BHN||46.37375|-122.73487|531.0|IRIS
+8269|MG02|XD|BHZ||46.37375|-122.73487|531.0|IRIS
+8270|MG10|XD|BHE||46.34472|-121.65809|2929.0|IRIS
+8271|MG10|XD|BHN||46.34472|-121.65809|2929.0|IRIS
+8272|MG10|XD|BHZ||46.34472|-121.65809|2929.0|IRIS
+251|MG10|XD|HHE||46.34472|-121.65809|893.0|IRIS
+252|MG10|XD|HHN||46.34472|-121.65809|893.0|IRIS
+8273|MH01|XD|BHE||46.2639|-122.80627|646.0|IRIS
+8274|MH01|XD|BHN||46.2639|-122.80627|646.0|IRIS
+8275|MH01|XD|BHZ||46.2639|-122.80627|646.0|IRIS
+8276|MH09|XD|BHE||46.29767|-121.80103|3244.0|IRIS
+8277|MH09|XD|BHN||46.29767|-121.80103|3244.0|IRIS
+8278|MH09|XD|BHZ||46.29767|-121.80103|3244.0|IRIS
+8279|MI02|XD|BHE||46.21624|-122.66592|1144.0|IRIS
+8280|MI02|XD|BHN||46.21624|-122.66592|1144.0|IRIS
+8281|MI02|XD|BHZ||46.21624|-122.66592|1144.0|IRIS
+3375|MI02|XD|HHE||46.21624|-122.66592|348.8|IRIS
+3376|MI02|XD|HHN||46.21624|-122.66592|348.8|IRIS
+8306|MI09|XD|BHE||46.22937|-121.83447|3290.0|IRIS
+8307|MI09|XD|BHN||46.22937|-121.83447|3290.0|IRIS
+8308|MI09|XD|BHZ||46.22937|-121.83447|3290.0|IRIS
+8309|MI10|XD|BHE||46.21928|-121.67823|3283.0|IRIS
+8310|MI10|XD|BHN||46.21928|-121.67823|3283.0|IRIS
+8311|MI10|XD|BHZ||46.21928|-121.67823|3283.0|IRIS
+8282|MJ01|XD|BHE||46.19374|-122.81126|1113.0|IRIS
+8283|MJ01|XD|BHN||46.19374|-122.81126|1113.0|IRIS
+8284|MJ01|XD|BHZ||46.19374|-122.81126|1113.0|IRIS
+8285|MJ02|XD|BHE||46.13877|-122.7012|1040.0|IRIS
+8286|MJ02|XD|BHN||46.13877|-122.7012|1040.0|IRIS
+8287|MJ02|XD|BHZ||46.13877|-122.7012|1040.0|IRIS
+8312|MK10|XD|BHE||46.14467|-121.77133|3890.0|IRIS
+8313|MK10|XD|BHN||46.14467|-121.77133|3890.0|IRIS
+8314|MK10|XD|BHZ||46.14467|-121.77133|3890.0|IRIS
+8321|ML09|XD|BHE||46.07809|-121.88036|3752.0|IRIS
+8322|ML09|XD|BHN||46.07809|-121.88036|3752.0|IRIS
+8323|ML09|XD|BHZ||46.07809|-121.88036|3752.0|IRIS
+8324|ML10|XD|BHE||46.05278|-121.75087|4062.0|IRIS
+8325|ML10|XD|BHN||46.05278|-121.75087|4062.0|IRIS
+8326|ML10|XD|BHZ||46.05278|-121.75087|4062.0|IRIS
+8288|MM02|XD|BHE||46.01962|-122.68438|685.0|IRIS
+8289|MM02|XD|BHN||46.01962|-122.68438|685.0|IRIS
+8290|MM02|XD|BHZ||46.01962|-122.68438|685.0|IRIS
+8291|MN09|XD|BHE||46.00074|-121.8419|4113.0|IRIS
+8292|MN09|XD|BHN||46.00074|-121.8419|4113.0|IRIS
+8293|MN09|XD|BHZ||46.00074|-121.8419|4113.0|IRIS
+10016|MO03|XD|BHE||45.92685|-122.57483|833.0|IRIS
+10017|MO03|XD|BHN||45.92685|-122.57483|833.0|IRIS
+10018|MO03|XD|BHZ||45.92685|-122.57483|833.0|IRIS
+10019|MO06|XD|BHE||45.93212|-122.20608|2573.0|IRIS
+10020|MO06|XD|BHN||45.93212|-122.20608|2573.0|IRIS
+10021|MO06|XD|BHZ||45.93212|-122.20608|2573.0|IRIS
+8294|MO07|XD|BHE||45.88513|-122.08445|4094.0|IRIS
+8295|MO07|XD|BHN||45.88513|-122.08445|4094.0|IRIS
+8296|MO07|XD|BHZ||45.88513|-122.08445|4094.0|IRIS
+10022|MP03|XD|BHE||45.82557|-122.4944|413.0|IRIS
+10023|MP03|XD|BHN||45.82557|-122.4944|413.0|IRIS
+10024|MP03|XD|BHZ||45.82557|-122.4944|413.0|IRIS
+10025|MP04|XD|BHE||45.81228|-122.38123|1657.0|IRIS
+10026|MP04|XD|BHN||45.81228|-122.38123|1657.0|IRIS
+10027|MP04|XD|BHZ||45.81228|-122.38123|1657.0|IRIS
+10028|MP06|XD|BHE||45.83138|-122.19591|2610.0|IRIS
+10029|MP06|XD|BHN||45.83138|-122.19591|2610.0|IRIS
+10030|MP06|XD|BHZ||45.83138|-122.19591|2610.0|IRIS
+8297|MP08|XD|BHE||45.86615|-121.91156|2562.0|IRIS
+8298|MP08|XD|BHN||45.86615|-121.91156|2562.0|IRIS
+8299|MP08|XD|BHZ||45.86615|-121.91156|2562.0|IRIS
+8300|MP10|XD|BHE||45.89865|-121.80077|3705.0|IRIS
+8301|MP10|XD|BHN||45.89865|-121.80077|3705.0|IRIS
+8302|MP10|XD|BHZ||45.89865|-121.80077|3705.0|IRIS
+8333|MQ07|XD|BHE||45.80818|-122.10721|3402.0|IRIS
+8334|MQ07|XD|BHN||45.80818|-122.10721|3402.0|IRIS
+8335|MQ07|XD|BHZ||45.80818|-122.10721|3402.0|IRIS
+

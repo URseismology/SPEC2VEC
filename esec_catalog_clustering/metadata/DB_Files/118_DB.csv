@@ -1,0 +1,313 @@
+# 
+# events
+# 
+# Eventid|Name|Starttime|Endtime|Latitude|Longitude|LocuncertKm|CrownLat|CrownLon|TipLat|TipLon|Type|AreaTotal|AreaSource|AreaSourceLow|AreaSourceHigh|Volume|VolumeLow|VolumeHigh|Mass|MassLow|MassHigh|H|HLow|HHigh|L|LLow|LHigh|HFreefall|HFreefallLow|HFreefallHigh|UpstreamDrainarea|PeakDischarge|PeakDischargeLow|PeakDischargeHigh|PeakFlowheight|PeakFlowheightLow|PeakFlowheightHigh|Otherdataquality1to5|LPpotential|MaxdistvhfKm|MaxdistvhfReached|MaxdisthfKm|MaxdisthfReached|MaxdistipKm|MaxdistipReached|MaxdistlpKm|MaxdistlpReached|InfraDetected|MaxdistinfraKm|MaxdistinfraReached|DatLocation|Sources
+118|Nisqually 6|2011-06-29 03:42:04|2011-06-29 03:43:04|46.843|-121.75|0.2|46.843|-121.75|46.8205|-121.7379|rock fall, rock and ice avalanche|None|None|None|None|12000.0|8600.0|17000.0|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|4|0|None|None|13.0|1|None|None|0.0|None|None|None|None|IRIS|Allstadt, Kate E., McVey, Brennah G., and Malone, Stephen D., 2017, Seismogenic Landslides, Debris Flows, and Outburst Floods in the Western United States and Canada from 1977 to 2017: U.S. Geological Survey data release, https://doi.org/10.5066/F7251H3W.
+
+# 
+# gisfiles
+# 
+# GisId|Eventid|Type|Source|Description|FileExtension|ApplyAlso
+43|25|Static map - jpg|Google Earth - bmcvey; USDA Farm Service Agency|Google Earth Historical Imagery acquired on 09-25-2011 from USDA Farm Service Agency without event outline.|EventData/25_Nisqually2_25Jun2011/maps_gis/25_Nisqually2_25Jun2011_Staticmap_NoOutline.jpg|26,27,28,29,30,83,118,119,120
+44|25|GIS shapefile|ArcMap - bmcvey and QGIS - kallstadt|Outline of Source and runout based on GoogleEarth Imagery (gis_id 43)|EventData/25_Nisqually2_25Jun2011/maps_gis/25_Nisqually201106_outlines_UTM10N.zip|26,27,28,29,30,83,118,119,120
+45|25|GIS shapefile|ArcMap - bmcvey and QGIS - kallstadt|Centerline based on outline (gis_id 44)|EventData/25_Nisqually2_25Jun2011/maps_gis/25_Nisqually201106_centerline_UTM10N.zip|26,27,28,29,30,83,118,119,120
+98|25|Static map - jpg|Google Earth - bmcvey; USDA Farm Service Agency|Google Earth Historical Imagery acquired on 09-25-2011 from USDA Farm Service Agency with event outline shown.|EventData/25_Nisqually2_25Jun2011/maps_gis/25_Nisqually2_25Jun2011_Staticmap_WithOutline.jpg|26,27,28,29,30,83,118,119,120
+
+# 
+# information
+# 
+# Iid|Eventid|RefId|Note|PhoId|GISId|ApplyAlso
+129|25|None|Imagery found on Google Earth, used to make outlines, centerlines, and measure L and Areas, and Lat/Lon. Area estimates entered for this event represent all Nisqually events between 2011-06-24 and 2011-07-07.|None|43|26,27,28,29,30,83,118,119,120
+137|25|57|Total volume estimate for this sequence was determined by using bedrock landslide values in Larsen and others (2010) with bedrock scar area geometry and then dividing up the resulting total volume between events as explained in iid 322. Volume_high and Volume_low estimates made by propagating uncertainties in alpha and gamma values (Larsen and others) and standard deviation of source areas (Area_source_high, Area_source_low, Area_source). Estimates rounded to two significant digits.|None|None|26,27,28,29,30,83,118,119,120
+278|25|91|Amy Wright (PNSN) compiled a list of times for all seismically detected rockfalls in this sequence between 2011-06-24 and 2011-07-07, these were used to find the significant events in this sequence that were included in the database.|None|None|26,27,28,29,30,83,118,119,120
+322|25|49|Total volumes (iid 137) were partitioned proportionally between all the events (between 2011-06-24 and 2011-07-07) based on amplitudes at two nearby seismic stations, LON and OBSR (took mean of the two). This assumption is based on the findings of Norris (1994) who showed that when the failure path was similar and events were simple, the volume scaled linearly with amplitude. We include only the largest events in the database as there were countless smaller rockfalls during this sequence, though we included all detected events in the volume partitioning process. The total volume partitioned was 990,000 m3, with low and high estimates of 720,000 m3 and 1,400,000 m3, respectively.|None|None|26,27,28,29,30,83,118,119,120
+
+# 
+# photos
+# 
+# PhotoId|Eventid|Photographer|Description|Latitude|Longitude|Date|FileExtension|ApplyAlso
+226|118|Kate Allstadt|Raw waveforms from closest stations. Data was demeaned but no other processing was applied. Dashed lines show approximate start and end times of event (from database). Figure generation is automated and there may be artifacts present.|None|None|None|EventData/118_Nisqually6_29Jun2011/photos_figures/118_Nisqually6_29Jun2011_waveforms_raw.png|None
+227|118|Kate Allstadt|High frequency (1-5 Hz) ground velocity waveforms for station response from closest stations with detections. Dashed lines show approximate start and end times of event (from database). Waveforms are corrected for station response after removing the mean. Figure generation is automated and there may be artifacts present. Clipped waveforms have not been removed before station correction so check raw plots before interpreting high amplitude signals.|None|None|None|EventData/118_Nisqually6_29Jun2011/photos_figures/118_Nisqually6_29Jun2011_waveforms_1-5Hz.png|None
+228|118|Kate Allstadt|Spectrograms of velocity waveforms corrected for station sensitivity from closest stations with detections. Figure generation is automated and there may be artifacts present|None|None|None|EventData/118_Nisqually6_29Jun2011/photos_figures/118_Nisqually6_29Jun2011_spectrogram.png|None
+229|118|Kate Allstadt|Multitaper spectra (same units as Power Spectral Density) of velocity waveforms corrected for station sensitivity from closest stations with detections. Linear trend was removed and a taper was applied before generating spectra. Figure generation is automated and there may be artifacts present. Since station response was not removed to avoid adding artifacts at low frequencies for short and intermediate period stations, the lower frequency amplitudes should be interpreted with care.|None|None|None|EventData/118_Nisqually6_29Jun2011/photos_figures/118_Nisqually6_29Jun2011_spectra.png|None
+9|25|Kate Allstadt|Photos of deposit, one taken of J. Connolly standing on the deposits, from 9/25/2011|||2011-07-29 10:28:57|EventData/25_Nisqually2_25Jun2011/photos_figures/25_Nisqually2_25Jun2011_source-KateAllstadt_1.jpg|26,27,28,29,30,83,118,119,120
+1599|25|Kate Allstadt|Photos of deposit, one taken of J. Connolly standing on the deposits, from 9/25/2011||||EventData/25_Nisqually2_25Jun2011/photos_figures/25_Nisqually2_25Jun2011_source-KateAllstadt_2.png|26,27,28,29,30,83,118,119,120
+1600|25|Kate Allstadt|Photos of deposit, one taken of J. Connolly standing on the deposits, from 9/25/2011|||2011-07-27 22:54:33|EventData/25_Nisqually2_25Jun2011/photos_figures/25_Nisqually2_25Jun2011_source-KateAllstadt_3.jpg|26,27,28,29,30,83,118,119,120
+1601|25|Kate Allstadt|Photos of deposit, one taken of J. Connolly standing on the deposits, from 9/25/2011|||2011-07-28 00:22:22|EventData/25_Nisqually2_25Jun2011/photos_figures/25_Nisqually2_25Jun2011_source-KateAllstadt_4.jpg|26,27,28,29,30,83,118,119,120
+1602|25|Kate Allstadt|Photos of deposit, one taken of J. Connolly standing on the deposits, from 9/25/2011|||2011-07-29 10:29:57|EventData/25_Nisqually2_25Jun2011/photos_figures/25_Nisqually2_25Jun2011_source-KateAllstadt_5.jpg|26,27,28,29,30,83,118,119,120
+
+
+# 
+# sta_nearby
+# 
+# SRid|Eventid|Sid|StasourceRadiusKm|Az|Baz|DetectVHF|DetectHF|DetectIP|DetectLP|DetectINFRA
+130361|118|79|8.035|321.72|141.67|None|1|None|None|None
+130362|118|80|8.035|321.72|141.67|None|1|None|None|None
+130363|118|81|8.035|321.72|141.67|None|1|None|None|None
+130364|118|82|8.381|77.71|257.79|None|1|None|None|None
+130365|118|83|8.381|77.71|257.79|None|1|None|None|None
+130366|118|84|8.381|77.71|257.79|None|1|None|None|None
+130367|118|19274|74.456|307.35|126.78|None|None|None|None|None
+130368|118|19275|74.456|307.35|126.78|None|None|None|None|None
+130369|118|19276|74.456|307.35|126.78|None|None|None|None|None
+130370|118|19331|67.184|313.01|132.54|None|None|None|None|None
+130371|118|19332|67.184|313.01|132.54|None|None|None|None|None
+130372|118|19333|67.184|313.01|132.54|None|None|None|None|None
+130373|118|19340|73.265|304.6|124.02|None|None|None|None|None
+130374|118|19341|73.265|304.6|124.02|None|None|None|None|None
+130375|118|19342|73.265|304.6|124.02|None|None|None|None|None
+130376|118|104|71.81|213.52|33.15|None|None|None|None|None
+130377|118|105|71.81|213.52|33.15|None|None|None|None|None
+130378|118|106|71.81|213.52|33.15|None|None|None|None|None
+130379|118|107|72.822|204.18|23.89|None|None|None|None|None
+130380|118|108|72.822|204.18|23.89|None|None|None|None|None
+130381|118|109|72.822|204.18|23.89|None|None|None|None|None
+130382|118|116|39.14|294.28|113.93|None|None|None|None|None
+130383|118|117|39.14|294.28|113.93|None|None|None|None|None
+130384|118|118|39.14|294.28|113.93|None|None|None|None|None
+130385|118|123|70.148|243.31|62.71|None|None|None|None|None
+130386|118|124|70.148|243.31|62.71|None|None|None|None|None
+130387|118|125|70.148|243.31|62.71|None|None|None|None|None
+130388|118|19376|70.148|243.31|62.71|None|None|None|None|None
+130389|118|19377|70.148|243.31|62.71|None|None|None|None|None
+130390|118|19378|70.148|243.31|62.71|None|None|None|None|None
+130391|118|19496|64.401|359.48|179.47|None|None|None|None|None
+130392|118|19497|64.401|359.48|179.47|None|None|None|None|None
+130393|118|19498|64.401|359.48|179.47|None|None|None|None|None
+130394|118|19520|72.98|352.72|172.63|None|None|None|None|None
+130395|118|19521|72.98|352.72|172.63|None|None|None|None|None
+130396|118|19522|72.98|352.72|172.63|None|None|None|None|None
+130397|118|606|72.98|352.72|172.63|None|None|None|None|None
+130398|118|607|72.98|352.72|172.63|None|None|None|None|None
+130399|118|608|72.98|352.72|172.63|None|None|None|None|None
+130400|118|134|12.485|28.8|208.86|None|1|None|None|None
+130401|118|135|45.574|299.15|118.77|None|None|None|None|None
+130402|118|19541|45.574|299.15|118.77|None|None|None|None|None
+130403|118|19542|45.574|299.15|118.77|None|None|None|None|None
+130404|118|19543|45.574|299.15|118.77|None|None|None|None|None
+130405|118|19544|45.574|299.15|118.77|None|None|None|None|None
+130406|118|19545|45.574|299.15|118.77|None|None|None|None|None
+130407|118|19546|45.574|299.15|118.77|None|None|None|None|None
+130408|118|136|33.477|161.4|341.5|None|None|None|None|None
+130409|118|137|61.568|328.1|147.79|None|None|None|None|None
+130410|118|138|40.171|355.05|175.02|None|None|None|None|None
+130411|118|19586|73.679|325.84|145.44|None|None|None|None|None
+130412|118|19587|73.679|325.84|145.44|None|None|None|None|None
+130413|118|19588|73.679|325.84|145.44|None|None|None|None|None
+130414|118|19663|70.867|327.67|147.3|None|None|None|None|None
+130415|118|19664|70.867|327.67|147.3|None|None|None|None|None
+130416|118|19665|70.867|327.67|147.3|None|None|None|None|None
+130417|118|141|54.332|219.09|38.77|None|None|None|None|None
+130418|118|376|45.798|245.04|64.64|None|None|None|None|None
+130419|118|143|11.234|203.91|23.87|None|1|None|None|None
+130420|118|144|11.234|203.91|23.87|None|1|None|None|None
+130421|118|145|11.234|203.91|23.87|None|1|None|None|None
+130422|118|146|11.234|203.91|23.87|None|1|None|None|None
+130423|118|147|11.234|203.91|23.87|None|None|None|None|None
+130424|118|153|71.691|99.48|280.16|None|None|None|None|None
+130425|118|19756|57.818|312.47|132.06|None|None|None|None|None
+130426|118|19757|57.818|312.47|132.06|None|None|None|None|None
+130427|118|19758|57.818|312.47|132.06|None|None|None|None|None
+130428|118|19759|50.792|306.2|125.81|None|None|None|None|None
+130429|118|19760|50.792|306.2|125.81|None|None|None|None|None
+130430|118|19761|50.792|306.2|125.81|None|None|None|None|None
+130431|118|154|55.188|287.43|106.93|None|None|None|None|None
+130432|118|19762|55.188|287.43|106.93|None|None|None|None|None
+130433|118|19763|55.188|287.43|106.93|None|None|None|None|None
+130434|118|19764|55.188|287.43|106.93|None|None|None|None|None
+130435|118|626|42.357|277.13|96.73|None|None|None|None|None
+130436|118|22823|42.357|277.13|96.73|None|None|None|None|None
+130437|118|22824|42.357|277.13|96.73|None|None|None|None|None
+130438|118|22825|42.357|277.13|96.73|None|None|None|None|None
+130439|118|19798|69.452|316.97|136.51|None|None|None|None|None
+130440|118|19799|69.452|316.97|136.51|None|None|None|None|None
+130441|118|19800|69.452|316.97|136.51|None|None|None|None|None
+130442|118|19864|64.218|314.21|133.76|None|None|None|None|None
+130443|118|19865|64.218|314.21|133.76|None|None|None|None|None
+130444|118|19866|64.218|314.21|133.76|None|None|None|None|None
+130445|118|19906|69.31|328.96|148.62|None|None|None|None|None
+130446|118|19907|69.31|328.96|148.62|None|None|None|None|None
+130447|118|19908|69.31|328.96|148.62|None|None|None|None|None
+130448|118|19918|72.941|310.85|130.32|None|None|None|None|None
+130449|118|19919|72.941|310.85|130.32|None|None|None|None|None
+130450|118|19920|72.941|310.85|130.32|None|None|None|None|None
+130451|118|20014|72.386|304.96|124.39|None|None|None|None|None
+130452|118|20015|72.386|304.96|124.39|None|None|None|None|None
+130453|118|20016|72.386|304.96|124.39|None|None|None|None|None
+130454|118|20026|68.22|309.19|128.68|None|None|None|None|None
+130455|118|20027|68.22|309.19|128.68|None|None|None|None|None
+130456|118|20028|68.22|309.19|128.68|None|None|None|None|None
+130457|118|155|64.877|356.5|176.46|None|None|None|None|None
+130458|118|156|64.877|356.5|176.46|None|None|None|None|None
+130459|118|157|64.877|356.5|176.46|None|None|None|None|None
+130460|118|20068|64.877|356.5|176.46|None|None|None|None|None
+130461|118|20069|64.877|356.5|176.46|None|None|None|None|None
+130462|118|20070|64.877|356.5|176.46|None|None|None|None|None
+130463|118|20071|56.649|345.89|165.76|None|None|None|None|None
+130464|118|20072|56.649|345.89|165.76|None|None|None|None|None
+130465|118|20073|56.649|345.89|165.76|None|None|None|None|None
+130466|118|160|1.535|122.21|302.22|None|1|None|None|None
+130467|118|161|3.375|23.55|203.57|None|1|None|None|None
+130468|118|162|7.516|249.29|69.22|None|0|None|None|None
+130469|118|163|20.449|303.42|123.25|None|None|None|None|None
+130470|118|20101|54.368|317.86|137.5|None|None|None|None|None
+130471|118|20102|54.368|317.86|137.5|None|None|None|None|None
+130472|118|20103|54.368|317.86|137.5|None|None|None|None|None
+130473|118|165|72.944|204.21|23.93|None|None|None|None|None
+130474|118|169|3.39|284.93|104.9|None|1|None|None|None
+130475|118|170|3.39|284.93|104.9|None|1|None|None|None
+130476|118|171|3.39|284.93|104.9|None|1|None|None|None
+130477|118|20122|3.39|284.93|104.9|None|1|None|None|None
+130478|118|3929|42.445|334.76|154.59|None|None|None|None|None
+130479|118|3930|42.445|334.76|154.59|None|None|None|None|None
+130480|118|3931|42.445|334.76|154.59|None|None|None|None|None
+130481|118|22835|72.61|358.12|178.1|None|None|None|None|None
+130482|118|22836|72.61|358.12|178.1|None|None|None|None|None
+130483|118|22837|72.61|358.12|178.1|None|None|None|None|None
+130484|118|20141|65.83|314.7|134.25|None|None|None|None|None
+130485|118|20142|65.83|314.7|134.25|None|None|None|None|None
+130486|118|20143|65.83|314.7|134.25|None|None|None|None|None
+130487|118|177|65.391|213.35|33.01|None|None|None|None|None
+130488|118|181|74.576|63.59|244.23|None|None|None|None|None
+130489|118|20168|72.781|310.28|129.75|None|None|None|None|None
+130490|118|20169|72.781|310.28|129.75|None|None|None|None|None
+130491|118|20170|72.781|310.28|129.75|None|None|None|None|None
+130492|118|183|22.834|134.58|314.73|None|None|None|None|None
+
+# 
+# stations
+# 
+# Sid|Name|Network|Channel|LocationCode|Latitude|Longitude|ElevationMasl|Source
+79|OBSR|CC|BHE||46.899719|-121.815331|2382.0|IRIS
+80|OBSR|CC|BHN||46.899719|-121.815331|2382.0|IRIS
+81|OBSR|CC|BHZ||46.899719|-121.815331|2382.0|IRIS
+82|PANH|CC|BHE||46.859|-121.64261|2109.0|IRIS
+83|PANH|CC|BHN||46.859|-121.64261|2109.0|IRIS
+84|PANH|CC|BHZ||46.859|-121.64261|2109.0|IRIS
+19274|MAC|GS|HN1||47.2467|-122.5318|78.0|IRIS
+19275|MAC|GS|HN2||47.2467|-122.5318|78.0|IRIS
+19276|MAC|GS|HNZ||47.2467|-122.5318|78.0|IRIS
+19331|TFD|GS|HN1||47.2534|-122.399|4.0|IRIS
+19332|TFD|GS|HN2||47.2534|-122.399|4.0|IRIS
+19333|TFD|GS|HNZ||47.2534|-122.399|4.0|IRIS
+19340|UPL|GS|HN1||47.2145|-122.5461|122.0|IRIS
+19341|UPL|GS|HN2||47.2145|-122.5461|122.0|IRIS
+19342|UPL|GS|HNZ||47.2145|-122.5461|122.0|IRIS
+104|B201|PB|EH1||46.3033|-122.2648|990.0|IRIS
+105|B201|PB|EH2||46.3033|-122.2648|990.0|IRIS
+106|B201|PB|EHZ||46.3033|-122.2648|990.0|IRIS
+107|B202|PB|EH1||46.2447|-122.1367|1218.6|IRIS
+108|B202|PB|EH2||46.2447|-122.1367|1218.6|IRIS
+109|B202|PB|EHZ||46.2447|-122.1367|1218.6|IRIS
+116|B941|PB|EH1||46.9868|-122.219|151.0|IRIS
+117|B941|PB|EH2||46.9868|-122.219|151.0|IRIS
+118|B941|PB|EHZ||46.9868|-122.219|151.0|IRIS
+123|E04D|TA|BHE||46.5566|-122.5673|204.0|IRIS
+124|E04D|TA|BHN||46.5566|-122.5673|204.0|IRIS
+125|E04D|TA|BHZ||46.5566|-122.5673|204.0|IRIS
+19376|E04D|TA|HNE||46.5566|-122.5673|204.0|IRIS
+19377|E04D|TA|HNN||46.5566|-122.5673|204.0|IRIS
+19378|E04D|TA|HNZ||46.5566|-122.5673|204.0|IRIS
+19496|CDMR|UW|ENE||47.42226|-121.75779|479.0|IRIS
+19497|CDMR|UW|ENN||47.42226|-121.75779|479.0|IRIS
+19498|CDMR|UW|ENZ||47.42226|-121.75779|479.0|IRIS
+19520|ELW|UW|ENE||47.4941|-121.87267|267.0|IRIS
+19521|ELW|UW|ENN||47.4941|-121.87267|267.0|IRIS
+19522|ELW|UW|ENZ||47.4941|-121.87267|267.0|IRIS
+606|ELW|UW|HHE||47.4941|-121.87267|267.0|IRIS
+607|ELW|UW|HHN||47.4941|-121.87267|267.0|IRIS
+608|ELW|UW|HHZ||47.4941|-121.87267|267.0|IRIS
+134|FMW|UW|EHZ||46.94139|-121.67101|1859.0|IRIS
+135|GHW|UW|EHZ||47.04149|-122.27373|268.0|IRIS
+19541|GHW|UW|ENE||47.04149|-122.27373|268.0|IRIS
+19542|GHW|UW|ENN||47.04149|-122.27373|268.0|IRIS
+19543|GHW|UW|ENZ||47.04149|-122.27373|268.0|IRIS
+19544|GHW|UW|HNE||47.04149|-122.27373|268.0|IRIS
+19545|GHW|UW|HNN||47.04149|-122.27373|268.0|IRIS
+19546|GHW|UW|HNZ||47.04149|-122.27373|268.0|IRIS
+136|GLK|UW|EHZ||46.5575|-121.61073|1305.0|IRIS
+137|GRCC|UW|BHZ||47.31237|-122.18028|134.0|IRIS
+138|GSM|UW|EHZ||47.20299|-121.79572|1305.0|IRIS
+19586|HICC|UW|ENE||47.39012|-122.2979|115.0|IRIS
+19587|HICC|UW|ENN||47.39012|-122.2979|115.0|IRIS
+19588|HICC|UW|ENZ||47.39012|-122.2979|115.0|IRIS
+19663|KNEL|UW|ENE||47.38052|-122.25193|14.0|IRIS
+19664|KNEL|UW|ENN||47.38052|-122.25193|14.0|IRIS
+19665|KNEL|UW|ENZ||47.38052|-122.25193|14.0|IRIS
+141|KOS|UW|EHZ||46.4628|-122.19602|610.0|IRIS
+376|LMW|UW|EHZ||46.66783|-122.29255|1195.0|IRIS
+143|LO2|UW|EHZ||46.7506|-121.8096|853.0|IRIS
+144|LON|UW|BHE||46.7506|-121.8096|853.0|IRIS
+145|LON|UW|BHN||46.7506|-121.8096|853.0|IRIS
+146|LON|UW|BHZ||46.7506|-121.8096|853.0|IRIS
+147|LON|UW|EHZ||46.7506|-121.8096|853.0|IRIS
+153|NAC|UW|EHZ||46.73301|-120.82485|728.0|IRIS
+19756|PAYL|UW|ENE||47.19278|-122.31278|10.0|IRIS
+19757|PAYL|UW|ENN||47.19278|-122.31278|10.0|IRIS
+19758|PAYL|UW|ENZ||47.19278|-122.31278|10.0|IRIS
+19759|PCEP|UW|ENE||47.1116|-122.29|160.0|IRIS
+19760|PCEP|UW|ENN||47.1116|-122.29|160.0|IRIS
+19761|PCEP|UW|ENZ||47.1116|-122.29|160.0|IRIS
+154|PCFR|UW|EHZ||46.98962|-122.44218|137.0|IRIS
+19762|PCFR|UW|ENE||46.98962|-122.44218|137.0|IRIS
+19763|PCFR|UW|ENN||46.98962|-122.44218|137.0|IRIS
+19764|PCFR|UW|ENZ||46.98962|-122.44218|137.0|IRIS
+626|PCMD|UW|EHZ||46.88896|-122.30148|239.0|IRIS
+22823|PCMD|UW|ENE||46.88896|-122.30148|239.0|IRIS
+22824|PCMD|UW|ENN||46.88896|-122.30148|239.0|IRIS
+22825|PCMD|UW|ENZ||46.88896|-122.30148|239.0|IRIS
+19798|QBGD|UW|HNE||47.29793|-122.37667|117.0|IRIS
+19799|QBGD|UW|HNN||47.29793|-122.37667|117.0|IRIS
+19800|QBGD|UW|HNZ||47.29793|-122.37667|117.0|IRIS
+19864|QFFG|UW|HNE||47.24417|-122.35802|4.0|IRIS
+19865|QFFG|UW|HNN||47.24417|-122.35802|4.0|IRIS
+19866|QFFG|UW|HNZ||47.24417|-122.35802|4.0|IRIS
+19906|QJEA|UW|HNE||47.37622|-122.22317|79.0|IRIS
+19907|QJEA|UW|HNN||47.37622|-122.22317|79.0|IRIS
+19908|QJEA|UW|HNZ||47.37622|-122.22317|79.0|IRIS
+19918|QKSO|UW|HNE||47.26988|-122.47907|98.0|IRIS
+19919|QKSO|UW|HNN||47.26988|-122.47907|98.0|IRIS
+19920|QKSO|UW|HNZ||47.26988|-122.47907|98.0|IRIS
+20014|QSKT|UW|HNE||47.21344|-122.53312|128.0|IRIS
+20015|QSKT|UW|HNN||47.21344|-122.53312|128.0|IRIS
+20016|QSKT|UW|HNZ||47.21344|-122.53312|128.0|IRIS
+20026|QTKM|UW|HNE||47.22864|-122.44819|105.0|IRIS
+20027|QTKM|UW|HNN||47.22864|-122.44819|105.0|IRIS
+20028|QTKM|UW|HNZ||47.22864|-122.44819|105.0|IRIS
+155|RATT|UW|BHE||47.42546|-121.80254|440.0|IRIS
+156|RATT|UW|BHN||47.42546|-121.80254|440.0|IRIS
+157|RATT|UW|BHZ||47.42546|-121.80254|440.0|IRIS
+20068|RATT|UW|ENE||47.42546|-121.80254|440.0|IRIS
+20069|RATT|UW|ENN||47.42546|-121.80254|440.0|IRIS
+20070|RATT|UW|ENZ||47.42546|-121.80254|440.0|IRIS
+20071|RAW|UW|ENE||47.33705|-121.93267|208.0|IRIS
+20072|RAW|UW|ENN||47.33705|-121.93267|208.0|IRIS
+20073|RAW|UW|ENZ||47.33705|-121.93267|208.0|IRIS
+160|RCM|UW|EHZ||46.83564|-121.732979|3085.0|IRIS
+161|RCS|UW|EHZ||46.87083|-121.73231|2877.0|IRIS
+162|RER|UW|EHZ||46.81905|-121.84213|1756.0|IRIS
+163|RVC|UW|EHZ||46.94408|-121.97419|1000.0|IRIS
+20101|SMNR|UW|ENE||47.2046|-122.2315|22.0|IRIS
+20102|SMNR|UW|ENN||47.2046|-122.2315|22.0|IRIS
+20103|SMNR|UW|ENZ||47.2046|-122.2315|22.0|IRIS
+165|SOS|UW|EHZ||46.24386|-122.13787|1270.0|IRIS
+169|STAR|UW|EHE||46.850849|-121.792953|3365.0|IRIS
+170|STAR|UW|EHN||46.850849|-121.792953|3365.0|IRIS
+171|STAR|UW|EHZ||46.850849|-121.792953|3365.0|IRIS
+20122|STAR|UW|ELZ||46.850849|-121.792953|3365.0|IRIS
+3929|STOR|UW|BHE||47.1881|-121.9888|266.4|IRIS
+3930|STOR|UW|BHN||47.1881|-121.9888|266.4|IRIS
+3931|STOR|UW|BHZ||47.1881|-121.9888|266.4|IRIS
+22835|SVTR|UW|ENE||47.49576|-121.78159|146.0|IRIS
+22836|SVTR|UW|ENN||47.49576|-121.78159|146.0|IRIS
+22837|SVTR|UW|ENZ||47.49576|-121.78159|146.0|IRIS
+20141|TBPA|UW|ENE||47.25788|-122.36818|2.0|IRIS
+20142|TBPA|UW|ENN||47.25788|-122.36818|2.0|IRIS
+20143|TBPA|UW|ENZ||47.25788|-122.36818|2.0|IRIS
+177|TDL|UW|EHZ||46.35067|-122.21704|1400.0|IRIS
+181|TWW|UW|EHZ||47.13801|-120.86952|1027.0|IRIS
+20168|UPS|UW|ENE||47.26394|-122.48364|113.0|IRIS
+20169|UPS|UW|ENN||47.26394|-122.48364|113.0|IRIS
+20170|UPS|UW|ENZ||47.26394|-122.48364|113.0|IRIS
+183|WPW|UW|EHZ||46.69864|-121.53734|1280.0|IRIS
+

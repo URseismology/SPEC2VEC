@@ -1,0 +1,28 @@
+Libraries Required:
+-------------------------
+conda create -n spec2vec python=3.10 numpy=2.2 matplotlib pandas scikit-learn scipy seaborn notebook jupyterlab
+pip install obspy
+pip install antropy
+pip install tsfel
+pip install ordpy
+pip install numpy-hilbert-curve
+pip install pyradiomics
+pip install scikit-image
+pip install h5py
+pip install shap
+pip install pyfastnoisesimd
+pip install structify-net
+pip install gstools
+pip install git+https://github.com/PMEAL/porespy.git@dev
+pip install sktime
+
+Additional Requirements:
+-------------------------
+pip install global-land-mask
+pip install pyproj
+pip install xarray
+pip install netCDF4
+pip install geopandas
+
+If any Issue the following might be helpful:
+!{sys.executable} -m pip install jwave

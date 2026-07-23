@@ -1,0 +1,80 @@
+# 
+# events
+# 
+# Eventid|Name|Starttime|Endtime|Latitude|Longitude|LocuncertKm|CrownLat|CrownLon|TipLat|TipLon|Type|AreaTotal|AreaSource|AreaSourceLow|AreaSourceHigh|Volume|VolumeLow|VolumeHigh|Mass|MassLow|MassHigh|H|HLow|HHigh|L|LLow|LHigh|HFreefall|HFreefallLow|HFreefallHigh|UpstreamDrainarea|PeakDischarge|PeakDischargeLow|PeakDischargeHigh|PeakFlowheight|PeakFlowheightLow|PeakFlowheightHigh|Otherdataquality1to5|LPpotential|MaxdistvhfKm|MaxdistvhfReached|MaxdisthfKm|MaxdisthfReached|MaxdistipKm|MaxdistipReached|MaxdistlpKm|MaxdistlpReached|InfraDetected|MaxdistinfraKm|MaxdistinfraReached|DatLocation|Sources
+239|Eiger 2, Switzerland|2006-07-13 17:39:30|2006-07-13 17:41:06|46.59721|8.053796|0.2|None|None|None|None|rock fall|None|None|None|None|20000.0|16000.0|24000.0|None|None|None|200.0|None|None|260.0|None|None|None|None|None|None|None|None|None|None|None|None|5|0|None|None|141.0|0|None|None|0.0|None|None|None|None|INGV, ETH|Collins, E.A., Allstadt, K.E., Groult, C., Hibert, C., Malet, J.-P., Toney, L.D., and Bessette-Kirton, E., 2022, Seismogenic Landslides and other Mass Movements: U.S. Geological Survey data release, https://doi.org/10.5066/P90VGCSK.
+
+
+# 
+# information
+# 
+# Iid|Eventid|RefId|Note|PhoId|GISId|ApplyAlso
+489|234|220|This event occurred in gneisses based on ELSUS v2 (Wilde and others, 2018).|None|None|235,238,239,240,241,242,257,258,254,233,210,225,213
+495|238|208|Location, H, L, volume, and type were taken from Dammeier and others (2011). Low and high volume estimates were calculated from a 20% uncertainty range noted in Dammeier and others (2011).|None|None|237,239,240,241,242,243,244,250,251,235,255,256
+530|191|None|Horizontal components for several stations which detected these events were not reviewed.|None|None|192,193,194,195,196,197,198,199,200,201,202,203,204,205,206,207,208,209,210,211,212,213,214,215,216,217,218,219,220,221,222,223,224,225,226,227,228,229,230,231,232,233,234,235,236,237,238,239,240,241,242,243,244,245,246,247,248,249,250,251,252,253,254,255,256,257,258
+585|238|236|Oppikofer and others (2008) report a total volume estimate of 169,000 m3 for the two 13 July 2006 Eiger events based on terrestrial laser scanning analysis.|None|None|239
+
+# 
+# photos
+# 
+# PhotoId|Eventid|Photographer|Description|Latitude|Longitude|Date|FileExtension|ApplyAlso
+1237|239|Elaine Collins|Raw waveforms from closest stations. Data was demeaned but no other processing was applied. Dashed lines show approximate start and end times of event (from database). Figure generation is automated and there may be artifacts present.|None|None|None|EventData/239_Eiger2Switzerland_13Jul2006/photos_figures/239_Eiger2Switzerland_13Jul2006_waveforms_raw.png|None
+1238|239|Elaine Collins|High frequency (1-5 Hz) ground velocity waveforms for station response from closest stations with detections. Dashed lines show approximate start and end times of event (from database). Waveforms are corrected for station response after removing the mean. Figure generation is automated and there may be artifacts present. Clipped waveforms have not been removed before station correction so check raw plots before interpreting high amplitude signals.|None|None|None|EventData/239_Eiger2Switzerland_13Jul2006/photos_figures/239_Eiger2Switzerland_13Jul2006_waveforms_1-5Hz.png|None
+1239|239|Elaine Collins|Spectrograms of velocity waveforms corrected for station sensitivity from closest stations with detections. Figure generation is automated and there may be artifacts present|None|None|None|EventData/239_Eiger2Switzerland_13Jul2006/photos_figures/239_Eiger2Switzerland_13Jul2006_spectrogram.png|None
+1240|239|Elaine Collins|Multitaper spectra (same units as Power Spectral Density) of velocity waveforms corrected for station sensitivity from closest stations with detections. Linear trend was removed and a taper was applied before generating spectra. Figure generation is automated and there may be artifacts present. Since station response was not removed to avoid adding artifacts at low frequencies for short and intermediate period stations, the lower frequency amplitudes should be interpreted with care.|None|None|None|EventData/239_Eiger2Switzerland_13Jul2006/photos_figures/239_Eiger2Switzerland_13Jul2006_spectra.png|None
+
+
+# 
+# sta_nearby
+# 
+# SRid|Eventid|Sid|StasourceRadiusKm|Az|Baz|DetectVHF|DetectHF|DetectIP|DetectLP|DetectINFRA
+186942|239|37877|19.238852951534657|22.743721397139527|202.81456081693753|None|1|None|None|None
+186943|239|37899|33.65600422753447|283.03547383279675|102.72316508639|None|1|None|None|None
+186944|239|37896|40.16187422350156|234.65577819267057|54.34633205827713|None|1|None|None|None
+186945|239|37869|41.50023617085324|42.91636794342144|223.186598522129|None|1|None|None|None
+186946|239|37859|49.21598866115055|108.49068868108196|288.9327097215615|None|1|None|None|None
+186947|239|37867|60.57262507293103|47.03238345605977|227.45744610753374|None|1|None|None|None
+186948|239|37881|61.15829686498566|186.52018398155542|6.455302838754053|None|1|None|None|None
+186949|239|37920|63.34802065859539|246.10642174891976|65.55936158259517|None|1|None|None|None
+186950|239|37861|77.86787428174155|68.83687106389634|249.53175702953317|None|1|None|None|None
+186951|239|37931|81.8982595382314|242.33898401156506|61.65599985937867|None|1|None|None|None
+186952|239|38155|86.54611545468914|341.73360315482273|161.47122355259003|None|1|None|None|None
+186953|239|37935|88.96322611504831|251.83530883648953|71.0371733833399|None|1|None|None|None
+186954|239|37934|97.0233907069478|239.1928657267995|58.41056246077282|None|1|None|None|None
+186955|239|37848|99.91507441155687|97.50021954193203|278.4390675827378|None|1|None|None|None
+186956|239|37853|106.8070394892977|134.22673661648764|314.94050455043146|None|1|None|None|None
+186957|239|37942|108.37386400270096|325.0165764686639|144.41418878730076|None|1|None|None|None
+186958|239|37864|112.77866106004848|63.124599166461365|244.09231004413206|None|1|None|None|None
+186959|239|37937|119.61122331100461|220.16581609188938|39.44943346109459|None|1|None|None|None
+186960|239|37969|126.2213498880359|287.9940388568793|106.84224602807105|None|1|None|None|None
+186961|239|37870|133.88556102967544|54.17746280301909|235.22825010373768|None|1|None|None|None
+186962|239|37972|136.89761031953685|267.6992591106369|86.40058373151382|None|1|None|None|None
+186963|239|37851|140.73774490766684|81.03602954978219|262.3645529212901|None|1|None|None|None
+
+# 
+# stations
+# 
+# Sid|Name|Network|Channel|LocationCode|Latitude|Longitude|ElevationMasl|Source
+37877|HASLI|CH|HHZ||46.75681|8.15117|1280.0|ETH,IRIS
+37899|WIMIS|CH|HHZ||46.66488|7.62418|770.0|ETH
+37896|LKBD|CH|EHZ||46.38703|7.62714|1550.0|ETH
+37869|BNALP|CH|HHZ||46.87034|8.4249|1549.0|ETH
+37859|FUSIO|CH|HHZ||46.45481|8.6629|1460.0|ETH
+37867|MUO|CH|HHZ||46.96765|8.63706|1920.0|ETH
+37881|MMK|CH|HHZ||46.0507|7.96409|2200.0|ETH
+37920|SENIN|CH|HHZ||46.36335|7.29938|2019.6|ETH,IRIS
+37861|LLS|CH|HHZ||46.84676|9.00825|1860.0|ETH
+37931|GRYON|CH|HHZ||46.25053|7.11106|1282.0|ETH
+38155|BALST|CH|HHZ||47.33599|7.69485|860.0|ETH
+37935|AIGLE|CH|HHZ||46.34176|6.95295|785.0|ETH
+37934|SALAN|CH|HHZ||46.14415|6.97302|1881.3|ETH
+37848|TUE|MN|BHZ||46.47223|9.34732|1924.0|IRIS,INGV
+37853|MUGIO|CH|HHZ||45.92184|9.04171|924.0|ETH,IRIS
+37942|BOURR|CH|HHZ||47.39364|7.2301|846.8|ETH
+37864|PLONS|CH|HHZ||47.04921|9.38076|1022.0|ETH
+37937|MRGE|IV|HHZ||45.76975|7.06101|1660.0|INGV
+37969|BRANT|CH|HHZ||46.93801|6.47298|1145.0|ETH,IRIS
+37870|LIENZ|CH|HHZ||47.294437|9.491773|1567.0|ETH,IRIS
+37972|GIMEL|CH|HHZ||46.53364|6.26545|1094.0|ETH
+37851|DAVOX|CH|HHZ||46.7805|9.87952|1830.0|ETH
+

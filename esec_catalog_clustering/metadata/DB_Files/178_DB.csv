@@ -1,0 +1,224 @@
+# 
+# events
+# 
+# Eventid|Name|Starttime|Endtime|Latitude|Longitude|LocuncertKm|CrownLat|CrownLon|TipLat|TipLon|Type|AreaTotal|AreaSource|AreaSourceLow|AreaSourceHigh|Volume|VolumeLow|VolumeHigh|Mass|MassLow|MassHigh|H|HLow|HHigh|L|LLow|LHigh|HFreefall|HFreefallLow|HFreefallHigh|UpstreamDrainarea|PeakDischarge|PeakDischargeLow|PeakDischargeHigh|PeakFlowheight|PeakFlowheightLow|PeakFlowheightHigh|Otherdataquality1to5|LPpotential|MaxdistvhfKm|MaxdistvhfReached|MaxdisthfKm|MaxdisthfReached|MaxdistipKm|MaxdistipReached|MaxdistlpKm|MaxdistlpReached|InfraDetected|MaxdistinfraKm|MaxdistinfraReached|DatLocation|Sources
+178|Tahoma Creek, Mount Rainier|2019-08-06 01:44:32|2019-08-06 03:12:34|46.8191|-121.81|0.2|46.8191|-121.81|None|None|outburst flood, debris flow|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|3|0|13.0|1|18.0|1|None|None|0.0|None|0|0.0|None|IRIS|Collins, E.A., Allstadt, K.E., Groult, C., Hibert, C., Malet, J.-P., Toney, L.D., and Bessette-Kirton, E., 2022, Seismogenic Landslides and other Mass Movements: U.S. Geological Survey data release, https://doi.org/10.5066/P90VGCSK.
+
+
+# 
+# information
+# 
+# Iid|Eventid|RefId|Note|PhoId|GISId|ApplyAlso
+466|178|177|Location based off images of outburst flood initiation point distributed by the Mount Rainier National Park Service via Flickr.|None|None|None
+467|178|178|"Scott’s initial hypothesis that this was a catastrophic change that then rapidly incised into debris-covered stagnant ice and ground-cored moraine just downstream and between bedrock “steps” below the glacier. Once it had enough momentum, it then rapidly bulked up into little ice age ground moraine several km’s below the terminus. The run out ended about 6.5 – 7 km’s downstream where the boulder fields were deposited." - Quote from Petley (2019) referencing Scott Beason, Mount Rainier NPS - Park Geologist.|None|None|None
+
+# 
+# photos
+# 
+# PhotoId|Eventid|Photographer|Description|Latitude|Longitude|Date|FileExtension|ApplyAlso
+859|178|Elaine Collins|Raw waveforms from closest stations. Data was demeaned but no other processing was applied. Dashed lines show approximate start and end times of event (from database). Figure generation is automated and there may be artifacts present.|None|None|None|EventData/178_TahomaCreekMountRainier_06Aug2019/photos_figures/178_TahomaCreekMountRainier_06Aug2019_waveforms_raw.png|None
+860|178|Elaine Collins|High frequency (1-5 Hz) ground velocity waveforms for station response from closest stations with detections. Dashed lines show approximate start and end times of event (from database). Waveforms are corrected for station response after removing the mean. Figure generation is automated and there may be artifacts present. Clipped waveforms have not been removed before station correction so check raw plots before interpreting high amplitude signals.|None|None|None|EventData/178_TahomaCreekMountRainier_06Aug2019/photos_figures/178_TahomaCreekMountRainier_06Aug2019_waveforms_1-5Hz.png|None
+861|178|Elaine Collins|Spectrograms of velocity waveforms corrected for station sensitivity from closest stations with detections. Figure generation is automated and there may be artifacts present|None|None|None|EventData/178_TahomaCreekMountRainier_06Aug2019/photos_figures/178_TahomaCreekMountRainier_06Aug2019_spectrogram.png|None
+862|178|Elaine Collins|Multitaper spectra (same units as Power Spectral Density) of velocity waveforms corrected for station sensitivity from closest stations with detections. Linear trend was removed and a taper was applied before generating spectra. Figure generation is automated and there may be artifacts present. Since station response was not removed to avoid adding artifacts at low frequencies for short and intermediate period stations, the lower frequency amplitudes should be interpreted with care.|None|None|None|EventData/178_TahomaCreekMountRainier_06Aug2019/photos_figures/178_TahomaCreekMountRainier_06Aug2019_spectra.png|None
+
+# 
+# reference
+# 
+# Refid|Eventid|ApplyAlso|LongRef|ShortRef|FileExtension|Url
+177|178|None|Mount Rainier National Park Service, 6 Aug 2019, Tahoma Creek Debris Flow, August 5, 2019 [Photos]: Flickr, Accessed 27 Aug 2021, at https://www.flickr.com/photos/mountrainiernps/sets/72157710161403356/|Mount Rainier NPS (2019)|None|https://www.flickr.com/photos/mountrainiernps/sets/72157710161403356/
+178|178|None|Petley, D., 8 Aug 2019, The Landslide Blog, The South Tahoma Glacier/Tahoma Creek Outburst Flood & Debris Flow on 5th August 2019 [Blog Post], Accessed 27 Aug 2021, at https://blogs.agu.org/landslideblog/2019/08/08/the-south-tahoma-glacier-tahoma-creek-outburst-flood-debris-flow-on-5th-august-2019/|Petley (2019)|None|https://blogs.agu.org/landslideblog/2019/08/08/the-south-tahoma-glacier-tahoma-creek-outburst-flood-debris-flow-on-5th-august-2019/
+
+# 
+# sta_nearby
+# 
+# SRid|Eventid|Sid|StasourceRadiusKm|Az|Baz|DetectVHF|DetectHF|DetectIP|DetectLP|DetectINFRA
+169772|178|79|8.972|357.41|177.4|0|0|None|None|None
+169773|178|80|8.972|357.41|177.4|0|0|None|None|None
+169774|178|81|8.972|357.41|177.4|0|0|None|None|None
+169775|178|82|13.518|70.78|250.91|0|1|None|None|None
+169776|178|83|13.518|70.78|250.91|0|1|None|None|None
+169777|178|84|13.518|70.78|250.91|0|1|None|None|None
+169778|178|24391|19.397|298.98|118.82|0|None|None|None|None
+169779|178|24392|19.397|298.98|118.82|0|None|None|None|None
+169780|178|24393|19.397|298.98|118.82|0|None|None|None|None
+169781|178|24394|18.345|312.17|132.04|0|None|None|None|None
+169782|178|24395|18.345|312.17|132.04|0|None|None|None|None
+169783|178|24396|18.345|312.17|132.04|0|None|None|None|None
+169784|178|24397|10.889|283.41|103.3|0|1|None|None|None
+169785|178|24398|10.889|283.41|103.3|0|1|None|None|None
+169786|178|24399|10.889|283.41|103.3|0|1|None|None|None
+169787|178|25968|13.861|312.38|132.28|0|1|None|None|None
+169788|178|25969|13.861|312.38|132.28|0|1|None|None|None
+169789|178|25970|13.861|312.38|132.28|0|1|None|None|None
+169790|178|25971|12.15|295.95|115.84|1|1|None|None|None
+169791|178|25972|12.15|295.95|115.84|1|1|None|None|None
+169792|178|25973|12.15|295.95|115.84|1|1|None|None|None
+169793|178|25018|17.26|37.67|217.77|0|1|None|None|None
+169794|178|25019|17.26|37.67|217.77|0|1|None|None|None
+169795|178|25020|17.26|37.67|217.77|0|1|None|None|None
+169796|178|143|7.615|179.77|359.77|0|1|None|None|None
+169797|178|19684|7.615|179.77|359.77|0|0|None|None|None
+169798|178|19685|7.615|179.77|359.77|0|0|None|None|None
+169799|178|19686|7.615|179.77|359.77|0|0|None|None|None
+169800|178|35130|7.615|179.77|359.77|0|1|None|None|None
+169801|178|35131|7.615|179.77|359.77|0|1|None|None|None
+169802|178|35132|7.615|179.77|359.77|0|1|None|None|None
+169803|178|25142|6.158|72.6|252.65|0|0|None|None|None
+169804|178|25143|6.158|72.6|252.65|0|0|None|None|None
+169805|178|25144|6.158|72.6|252.65|0|0|None|None|None
+169806|178|161|8.258|45.83|225.89|0|0|None|None|None
+169807|178|162|2.452|269.88|89.86|1|1|None|None|None
+169808|178|163|18.699|318.05|137.93|None|None|None|None|None
+169809|178|169|3.762|20.22|200.24|0|0|None|None|None
+169810|178|170|3.762|20.22|200.24|0|0|None|None|None
+169811|178|171|3.762|20.22|200.24|0|0|None|None|None
+169812|178|20122|3.762|20.22|200.24|0|0|None|None|None
+169813|178|25962|23.991|321.71|141.57|0|None|None|None|None
+169814|178|25963|23.991|321.71|141.57|0|None|None|None|None
+169815|178|25964|23.991|321.71|141.57|0|None|None|None|None
+169816|178|24385|20.086|300.33|120.16|0|None|None|None|None
+169817|178|24386|20.086|300.33|120.16|0|None|None|None|None
+169818|178|24387|20.086|300.33|120.16|0|None|None|None|None
+169819|178|24388|21.276|301.31|121.13|0|None|None|None|None
+169820|178|24389|21.276|301.31|121.13|0|None|None|None|None
+169821|178|24390|21.276|301.31|121.13|0|None|None|None|None
+169822|178|23051|36.799|345.43|165.34|None|None|None|None|None
+169823|178|23052|36.799|345.43|165.34|None|None|None|None|None
+169824|178|23053|36.799|345.43|165.34|None|None|None|None|None
+169825|178|23054|37.364|344.01|163.91|None|None|None|None|None
+169826|178|23055|37.364|344.01|163.91|None|None|None|None|None
+169827|178|23058|51.021|1.94|181.96|None|None|None|None|None
+169828|178|23059|51.021|1.94|181.96|None|None|None|None|None
+169829|178|23060|51.021|1.94|181.96|None|None|None|None|None
+169830|178|20761|56.671|236.36|55.91|None|None|None|None|None
+169831|178|20762|56.671|236.36|55.91|None|None|None|None|None
+169832|178|20763|56.671|236.36|55.91|None|None|None|None|None
+169833|178|116|36.314|301.04|120.74|None|None|None|None|None
+169834|178|117|36.314|301.04|120.74|None|None|None|None|None
+169835|178|118|36.314|301.04|120.74|None|None|None|None|None
+169836|178|135|43.109|305.16|124.82|None|None|None|None|None
+169837|178|19541|43.109|305.16|124.82|None|None|None|None|None
+169838|178|19542|43.109|305.16|124.82|None|None|None|None|None
+169839|178|19543|43.109|305.16|124.82|None|None|None|None|None
+169840|178|141|49.419|216.87|36.59|None|None|None|None|None
+169841|178|24478|56.477|317.55|137.18|None|None|None|None|None
+169842|178|24479|56.477|317.55|137.18|None|None|None|None|None
+169843|178|24480|56.477|317.55|137.18|None|None|None|None|None
+169844|178|25133|48.906|311.85|131.5|None|None|None|None|None
+169845|178|25134|48.906|311.85|131.5|None|None|None|None|None
+169846|178|25135|48.906|311.85|131.5|None|None|None|None|None
+169847|178|154|51.763|291.71|111.25|None|None|None|None|None
+169848|178|19762|51.763|291.71|111.25|None|None|None|None|None
+169849|178|19763|51.763|291.71|111.25|None|None|None|None|None
+169850|178|19764|51.763|291.71|111.25|None|None|None|None|None
+169851|178|25136|52.073|317.9|137.57|None|None|None|None|None
+169852|178|25137|52.073|317.9|137.57|None|None|None|None|None
+169853|178|25138|52.073|317.9|137.57|None|None|None|None|None
+169854|178|26095|58.33|350.85|170.76|None|None|None|None|None
+169855|178|20071|58.33|350.85|170.76|None|None|None|None|None
+169856|178|20072|58.33|350.85|170.76|None|None|None|None|None
+169857|178|20073|58.33|350.85|170.76|None|None|None|None|None
+169858|178|20123|43.217|341.73|161.6|None|None|None|None|None
+169859|178|20124|43.217|341.73|161.6|None|None|None|None|None
+169860|178|20125|43.217|341.73|161.6|None|None|None|None|None
+169861|178|173|43.217|341.73|161.6|None|None|None|None|None
+169862|178|174|43.217|341.73|161.6|None|None|None|None|None
+169863|178|175|43.217|341.73|161.6|None|None|None|None|None
+
+# 
+# stations
+# 
+# Sid|Name|Network|Channel|LocationCode|Latitude|Longitude|ElevationMasl|Source
+79|OBSR|CC|BHE||46.899719|-121.815331|2382.0|IRIS
+80|OBSR|CC|BHN||46.899719|-121.815331|2382.0|IRIS
+81|OBSR|CC|BHZ||46.899719|-121.815331|2382.0|IRIS
+82|PANH|CC|BHE||46.859|-121.64261|2109.0|IRIS
+83|PANH|CC|BHN||46.859|-121.64261|2109.0|IRIS
+84|PANH|CC|BHZ||46.859|-121.64261|2109.0|IRIS
+24391|PR03|CC|BHE||46.903435|-122.032692|523.0|IRIS
+24392|PR03|CC|BHN||46.903435|-122.032692|523.0|IRIS
+24393|PR03|CC|BHZ||46.903435|-122.032692|523.0|IRIS
+24394|PR04|CC|BHE||46.929749|-121.988525|910.0|IRIS
+24395|PR04|CC|BHN||46.929749|-121.988525|910.0|IRIS
+24396|PR04|CC|BHZ||46.929749|-121.988525|910.0|IRIS
+24397|PR05|CC|BHE||46.841724|-121.94886|1553.0|IRIS
+24398|PR05|CC|BHN||46.841724|-121.94886|1553.0|IRIS
+24399|PR05|CC|BHZ||46.841724|-121.94886|1553.0|IRIS
+25968|RUSH|CC|BHE||46.90306|-121.94439|1235.0|IRIS
+25969|RUSH|CC|BHN||46.90306|-121.94439|1235.0|IRIS
+25970|RUSH|CC|BHZ||46.90306|-121.94439|1235.0|IRIS
+25971|SIFT|CC|BHE||46.86683|-121.95329|732.0|IRIS
+25972|SIFT|CC|BHN||46.86683|-121.95329|732.0|IRIS
+25973|SIFT|CC|BHZ||46.86683|-121.95329|732.0|IRIS
+25018|FMW|UW|HHE||46.941914|-121.671463|1900.0|IRIS
+25019|FMW|UW|HHN||46.941914|-121.671463|1900.0|IRIS
+25020|FMW|UW|HHZ||46.941914|-121.671463|1900.0|IRIS
+143|LO2|UW|EHZ||46.7506|-121.8096|853.0|IRIS
+19684|LON|UW|ENE||46.7506|-121.8096|853.0|IRIS
+19685|LON|UW|ENN||46.7506|-121.8096|853.0|IRIS
+19686|LON|UW|ENZ||46.7506|-121.8096|853.0|IRIS
+35130|LON|UW|HHE||46.750599|-121.809601|853.0|IRIS
+35131|LON|UW|HHN||46.750599|-121.809601|853.0|IRIS
+35132|LON|UW|HHZ||46.750599|-121.809601|853.0|IRIS
+25142|RCM|UW|HHE||46.83564|-121.732979|3085.0|IRIS
+25143|RCM|UW|HHN||46.83564|-121.732979|3085.0|IRIS
+25144|RCM|UW|HHZ||46.83564|-121.732979|3085.0|IRIS
+161|RCS|UW|EHZ||46.87083|-121.73231|2877.0|IRIS
+162|RER|UW|EHZ||46.81905|-121.84213|1756.0|IRIS
+163|RVC|UW|EHZ||46.94408|-121.97419|1000.0|IRIS
+169|STAR|UW|EHE||46.850849|-121.792953|3365.0|IRIS
+170|STAR|UW|EHN||46.850849|-121.792953|3365.0|IRIS
+171|STAR|UW|EHZ||46.850849|-121.792953|3365.0|IRIS
+20122|STAR|UW|ELZ||46.850849|-121.792953|3365.0|IRIS
+25962|CARB|CC|BHE||46.98832|-122.00541|872.5|IRIS
+25963|CARB|CC|BHN||46.98832|-122.00541|872.5|IRIS
+25964|CARB|CC|BHZ||46.98832|-122.00541|872.5|IRIS
+24385|PR01|CC|BHE||46.91011|-122.037567|648.0|IRIS
+24386|PR01|CC|BHN||46.91011|-122.037567|648.0|IRIS
+24387|PR01|CC|BHZ||46.91011|-122.037567|648.0|IRIS
+24388|PR02|CC|BHE||46.918304|-122.048637|461.0|IRIS
+24389|PR02|CC|BHN||46.918304|-122.048637|461.0|IRIS
+24390|PR02|CC|BHZ||46.918304|-122.048637|461.0|IRIS
+23051|2164|NP|HN2|CR|47.13941|-121.93202|380.0|NCEDC,IRIS
+23052|2164|NP|HN3|CR|47.13941|-121.93202|380.0|NCEDC,IRIS
+23053|2164|NP|HNZ|CR|47.13941|-121.93202|380.0|NCEDC,IRIS
+23054|2164|NP|HNE|RA|47.14212|-121.94566|299.0|NCEDC
+23055|2164|NP|HNN|RA|47.14212|-121.94566|299.0|NCEDC
+23058|2189|NP|HN2|CR|47.27777|-121.78719|369.0|NCEDC,IRIS
+23059|2189|NP|HN3|CR|47.27777|-121.78719|369.0|NCEDC,IRIS
+23060|2189|NP|HNZ|CR|47.27777|-121.78719|369.0|NCEDC,IRIS
+20761|7012|NP|HNE|BS|46.535|-122.425|131.0|NCEDC,IRIS
+20762|7012|NP|HNN|BS|46.535|-122.425|131.0|NCEDC,IRIS
+20763|7012|NP|HNZ|BS|46.535|-122.425|131.0|NCEDC,IRIS
+116|B941|PB|EH1||46.9868|-122.219|151.0|IRIS
+117|B941|PB|EH2||46.9868|-122.219|151.0|IRIS
+118|B941|PB|EHZ||46.9868|-122.219|151.0|IRIS
+135|GHW|UW|EHZ||47.04149|-122.27373|268.0|IRIS
+19541|GHW|UW|ENE||47.04149|-122.27373|268.0|IRIS
+19542|GHW|UW|ENN||47.04149|-122.27373|268.0|IRIS
+19543|GHW|UW|ENZ||47.04149|-122.27373|268.0|IRIS
+141|KOS|UW|EHZ||46.4628|-122.19602|610.0|IRIS
+24478|PAYL|UW|HNE||47.192841|-122.313026|12.0|IRIS
+24479|PAYL|UW|HNN||47.192841|-122.313026|12.0|IRIS
+24480|PAYL|UW|HNZ||47.192841|-122.313026|12.0|IRIS
+25133|PCEP|UW|HNE||47.111599|-122.290001|158.4|IRIS
+25134|PCEP|UW|HNN||47.111599|-122.290001|158.4|IRIS
+25135|PCEP|UW|HNZ||47.111599|-122.290001|158.4|IRIS
+154|PCFR|UW|EHZ||46.98962|-122.44218|137.0|IRIS
+19762|PCFR|UW|ENE||46.98962|-122.44218|137.0|IRIS
+19763|PCFR|UW|ENN||46.98962|-122.44218|137.0|IRIS
+19764|PCFR|UW|ENZ||46.98962|-122.44218|137.0|IRIS
+25136|QDNP|UW|HNE|01|47.165749|-122.270409|141.2|IRIS
+25137|QDNP|UW|HNN|01|47.165749|-122.270409|141.2|IRIS
+25138|QDNP|UW|HNZ|01|47.165749|-122.270409|141.2|IRIS
+26095|RAW|UW|EHZ||47.33705|-121.93267|208.0|IRIS
+20071|RAW|UW|ENE||47.33705|-121.93267|208.0|IRIS
+20072|RAW|UW|ENN||47.33705|-121.93267|208.0|IRIS
+20073|RAW|UW|ENZ||47.33705|-121.93267|208.0|IRIS
+20123|STOR|UW|ENE||47.1881|-121.9888|266.4|IRIS
+20124|STOR|UW|ENN||47.1881|-121.9888|266.4|IRIS
+20125|STOR|UW|ENZ||47.1881|-121.9888|266.4|IRIS
+173|STOR|UW|HHE||47.1881|-121.9888|266.4|IRIS
+174|STOR|UW|HHN||47.1881|-121.9888|266.4|IRIS
+175|STOR|UW|HHZ||47.1881|-121.9888|266.4|IRIS
+

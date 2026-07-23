@@ -1,0 +1,84 @@
+# 
+# events
+# 
+# Eventid|Name|Starttime|Endtime|Latitude|Longitude|LocuncertKm|CrownLat|CrownLon|TipLat|TipLon|Type|AreaTotal|AreaSource|AreaSourceLow|AreaSourceHigh|Volume|VolumeLow|VolumeHigh|Mass|MassLow|MassHigh|H|HLow|HHigh|L|LLow|LHigh|HFreefall|HFreefallLow|HFreefallHigh|UpstreamDrainarea|PeakDischarge|PeakDischargeLow|PeakDischargeHigh|PeakFlowheight|PeakFlowheightLow|PeakFlowheightHigh|Otherdataquality1to5|LPpotential|MaxdistvhfKm|MaxdistvhfReached|MaxdisthfKm|MaxdisthfReached|MaxdistipKm|MaxdistipReached|MaxdistlpKm|MaxdistlpReached|InfraDetected|MaxdistinfraKm|MaxdistinfraReached|DatLocation|Sources
+212|Dobratsch, Austria|2015-01-16 19:22:51|2015-01-16 19:24:15|46.5914|13.7326|0.1|None|None|None|None|rock slide|50000.0|None|None|None|6000.0|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|3|0|None|None|85.0|0|None|None|0.0|None|None|None|None|INGV, ETH, IRIS|Collins, E.A., Allstadt, K.E., Groult, C., Hibert, C., Malet, J.-P., Toney, L.D., and Bessette-Kirton, E., 2022, Seismogenic Landslides and other Mass Movements: U.S. Geological Survey data release, https://doi.org/10.5066/P90VGCSK.
+
+# 
+# gisfiles
+# 
+# GisId|Eventid|Type|Source|Description|FileExtension|ApplyAlso
+163|212|Static map - jpg|Google Earth - ecollins; Maxar Technologies|Google Earth Historical Imagery captured 2017-05-21 from Maxar Technologies showing the event location post-landslide.|EventData/212_DobratschAustria_16Jan2015/maps_gis/212_DobratschAustria_16Jan2015_Staticmap_NoOutline.jpg|None
+
+# 
+# information
+# 
+# Iid|Eventid|RefId|Note|PhoId|GISId|ApplyAlso
+581|212|234|Total area reported for this event was about 5 hectares (50,000 m2) by ZAMG (2015).|None|None|None
+490|252|220|This event occurred in limestones based on ELSUS v2 (Wilde and others, 2018).|None|None|197,200,196,195,245,246,247,194,211,253,219,237,208,215,230,224,212,260
+497|205|206|Location, type, and volumes (where applicable) were taken from Fuchs and others (2018). Fuchs and others (2018) estimated volumes from photographs which matched volumes from news articles and on-site geological estimates. Fuchs and others (2018) note that volumes may have large uncertainities and should be considered as order of magnitude estimates.|None|None|206,208,209,210,211,212,213,214,215,216,230,231,232
+530|191|None|Horizontal components for several stations which detected these events were not reviewed.|None|None|192,193,194,195,196,197,198,199,200,201,202,203,204,205,206,207,208,209,210,211,212,213,214,215,216,217,218,219,220,221,222,223,224,225,226,227,228,229,230,231,232,233,234,235,236,237,238,239,240,241,242,243,244,245,246,247,248,249,250,251,252,253,254,255,256,257,258
+552|191|None|Location uncertainty was estimated from the maximum distance between event coordinates and suspected crown location using imagery from Google Earth and Planet Labs Explorer. Event type was estimated or confirmed using satellite imagery.|None|None|194,195,202,210,212,213,214,226,227,236,245,246,247,255
+570|211|206|A local magnitude of 1.0 was estimated for this event by the Austrian seismological service, ZAMG (Fuchs and others, 2018).|None|None|212
+
+# 
+# photos
+# 
+# PhotoId|Eventid|Photographer|Description|Latitude|Longitude|Date|FileExtension|ApplyAlso
+1113|212|Elaine Collins|Raw waveforms from closest stations. Data was demeaned but no other processing was applied. Dashed lines show approximate start and end times of event (from database). Figure generation is automated and there may be artifacts present.|None|None|None|EventData/212_DobratschAustria_16Jan2015/photos_figures/212_DobratschAustria_16Jan2015_waveforms_raw.png|None
+1114|212|Elaine Collins|High frequency (1-5 Hz) ground velocity waveforms for station response from closest stations with detections. Dashed lines show approximate start and end times of event (from database). Waveforms are corrected for station response after removing the mean. Figure generation is automated and there may be artifacts present. Clipped waveforms have not been removed before station correction so check raw plots before interpreting high amplitude signals.|None|None|None|EventData/212_DobratschAustria_16Jan2015/photos_figures/212_DobratschAustria_16Jan2015_waveforms_1-5Hz.png|None
+1115|212|Elaine Collins|Spectrograms of velocity waveforms corrected for station sensitivity from closest stations with detections. Figure generation is automated and there may be artifacts present|None|None|None|EventData/212_DobratschAustria_16Jan2015/photos_figures/212_DobratschAustria_16Jan2015_spectrogram.png|None
+1116|212|Elaine Collins|Multitaper spectra (same units as Power Spectral Density) of velocity waveforms corrected for station sensitivity from closest stations with detections. Linear trend was removed and a taper was applied before generating spectra. Figure generation is automated and there may be artifacts present. Since station response was not removed to avoid adding artifacts at low frequencies for short and intermediate period stations, the lower frequency amplitudes should be interpreted with care.|None|None|None|EventData/212_DobratschAustria_16Jan2015/photos_figures/212_DobratschAustria_16Jan2015_spectra.png|None
+
+# 
+# reference
+# 
+# Refid|Eventid|ApplyAlso|LongRef|ShortRef|FileExtension|Url
+234|212|None|ZAMG, Jan 2015, Massiver Felssturz am Dobratsch bei Villach [Bulletin], Accessed 31 Jan 2022, at https://www.zamg.ac.at/cms/de/geophysik/news/massiver-felssturz-am-dobratsch-bei-villach|ZAMG (2015)|None|https://www.zamg.ac.at/cms/de/geophysik/news/massiver-felssturz-am-dobratsch-bei-villach
+
+# 
+# sta_nearby
+# 
+# SRid|Eventid|Sid|StasourceRadiusKm|Az|Baz|DetectVHF|DetectHF|DetectIP|DetectLP|DetectINFRA
+185884|212|38263|17.415426617752676|254.04060319886392|73.88163546109685|None|1|None|None|None
+185885|212|38264|24.73551022577548|281.1060830554786|100.87508544483931|None|1|None|None|None
+185886|212|37996|35.46722801295951|235.01502556105802|54.74040049649777|None|1|None|None|None
+185887|212|38265|35.66856438148224|320.9675963903181|140.7530210766694|None|1|None|None|None
+185888|212|38266|36.71413676127949|265.4512937590402|85.10360189954271|None|1|None|None|None
+185889|212|38267|40.12281733767229|293.2501028997905|112.89846359632334|None|1|None|None|None
+185890|212|38268|40.5778524865949|218.98483091890378|38.744425912894584|None|1|None|None|None
+185891|212|38269|42.545646554884016|236.6414723377044|56.30584826869237|None|1|None|None|None
+185892|212|38270|46.97346437311449|188.28209071415395|8.218671441668397|None|1|None|None|None
+185893|212|38271|49.86080199979664|315.10232396576953|134.7654065068889|None|1|None|None|None
+185894|212|38236|51.347076817003554|223.28485898885864|42.95371335832274|None|1|None|None|None
+185895|212|38272|56.18548466189375|219.8473816533219|39.50928150770234|None|1|None|None|None
+185896|212|38273|58.18405580725622|266.67147034131364|86.11971643444326|None|1|None|None|None
+185897|212|38274|59.352981453892|250.93406342594184|70.40342340539407|None|1|None|None|None
+185898|212|38275|67.58008546821077|186.5194181110347|6.447855954557508|None|1|None|None|None
+185899|212|38276|70.27270444789454|340.2575596120683|160.02888970725334|None|1|None|None|None
+185900|212|37966|72.7586014834411|270.79802348912443|90.10624017485621|None|1|None|None|None
+185901|212|38277|84.10779481265835|334.42614502587196|154.07548271208594|None|1|None|None|None
+
+# 
+# stations
+# 
+# Sid|Name|Network|Channel|LocationCode|Latitude|Longitude|ElevationMasl|Source
+38263|ACOM|NI|HHZ||46.548|13.5137|1788.0|IRIS
+38264|AAE45|XT|HHZ||46.63394|13.41474|677.0|ETH
+37996|PTCC|IV|HHZ||46.4075|13.354|700.0|INGV
+38265|AAE43|XT|HHZ||46.84051|13.43784|797.0|ETH
+38266|AAE46|XT|HHZ||46.56413|13.25389|1908.0|ETH
+38267|AAE44|XT|HHZ||46.7332|13.24913|1136.0|ETH
+38268|AAE49|XT|HHZ||46.3069|13.4009|735.0|ETH
+38269|AAE48|XT|HHZ||46.3796|13.2698|426.0|ETH
+38270|DRE|NI|HHZ||46.173302|13.645|810.0|IRIS
+38271|AAE42|XT|HHZ||46.90861|13.27004|1221.0|ETH
+38236|VINO|NI|HHZ||46.25383|13.2755|608.0|INGV
+38272|AAE50|XT|HHZ||46.202|13.2657|281.0|ETH
+38273|ZOU2|NI|HHZ||46.558399|12.9729|1911.0|IRIS
+38274|FUSE|NI|HHZ||46.4142|13.0011|520.0|IRIS
+38275|SABO|NI|HHZ||45.9875|13.6336|621.0|IRIS
+38276|AAE39|XT|HHZ||47.18602|13.41937|1542.0|ETH
+37966|FVI|IV|EHZ||46.59658|12.7804|1024.0|INGV
+38277|AAE38|XT|HHZ||47.2731|13.25261|1451.0|ETH
+

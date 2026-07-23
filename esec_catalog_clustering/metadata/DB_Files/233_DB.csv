@@ -1,0 +1,90 @@
+# 
+# events
+# 
+# Eventid|Name|Starttime|Endtime|Latitude|Longitude|LocuncertKm|CrownLat|CrownLon|TipLat|TipLon|Type|AreaTotal|AreaSource|AreaSourceLow|AreaSourceHigh|Volume|VolumeLow|VolumeHigh|Mass|MassLow|MassHigh|H|HLow|HHigh|L|LLow|LHigh|HFreefall|HFreefallLow|HFreefallHigh|UpstreamDrainarea|PeakDischarge|PeakDischargeLow|PeakDischargeHigh|PeakFlowheight|PeakFlowheightLow|PeakFlowheightHigh|Otherdataquality1to5|LPpotential|MaxdistvhfKm|MaxdistvhfReached|MaxdisthfKm|MaxdisthfReached|MaxdistipKm|MaxdistipReached|MaxdistlpKm|MaxdistlpReached|InfraDetected|MaxdistinfraKm|MaxdistinfraReached|DatLocation|Sources
+233|Val Strem, Switzerland|2016-03-14 19:02:53|2016-03-14 19:06:20|46.701618|8.767872|0.1|46.701618|8.767872|46.68873|8.765625|rock avalanche|None|None|None|None|200000.0|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|4|0|None|None|137.0|0|None|None|0.0|None|None|None|None|IRIS, INGV, ETH|Collins, E.A., Allstadt, K.E., Groult, C., Hibert, C., Malet, J.-P., Toney, L.D., and Bessette-Kirton, E., 2022, Seismogenic Landslides and other Mass Movements: U.S. Geological Survey data release, https://doi.org/10.5066/P90VGCSK.
+
+
+# 
+# information
+# 
+# Iid|Eventid|RefId|Note|PhoId|GISId|ApplyAlso
+547|233|191|Event name, time, and volume were provided by Huwiler (pers. comm., 2021).|None|None|None
+589|233|None|Location coordinates, location uncertainty, and type were estimated using Planet Labs Explorer imagery.|None|None|222
+489|234|220|This event occurred in gneisses based on ELSUS v2 (Wilde and others, 2018).|None|None|235,238,239,240,241,242,257,258,254,233,210,225,213
+530|191|None|Horizontal components for several stations which detected these events were not reviewed.|None|None|192,193,194,195,196,197,198,199,200,201,202,203,204,205,206,207,208,209,210,211,212,213,214,215,216,217,218,219,220,221,222,223,224,225,226,227,228,229,230,231,232,233,234,235,236,237,238,239,240,241,242,243,244,245,246,247,248,249,250,251,252,253,254,255,256,257,258
+
+# 
+# photos
+# 
+# PhotoId|Eventid|Photographer|Description|Latitude|Longitude|Date|FileExtension|ApplyAlso
+1209|233|Elaine Collins|Raw waveforms from closest stations. Data was demeaned but no other processing was applied. Dashed lines show approximate start and end times of event (from database). Figure generation is automated and there may be artifacts present.|None|None|None|EventData/233_ValStremSwitzerland_14Mar2016/photos_figures/233_ValStremSwitzerland_14Mar2016_waveforms_raw.png|None
+1210|233|Elaine Collins|High frequency (1-5 Hz) ground velocity waveforms for station response from closest stations with detections. Dashed lines show approximate start and end times of event (from database). Waveforms are corrected for station response after removing the mean. Figure generation is automated and there may be artifacts present. Clipped waveforms have not been removed before station correction so check raw plots before interpreting high amplitude signals.|None|None|None|EventData/233_ValStremSwitzerland_14Mar2016/photos_figures/233_ValStremSwitzerland_14Mar2016_waveforms_1-5Hz.png|None
+1211|233|Elaine Collins|Spectrograms of velocity waveforms corrected for station sensitivity from closest stations with detections. Figure generation is automated and there may be artifacts present|None|None|None|EventData/233_ValStremSwitzerland_14Mar2016/photos_figures/233_ValStremSwitzerland_14Mar2016_spectrogram.png|None
+1212|233|Elaine Collins|Multitaper spectra (same units as Power Spectral Density) of velocity waveforms corrected for station sensitivity from closest stations with detections. Linear trend was removed and a taper was applied before generating spectra. Figure generation is automated and there may be artifacts present. Since station response was not removed to avoid adding artifacts at low frequencies for short and intermediate period stations, the lower frequency amplitudes should be interpreted with care.|None|None|None|EventData/233_ValStremSwitzerland_14Mar2016/photos_figures/233_ValStremSwitzerland_14Mar2016_spectra.png|None
+
+
+# 
+# sta_nearby
+# 
+# SRid|Eventid|Sid|StasourceRadiusKm|Az|Baz|DetectVHF|DetectHF|DetectIP|DetectLP|DetectINFRA
+186792|233|37858|11.933|187.23|7.21|None|1|None|None|None
+186793|233|37861|24.442|48.6|228.78|None|1|None|None|None
+186794|233|37859|28.591|196.38|16.31|None|1|None|None|None
+186795|233|37856|29.67|62.16|242.41|None|1|None|None|None
+186796|233|37867|31.213|341.4|161.31|None|1|None|None|None
+186797|233|37869|32.213|305.73|125.48|None|1|None|None|None
+186798|233|37865|37.017|248.4|68.07|None|1|None|None|None
+186799|233|37877|47.538|277.64|97.19|None|1|None|None|None
+186800|233|37848|51.209|119.65|300.07|None|1|None|None|None
+186801|233|37847|57.594|114.7|295.19|None|1|None|None|None
+186802|233|37872|58.454|239.8|59.32|None|1|None|None|None
+186803|233|37876|77.074|228.49|47.95|None|1|None|None|None
+186804|233|37875|84.394|31.35|211.78|None|1|None|None|None
+186805|233|37851|85.406|83.7|264.51|None|1|None|None|None
+186806|233|37892|93.429|10.12|190.28|None|1|None|None|None
+186807|233|37881|95.18|220.81|40.23|None|1|None|None|None
+186808|233|37916|99.882|325.27|144.72|None|1|None|None|None
+186809|233|37849|101.435|107.94|288.85|None|1|None|None|None
+186810|233|37921|104.447|331.77|151.29|None|1|None|None|None
+186811|233|38155|107.836|311.23|130.45|None|1|None|None|None
+186812|233|37854|114.825|93.97|275.06|None|1|None|None|None
+186813|233|37889|115.054|217.37|36.72|None|1|None|None|None
+186814|233|37920|118.766|252.08|71.01|None|1|None|None|None
+186815|233|38158|119.994|350.09|169.89|None|1|None|None|None
+186816|233|37914|125.266|237.08|56.1|None|1|None|None|None
+186817|233|37863|136.689|93.33|274.62|None|1|None|None|None
+186818|233|37931|136.758|249.09|67.89|None|1|None|None|None
+
+# 
+# stations
+# 
+# Sid|Name|Network|Channel|LocationCode|Latitude|Longitude|ElevationMasl|Source
+37858|NALPS|CH|HHZ||46.595121|8.74828|2345.68|ETH
+37861|LLS|CH|HHZ||46.84676|9.00825|1860.0|ETH
+37859|FUSIO|CH|HHZ||46.45481|8.6629|1460.0|ETH
+37856|PANIX|CH|HHZ||46.825743|9.111708|1433.0|ETH
+37867|MUO|CH|HHZ||46.96765|8.63706|1920.0|ETH
+37869|BNALP|CH|HHZ||46.87034|8.4249|1549.0|ETH
+37865|GRIMS|CH|HHZ||46.578146|8.318864|1746.0|ETH
+37877|HASLI|CH|HHZ||46.75681|8.15117|1280.0|ETH,IRIS
+37848|TUE|MN|BHZ||46.47223|9.34732|1924.0|IRIS,INGV
+37847|VDL|CH|HHZ||46.48311|9.44933|1927.75|ETH
+37872|FIESA|CH|HHZ||46.43521|8.11051|2340.5|IRIS,ETH
+37876|SIMPL|CH|HHZ||46.23962|8.01958|1930.0|ETH
+37875|SGT04|CH|HHZ||47.348435|9.349025|987.0|ETH
+37851|DAVOX|CH|HHZ||46.7805|9.87952|1830.0|ETH
+37892|WEIN|CH|EHZ||47.52873|8.98586|555.0|ETH
+37881|MMK|CH|HHZ||46.0507|7.96409|2200.0|ETH
+37916|EMMET|CH|HHZ||47.43757|8.01358|740.0|ETH
+37849|BERNI|CH|HHZ||46.413636|10.023095|2311.0|ETH
+37921|SULZ|CH|HHZ||47.52753|8.11187|668.0|ETH
+38155|BALST|CH|HHZ||47.33599|7.69485|860.0|ETH
+37854|FUORN|CH|HHZ||46.620334|10.26352|2286.0|ETH,IRIS
+37889|SATI|GU|HHZ||45.8754|7.8685|2935.0|INGV
+37920|SENIN|CH|HHZ||46.36335|7.29938|2019.6|ETH,IRIS
+38158|SLE|CH|HHZ||47.7645|8.49236|648.0|ETH,IRIS
+37914|DIX|CH|HHZ||46.081053|7.408391|2370.2|ETH
+37863|MOSI|SI|HHZ||46.6164|10.5495|1957.0|INGV
+37931|GRYON|CH|HHZ||46.25053|7.11106|1282.0|ETH
+

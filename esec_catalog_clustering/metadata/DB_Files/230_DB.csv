@@ -1,0 +1,46 @@
+# 
+# events
+# 
+# Eventid|Name|Starttime|Endtime|Latitude|Longitude|LocuncertKm|CrownLat|CrownLon|TipLat|TipLon|Type|AreaTotal|AreaSource|AreaSourceLow|AreaSourceHigh|Volume|VolumeLow|VolumeHigh|Mass|MassLow|MassHigh|H|HLow|HHigh|L|LLow|LHigh|HFreefall|HFreefallLow|HFreefallHigh|UpstreamDrainarea|PeakDischarge|PeakDischargeLow|PeakDischargeHigh|PeakFlowheight|PeakFlowheightLow|PeakFlowheightHigh|Otherdataquality1to5|LPpotential|MaxdistvhfKm|MaxdistvhfReached|MaxdisthfKm|MaxdisthfReached|MaxdistipKm|MaxdistipReached|MaxdistlpKm|MaxdistlpReached|InfraDetected|MaxdistinfraKm|MaxdistinfraReached|DatLocation|Sources
+230|Lienzer Dolomiten, Austria|2014-07-13 09:34:22|2014-07-13 09:35:04|46.7714|12.7426|0.15|None|None|None|None|rock slide|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|1|0|None|None|55.0|0|None|None|0.0|None|None|None|None|IRIS, INGV|Collins, E.A., Allstadt, K.E., Groult, C., Hibert, C., Malet, J.-P., Toney, L.D., and Bessette-Kirton, E., 2022, Seismogenic Landslides and other Mass Movements: U.S. Geological Survey data release, https://doi.org/10.5066/P90VGCSK.
+
+
+# 
+# information
+# 
+# Iid|Eventid|RefId|Note|PhoId|GISId|ApplyAlso
+574|230|206|A local magnitude of 0.4 was estimated for this event by the Austrian seismological service, ZAMG (Fuchs and others, 2018).|None|None|None
+490|252|220|This event occurred in limestones based on ELSUS v2 (Wilde and others, 2018).|None|None|197,200,196,195,245,246,247,194,211,253,219,237,208,215,230,224,212,260
+497|205|206|Location, type, and volumes (where applicable) were taken from Fuchs and others (2018). Fuchs and others (2018) estimated volumes from photographs which matched volumes from news articles and on-site geological estimates. Fuchs and others (2018) note that volumes may have large uncertainities and should be considered as order of magnitude estimates.|None|None|206,208,209,210,211,212,213,214,215,216,230,231,232
+530|191|None|Horizontal components for several stations which detected these events were not reviewed.|None|None|192,193,194,195,196,197,198,199,200,201,202,203,204,205,206,207,208,209,210,211,212,213,214,215,216,217,218,219,220,221,222,223,224,225,226,227,228,229,230,231,232,233,234,235,236,237,238,239,240,241,242,243,244,245,246,247,248,249,250,251,252,253,254,255,256,257,258
+549|217|207|These events were cataloged through ZAMG (2021). Individual reports for each event were recieved by mail.|None|None|218,219,220,221,222,223,224,225,226,227,228,229,230,253
+583|205|None|Location uncertainty was estimated from the maximum distance between event coordinates and suspected crown location using Google Earth and photographs of event site, when available.|None|None|206,208,209,215,216,228,230,231,232,243,244
+
+# 
+# photos
+# 
+# PhotoId|Eventid|Photographer|Description|Latitude|Longitude|Date|FileExtension|ApplyAlso
+1197|230|Elaine Collins|Raw waveforms from closest stations. Data was demeaned but no other processing was applied. Dashed lines show approximate start and end times of event (from database). Figure generation is automated and there may be artifacts present.|None|None|None|EventData/230_LienzerDolomitenAustria_13Jul2014/photos_figures/230_LienzerDolomitenAustria_13Jul2014_waveforms_raw.png|None
+1198|230|Elaine Collins|High frequency (1-5 Hz) ground velocity waveforms for station response from closest stations with detections. Dashed lines show approximate start and end times of event (from database). Waveforms are corrected for station response after removing the mean. Figure generation is automated and there may be artifacts present. Clipped waveforms have not been removed before station correction so check raw plots before interpreting high amplitude signals.|None|None|None|EventData/230_LienzerDolomitenAustria_13Jul2014/photos_figures/230_LienzerDolomitenAustria_13Jul2014_waveforms_1-5Hz.png|None
+1199|230|Elaine Collins|Spectrograms of velocity waveforms corrected for station sensitivity from closest stations with detections. Figure generation is automated and there may be artifacts present|None|None|None|EventData/230_LienzerDolomitenAustria_13Jul2014/photos_figures/230_LienzerDolomitenAustria_13Jul2014_spectrogram.png|None
+1200|230|Elaine Collins|Multitaper spectra (same units as Power Spectral Density) of velocity waveforms corrected for station sensitivity from closest stations with detections. Linear trend was removed and a taper was applied before generating spectra. Figure generation is automated and there may be artifacts present. Since station response was not removed to avoid adding artifacts at low frequencies for short and intermediate period stations, the lower frequency amplitudes should be interpreted with care.|None|None|None|EventData/230_LienzerDolomitenAustria_13Jul2014/photos_figures/230_LienzerDolomitenAustria_13Jul2014_spectra.png|None
+
+
+# 
+# sta_nearby
+# 
+# SRid|Eventid|Sid|StasourceRadiusKm|Az|Baz|DetectVHF|DetectHF|DetectIP|DetectLP|DetectINFRA
+186759|230|37966|19.651789602424742|171.52252404097618|351.55002663883283|None|1|None|None|None
+186760|230|38273|29.492453081049558|143.253872267386|323.4213819390488|None|1|None|None|None
+186761|230|38282|36.542237375067224|163.03382229568857|343.13469481507303|None|1|None|None|None
+186762|230|38213|54.16357490306266|291.437972327775|110.95353365892777|None|1|None|None|None
+
+# 
+# stations
+# 
+# Sid|Name|Network|Channel|LocationCode|Latitude|Longitude|ElevationMasl|Source
+37966|FVI|IV|EHZ||46.59658|12.7804|1024.0|INGV
+38273|ZOU2|NI|HHZ||46.558399|12.9729|1911.0|IRIS
+38282|CLUD|NI|HHZ||46.4569|12.8814|635.0|IRIS
+38213|RISI|SI|HHZ||46.948|12.0787|1785.0|INGV
+

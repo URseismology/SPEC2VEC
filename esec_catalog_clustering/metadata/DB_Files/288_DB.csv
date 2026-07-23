@@ -1,0 +1,76 @@
+# 
+# events
+# 
+# Eventid|Name|Starttime|Endtime|Latitude|Longitude|LocuncertKm|CrownLat|CrownLon|TipLat|TipLon|Type|AreaTotal|AreaSource|AreaSourceLow|AreaSourceHigh|Volume|VolumeLow|VolumeHigh|Mass|MassLow|MassHigh|H|HLow|HHigh|L|LLow|LHigh|HFreefall|HFreefallLow|HFreefallHigh|UpstreamDrainarea|PeakDischarge|PeakDischargeLow|PeakDischargeHigh|PeakFlowheight|PeakFlowheightLow|PeakFlowheightHigh|Otherdataquality1to5|LPpotential|MaxdistvhfKm|MaxdistvhfReached|MaxdisthfKm|MaxdisthfReached|MaxdistipKm|MaxdistipReached|MaxdistlpKm|MaxdistlpReached|InfraDetected|MaxdistinfraKm|MaxdistinfraReached|DatLocation|Sources
+288|Redoubt Lake|2013-05-12 19:04:43|2013-05-12 19:05:57|56.9267|-135.1338|0.0|56.9267|-135.1338|56.9222|-135.1368|landslide|91000.0|14000.0|7000.0|21000.0|160000.0|100000.0|260000.0|None|None|None|350.0|None|None|580.0|530.0|640.0|None|None|None|None|None|None|None|None|None|None|4|0|None|None|19.0|1|None|None|0.0|None|None|None|None|IRIS|Collins, E.A., Allstadt, K.E., Groult, C., Hibert, C., Malet, J.-P., Toney, L.D., and Jensen, E.K., 2022, Seismogenic Landslides and other Mass Movements (ver. 2.0, December 2023): U.S. Geological Survey data release, https://doi.org/10.5066/P90VGCSK.
+
+# 
+# gisfiles
+# 
+# GisId|Eventid|Type|Source|Description|FileExtension|ApplyAlso
+180|288|Static map - pdf|QGIS - ecollins; DigitalGlobe|Static map with runout and centerline overlain on WorldView-2 satellite imagery (~0.46m resolution, captured 2013-07-01).|EventData/288_RedoubtLake_12May2013/maps_gis/288_RedoubtLake_20130512_map.pdf|None
+181|288|GIS shapefile|QGIS - ecollins|Outline of source and runout based on WorldView-2 satellite imagery (gis_id 180).|EventData/288_RedoubtLake_12May2013/maps_gis/288_RedoubtLake_20130512_outlines_UTM8N.zip|None
+182|288|GIS shapefile|QGIS - ecollins|Centerline based on outline (gis_id 181).|EventData/288_RedoubtLake_12May2013/maps_gis/288_RedoubtLake_20130512_centerline_UTM8N.zip|None
+197|288|Static map - png|QGIS - ecollins; DigitalGlobe|Static map with runout and centerline overlain on WorldView-2 satellite imagery (~0.46m resolution, captured 2013-07-01).|EventData/288_RedoubtLake_12May2013/maps_gis/288_RedoubtLake_20130512_map.png|None
+
+# 
+# information
+# 
+# Iid|Eventid|RefId|Note|PhoId|GISId|ApplyAlso
+686|288|281|This event occurred about 15 miles southest of Sitka, Alaska and destroyed a Forest Service recreation cabin near Redoubt Lake. The couple staying in the cabin report hearing "rock activity" the previous night. The couple escaped safely during the failure, but lost their dog (Woolsey, 2013).|None|None|None
+737|288|None|Centerline, total area, and source areas were digitized using WorldView-2 satellite imagery. L and H were estimated using the centerline and crown and toe locations.|None|180|None
+502|131|57|Volume estimates determined by bedrock landslide values in Larsen and others (2010) with bedrock scar geometry. Volume_high and Volume_low estimates made by propagating uncertainties in alpha and gamma values (Larsen and others, 2010) and standard deviation of source areas (Area_Source_high, Area_source_low, Area_source). Estimates rounded to two significant digits.|None|None|133,134,153,161,186,187,188,190,283,286,288,294,299,284
+
+# 
+# photos
+# 
+# PhotoId|Eventid|Photographer|Description|Latitude|Longitude|Date|FileExtension|ApplyAlso
+1493|288|Elaine Collins|Raw waveforms from closest stations. Data was demeaned but no other processing was applied. Dashed lines show approximate start and end times of event (from database). Figure generation is automated and there may be artifacts present.|None|None|None|EventData/288_RedoubtLake_12May2013/photos_figures/288_RedoubtLake_12May2013_waveforms_raw.png|None
+1494|288|Elaine Collins|High frequency (1-5 Hz) ground velocity waveforms from closest stations with detections. Dashed lines show approximate start and end times of event (from database). Waveforms are corrected for station response after removing the mean. Figure generation is automated and there may be artifacts present. Clipped waveforms have not been removed before station correction so check raw plots before interpreting high amplitude signals.|None|None|None|EventData/288_RedoubtLake_12May2013/photos_figures/288_RedoubtLake_12May2013_waveforms_1-5Hz.png|None
+1495|288|Elaine Collins|Spectrograms of velocity waveforms corrected for station sensitivity from closest stations with detections. Figure generation is automated and there may be artifacts present|None|None|None|EventData/288_RedoubtLake_12May2013/photos_figures/288_RedoubtLake_12May2013_spectrogram.png|None
+1496|288|Elaine Collins|Multitaper spectra (same units as Power Spectral Density) of velocity waveforms corrected for station sensitivity from closest stations with detections. Linear trend was removed and a taper was applied before generating spectra. Figure generation is automated and there may be artifacts present. Since station response was not removed to avoid adding artifacts at low frequencies for short and intermediate period stations, the lower frequency amplitudes should be interpreted with care.|None|None|None|EventData/288_RedoubtLake_12May2013/photos_figures/288_RedoubtLake_12May2013_spectra.png|None
+
+# 
+# reference
+# 
+# Refid|Eventid|ApplyAlso|LongRef|ShortRef|FileExtension|Url
+281|288|None|Woolsey, R., 13 May 2013, Couple Escapes As Landslide Destroys Cabin [Article], Alaska Public Media, Accessed 15 Nov 2022 at https://alaskapublic.org/2013/05/13/couple-escapes-as-landslide-destroys-cabin/|Woolsey (2013)|None|https://alaskapublic.org/2013/05/13/couple-escapes-as-landslide-destroys-cabin/
+
+# 
+# sta_nearby
+# 
+# SRid|Eventid|Sid|StasourceRadiusKm|Az|Baz|DetectVHF|DetectHF|DetectIP|DetectLP|DetectINFRA
+201058|288|1635|18.559|321.45|141.29|None|1|None|0|None
+201059|288|1636|18.559|321.45|141.29|None|1|None|0|None
+201060|288|1637|18.559|321.45|141.29|None|1|None|0|None
+201061|288|1533|184.786|5.02|185.25|None|None|None|None|None
+201062|288|1534|184.786|5.02|185.25|None|None|None|None|None
+201063|288|1535|184.786|5.02|185.25|None|None|None|None|None
+201064|288|1569|156.779|16.28|196.91|None|None|None|None|None
+201065|288|1570|156.779|16.28|196.91|None|None|None|None|None
+201066|288|1571|156.779|16.28|196.91|None|None|None|None|None
+201067|288|1686|133.468|94.53|276.35|None|None|None|None|None
+201068|288|1687|133.468|94.53|276.35|None|None|None|None|None
+201069|288|1689|179.958|107.14|289.47|None|None|None|None|None
+201070|288|1690|179.958|107.14|289.47|None|None|None|None|None
+201071|288|1691|179.958|107.14|289.47|None|None|None|None|None
+
+# 
+# stations
+# 
+# Sid|Name|Network|Channel|LocationCode|Latitude|Longitude|ElevationMasl|Source
+1635|SIT|AT|BHE||57.0569|-135.3244|19.0|IRIS
+1636|SIT|AT|BHN||57.0569|-135.3244|19.0|IRIS
+1637|SIT|AT|BHZ||57.0569|-135.3244|19.0|IRIS
+1533|BESE|AK|BHE||58.5792|-134.8559|867.0|IRIS
+1534|BESE|AK|BHN||58.5792|-134.8559|867.0|IRIS
+1535|BESE|AK|BHZ||58.5792|-134.8559|867.0|IRIS
+1569|JIS|AK|BHE||58.2758|-134.3848|10.0|IRIS
+1570|JIS|AK|BHN||58.2758|-134.3848|10.0|IRIS
+1571|JIS|AK|BHZ||58.2758|-134.3848|10.0|IRIS
+1686|PPPPS|PN|BHZ||56.813|-132.955|25.0|IRIS
+1687|PPSA|PN|BHZ||56.813|-132.955|0.0|IRIS
+1689|WRAK|US|BH1|00|56.4191|-132.3466|80.9|IRIS
+1690|WRAK|US|BH2|00|56.4191|-132.3466|80.9|IRIS
+1691|WRAK|US|BHZ|00|56.4191|-132.3466|80.9|IRIS
+

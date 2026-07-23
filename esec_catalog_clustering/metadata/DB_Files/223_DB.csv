@@ -1,0 +1,49 @@
+# 
+# events
+# 
+# Eventid|Name|Starttime|Endtime|Latitude|Longitude|LocuncertKm|CrownLat|CrownLon|TipLat|TipLon|Type|AreaTotal|AreaSource|AreaSourceLow|AreaSourceHigh|Volume|VolumeLow|VolumeHigh|Mass|MassLow|MassHigh|H|HLow|HHigh|L|LLow|LHigh|HFreefall|HFreefallLow|HFreefallHigh|UpstreamDrainarea|PeakDischarge|PeakDischargeLow|PeakDischargeHigh|PeakFlowheight|PeakFlowheightLow|PeakFlowheightHigh|Otherdataquality1to5|LPpotential|MaxdistvhfKm|MaxdistvhfReached|MaxdisthfKm|MaxdisthfReached|MaxdistipKm|MaxdistipReached|MaxdistlpKm|MaxdistlpReached|InfraDetected|MaxdistinfraKm|MaxdistinfraReached|DatLocation|Sources
+223|Rudach, Austria|2018-02-12 20:02:35|2018-02-12 20:03:35|47.353|9.815|None|None|None|None|None|landslide|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|1|0|None|None|99.0|0|None|None|0.0|None|None|None|None|ORFEUS, BGR, ETH|Collins, E.A., Allstadt, K.E., Groult, C., Hibert, C., Malet, J.-P., Toney, L.D., and Bessette-Kirton, E., 2022, Seismogenic Landslides and other Mass Movements: U.S. Geological Survey data release, https://doi.org/10.5066/P90VGCSK.
+
+
+# 
+# information
+# 
+# Iid|Eventid|RefId|Note|PhoId|GISId|ApplyAlso
+494|228|220|This event occurred in limestones, marlstones and marls based on ELSUS v2 (Wilde and others, 2018).|None|None|223,214,205,216
+530|191|None|Horizontal components for several stations which detected these events were not reviewed.|None|None|192,193,194,195,196,197,198,199,200,201,202,203,204,205,206,207,208,209,210,211,212,213,214,215,216,217,218,219,220,221,222,223,224,225,226,227,228,229,230,231,232,233,234,235,236,237,238,239,240,241,242,243,244,245,246,247,248,249,250,251,252,253,254,255,256,257,258
+549|217|207|These events were cataloged through ZAMG (2021). Individual reports for each event were recieved by mail.|None|None|218,219,220,221,222,223,224,225,226,227,228,229,230,253
+
+# 
+# photos
+# 
+# PhotoId|Eventid|Photographer|Description|Latitude|Longitude|Date|FileExtension|ApplyAlso
+1165|223|Elaine Collins|Raw waveforms from closest stations. Data was demeaned but no other processing was applied. Dashed lines show approximate start and end times of event (from database). Figure generation is automated and there may be artifacts present.|None|None|None|EventData/223_RudachAustria_12Feb2018/photos_figures/223_RudachAustria_12Feb2018_waveforms_raw.png|None
+1166|223|Elaine Collins|High frequency (1-5 Hz) ground velocity waveforms for station response from closest stations with detections. Dashed lines show approximate start and end times of event (from database). Waveforms are corrected for station response after removing the mean. Figure generation is automated and there may be artifacts present. Clipped waveforms have not been removed before station correction so check raw plots before interpreting high amplitude signals.|None|None|None|EventData/223_RudachAustria_12Feb2018/photos_figures/223_RudachAustria_12Feb2018_waveforms_1-5Hz.png|None
+1167|223|Elaine Collins|Spectrograms of velocity waveforms corrected for station sensitivity from closest stations with detections. Figure generation is automated and there may be artifacts present|None|None|None|EventData/223_RudachAustria_12Feb2018/photos_figures/223_RudachAustria_12Feb2018_spectrogram.png|None
+1168|223|Elaine Collins|Multitaper spectra (same units as Power Spectral Density) of velocity waveforms corrected for station sensitivity from closest stations with detections. Linear trend was removed and a taper was applied before generating spectra. Figure generation is automated and there may be artifacts present. Since station response was not removed to avoid adding artifacts at low frequencies for short and intermediate period stations, the lower frequency amplitudes should be interpreted with care.|None|None|None|EventData/223_RudachAustria_12Feb2018/photos_figures/223_RudachAustria_12Feb2018_spectra.png|None
+
+
+# 
+# sta_nearby
+# 
+# SRid|Eventid|Sid|StasourceRadiusKm|Az|Baz|DetectVHF|DetectHF|DetectIP|DetectLP|DetectINFRA
+186618|223|37871|8.86436376830933|146.1634698221376|326.21147509519005|None|1|None|None|None
+186619|223|37880|28.77465499668565|290.15744091937046|109.89315642913134|None|1|None|None|None
+186620|223|37875|35.10809971822384|269.3454957483201|89.00276345992908|None|1|None|None|None
+186621|223|37900|42.45574820148484|31.08043228343526|211.29584873404463|None|1|None|None|None
+186622|223|37851|63.84637659291511|175.57303213160756|355.6202708967633|None|1|None|None|None
+186623|223|37854|88.28687225418192|157.10616947524508|337.43413254579525|None|1|None|None|None
+186624|223|37867|98.83068102268328|244.80902128159912|63.94526693267247|None|1|None|None|None
+
+# 
+# stations
+# 
+# Sid|Name|Network|Channel|LocationCode|Latitude|Longitude|ElevationMasl|Source
+37871|DAVA|OE|HHZ||47.286701|9.8803|1602.0|ORFEUS,IRIS
+37880|SGT05|CH|HHZ||47.441856|9.455951|856.0|ETH
+37875|SGT04|CH|HHZ||47.348435|9.349025|987.0|ETH
+37900|UBR|GR|HHZ||47.6799|10.1071|903.0|BGR
+37851|DAVOX|CH|HHZ||46.7805|9.87952|1830.0|ETH
+37854|FUORN|CH|HHZ||46.620334|10.26352|2286.0|ETH,IRIS
+37867|MUO|CH|HHZ||46.96765|8.63706|1920.0|ETH
+

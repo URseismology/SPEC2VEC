@@ -1,0 +1,56 @@
+# 
+# events
+# 
+# Eventid|Name|Starttime|Endtime|Latitude|Longitude|LocuncertKm|CrownLat|CrownLon|TipLat|TipLon|Type|AreaTotal|AreaSource|AreaSourceLow|AreaSourceHigh|Volume|VolumeLow|VolumeHigh|Mass|MassLow|MassHigh|H|HLow|HHigh|L|LLow|LHigh|HFreefall|HFreefallLow|HFreefallHigh|UpstreamDrainarea|PeakDischarge|PeakDischargeLow|PeakDischargeHigh|PeakFlowheight|PeakFlowheightLow|PeakFlowheightHigh|Otherdataquality1to5|LPpotential|MaxdistvhfKm|MaxdistvhfReached|MaxdisthfKm|MaxdisthfReached|MaxdistipKm|MaxdistipReached|MaxdistlpKm|MaxdistlpReached|InfraDetected|MaxdistinfraKm|MaxdistinfraReached|DatLocation|Sources
+198|Maitz, France|2018-03-13 05:49:38|2018-03-13 05:49:53|44.65|6.46|3.0|None|None|None|None|landslide|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|1|0|None|None|44.0|0|None|None|0.0|None|None|None|None|RESIF, INGV|Collins, E.A., Allstadt, K.E., Groult, C., Hibert, C., Malet, J.-P., Toney, L.D., and Bessette-Kirton, E., 2022, Seismogenic Landslides and other Mass Movements: U.S. Geological Survey data release, https://doi.org/10.5066/P90VGCSK.
+
+
+# 
+# information
+# 
+# Iid|Eventid|RefId|Note|PhoId|GISId|ApplyAlso
+493|198|220|This event occurred in marlstones, limestones and sands based on ELSUS v2 (Wilde and others, 2018).|None|None|243,244,250,251
+538|198|198|Location coordinates, maximum location uncertainty, and type were taken from Renass (2018)b.|None|None|None
+530|191|None|Horizontal components for several stations which detected these events were not reviewed.|None|None|192,193,194,195,196,197,198,199,200,201,202,203,204,205,206,207,208,209,210,211,212,213,214,215,216,217,218,219,220,221,222,223,224,225,226,227,228,229,230,231,232,233,234,235,236,237,238,239,240,241,242,243,244,245,246,247,248,249,250,251,252,253,254,255,256,257,258
+
+# 
+# photos
+# 
+# PhotoId|Eventid|Photographer|Description|Latitude|Longitude|Date|FileExtension|ApplyAlso
+1057|198|Elaine Collins|Raw waveforms from closest stations. Data was demeaned but no other processing was applied. Dashed lines show approximate start and end times of event (from database). Figure generation is automated and there may be artifacts present.|None|None|None|EventData/198_MaitzFrance_13Mar2018/photos_figures/198_MaitzFrance_13Mar2018_waveforms_raw.png|None
+1058|198|Elaine Collins|High frequency (1-5 Hz) ground velocity waveforms for station response from closest stations with detections. Dashed lines show approximate start and end times of event (from database). Waveforms are corrected for station response after removing the mean. Figure generation is automated and there may be artifacts present. Clipped waveforms have not been removed before station correction so check raw plots before interpreting high amplitude signals.|None|None|None|EventData/198_MaitzFrance_13Mar2018/photos_figures/198_MaitzFrance_13Mar2018_waveforms_1-5Hz.png|None
+1059|198|Elaine Collins|Spectrograms of velocity waveforms corrected for station sensitivity from closest stations with detections. Figure generation is automated and there may be artifacts present|None|None|None|EventData/198_MaitzFrance_13Mar2018/photos_figures/198_MaitzFrance_13Mar2018_spectrogram.png|None
+1060|198|Elaine Collins|Multitaper spectra (same units as Power Spectral Density) of velocity waveforms corrected for station sensitivity from closest stations with detections. Linear trend was removed and a taper was applied before generating spectra. Figure generation is automated and there may be artifacts present. Since station response was not removed to avoid adding artifacts at low frequencies for short and intermediate period stations, the lower frequency amplitudes should be interpreted with care.|None|None|None|EventData/198_MaitzFrance_13Mar2018/photos_figures/198_MaitzFrance_13Mar2018_spectra.png|None
+
+# 
+# reference
+# 
+# Refid|Eventid|ApplyAlso|LongRef|ShortRef|FileExtension|Url
+198|198||Renass, Mar 2018, Éboulement de magnitude 0.6, proche de Gap [Bulletin], Accessed 5 Nov 2021, at https://renass.unistra.fr/fr/evenements/fr2018yafxxv/|Renass (2018)b|None|https://renass.unistra.fr/fr/evenements/fr2018yafxxv/
+
+# 
+# sta_nearby
+# 
+# SRid|Eventid|Sid|StasourceRadiusKm|Az|Baz|DetectVHF|DetectHF|DetectIP|DetectLP|DetectINFRA
+185386|198|37816|16.571658761624715|22.387388036004257|202.44349900634887|None|1|None|None|None
+185387|198|37823|16.995715243468023|130.86766280253212|310.98138046355893|None|1|None|None|None
+185388|198|37822|24.86487813979151|83.33219432613183|263.55173752081913|None|1|None|None|None
+185389|198|37819|33.03859873302639|303.8048975328209|123.56020715804078|None|1|None|None|None
+185390|198|37834|33.58267038624413|136.83407337098294|317.0366385228944|None|1|None|None|None
+185391|198|37833|33.61057037621185|123.79479201550176|304.04158542532605|None|1|None|None|None
+185392|198|38164|39.82862092704377|40.81583583058224|221.0483068297091|None|1|None|None|None
+185393|198|37815|43.26029770916818|353.8237087188061|173.7820793889114|None|1|None|None|None
+
+# 
+# stations
+# 
+# Sid|Name|Network|Channel|LocationCode|Latitude|Longitude|ElevationMasl|Source
+37816|OGAG|FR|HHZ|00|44.78784|6.539745|1280.0|RESIF
+37823|CREF|FR|EHZ|00|44.549681|6.621956|1692.0|RESIF
+37822|OGCE|FR|EHZ|00|44.675625|6.772324|1789.0|RESIF
+37819|OGVG|FR|HHZ|00|44.81517|6.11233|1090.0|RESIF
+37834|JAUF|FR|EHZ|00|44.429|6.7488|1639.0|RESIF
+37833|SURF|FR|HHZ|00|44.480935|6.811695|1820.0|RESIF
+38164|RRL|GU|HHZ||44.921|6.79|2086.0|INGV
+37815|OGSA|FR|HHZ|00|45.036806|6.400931|2106.0|RESIF
+

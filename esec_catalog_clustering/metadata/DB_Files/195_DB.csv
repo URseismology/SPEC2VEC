@@ -1,0 +1,167 @@
+# 
+# events
+# 
+# Eventid|Name|Starttime|Endtime|Latitude|Longitude|LocuncertKm|CrownLat|CrownLon|TipLat|TipLon|Type|AreaTotal|AreaSource|AreaSourceLow|AreaSourceHigh|Volume|VolumeLow|VolumeHigh|Mass|MassLow|MassHigh|H|HLow|HHigh|L|LLow|LHigh|HFreefall|HFreefallLow|HFreefallHigh|UpstreamDrainarea|PeakDischarge|PeakDischargeLow|PeakDischargeHigh|PeakFlowheight|PeakFlowheightLow|PeakFlowheightHigh|Otherdataquality1to5|LPpotential|MaxdistvhfKm|MaxdistvhfReached|MaxdisthfKm|MaxdisthfReached|MaxdistipKm|MaxdistipReached|MaxdistlpKm|MaxdistlpReached|InfraDetected|MaxdistinfraKm|MaxdistinfraReached|DatLocation|Sources
+195|Montfort Isere, France|2021-04-06 23:41:24|2021-04-06 23:42:52|45.3059|5.8889|0.05|45.3059|5.8889|45.3037|5.8926|rock fall|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|4|0|None|None|205.0|0|None|None|0.0|None|None|None|None|RASPISHAKE, RESIF, ETH, INGV|Collins, E.A., Allstadt, K.E., Groult, C., Hibert, C., Malet, J.-P., Toney, L.D., and Bessette-Kirton, E., 2022, Seismogenic Landslides and other Mass Movements: U.S. Geological Survey data release, https://doi.org/10.5066/P90VGCSK.
+
+
+# 
+# information
+# 
+# Iid|Eventid|RefId|Note|PhoId|GISId|ApplyAlso
+490|252|220|This event occurred in limestones based on ELSUS v2 (Wilde and others, 2018).|None|None|197,200,196,195,245,246,247,194,211,253,219,237,208,215,230,224,212,260
+530|191|None|Horizontal components for several stations which detected these events were not reviewed.|None|None|192,193,194,195,196,197,198,199,200,201,202,203,204,205,206,207,208,209,210,211,212,213,214,215,216,217,218,219,220,221,222,223,224,225,226,227,228,229,230,231,232,233,234,235,236,237,238,239,240,241,242,243,244,245,246,247,248,249,250,251,252,253,254,255,256,257,258
+552|191|None|Location uncertainty was estimated from the maximum distance between event coordinates and suspected crown location using imagery from Google Earth and Planet Labs Explorer. Event type was estimated or confirmed using satellite imagery.|None|None|194,195,202,210,212,213,214,226,227,236,245,246,247,255
+
+# 
+# photos
+# 
+# PhotoId|Eventid|Photographer|Description|Latitude|Longitude|Date|FileExtension|ApplyAlso
+1045|195|Elaine Collins|Raw waveforms from closest stations. Data was demeaned but no other processing was applied. Dashed lines show approximate start and end times of event (from database). Figure generation is automated and there may be artifacts present.|None|None|None|EventData/195_MontfortIsereFrance_06Apr2021/photos_figures/195_MontfortIsereFrance_06Apr2021_waveforms_raw.png|None
+1046|195|Elaine Collins|High frequency (1-5 Hz) ground velocity waveforms for station response from closest stations with detections. Dashed lines show approximate start and end times of event (from database). Waveforms are corrected for station response after removing the mean. Figure generation is automated and there may be artifacts present. Clipped waveforms have not been removed before station correction so check raw plots before interpreting high amplitude signals.|None|None|None|EventData/195_MontfortIsereFrance_06Apr2021/photos_figures/195_MontfortIsereFrance_06Apr2021_waveforms_1-5Hz.png|None
+1047|195|Elaine Collins|Spectrograms of velocity waveforms corrected for station sensitivity from closest stations with detections. Figure generation is automated and there may be artifacts present|None|None|None|EventData/195_MontfortIsereFrance_06Apr2021/photos_figures/195_MontfortIsereFrance_06Apr2021_spectrogram.png|None
+1048|195|Elaine Collins|Multitaper spectra (same units as Power Spectral Density) of velocity waveforms corrected for station sensitivity from closest stations with detections. Linear trend was removed and a taper was applied before generating spectra. Figure generation is automated and there may be artifacts present. Since station response was not removed to avoid adding artifacts at low frequencies for short and intermediate period stations, the lower frequency amplitudes should be interpreted with care.|None|None|None|EventData/195_MontfortIsereFrance_06Apr2021/photos_figures/195_MontfortIsereFrance_06Apr2021_spectra.png|None
+
+# 
+# reference
+# 
+# Refid|Eventid|ApplyAlso|LongRef|ShortRef|FileExtension|Url
+194|195||Renass, Apr 2021, Éboulement de magnitude 1.6, proche de Saint-Martin-d'Hères [Bulletin], Accessed 5 Nov 2021, at https://renass.unistra.fr/fr/evenements/fr2021gedgzg/|Renass (2021)|None|https://renass.unistra.fr/fr/evenements/fr2021gedgzg/
+195|195||Dufféal, E., 10 Apr 2021, le dauphiné, Sur les hauteurs de Crolles, 3 000 m³ de rochers dévalent la falaise de l’Oule [Article], Accessed 5 Nov 2021, at https://www.ledauphine.com/environnement/2021/04/10/isere-gresivaudan-sur-les-hauteurs-de-crolles-3-000-m-de-rochers-devalent-la-falaise-de-l-oule|Dufféal (2021)|None|https://www.ledauphine.com/environnement/2021/04/10/isere-gresivaudan-sur-les-hauteurs-de-crolles-3-000-m-de-rochers-devalent-la-falaise-de-l-oule
+
+# 
+# sta_nearby
+# 
+# SRid|Eventid|Sid|StasourceRadiusKm|Az|Baz|DetectVHF|DetectHF|DetectIP|DetectLP|DetectINFRA
+185313|195|37832|7.631|90.13|270.2|None|1|None|None|None
+185314|195|37837|11.819|227.57|47.49|None|1|None|None|None
+185315|195|37826|10.019|138.17|318.23|None|1|None|None|None
+185316|195|37843|13.454|237.8|57.7|None|1|None|None|None
+185317|195|37830|13.365|184.99|4.98|None|1|None|None|None
+185318|195|37825|20.647|177.9|357.9|None|1|None|None|None
+185319|195|37831|22.652|196.76|16.7|None|1|None|None|None
+185320|195|37828|27.066|193.95|13.89|None|1|None|None|None
+185321|195|37829|27.698|194.42|14.36|None|1|None|None|None
+185322|195|37827|28.033|193.69|13.63|None|1|None|None|None
+185323|195|38160|36.897|336.09|155.96|None|1|None|None|None
+185324|195|37838|43.076|205.58|25.41|None|1|None|None|None
+185325|195|37824|43.081|180.93|0.93|None|1|None|None|None
+185326|195|37835|43.742|202.66|22.5|None|1|None|None|None
+185327|195|37836|43.942|202.89|22.73|None|1|None|None|None
+185328|195|37815|50.145|126.43|306.79|None|1|None|None|None
+185329|195|38161|65.052|255.23|74.66|None|1|None|None|None
+185330|195|38162|63.92|0.03|180.03|None|1|None|None|None
+185331|195|37846|71.493|53.27|233.8|None|1|None|None|None
+185332|195|37816|77.096|138.08|318.54|None|1|None|None|None
+185333|195|38163|80.353|231.21|50.65|None|1|None|None|None
+185334|195|37817|78.141|123.95|304.53|None|1|None|None|None
+185335|195|38164|82.811|120.78|301.42|None|1|None|None|None
+185336|195|38147|84.729|4.43|184.49|None|1|None|None|None
+185337|195|38165|85.743|343.34|163.11|None|1|None|None|None
+185338|195|38143|85.389|10.87|191.02|None|1|None|None|None
+185339|195|38146|93.254|6.88|186.98|None|1|None|None|None
+185340|195|38166|95.289|45.85|226.48|None|1|None|None|None
+185341|195|38144|95.922|11.06|191.23|None|1|None|None|None
+185342|195|38150|98.395|0.86|180.87|None|1|None|None|None
+185343|195|38145|98.491|8.08|188.21|None|1|None|None|None
+185344|195|38139|101.174|53.36|234.11|None|1|None|None|None
+185345|195|37982|104.167|7.06|187.18|None|1|None|None|None
+185346|195|37937|105.064|60.2|241.03|None|1|None|None|None
+185347|195|38167|106.041|47.59|228.31|None|1|None|None|None
+185348|195|38168|107.386|38.72|219.34|None|1|None|None|None
+185349|195|38148|107.704|7.29|187.42|None|1|None|None|None
+185350|195|38169|111.126|9.24|189.41|None|1|None|None|None
+185351|195|37981|112.536|7.36|187.5|None|1|None|None|None
+185352|195|38170|118.254|303.0|122.09|None|1|None|None|None
+185353|195|37934|125.706|41.78|222.56|None|1|None|None|None
+185354|195|38152|126.588|8.47|188.65|None|1|None|None|None
+185355|195|38171|129.427|28.16|208.73|None|1|None|None|None
+185356|195|38140|130.376|38.48|219.24|None|1|None|None|None
+185357|195|38149|130.895|13.21|193.49|None|1|None|None|None
+185358|195|38141|132.899|41.2|222.01|None|1|None|None|None
+185359|195|37915|135.404|75.34|256.54|None|1|None|None|None
+185360|195|37972|139.554|11.95|192.22|None|1|None|None|None
+185361|195|37931|141.623|41.72|222.59|None|1|None|None|None
+185362|195|38172|145.474|323.02|142.21|None|1|None|None|None
+185363|195|37914|146.386|53.41|234.49|None|1|None|None|None
+185364|195|38173|147.182|80.38|261.7|None|1|None|None|None
+185365|195|37920|160.69|42.49|223.5|None|1|None|None|None
+185366|195|38174|161.537|0.91|180.93|None|1|None|None|None
+185367|195|37897|166.59|52.29|233.51|None|1|None|None|None
+185368|195|38089|173.215|277.95|96.39|None|1|None|None|None
+185369|195|37894|180.839|48.32|229.58|None|1|None|None|None
+185370|195|37881|181.632|62.15|243.63|None|1|None|None|None
+185371|195|37887|181.926|55.51|236.9|None|1|None|None|None
+185372|195|38153|183.292|35.86|216.86|None|1|None|None|None
+185373|195|37888|191.272|49.18|230.53|None|1|None|None|None
+185374|195|38175|199.99|358.29|178.24|None|1|None|None|None
+185375|195|37899|202.215|41.05|222.3|None|1|None|None|None
+
+# 
+# stations
+# 
+# Sid|Name|Network|Channel|LocationCode|Latitude|Longitude|ElevationMasl|Source
+37832|R5156|AM|EHZ|00|45.3057|5.9862|632.0|RASPISHAKE
+37837|RES|MT|HHZ|00|45.2341|5.7778|608.0|RESIF
+37826|RAB7F|AM|EHZ|00|45.2387|5.974|600.0|RASPISHAKE
+37843|GRN|FR|HHZ|00|45.2413|5.7439|1040.0|RESIF
+37830|R5954|AM|EHZ|00|45.1861|5.8741|700.0|RASPISHAKE
+37825|CHA2|FR|EHZ|00|45.12023929|5.89852761|2202.82|RESIF
+37831|R83E1|AM|EHZ|00|45.1107|5.8059|300.0|RASPISHAKE
+37828|OGS3|FR|HHZ|00|45.06951|5.806072|1130.0|RESIF
+37829|OGS2|FR|HHZ|00|45.064487|5.801324|1015.0|RESIF
+37827|OGS1|FR|HHZ|00|45.060788|5.80467|723.0|RESIF
+38160|OGSM|FR|HHZ|00|45.609238|5.697216|532.0|RESIF
+37838|AVR|MT|HHZ|00|44.956045|5.653195|871.51|RESIF
+37824|ORIF|RD|BHZ||44.9183|5.88|0.0|RESIF
+37835|AVM|MT|HHZ|02|44.942474|5.675417|658.0|RESIF
+37836|AVP|MT|HHZ|00|44.941426|5.672365|748.0|RESIF
+37815|OGSA|FR|HHZ|00|45.036806|6.400931|2106.0|RESIF
+38161|OGCN|FR|HHZ|00|45.153892|5.088958|369.0|RESIF
+38162|OGMY|FR|HHZ|00|45.881011|5.889317|656.0|RESIF
+37846|RSL|FR|HHZ|00|45.688207|6.624517|1590.0|RESIF
+37816|OGAG|FR|HHZ|00|44.78784|6.539745|1280.0|RESIF
+38163|OGCB|FR|HHZ|00|44.850189|5.096617|781.0|RESIF
+37817|OGJA|FR|HHZ|00|44.910273|6.709738|2523.0|RESIF
+38164|RRL|GU|HHZ||44.921|6.79|2086.0|INGV
+38147|SAVIG|CH|HHZ||46.065923|5.973429|529.0|ETH
+38165|OG35|FR|HHZ|00|46.044516|5.571265|896.0|RESIF
+38143|SALEV|CH|HHZ||46.06019|6.09704|1083.6|ETH
+38146|LULY2|8D|HHZ||46.13879|6.03344|446.5|ETH
+38166|CI18|8C|HHZ|00|45.8997|6.76995|1146.0|RESIF
+38144|LULY3|8D|HHZ||46.15266|6.12702|478.5|ETH
+38150|PERON|CH|HHZ||46.19107|5.90792|707.5|ETH
+38145|LULY1|8D|HHZ||46.1831|6.06823|414.5|ETH
+38139|BLANC|GU|HHZ||45.8444|6.934|3279.0|INGV
+37982|CERN1|C4|HHZ||46.235876|6.054836|356.3|ETH
+37937|MRGE|IV|HHZ||45.76975|7.06101|1660.0|INGV
+38167|CI19|8C|HHZ|00|45.9449|6.89867|1085.0|RESIF
+38168|OGSI|FR|HHZ|00|46.056477|6.756879|750.0|RESIF
+38148|CERNS|C4|HHZ||46.266947|6.066212|463.2|ETH
+38169|COLLE|CH|HHZ||46.29249|6.12055|447.0|ETH
+37981|CERN5|C4|HHZ||46.309893|6.07608|418.2|ETH
+38170|OGGL|FR|HHZ|00|45.878365|4.611435|405.0|RESIF
+37934|SALAN|CH|HHZ||46.14415|6.97302|1881.3|ETH
+38152|LADOL|CH|HHZ||46.43213|6.13151|1455.0|ETH
+38171|OGVA|FR|HHZ|00|46.329823|6.682073|1012.0|RESIF
+38140|ILLEZ|CH|HHZ||46.21934|6.94038|1395.0|ETH
+38149|VINZL|CH|HHZ||46.45175|6.27815|553.0|ETH
+38141|LAVEY|CH|EHZ|BT|46.2|7.023056|421.0|ETH
+37915|CIRO|GU|HHZ||45.6019|7.5681|2462.0|INGV
+37972|GIMEL|CH|HHZ||46.53364|6.26545|1094.0|ETH
+37931|GRYON|CH|HHZ||46.25053|7.11106|1282.0|ETH
+38172|OGRV|FR|HHZ|00|46.3459|4.7522|293.0|RESIF
+37914|DIX|CH|HHZ||46.081053|7.408391|2370.2|ETH
+38173|TRAV|GU|HHZ||45.5122|7.7461|973.0|INGV
+37920|SENIN|CH|HHZ||46.36335|7.29938|2019.6|ETH,IRIS
+38174|RIVEL|FR|HHZ|00|46.759014|5.922489|871.0|RESIF
+37897|VANNI|CH|HHZ||46.21006|7.59678|1520.0|ETH
+38089|COLF|FR|HHZ|00|45.5004|3.6937|800.0|RESIF
+37894|LKBD2|CH|HHZ||46.37455|7.64433|2128.0|ETH
+37881|MMK|CH|HHZ||46.0507|7.96409|2200.0|ETH
+37887|EMBD|CH|HHZ||46.21652|7.83223|1180.0|ETH
+38153|JAUN|CH|HHZ||46.63395|7.29096|1658.0|ETH
+37888|LAUCH|CH|HHZ||46.41554|7.77166|2160.0|ETH
+38175|FOURG|FR|HHZ|00|47.104272|5.810501|271.0|RESIF
+37899|WIMIS|CH|HHZ||46.66488|7.62418|770.0|ETH
+

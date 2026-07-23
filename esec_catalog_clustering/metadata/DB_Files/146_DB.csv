@@ -1,0 +1,97 @@
+# 
+# events
+# 
+# Eventid|Name|Starttime|Endtime|Latitude|Longitude|LocuncertKm|CrownLat|CrownLon|TipLat|TipLon|Type|AreaTotal|AreaSource|AreaSourceLow|AreaSourceHigh|Volume|VolumeLow|VolumeHigh|Mass|MassLow|MassHigh|H|HLow|HHigh|L|LLow|LHigh|HFreefall|HFreefallLow|HFreefallHigh|UpstreamDrainarea|PeakDischarge|PeakDischargeLow|PeakDischargeHigh|PeakFlowheight|PeakFlowheightLow|PeakFlowheightHigh|Otherdataquality1to5|LPpotential|MaxdistvhfKm|MaxdistvhfReached|MaxdisthfKm|MaxdisthfReached|MaxdistipKm|MaxdistipReached|MaxdistlpKm|MaxdistlpReached|InfraDetected|MaxdistinfraKm|MaxdistinfraReached|DatLocation|Sources
+146|NW Rota 1|2009-08-14 15:38:55|2009-08-14 20:00:29|14.595161|144.77155|1.0|None|None|None|None|submarine landslide|None|None|None|None|None|None|53000000.0|None|None|None|None|2200.0|None|8000.0|None|None|None|None|None|None|None|None|None|None|None|None|5|1|None|None|126.0|0|None|None|126.0|0|None|None|None|IRIS, GFZ, ORFEUS, IPGP, ISC|Collins, E.A., Allstadt, K.E., Groult, C., Hibert, C., Malet, J.-P., Toney, L.D., and Bessette-Kirton, E., 2022, Seismogenic Landslides and other Mass Movements: U.S. Geological Survey data release, https://doi.org/10.5066/P90VGCSK.
+
+
+# 
+# information
+# 
+# Iid|Eventid|RefId|Note|PhoId|GISId|ApplyAlso
+469|146|179|Volume (53 million m3), L (8,000 m), and H (2200) were taken from Chadwick and others (2012). H was estimated from Fig. 1B.|None|None|None
+473|146|179|The start and end time for this event is based on the second landslide signal seen in Fig. 2, Chadwick and others (2012). Chadwick and others (2012) note: "The durations of the landslide signals at NW Rota-1 (minutes to hours) are also consistent with the recordings at Stromboli and Kilauea (Caplan-Auerbach et al., 2001; La Rocca et al., 2004). However, the multiple pulses and their long overall duration indicate that the NW Rota-1 landslide was not a single event, but instead involved an extended sequence of retrogressive failures."|None|None|None
+474|146|182|An alternate seismic interpretation of this event comes from Haney and Wech (written commun., 2021). The seismic data from GUMO-BHZ filtered between 0.025 and 0.04 Hz shows a long-period signal between approximately 16:56 (UTC) and 17:06 (UTC).|None|None|None
+
+# 
+# photos
+# 
+# PhotoId|Eventid|Photographer|Description|Latitude|Longitude|Date|FileExtension|ApplyAlso
+990|146|Elaine Collins|Spectrograms of velocity waveforms from closest stations with detections. Data was not corrected for station sensitivity.|None|None|None|EventData/146_NWRota1_14Aug2009/photos_figures/146_NWRota1_14Aug2009_spectrogram.png|None
+991|146|Elaine Collins|Filtered (1-5 Hz) waveforms from closest stations with detections. Data was demeaned but not corrected for station response.|None|None|None|EventData/146_NWRota1_14Aug2009/photos_figures/146_NWRota1_14Aug2009_source-ElaineCollins_2.png|None
+
+# 
+# reference
+# 
+# Refid|Eventid|ApplyAlso|LongRef|ShortRef|FileExtension|Url
+179|146|None|Chadwick, W.W., Dziak, R.P., Haxel, J.H., Embley, R.W., and Mastumoto, H., 2012, Submarine landslide triggered by volcanic eruption recorded by in situ hydrophone: Geology, v. 40, no. 1, p. 51-54, doi: https://doi.org/10.1130/G32495.1|Chadwick and others (2012)|None|https://pubs.geoscienceworld.org/gsa/geology/article/40/1/51/130701/Submarine-landslide-triggered-by-volcanic-eruption
+182|146|None|Haney, M. and Wech, A., 2021, written communication.|Haney and Wech (written commun., 2021)|None|None
+
+# 
+# sta_nearby
+# 
+# SRid|Eventid|Sid|StasourceRadiusKm|Az|Baz|DetectVHF|DetectHF|DetectIP|DetectLP|DetectINFRA
+137939|146|24719|111.779|174.62|354.64|None|1|None|1|None
+137940|146|24720|111.779|174.62|354.64|None|1|None|0|None
+137941|146|24721|111.779|174.62|354.64|None|1|None|0|None
+137942|146|24722|111.779|174.62|354.64|None|None|None|None|None
+137943|146|24723|111.779|174.62|354.64|None|None|None|None|None
+137944|146|24724|111.779|174.62|354.64|None|None|None|None|None
+137945|146|24725|111.779|174.62|354.64|None|None|None|None|None
+137946|146|24726|111.779|174.62|354.64|None|None|None|None|None
+137947|146|24727|111.779|174.62|354.64|None|None|None|None|None
+137948|146|24728|216.185|26.51|206.75|None|None|None|None|None
+137949|146|24729|216.185|26.51|206.75|None|None|None|None|None
+137950|146|24730|216.185|26.51|206.75|None|None|None|None|None
+137951|146|24731|217.949|27.44|207.7|None|None|None|None|None
+137952|146|24732|219.829|27.33|207.59|None|None|None|None|None
+137953|146|24733|216.137|26.48|206.72|None|None|None|None|None
+137954|146|24734|216.137|26.48|206.72|None|None|None|None|None
+137955|146|24735|216.137|26.48|206.72|None|None|None|None|None
+137956|146|24736|216.137|26.48|206.72|None|None|None|None|None
+137957|146|24737|216.137|26.48|206.72|None|None|None|None|None
+137958|146|24738|216.137|26.48|206.72|None|None|None|None|None
+137959|146|24739|125.78|56.84|237.1|None|None|None|None|None
+137960|146|24740|125.78|56.84|237.1|None|None|None|None|None
+137961|146|24741|125.78|56.84|237.1|None|None|None|None|None
+137962|146|24742|256.78|24.76|205.03|None|None|None|None|None
+137963|146|24743|256.78|24.76|205.03|None|None|None|None|None
+137964|146|24744|256.78|24.76|205.03|None|None|None|None|None
+137965|146|24745|125.777|56.87|237.13|None|1|None|1|None
+137966|146|24746|125.777|56.87|237.13|None|1|None|1|None
+137967|146|24747|125.777|56.87|237.13|None|0|None|0|None
+
+# 
+# stations
+# 
+# Sid|Name|Network|Channel|LocationCode|Latitude|Longitude|ElevationMasl|Source
+24719|GUMO|IU|BHE|00|13.5893|144.868393|61.0|IRIS
+24720|GUMO|IU|BHN|00|13.5893|144.868393|61.0|IRIS
+24721|GUMO|IU|BHZ|00|13.5893|144.868393|61.0|IRIS
+24722|GUMO|IU|HHE|10|13.5893|144.868393|170.0|IRIS
+24723|GUMO|IU|HHN|10|13.5893|144.868393|170.0|IRIS
+24724|GUMO|IU|HHZ|10|13.5893|144.868393|170.0|IRIS
+24725|GUMO|IU|HNE|20|13.5893|144.868393|170.0|IRIS
+24726|GUMO|IU|HNN|20|13.5893|144.868393|170.0|IRIS
+24727|GUMO|IU|HNZ|20|13.5893|144.868393|170.0|IRIS
+24728|AFOK|MI|EHE||16.3416|145.674606|418.0|IRIS
+24729|AFOK|MI|EHN||16.3416|145.674606|418.0|IRIS
+24730|AFOK|MI|EHZ||16.3416|145.674606|418.0|IRIS
+24731|ANA2|MI|EHZ||16.3412|145.711502|317.0|IRIS
+24732|ANNE|MI|EHZ||16.358|145.716202|0.0|IRIS
+24733|ANSV|MI|BHE||16.3417|145.673401|390.0|IRIS
+24734|ANSV|MI|BHN||16.3417|145.673401|390.0|IRIS
+24735|ANSV|MI|BHZ||16.3417|145.673401|390.0|IRIS
+24736|ANSW|MI|BHE||16.3417|145.673401|390.0|IRIS
+24737|ANSW|MI|BHN||16.3417|145.673401|390.0|IRIS
+24738|ANSW|MI|BHZ||16.3417|145.673401|390.0|IRIS
+24739|SAP2|MI|EHE||15.2148|145.751602|199.0|IRIS
+24740|SAP2|MI|EHN||15.2148|145.751602|199.0|IRIS
+24741|SAP2|MI|EHZ||15.2148|145.751602|199.0|IRIS
+24742|SARN|MI|EHE||16.700199|145.779495|451.0|IRIS
+24743|SARN|MI|EHN||16.700199|145.779495|451.0|IRIS
+24744|SARN|MI|EHZ||16.700199|145.779495|451.0|IRIS
+24745|SAIP|SS|BHE|02|15.2143|145.751907|229.0|IRIS
+24746|SAIP|SS|BHN|02|15.2143|145.751907|229.0|IRIS
+24747|SAIP|SS|BHZ|02|15.2143|145.751907|229.0|IRIS
+

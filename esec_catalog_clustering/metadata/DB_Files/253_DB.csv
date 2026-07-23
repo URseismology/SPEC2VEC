@@ -1,0 +1,95 @@
+# 
+# events
+# 
+# Eventid|Name|Starttime|Endtime|Latitude|Longitude|LocuncertKm|CrownLat|CrownLon|TipLat|TipLon|Type|AreaTotal|AreaSource|AreaSourceLow|AreaSourceHigh|Volume|VolumeLow|VolumeHigh|Mass|MassLow|MassHigh|H|HLow|HHigh|L|LLow|LHigh|HFreefall|HFreefallLow|HFreefallHigh|UpstreamDrainarea|PeakDischarge|PeakDischargeLow|PeakDischargeHigh|PeakFlowheight|PeakFlowheightLow|PeakFlowheightHigh|Otherdataquality1to5|LPpotential|MaxdistvhfKm|MaxdistvhfReached|MaxdisthfKm|MaxdisthfReached|MaxdistipKm|MaxdistipReached|MaxdistlpKm|MaxdistlpReached|InfraDetected|MaxdistinfraKm|MaxdistinfraReached|DatLocation|Sources
+253|Lunersee, Austria|2021-05-17 19:38:13|2021-05-17 19:39:31|47.060111|9.744017|0.05|None|None|None|None|rock fall|None|None|None|None|30000.0|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|4|0|None|None|161.0|0|None|None|0.0|None|0|0.0|None|RASPISHAKE, ETH, ORFEUS, LMU, IRIS, INGV|Collins, E.A., Allstadt, K.E., Groult, C., Hibert, C., Malet, J.-P., Toney, L.D., and Bessette-Kirton, E., 2022, Seismogenic Landslides and other Mass Movements: U.S. Geological Survey data release, https://doi.org/10.5066/P90VGCSK.
+
+
+# 
+# information
+# 
+# Iid|Eventid|RefId|Note|PhoId|GISId|ApplyAlso
+608|253|244|Event type and volume were taken from Vorarlberg ORF (2021).|None|None|None
+490|252|220|This event occurred in limestones based on ELSUS v2 (Wilde and others, 2018).|None|None|197,200,196,195,245,246,247,194,211,253,219,237,208,215,230,224,212,260
+530|191|None|Horizontal components for several stations which detected these events were not reviewed.|None|None|192,193,194,195,196,197,198,199,200,201,202,203,204,205,206,207,208,209,210,211,212,213,214,215,216,217,218,219,220,221,222,223,224,225,226,227,228,229,230,231,232,233,234,235,236,237,238,239,240,241,242,243,244,245,246,247,248,249,250,251,252,253,254,255,256,257,258
+549|217|207|These events were cataloged through ZAMG (2021). Individual reports for each event were recieved by mail.|None|None|218,219,220,221,222,223,224,225,226,227,228,229,230,253
+
+# 
+# photos
+# 
+# PhotoId|Eventid|Photographer|Description|Latitude|Longitude|Date|FileExtension|ApplyAlso
+1289|253|Elaine Collins|Raw waveforms from closest stations. Data was demeaned but no other processing was applied. Dashed lines show approximate start and end times of event (from database). Figure generation is automated and there may be artifacts present.|None|None|None|EventData/253_LunerseeAustria_17May2021/photos_figures/253_LunerseeAustria_17May2021_waveforms_raw.png|None
+1290|253|Elaine Collins|High frequency (1-5 Hz) ground velocity waveforms for station response from closest stations with detections. Dashed lines show approximate start and end times of event (from database). Waveforms are corrected for station response after removing the mean. Figure generation is automated and there may be artifacts present. Clipped waveforms have not been removed before station correction so check raw plots before interpreting high amplitude signals.|None|None|None|EventData/253_LunerseeAustria_17May2021/photos_figures/253_LunerseeAustria_17May2021_waveforms_1-5Hz.png|None
+1291|253|Elaine Collins|Spectrograms of velocity waveforms corrected for station sensitivity from closest stations with detections. Figure generation is automated and there may be artifacts present|None|None|None|EventData/253_LunerseeAustria_17May2021/photos_figures/253_LunerseeAustria_17May2021_spectrogram.png|None
+1292|253|Elaine Collins|Multitaper spectra (same units as Power Spectral Density) of velocity waveforms corrected for station sensitivity from closest stations with detections. Linear trend was removed and a taper was applied before generating spectra. Figure generation is automated and there may be artifacts present. Since station response was not removed to avoid adding artifacts at low frequencies for short and intermediate period stations, the lower frequency amplitudes should be interpreted with care.|None|None|None|EventData/253_LunerseeAustria_17May2021/photos_figures/253_LunerseeAustria_17May2021_spectra.png|None
+
+# 
+# reference
+# 
+# Refid|Eventid|ApplyAlso|LongRef|ShortRef|FileExtension|Url
+244|253|None|Vorarlberg ORF, June 2021, Großer Felssturz am Lünersee geräumt [Article], Accessed 8 Feb 2022, at https://vorarlberg.orf.at/stories/3109577/|Vorarlberg ORF (2021)|None|https://vorarlberg.orf.at/stories/3109577/
+
+# 
+# sta_nearby
+# 
+# SRid|Eventid|Sid|StasourceRadiusKm|Az|Baz|DetectVHF|DetectHF|DetectIP|DetectLP|DetectINFRA
+187285|253|37871|27.190984509150642|22.178008814046372|202.27754667101888|None|1|None|None|None
+187286|253|37864|27.589321716557926|267.59365011181796|87.32733026026933|None|1|None|None|None
+187287|253|37851|32.75017713201684|161.66180479785672|341.76036452204033|None|1|None|None|None
+187288|253|38159|44.867330099324064|133.80256986119167|314.112712601198|None|1|None|None|None
+187289|253|37856|54.664302143484186|241.81749789698637|61.35506967728626|None|1|None|None|None
+187290|253|37884|56.59647533172631|46.94948150660269|227.35235671026933|None|1|None|None|None
+187291|253|38157|62.18606258950685|274.19847527790074|93.59847610218797|None|1|None|None|None
+187292|253|37848|72.0451366221373|205.04741597281034|24.7579803884824|None|1|None|None|None
+187293|253|37886|74.47488434438291|302.1932170643838|121.57879138749043|None|1|None|None|None
+187294|253|37874|74.73016363465972|92.96778101311016|273.6882966095543|None|1|None|None|None
+187295|253|37849|74.96608717191133|163.40250196535112|343.60532265951923|None|1|None|None|None
+187296|253|37863|78.638961044029|128.4894337291727|309.0765710212325|None|1|None|None|None
+187297|253|37855|80.63978223320778|143.3319736044427|323.78924243752755|None|1|None|None|None
+187298|253|37907|101.13087663404704|66.53243225708842|247.4372331983796|None|1|None|None|None
+187299|253|37869|102.3433822837418|258.6122875792043|77.64765744197109|None|1|None|None|None
+187300|253|38156|104.73111586021275|205.20687356648637|24.786596034272115|None|1|None|None|None
+187301|253|38216|125.29566068131163|106.49452258004217|287.64513143328384|None|1|None|None|None
+187302|253|37877|125.65450412170557|255.0539048781595|73.89025438415223|None|1|None|None|None
+187303|253|37853|137.54408154271087|203.3504962460915|22.840698337911483|None|1|None|None|None
+187304|253|38326|137.6129009299662|150.3748881745417|331.01217258530323|None|1|None|None|None
+187305|253|37872|142.58364756475964|241.5028405853276|60.31261871693342|None|1|None|None|None
+187306|253|37852|143.51577880944285|180.88797008541763|0.867265336975643|None|1|None|None|None
+187307|253|37924|145.1591381687857|289.19092424769127|107.8513217644264|None|1|None|None|None
+187308|253|37923|148.85143541139777|90.23835323929963|271.6762489103445|None|1|None|None|None
+187309|253|38155|157.86491302821767|281.91638421884653|100.41240183467329|None|1|None|None|None
+187310|253|38214|158.13188274401867|154.2332103575262|334.8736267552951|None|1|None|None|None
+187311|253|37876|160.19126391832688|235.99210579438315|54.73765365039561|None|1|None|None|None
+
+# 
+# stations
+# 
+# Sid|Name|Network|Channel|LocationCode|Latitude|Longitude|ElevationMasl|Source
+37871|DAVA|OE|HHZ||47.286701|9.8803|1602.0|ORFEUS,IRIS
+37864|PLONS|CH|HHZ||47.04921|9.38076|1022.0|ETH
+37851|DAVOX|CH|HHZ||46.7805|9.87952|1830.0|ETH
+38159|R3EDD|AM|EHZ|00|46.7797|10.1692|1704.0|RASPISHAKE
+37856|PANIX|CH|HHZ||46.825743|9.111708|1433.0|ETH
+37884|OBER|BW|EHZ||47.406963|10.293358|896.0|LMU
+38157|WGT|CH|HHZ||47.09838|8.92525|913.9|ETH
+37848|TUE|MN|BHZ||46.47223|9.34732|1924.0|IRIS,INGV
+37886|WILA|CH|HHZ||47.41483|8.9077|853.0|ETH
+37874|FETA|OE|HHZ||47.0211|10.7291|1632.0|ORFEUS
+37849|BERNI|CH|HHZ||46.413636|10.023095|2311.0|ETH
+37863|MOSI|SI|HHZ||46.6164|10.5495|1957.0|INGV
+37855|BRMO|IV|BHZ||46.47616|10.37218|1380.0|INGV
+37907|ZUGS|BW|EHZ||47.416309|10.97883|2650.0|LMU
+37869|BNALP|CH|HHZ||46.87034|8.4249|1549.0|ETH
+38156|VDR|CH|HHZ||46.2061|9.16648|920.0|ETH
+38216|ABSI|SI|HHZ||46.7285|11.3205|1801.0|INGV
+37877|HASLI|CH|HHZ||46.75681|8.15117|1280.0|ETH,IRIS
+37853|MUGIO|CH|HHZ||45.92184|9.04171|924.0|ETH,IRIS
+38326|RONC|ST|EHZ||45.9802|10.6228|1913.0|INGV
+37872|FIESA|CH|HHZ||46.43521|8.11051|2340.5|IRIS,ETH
+37852|MDI|IV|HHZ||45.76972|9.716|954.0|INGV
+37924|ROTHE|CH|HHZ||47.47612|7.92093|681.0|ETH
+37923|SCE|BW|EHZ||47.0378|11.709|1730.0|LMU
+38155|BALST|CH|HHZ||47.33599|7.69485|860.0|ETH
+38214|MAGA|IV|BHZ||45.7753|10.6286|1265.0|INGV
+37876|SIMPL|CH|HHZ||46.23962|8.01958|1930.0|ETH
+

@@ -1,0 +1,66 @@
+# 
+# events
+# 
+# Eventid|Name|Starttime|Endtime|Latitude|Longitude|LocuncertKm|CrownLat|CrownLon|TipLat|TipLon|Type|AreaTotal|AreaSource|AreaSourceLow|AreaSourceHigh|Volume|VolumeLow|VolumeHigh|Mass|MassLow|MassHigh|H|HLow|HHigh|L|LLow|LHigh|HFreefall|HFreefallLow|HFreefallHigh|UpstreamDrainarea|PeakDischarge|PeakDischargeLow|PeakDischargeHigh|PeakFlowheight|PeakFlowheightLow|PeakFlowheightHigh|Otherdataquality1to5|LPpotential|MaxdistvhfKm|MaxdistvhfReached|MaxdisthfKm|MaxdisthfReached|MaxdistipKm|MaxdistipReached|MaxdistlpKm|MaxdistlpReached|InfraDetected|MaxdistinfraKm|MaxdistinfraReached|DatLocation|Sources
+201|Callian, France|2017-11-05 02:28:39|2017-11-05 02:29:31|43.62|6.75|7.0|None|None|None|None|landslide|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|1|0|None|None|77.0|0|None|None|0.0|None|None|None|None|RESIF|Collins, E.A., Allstadt, K.E., Groult, C., Hibert, C., Malet, J.-P., Toney, L.D., and Bessette-Kirton, E., 2022, Seismogenic Landslides and other Mass Movements: U.S. Geological Survey data release, https://doi.org/10.5066/P90VGCSK.
+
+
+# 
+# information
+# 
+# Iid|Eventid|RefId|Note|PhoId|GISId|ApplyAlso
+486|201|220|This event occurred in schists, phyllites, quartzites and marbles based on ELSUS v2 (Wilde and others, 2018).|None|None|236,206,232,231
+541|201|201|Location coordinates, maximum location uncertainty, and type were taken from Renass (2017)d.|None|None|None
+530|191|None|Horizontal components for several stations which detected these events were not reviewed.|None|None|192,193,194,195,196,197,198,199,200,201,202,203,204,205,206,207,208,209,210,211,212,213,214,215,216,217,218,219,220,221,222,223,224,225,226,227,228,229,230,231,232,233,234,235,236,237,238,239,240,241,242,243,244,245,246,247,248,249,250,251,252,253,254,255,256,257,258
+
+# 
+# photos
+# 
+# PhotoId|Eventid|Photographer|Description|Latitude|Longitude|Date|FileExtension|ApplyAlso
+1069|201|Elaine Collins|Raw waveforms from closest stations. Data was demeaned but no other processing was applied. Dashed lines show approximate start and end times of event (from database). Figure generation is automated and there may be artifacts present.|None|None|None|EventData/201_CallianFrance_05Nov2017/photos_figures/201_CallianFrance_05Nov2017_waveforms_raw.png|None
+1070|201|Elaine Collins|High frequency (1-5 Hz) ground velocity waveforms for station response from closest stations with detections. Dashed lines show approximate start and end times of event (from database). Waveforms are corrected for station response after removing the mean. Figure generation is automated and there may be artifacts present. Clipped waveforms have not been removed before station correction so check raw plots before interpreting high amplitude signals.|None|None|None|EventData/201_CallianFrance_05Nov2017/photos_figures/201_CallianFrance_05Nov2017_waveforms_1-5Hz.png|None
+1071|201|Elaine Collins|Spectrograms of velocity waveforms corrected for station sensitivity from closest stations with detections. Figure generation is automated and there may be artifacts present|None|None|None|EventData/201_CallianFrance_05Nov2017/photos_figures/201_CallianFrance_05Nov2017_spectrogram.png|None
+1072|201|Elaine Collins|Multitaper spectra (same units as Power Spectral Density) of velocity waveforms corrected for station sensitivity from closest stations with detections. Linear trend was removed and a taper was applied before generating spectra. Figure generation is automated and there may be artifacts present. Since station response was not removed to avoid adding artifacts at low frequencies for short and intermediate period stations, the lower frequency amplitudes should be interpreted with care.|None|None|None|EventData/201_CallianFrance_05Nov2017/photos_figures/201_CallianFrance_05Nov2017_spectra.png|None
+
+# 
+# reference
+# 
+# Refid|Eventid|ApplyAlso|LongRef|ShortRef|FileExtension|Url
+201|201||Renass, Nov 2017, Éboulement de magnitude 2.1, proche de Fréjus [Bulletin], Accessed 5 Nov 2021, at https://renass.unistra.fr/fr/evenements/fr2017xcaaie/|Renass (2017)d|None|https://renass.unistra.fr/fr/evenements/fr2017xcaaie/
+
+# 
+# sta_nearby
+# 
+# SRid|Eventid|Sid|StasourceRadiusKm|Az|Baz|DetectVHF|DetectHF|DetectIP|DetectLP|DetectINFRA
+185426|201|38194|20.22093636326531|43.1324984177139|223.25116265704946|None|1|None|None|None
+185427|201|38195|20.22093636326531|43.1324984177139|223.25116265704946|None|1|None|None|None
+185428|201|38185|30.962847299260826|297.1944461466641|116.95782043951151|None|1|None|None|None
+185429|201|38196|44.60277224796721|46.48383431987884|226.76255613752926|None|1|None|None|None
+185430|201|38178|54.47454621405848|2.3180562345509483|182.3371127648318|None|1|None|None|None
+185431|201|38197|55.38874439290725|64.80022772788045|245.23181854333183|None|1|None|None|None
+185432|201|38184|62.220490694054575|38.77708403049949|219.1141166431656|None|1|None|None|None
+185433|201|38198|64.8957076637783|52.42308739088604|232.86735803931865|None|1|None|None|None
+185434|201|38180|67.16199666705|20.932844895253172|201.14087576236315|None|1|None|None|None
+185435|201|38181|67.16199666705|20.932844895253172|201.14087576236315|None|1|None|None|None
+185436|201|38199|67.50928930859945|303.1893637645248|122.70152635730945|None|1|None|None|None
+185437|201|38179|68.77204226177551|322.3754665857398|142.0118673291137|None|1|None|None|None
+185438|201|38187|76.38935496137418|57.50233265258171|238.05920596653056|None|1|None|None|None
+
+# 
+# stations
+# 
+# Sid|Name|Network|Channel|LocationCode|Latitude|Longitude|ElevationMasl|Source
+38194|CALF|FR|HHZ|00|43.7528|6.9218|1242.0|RESIF
+38195|CALF|FR|BHZ|01|43.7528|6.9218|1242.0|RESIF
+38185|TRIGF|FR|HHZ|00|43.7471|6.4074|1010.0|RESIF
+38196|MVIF|FR|HHZ|00|43.896|7.153|1480.0|RESIF
+38178|ENAUX|FR|HHZ|00|44.1095|6.7775|1350.0|RESIF
+38197|ESCA|FR|HHZ|01|43.831|7.3744|550.0|RESIF
+38184|SPIF|FR|HHZ|00|44.0558|7.2366|1380.0|RESIF
+38198|TURF|FR|HHZ|00|43.9749|7.3919|1650.0|RESIF
+38180|ISO|FR|HHZ|00|44.184|7.05|910.0|RESIF
+38181|ISO|FR|BHZ|01|44.184|7.05|910.0|RESIF
+38199|BLAF|FR|HHZ|00|43.951|6.045|590.0|RESIF
+38179|OGDI|FR|HHZ|00|44.1093|6.2253|770.0|RESIF
+38187|SAOF|FR|HHZ|00|43.9872|7.5545|594.0|RESIF
+

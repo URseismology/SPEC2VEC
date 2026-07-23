@@ -1,0 +1,194 @@
+# 
+# events
+# 
+# Eventid|Name|Starttime|Endtime|Latitude|Longitude|LocuncertKm|CrownLat|CrownLon|TipLat|TipLon|Type|AreaTotal|AreaSource|AreaSourceLow|AreaSourceHigh|Volume|VolumeLow|VolumeHigh|Mass|MassLow|MassHigh|H|HLow|HHigh|L|LLow|LHigh|HFreefall|HFreefallLow|HFreefallHigh|UpstreamDrainarea|PeakDischarge|PeakDischargeLow|PeakDischargeHigh|PeakFlowheight|PeakFlowheightLow|PeakFlowheightHigh|Otherdataquality1to5|LPpotential|MaxdistvhfKm|MaxdistvhfReached|MaxdisthfKm|MaxdisthfReached|MaxdistipKm|MaxdistipReached|MaxdistlpKm|MaxdistlpReached|InfraDetected|MaxdistinfraKm|MaxdistinfraReached|DatLocation|Sources
+277|Mount Haast, New Zealand|2013-01-21 01:08:28|2013-01-21 01:10:52|-43.5611|170.1801|0.0|-43.5611|170.1801|-43.5857|170.1764|rock avalanche|None|None|None|None|2000000.0|None|None|None|None|None|900.0|None|None|2900.0|None|None|None|None|None|None|None|None|None|None|None|None|5|2|None|None|73.0|0|None|None|56.0|0|None|None|None|IRIS|Collins, E.A., Allstadt, K.E., Groult, C., Hibert, C., Malet, J.-P., Toney, L.D., and Jensen, E.K., 2022, Seismogenic Landslides and other Mass Movements (ver. 2.0, December 2023): U.S. Geological Survey data release, https://doi.org/10.5066/P90VGCSK.
+
+
+# 
+# information
+# 
+# Iid|Eventid|RefId|Note|PhoId|GISId|ApplyAlso
+668|277|None|Crown and toe locations estimated using Google Earth imagery captured on 2013-02-27.|None|None|None
+669|277|275|Volume, L, and H taken from Hancox and Thomson (2013).|None|None|None
+670|277|275|The source volume (~1 million m3) failed on a ridge between Mount Haast and Mount Dixon, entraining snow and ice as it travelled downslope at an average velocity of 160 km/hr (Hancox and Thomson, 2013).|None|None|None
+671|277|275|While the seismic signal for this event is seen out to ~139 km in Hancox and Thomson (2013), we only analyze the signal out to ~73 km based on openly available data from IRIS.|None|None|None
+672|277|275|This event is equivalent to an average local magnitude of Ml 2.25 (Hancox and Thomson, 2013).|None|None|None
+742|277|313|A video of the event was posted to YouTube by Neil Wiltshire at https://www.youtube.com/watch?v=E28_3uj9K0g (Neil Wiltshire, 2013).|None|None|None
+
+# 
+# photos
+# 
+# PhotoId|Eventid|Photographer|Description|Latitude|Longitude|Date|FileExtension|ApplyAlso
+1442|277|Elaine Collins|Raw waveforms from closest stations. Data was demeaned but no other processing was applied. Dashed lines show approximate start and end times of event (from database). Figure generation is automated and there may be artifacts present.|None|None|None|EventData/277_MountHaastNewZealand_21Jan2013/photos_figures/277_MountHaastNewZealand_21Jan2013_waveforms_raw.png|None
+1443|277|Elaine Collins|High frequency (1-5 Hz) ground velocity waveforms from closest stations with detections. Dashed lines show approximate start and end times of event (from database). Waveforms are corrected for station response after removing the mean. Figure generation is automated and there may be artifacts present. Clipped waveforms have not been removed before station correction so check raw plots before interpreting high amplitude signals.|None|None|None|EventData/277_MountHaastNewZealand_21Jan2013/photos_figures/277_MountHaastNewZealand_21Jan2013_waveforms_1-5Hz.png|None
+1444|277|Elaine Collins|Spectrograms of velocity waveforms corrected for station sensitivity from closest stations with detections. Figure generation is automated and there may be artifacts present.|None|None|None|EventData/277_MountHaastNewZealand_21Jan2013/photos_figures/277_MountHaastNewZealand_21Jan2013_spectrogram.png|None
+1445|277|Elaine Collins|Multitaper spectra (same units as Power Spectral Density) of velocity waveforms corrected for station sensitivity from closest stations with detections. Linear trend was removed and a taper was applied before generating spectra. Figure generation is automated and there may be artifacts present. Since station response was not removed to avoid adding artifacts at low frequencies for short and intermediate period stations, the lower frequency amplitudes should be interpreted with care.|None|None|None|EventData/277_MountHaastNewZealand_21Jan2013/photos_figures/277_MountHaastNewZealand_21Jan2013_spectra.png|None
+
+# 
+# reference
+# 
+# Refid|Eventid|ApplyAlso|LongRef|ShortRef|FileExtension|Url
+275|277|None|Hancox, G.T. and Thomson, R., 2013, The January 2013 Mt Haast Rock Avalanche and Ball Ridge Rock Fall in Aoraki/Mt Cook National Park, New Zealand: GNS Science Report 2013/33, 26 p.|Hancox and Thomson (2013)|None|https://static.geonet.org.nz/info/reports/landslide/SR2013-033_Mt_Haast_Rock_Avalanche.pdf
+313|277|None|Neil Wiltshire [@neil.wiltshire], 12 Feb 2013, Mt Dixon Rock Fall 21/01/2013 [Video], YouTube, Accessed 28 Sep 2023, at https://www.youtube.com/watch?v=E28_3uj9K0g|Neil Wiltshire (2013)|None|https://www.youtube.com/watch?v=E28_3uj9K0g
+
+# 
+# sta_nearby
+# 
+# SRid|Eventid|Sid|StasourceRadiusKm|Az|Baz|DetectVHF|DetectHF|DetectIP|DetectLP|DetectINFRA
+199768|277|43126|15.877|322.06|142.15|None|None|None|None|None
+199769|277|43127|15.877|322.06|142.15|None|None|None|None|None
+199770|277|43128|15.877|322.06|142.15|None|None|None|None|None
+199771|277|43129|18.074|251.32|71.47|None|None|None|None|None
+199772|277|43130|18.074|251.32|71.47|None|None|None|None|None
+199773|277|43131|18.074|251.32|71.47|None|None|None|None|None
+199774|277|43132|15.037|356.57|176.58|None|1|None|None|None
+199775|277|43133|15.037|356.57|176.58|None|1|None|None|None
+199776|277|43134|15.037|356.57|176.58|None|1|None|None|None
+199777|277|43135|20.186|355.37|175.39|None|1|None|None|None
+199778|277|43136|20.186|355.37|175.39|None|1|None|None|None
+199779|277|43137|20.186|355.37|175.39|None|1|None|None|None
+199780|277|43141|27.471|108.48|288.25|None|1|None|None|None
+199781|277|43142|27.471|108.48|288.25|None|1|None|None|None
+199782|277|43143|27.471|108.48|288.25|None|1|None|None|None
+199783|277|43144|5.506|72.28|252.24|None|1|None|None|None
+199784|277|43145|5.506|72.28|252.24|None|1|None|None|None
+199785|277|43146|5.506|72.28|252.24|None|1|None|None|None
+199786|277|43147|15.318|290.8|110.92|None|1|None|None|None
+199787|277|43148|15.318|290.8|110.92|None|1|None|None|None
+199788|277|43149|15.318|290.8|110.92|None|1|None|None|None
+199789|277|43150|23.489|8.52|188.49|None|None|None|None|None
+199790|277|43151|23.489|8.52|188.49|None|None|None|None|None
+199791|277|43152|23.489|8.52|188.49|None|None|None|None|None
+199792|277|43153|34.562|24.99|204.87|None|None|None|None|None
+199793|277|43154|34.562|24.99|204.87|None|None|None|None|None
+199794|277|43155|34.562|24.99|204.87|None|None|None|None|None
+199795|277|43156|20.406|49.23|229.1|None|None|None|None|None
+199796|277|43157|20.406|49.23|229.1|None|None|None|None|None
+199797|277|43158|20.406|49.23|229.1|None|None|None|None|None
+199798|277|43159|168.892|167.48|347.16|None|0|None|0|None
+199799|277|43160|168.892|167.48|347.16|None|0|None|0|None
+199800|277|43161|168.892|167.48|347.16|None|0|None|0|None
+199801|277|43162|72.539|103.9|283.3|None|1|None|0|None
+199802|277|43163|72.539|103.9|283.3|None|1|None|0|None
+199803|277|43164|72.539|103.9|283.3|None|1|None|0|None
+199804|277|43165|34.524|20.43|200.32|None|0|None|1|None
+199805|277|43166|34.524|20.43|200.32|None|0|None|1|None
+199806|277|43167|34.524|20.43|200.32|None|0|None|1|None
+199807|277|43168|40.56|24.42|204.28|None|None|None|None|None
+199808|277|43169|40.56|24.42|204.28|None|None|None|None|None
+199809|277|43170|40.56|24.42|204.28|None|None|None|None|None
+199810|277|43171|41.801|31.83|211.64|None|None|None|None|None
+199811|277|43172|41.801|31.83|211.64|None|None|None|None|None
+199812|277|43173|41.801|31.83|211.64|None|None|None|None|None
+199813|277|43174|46.295|19.19|199.06|None|None|None|None|None
+199814|277|43175|46.295|19.19|199.06|None|None|None|None|None
+199815|277|43176|46.295|19.19|199.06|None|None|None|None|None
+199816|277|43177|51.071|22.09|201.92|None|0|None|1|None
+199817|277|43178|51.071|22.09|201.92|None|0|None|1|None
+199818|277|43179|51.071|22.09|201.92|None|0|None|1|None
+199819|277|43180|55.547|26.1|205.89|None|0|None|0|None
+199820|277|43181|55.547|26.1|205.89|None|0|None|0|None
+199821|277|43182|55.547|26.1|205.89|None|0|None|1|None
+199822|277|43183|49.201|34.2|213.96|None|None|None|None|None
+199823|277|43184|49.201|34.2|213.96|None|None|None|None|None
+199824|277|43185|49.201|34.2|213.96|None|None|None|None|None
+199825|277|43186|34.787|32.4|212.24|None|1|None|1|None
+199826|277|43187|34.787|32.4|212.24|None|1|None|1|None
+199827|277|43188|34.787|32.4|212.24|None|1|None|1|None
+199828|277|43189|57.388|39.55|219.24|None|0|None|0|None
+199829|277|43190|57.388|39.55|219.24|None|0|None|0|None
+199830|277|43191|57.388|39.55|219.24|None|0|None|0|None
+199831|277|43192|59.45|33.25|212.98|None|None|None|None|None
+199832|277|43193|59.45|33.25|212.98|None|None|None|None|None
+199833|277|43194|59.45|33.25|212.98|None|None|None|None|None
+199834|277|43195|36.203|26.06|205.93|None|None|None|None|None
+199835|277|43196|36.203|26.06|205.93|None|None|None|None|None
+199836|277|43197|36.203|26.06|205.93|None|None|None|None|None
+199837|277|43198|302.003|66.24|243.95|None|0|None|0|None
+199838|277|43199|302.003|66.24|243.95|None|0|None|0|None
+199839|277|43200|302.003|66.24|243.95|None|0|None|0|None
+199840|277|43201|360.488|33.36|211.78|None|0|None|0|None
+199841|277|43202|360.488|33.36|211.78|None|0|None|0|None
+199842|277|43203|360.488|33.36|211.78|None|0|None|0|None
+
+# 
+# stations
+# 
+# Sid|Name|Network|Channel|LocationCode|Latitude|Longitude|ElevationMasl|Source
+43126|COSA|9F|EH1||-43.44833|170.059509|377.0|IRIS
+43127|COSA|9F|EH2||-43.44833|170.059509|377.0|IRIS
+43128|COSA|9F|EHZ||-43.44833|170.059509|377.0|IRIS
+43129|COVA|9F|EH1||-43.612999|169.968002|1477.0|IRIS
+43130|COVA|9F|EH2||-43.612999|169.968002|1477.0|IRIS
+43131|COVA|9F|EHZ||-43.612999|169.968002|1477.0|IRIS
+43132|EORO|9F|EH1||-43.425999|170.169006|233.0|IRIS
+43133|EORO|9F|EH2||-43.425999|170.169006|233.0|IRIS
+43134|EORO|9F|EHZ||-43.425999|170.169006|233.0|IRIS
+43135|FRAN|9F|EH1||-43.380001|170.160004|124.0|IRIS
+43136|FRAN|9F|EH2||-43.380001|170.160004|124.0|IRIS
+43137|FRAN|9F|EHZ||-43.380001|170.160004|124.0|IRIS
+43141|GOVA|9F|EH1||-43.639|170.503006|814.0|IRIS
+43142|GOVA|9F|EH2||-43.639|170.503006|814.0|IRIS
+43143|GOVA|9F|EHZ||-43.639|170.503006|814.0|IRIS
+43144|LABE|9F|EH1||-43.546001|170.244995|1590.0|IRIS
+43145|LABE|9F|EH2||-43.546001|170.244995|1590.0|IRIS
+43146|LABE|9F|EHZ||-43.546001|170.244995|1590.0|IRIS
+43147|MTFO|9F|EH1||-43.512001|170.003006|1216.0|IRIS
+43148|MTFO|9F|EH2||-43.512001|170.003006|1216.0|IRIS
+43149|MTFO|9F|EHZ||-43.512001|170.003006|1216.0|IRIS
+43150|POCR2|9F|EH1|10|-43.352001|170.223007|185.0|IRIS
+43151|POCR2|9F|EH2|10|-43.352001|170.223007|185.0|IRIS
+43152|POCR2|9F|EHZ|10|-43.352001|170.223007|185.0|IRIS
+43153|WHAT2|9F|EH1|10|-43.278999|170.360001|95.0|IRIS
+43154|WHAT2|9F|EH2|10|-43.278999|170.360001|95.0|IRIS
+43155|WHAT2|9F|EHZ|10|-43.278999|170.360001|95.0|IRIS
+43156|WHYM|9F|EH1||-43.441002|170.371002|906.0|IRIS
+43157|WHYM|9F|EH2||-43.441002|170.371002|906.0|IRIS
+43158|WHYM|9F|EHZ||-43.441002|170.371002|906.0|IRIS
+43159|ODZ|NZ|HHE|10|-45.043982|170.644622|274.0|IRIS
+43160|ODZ|NZ|HHN|10|-45.043982|170.644622|274.0|IRIS
+43161|ODZ|NZ|HHZ|10|-45.043982|170.644622|274.0|IRIS
+43162|RPZ|NZ|HH1|10|-43.714608|171.053865|453.0|IRIS
+43163|RPZ|NZ|HH2|10|-43.714608|171.053865|453.0|IRIS
+43164|RPZ|NZ|HHZ|10|-43.714608|171.053865|453.0|IRIS
+43165|WZ04|ZT|HHE||-43.269798|170.328506|73.0|IRIS
+43166|WZ04|ZT|HHN||-43.269798|170.328506|73.0|IRIS
+43167|WZ04|ZT|HHZ||-43.269798|170.328506|73.0|IRIS
+43168|WZ05|ZT|HHE||-43.2285|170.386505|38.0|IRIS
+43169|WZ05|ZT|HHN||-43.2285|170.386505|38.0|IRIS
+43170|WZ05|ZT|HHZ||-43.2285|170.386505|38.0|IRIS
+43171|WZ06|ZT|HHE||-43.2411|170.451508|123.0|IRIS
+43172|WZ06|ZT|HHN||-43.2411|170.451508|123.0|IRIS
+43173|WZ06|ZT|HHZ||-43.2411|170.451508|123.0|IRIS
+43174|WZ07|ZT|HHE||-43.1674|170.367203|26.0|IRIS
+43175|WZ07|ZT|HHN||-43.1674|170.367203|26.0|IRIS
+43176|WZ07|ZT|HHZ||-43.1674|170.367203|26.0|IRIS
+43177|WZ08|ZT|HHE||-43.134899|170.416107|73.0|IRIS
+43178|WZ08|ZT|HHN||-43.134899|170.416107|73.0|IRIS
+43179|WZ08|ZT|HHZ||-43.134899|170.416107|73.0|IRIS
+43180|WZ09|ZT|HHE||-43.111698|170.480301|34.0|IRIS
+43181|WZ09|ZT|HHN||-43.111698|170.480301|34.0|IRIS
+43182|WZ09|ZT|HHZ||-43.111698|170.480301|34.0|IRIS
+43183|WZ10|ZT|HHE||-43.194302|170.520294|89.0|IRIS
+43184|WZ10|ZT|HHN||-43.194302|170.520294|89.0|IRIS
+43185|WZ10|ZT|HHZ||-43.194302|170.520294|89.0|IRIS
+43186|WZ11|ZT|HHE||-43.296501|170.409805|96.0|IRIS
+43187|WZ11|ZT|HHN||-43.296501|170.409805|96.0|IRIS
+43188|WZ11|ZT|HHZ||-43.296501|170.409805|96.0|IRIS
+43189|WZ12|ZT|HHE||-43.1619|170.629395|93.0|IRIS
+43190|WZ12|ZT|HHN||-43.1619|170.629395|93.0|IRIS
+43191|WZ12|ZT|HHZ||-43.1619|170.629395|93.0|IRIS
+43192|WZ19|ZT|HHE||-43.1129|170.580597|49.0|IRIS
+43193|WZ19|ZT|HHN||-43.1129|170.580597|49.0|IRIS
+43194|WZ19|ZT|HHZ||-43.1129|170.580597|49.0|IRIS
+43195|WZ21|ZT|HHE||-43.2682|170.376007|51.0|IRIS
+43196|WZ21|ZT|HHN||-43.2682|170.376007|51.0|IRIS
+43197|WZ21|ZT|HHZ||-43.2682|170.376007|51.0|IRIS
+43198|KHZ|NZ|HHE|10|-42.41598|173.53897|64.0|IRIS
+43199|KHZ|NZ|HHN|10|-42.41598|173.53897|64.0|IRIS
+43200|KHZ|NZ|HHZ|10|-42.41598|173.53897|64.0|IRIS
+43201|QRZ|NZ|HHE|10|-40.825522|172.529148|263.0|IRIS
+43202|QRZ|NZ|HHN|10|-40.825522|172.529148|263.0|IRIS
+43203|QRZ|NZ|HHZ|10|-40.825522|172.529148|263.0|IRIS
+

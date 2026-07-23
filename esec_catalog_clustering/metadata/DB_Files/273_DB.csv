@@ -1,0 +1,227 @@
+# 
+# events
+# 
+# Eventid|Name|Starttime|Endtime|Latitude|Longitude|LocuncertKm|CrownLat|CrownLon|TipLat|TipLon|Type|AreaTotal|AreaSource|AreaSourceLow|AreaSourceHigh|Volume|VolumeLow|VolumeHigh|Mass|MassLow|MassHigh|H|HLow|HHigh|L|LLow|LHigh|HFreefall|HFreefallLow|HFreefallHigh|UpstreamDrainarea|PeakDischarge|PeakDischargeLow|PeakDischargeHigh|PeakFlowheight|PeakFlowheightLow|PeakFlowheightHigh|Otherdataquality1to5|LPpotential|MaxdistvhfKm|MaxdistvhfReached|MaxdisthfKm|MaxdisthfReached|MaxdistipKm|MaxdistipReached|MaxdistlpKm|MaxdistlpReached|InfraDetected|MaxdistinfraKm|MaxdistinfraReached|DatLocation|Sources
+273|Xinmo Village, China|2017-06-23 21:39:16|2017-06-23 21:42:49|32.0797|103.6628|0.0|None|None|None|None|rock slide, rock avalanche|1600000.0|100000.0|None|None|13000000.0|12000000.0|14000000.0|None|None|None|1200.0|None|None|2600.0|None|None|None|None|None|None|None|None|None|None|None|None|5|1|None|None|591.0|0|None|None|591.0|0|None|None|None|IRIS|Collins, E.A., Allstadt, K.E., Groult, C., Hibert, C., Malet, J.-P., Toney, L.D., and Jensen, E.K., 2022, Seismogenic Landslides and other Mass Movements (ver. 2.0, December 2023): U.S. Geological Survey data release, https://doi.org/10.5066/P90VGCSK.
+
+
+# 
+# information
+# 
+# Iid|Eventid|RefId|Note|PhoId|GISId|ApplyAlso
+653|273|268|Volumes, L, H, source area, total area, and location coordinates taken from (Fan and others, 2017). Total area calculated by summing source, track, and deposition areas, rounded to two significant digits (Fan and others, 2017).|None|None|None
+654|273|268|This event is equivalent to a ML 2.3 earthquake (Fan and others, 2017).|None|None|None
+655|273|269|A second collapse occurred three days after this event at 11:02 a.m.  local time on 27 June 2017 and disrupted rescue efforts (Dong and others, 2018). We did not find a clear seismic signal for this second event.|None|None|None
+656|273|270|This event originated from the top ridge of Fugui Mountain and destroyed homes in the Xinmo Village, resulting in 10 casualities and 73 missing. Debris from the event was deposited in the Songpinggou River (Li and others, 2019).|None|None|None
+657|273|270|A mass estimate of 9 billion kg and an additional volume estimate of 12 million m3 are reported in Li and others (2019).|None|None|None
+741|273|269|An alternate volume estimate of 18 million m3 is reported in Dong and others (2018), which is referenced from a bulletin of the Xinmo landslide posted by the State Key Laboratory of Geohazard Prevention and Geoenvironment Protection at the Chengdu University of Technology.|None|None|None
+
+# 
+# photos
+# 
+# PhotoId|Eventid|Photographer|Description|Latitude|Longitude|Date|FileExtension|ApplyAlso
+1420|273|Elaine Collins|Raw waveforms from closest stations. Data was demeaned but no other processing was applied. Dashed lines show approximate start and end times of event (from database). Figure generation is automated and there may be artifacts present.|None|None|None|EventData/273_XinmoVillageChina_23Jun2017/photos_figures/273_XinmoVillageChina_23Jun2017_waveforms_raw.png|None
+1421|273|Elaine Collins|High frequency (1-5 Hz) ground velocity waveforms from closest stations with detections. Dashed lines show approximate start and end times of event (from database). Waveforms are corrected for station response after removing the mean. Figure generation is automated and there may be artifacts present. Clipped waveforms have not been removed before station correction so check raw plots before interpreting high amplitude signals.|None|None|None|EventData/273_XinmoVillageChina_23Jun2017/photos_figures/273_XinmoVillageChina_23Jun2017_waveforms_1-5Hz.png|None
+1422|273|Elaine Collins|Long period (20-60 sec) ground displacement waveforms from closest stations with detections. Dashed lines show approximate start and end times of event (from database, based on high frequency waveform). Waveforms are corrected for station response after detrending using a linear fit and tapering. Zero mean cosine filter applied with station correction may cause acausal arrivals. Figure generation is automated and there may be artifacts present. Signals with clipped waveforms and data gaps have not been removed so check raw figures before interpreting.|None|None|None|EventData/273_XinmoVillageChina_23Jun2017/photos_figures/273_XinmoVillageChina_23Jun2017_waveforms_20-60sec.png|None
+1423|273|Elaine Collins|Displacement spectrum from closest broadband stations with detections, corrected for station response with no prefiltering after detrending using a linear fit and tapering. Note that long period signals often contain noise unrelated to the event signal of interest, especially on horizontal components (e.g. tilt), so interpret with care. Figure generation is automated and there may be artifacts present. Signals with clipped waveforms and data gaps have not been removed so check raw figures before interpreting.|None|None|None|EventData/273_XinmoVillageChina_23Jun2017/photos_figures/273_XinmoVillageChina_23Jun2017_displspectra.png|None
+1424|273|Elaine Collins|Spectrograms of velocity waveforms corrected for station sensitivity from closest stations with detections. Figure generation is automated and there may be artifacts present|None|None|None|EventData/273_XinmoVillageChina_23Jun2017/photos_figures/273_XinmoVillageChina_23Jun2017_spectrogram.png|None
+1425|273|Elaine Collins|Multitaper spectra (same units as Power Spectral Density) of velocity waveforms corrected for station sensitivity from closest stations with detections. Linear trend was removed and a taper was applied before generating spectra. Figure generation is automated and there may be artifacts present. Since station response was not removed to avoid adding artifacts at low frequencies for short and intermediate period stations, the lower frequency amplitudes should be interpreted with care.|None|None|None|EventData/273_XinmoVillageChina_23Jun2017/photos_figures/273_XinmoVillageChina_23Jun2017_spectra.png|None
+
+# 
+# reference
+# 
+# Refid|Eventid|ApplyAlso|LongRef|ShortRef|FileExtension|Url
+268|273|None|Fan, X., Xu, Q., Scaringi, G., Dai, L., Li, W., Dong, X., Zhu, X., Pei, X., Dai, K., and Havenith, H.-B., 2017, Failure mechanism and kinematics of the deadly June 24th 2017 Xinmo landslide, Maoxian, Sichuan, China: Landslides, v. 14, p. 2129–2146 doi: 10.1007/s10346-017-0907-7.|Fan and others (2017)|None|https://doi.org/10.1007/s10346-017-0907-7
+269|273|None|Dong, J., Zhang, L., Li, M, Yu, Y., Liao, M., Gong, J., and Luo, H., 2018, Measuring precursory movements of the recent Xinmo landslide in Mao County, China with Sentinel-1 and ALOS-2 PALSAR-2 datasets: Landslides, v. 15, p. 135–144, doi: 10.1007/s10346-017-0914-8.|Dong and others (2018)|None|https://doi.org/10.1007/s10346-017-0914-8
+270|273|None|Li, W., Chen, Y., Liu, F., Yang, H., Liu, J., and Bihong, F., 2019, Chain-Style Landslide Hazardous Process: Constraints From Seismic Signals Analysis of the 2017 Xinmo Landslide, SW China: JGR Solid Earth, v. 124, no. 2, p. 2025-2037, doi: 10.1029/2018JB016433.|Li and others (2019)|None|https://doi.org/10.1029/2018JB016433
+
+# 
+# sta_nearby
+# 
+# SRid|Eventid|Sid|StasourceRadiusKm|Az|Baz|DetectVHF|DetectHF|DetectIP|DetectLP|DetectINFRA
+199290|273|42841|202.884|197.0|16.68|None|1|None|0|None
+199291|273|42842|202.884|197.0|16.68|None|1|None|0|None
+199292|273|42843|202.884|197.0|16.68|None|1|None|1|None
+199293|273|42844|129.688|194.79|14.61|None|None|None|None|None
+199294|273|42845|129.688|194.79|14.61|None|None|None|None|None
+199295|273|42846|129.688|194.79|14.61|None|None|None|None|None
+199296|273|42847|170.282|195.53|15.28|None|1|None|1|None
+199297|273|42848|170.282|195.53|15.28|None|1|None|1|None
+199298|273|42849|170.282|195.53|15.28|None|1|None|1|None
+199299|273|42850|221.599|192.55|12.29|None|0|None|1|None
+199300|273|42851|221.599|192.55|12.29|None|0|None|1|None
+199301|273|42852|221.599|192.55|12.29|None|0|None|1|None
+199302|273|42853|174.863|187.42|7.3|None|1|None|0|None
+199303|273|42854|174.863|187.42|7.3|None|1|None|0|None
+199304|273|42855|174.863|187.42|7.3|None|1|None|1|None
+199305|273|42856|182.751|202.15|21.77|None|1|None|0|None
+199306|273|42857|182.751|202.15|21.77|None|1|None|0|None
+199307|273|42858|182.751|202.15|21.77|None|1|None|1|None
+199308|273|42859|236.485|195.14|14.81|None|0|None|0|None
+199309|273|42860|236.485|195.14|14.81|None|0|None|0|None
+199310|273|42861|236.485|195.14|14.81|None|0|None|1|None
+199311|273|42862|163.265|182.5|2.46|None|1|None|1|None
+199312|273|42863|163.265|182.5|2.46|None|1|None|1|None
+199313|273|42864|163.265|182.5|2.46|None|1|None|1|None
+199314|273|42865|265.357|188.72|8.51|None|1|None|0|None
+199315|273|42866|265.357|188.72|8.51|None|1|None|0|None
+199316|273|42867|265.357|188.72|8.51|None|1|None|1|None
+199317|273|42868|201.877|190.18|9.99|None|None|None|None|None
+199318|273|42869|201.877|190.18|9.99|None|None|None|None|None
+199319|273|42870|201.877|190.18|9.99|None|None|None|None|None
+199320|273|42871|222.704|198.72|18.34|None|0|None|0|None
+199321|273|42872|222.704|198.72|18.34|None|0|None|0|None
+199322|273|42873|222.704|198.72|18.34|None|1|None|0|None
+199323|273|42874|177.361|209.78|29.3|None|1|None|0|None
+199324|273|42875|177.361|209.78|29.3|None|1|None|0|None
+199325|273|42876|177.361|209.78|29.3|None|1|None|1|None
+199326|273|42877|185.45|195.46|15.19|None|1|None|0|None
+199327|273|42878|185.45|195.46|15.19|None|1|None|0|None
+199328|273|42879|185.45|195.46|15.19|None|1|None|1|None
+199329|273|42880|145.434|214.74|34.28|None|1|None|1|None
+199330|273|42881|145.434|214.74|34.28|None|1|None|1|None
+199331|273|42882|145.434|214.74|34.28|None|1|None|1|None
+199332|273|42883|127.65|186.92|6.84|None|1|None|0|None
+199333|273|42884|127.65|186.92|6.84|None|1|None|0|None
+199334|273|42885|127.65|186.92|6.84|None|1|None|1|None
+199335|273|42886|125.281|201.75|21.5|None|1|None|0|None
+199336|273|42887|125.281|201.75|21.5|None|1|None|0|None
+199337|273|42888|125.281|201.75|21.5|None|1|None|1|None
+199338|273|42889|146.187|180.0|360.0|None|1|None|0|None
+199339|273|42890|146.187|180.0|360.0|None|1|None|0|None
+199340|273|42891|146.187|180.0|360.0|None|1|None|0|None
+199341|273|42892|151.275|188.37|8.25|None|1|None|0|None
+199342|273|42893|151.275|188.37|8.25|None|1|None|0|None
+199343|273|42894|151.275|188.37|8.25|None|1|None|1|None
+199344|273|42895|198.572|207.56|27.07|None|1|None|1|None
+199345|273|42896|198.572|207.56|27.07|None|1|None|1|None
+199346|273|42897|198.572|207.56|27.07|None|1|None|1|None
+199347|273|42898|205.161|203.58|23.14|None|0|None|0|None
+199348|273|42899|205.161|203.58|23.14|None|0|None|0|None
+199349|273|42900|205.161|203.58|23.14|None|0|None|1|None
+199350|273|42901|147.948|196.12|15.9|None|None|None|None|None
+199351|273|42902|147.948|196.12|15.9|None|None|None|None|None
+199352|273|42903|147.948|196.12|15.9|None|None|None|None|None
+199353|273|42904|184.436|197.58|17.28|None|1|None|0|None
+199354|273|42905|184.436|197.58|17.28|None|1|None|0|None
+199355|273|42906|184.436|197.58|17.28|None|1|None|1|None
+199356|273|42907|168.735|191.79|11.6|None|1|None|0|None
+199357|273|42908|168.735|191.79|11.6|None|1|None|0|None
+199358|273|42909|168.735|191.79|11.6|None|1|None|1|None
+199359|273|42910|130.008|175.99|356.04|None|None|None|None|None
+199360|273|42911|130.008|175.99|356.04|None|None|None|None|None
+199361|273|42912|130.008|175.99|356.04|None|None|None|None|None
+199362|273|42913|444.822|2.11|182.21|None|None|None|None|None
+199363|273|42914|444.822|2.11|182.21|None|None|None|None|None
+199364|273|42915|444.822|2.11|182.21|None|None|None|None|None
+199365|273|42514|597.257|260.06|76.84|None|0|None|0|None
+199366|273|42515|597.257|260.06|76.84|None|0|None|0|None
+199367|273|42516|597.257|260.06|76.84|None|0|None|0|None
+199368|273|42916|590.669|108.26|291.28|None|0|None|0|None
+199369|273|42917|590.669|108.26|291.28|None|0|None|0|None
+199370|273|42546|590.669|108.26|291.28|None|0|None|0|None
+199371|273|42918|590.669|108.26|291.28|None|0|None|0|None
+199372|273|42919|590.669|108.26|291.28|None|0|None|0|None
+199373|273|42552|590.669|108.26|291.28|None|0|None|0|None
+199374|273|42923|536.805|64.81|247.68|None|1|None|1|None
+199375|273|42924|536.805|64.81|247.68|None|1|None|1|None
+199376|273|42555|536.805|64.81|247.68|None|1|None|1|None
+199377|273|42925|536.805|64.81|247.68|None|1|None|1|None
+199378|273|42926|536.805|64.81|247.68|None|1|None|1|None
+199379|273|42561|536.805|64.81|247.68|None|1|None|1|None
+
+# 
+# stations
+# 
+# Sid|Name|Network|Channel|LocationCode|Latitude|Longitude|ElevationMasl|Source
+42841|BBSX|3J|BHE|01|30.32824|103.04621|840.5|IRIS
+42842|BBSX|3J|BHN|01|30.32824|103.04621|840.5|IRIS
+42843|BBSX|3J|BHZ|01|30.32824|103.04621|840.5|IRIS
+42844|BCPC|3J|BHE|01|30.94832|103.31643|1347.0|IRIS
+42845|BCPC|3J|BHN|01|30.94832|103.31643|1347.0|IRIS
+42846|BCPC|3J|BHZ|01|30.94832|103.31643|1347.0|IRIS
+42847|BFSC|3J|BHE|01|30.59908|103.18747|1350.0|IRIS
+42848|BFSC|3J|BHN|01|30.59908|103.18747|1350.0|IRIS
+42849|BFSC|3J|BHZ|01|30.59908|103.18747|1350.0|IRIS
+42850|BHGC|3J|BHE|01|30.12775|103.16326|776.0|IRIS
+42851|BHGC|3J|BHN|01|30.12775|103.16326|776.0|IRIS
+42852|BHGC|3J|BHZ|01|30.12775|103.16326|776.0|IRIS
+42853|BHLC|3J|BHE|01|30.51558|103.42745|570.0|IRIS
+42854|BHLC|3J|BHN|01|30.51558|103.42745|570.0|IRIS
+42855|BHLC|3J|BHZ|01|30.51558|103.42745|570.0|IRIS
+42856|BHPC|3J|BHE|01|30.55102|102.94482|1651.0|IRIS
+42857|BHPC|3J|BHN|01|30.55102|102.94482|1651.0|IRIS
+42858|BHPC|3J|BHZ|01|30.55102|102.94482|1651.0|IRIS
+42859|BJFC|3J|BHE|01|30.01914|103.02261|666.0|IRIS
+42860|BJFC|3J|BHN|01|30.01914|103.02261|666.0|IRIS
+42861|BJFC|3J|BHZ|01|30.01914|103.02261|666.0|IRIS
+42862|BJHC|3J|BHE|01|30.60857|103.58865|540.0|IRIS
+42863|BJHC|3J|BHN|01|30.60857|103.58865|540.0|IRIS
+42864|BJHC|3J|BHZ|01|30.60857|103.58865|540.0|IRIS
+42865|BLHC|3J|BHE|01|29.71326|103.24694|646.0|IRIS
+42866|BLHC|3J|BHN|01|29.71326|103.24694|646.0|IRIS
+42867|BLHC|3J|BHZ|01|29.71326|103.24694|646.0|IRIS
+42868|BLSC|3J|BHE|01|30.287|103.2921|615.0|IRIS
+42869|BLSC|3J|BHN|01|30.287|103.2921|615.0|IRIS
+42870|BLSC|3J|BHZ|01|30.287|103.2921|615.0|IRIS
+42871|BLXC|3J|BHE|01|30.17515|102.92073|700.4|IRIS
+42872|BLXC|3J|BHN|01|30.17515|102.92073|700.4|IRIS
+42873|BLXC|3J|BHZ|01|30.17515|102.92073|700.4|IRIS
+42874|BQFC|3J|BHE|01|30.68795|102.74354|2153.0|IRIS
+42875|BQFC|3J|BHN|01|30.68795|102.74354|2153.0|IRIS
+42876|BQFC|3J|BHZ|01|30.68795|102.74354|2153.0|IRIS
+42877|BQYC|3J|BHE|01|30.46657|103.14805|1195.3|IRIS
+42878|BQYC|3J|BHN|01|30.46657|103.14805|1195.3|IRIS
+42879|BQYC|3J|BHZ|01|30.46657|103.14805|1195.3|IRIS
+42880|BRLZ|3J|BHE|01|30.99886|102.79512|3376.2|IRIS
+42881|BRLZ|3J|BHN|01|30.99886|102.79512|3376.2|IRIS
+42882|BRLZ|3J|BHZ|01|30.99886|102.79512|3376.2|IRIS
+42883|BTLG|3J|BHE|01|30.93672|103.50188|1186.0|IRIS
+42884|BTLG|3J|BHN|01|30.93672|103.50188|1186.0|IRIS
+42885|BTLG|3J|BHZ|01|30.93672|103.50188|1186.0|IRIS
+42886|BWLZ|3J|BHE|01|31.02935|103.17649|2019.0|IRIS
+42887|BWLZ|3J|BHN|01|31.02935|103.17649|2019.0|IRIS
+42888|BWLZ|3J|BHZ|01|31.02935|103.17649|2019.0|IRIS
+42889|BWQC|3J|BHE|01|30.76124|103.6629|601.0|IRIS
+42890|BWQC|3J|BHN|01|30.76124|103.6629|601.0|IRIS
+42891|BWQC|3J|BHZ|01|30.76124|103.6629|601.0|IRIS
+42892|BWTB|3J|BHE|01|30.72967|103.43284|885.0|IRIS
+42893|BWTB|3J|BHN|01|30.72967|103.43284|885.0|IRIS
+42894|BWTB|3J|BHZ|01|30.72967|103.43284|885.0|IRIS
+42895|BXFC|3J|BHE|01|30.48838|102.70589|1277.0|IRIS
+42896|BXFC|3J|BHN|01|30.48838|102.70589|1277.0|IRIS
+42897|BXFC|3J|BHZ|01|30.48838|102.70589|1277.0|IRIS
+42898|BXSC|3J|BHE|01|30.38091|102.80905|1182.0|IRIS
+42899|BXSC|3J|BHN|01|30.38091|102.80905|1182.0|IRIS
+42900|BXSC|3J|BHZ|01|30.38091|102.80905|1182.0|IRIS
+42901|BYFC|3J|BHE|01|30.79711|103.23357|1546.0|IRIS
+42902|BYFC|3J|BHN|01|30.79711|103.23357|1546.0|IRIS
+42903|BYFC|3J|BHZ|01|30.79711|103.23357|1546.0|IRIS
+42904|BYKC|3J|BHE|01|30.49259|103.08265|1631.0|IRIS
+42905|BYKC|3J|BHN|01|30.49259|103.08265|1631.0|IRIS
+42906|BYKC|3J|BHZ|01|30.49259|103.08265|1631.0|IRIS
+42907|BYQC|3J|BHE|01|30.58943|103.3035|800.0|IRIS
+42908|BYQC|3J|BHN|01|30.58943|103.3035|800.0|IRIS
+42909|BYQC|3J|BHZ|01|30.58943|103.3035|800.0|IRIS
+42910|CD2|CB|BHE|00|30.91|103.757797|653.0|IRIS
+42911|CD2|CB|BHN|00|30.91|103.757797|653.0|IRIS
+42912|CD2|CB|BHZ|00|30.91|103.757797|653.0|IRIS
+42913|LZH|CB|BHE|00|36.087002|103.844398|1560.0|IRIS
+42914|LZH|CB|BHN|00|36.087002|103.844398|1560.0|IRIS
+42915|LZH|CB|BHZ|00|36.087002|103.844398|1560.0|IRIS
+42514|CAD|CB|BHE|00|31.0|97.5|3070.0|IRIS
+42515|CAD|CB|BHN|00|31.0|97.5|3070.0|IRIS
+42516|CAD|CB|BHZ|00|31.0|97.5|3070.0|IRIS
+42916|ENH|IC|BH1|00|30.2762|109.4944|500.0|IRIS
+42917|ENH|IC|BH2|00|30.2762|109.4944|500.0|IRIS
+42546|ENH|IC|BHZ|00|30.2762|109.4944|500.0|IRIS
+42918|ENH|IC|HH1|10|30.2762|109.4944|500.0|IRIS
+42919|ENH|IC|HH2|10|30.2762|109.4944|500.0|IRIS
+42552|ENH|IC|HHZ|10|30.2762|109.4944|500.0|IRIS
+42923|XAN|IC|BH1|00|34.0313|108.9237|630.0|IRIS
+42924|XAN|IC|BH2|00|34.0313|108.9237|630.0|IRIS
+42555|XAN|IC|BHZ|00|34.0313|108.9237|630.0|IRIS
+42925|XAN|IC|HH1|10|34.0313|108.9237|630.0|IRIS
+42926|XAN|IC|HH2|10|34.0313|108.9237|630.0|IRIS
+42561|XAN|IC|HHZ|10|34.0313|108.9237|630.0|IRIS
+

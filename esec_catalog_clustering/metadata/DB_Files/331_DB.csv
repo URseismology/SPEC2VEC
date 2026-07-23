@@ -1,0 +1,186 @@
+# 
+# events
+# 
+# Eventid|Name|Starttime|Endtime|Latitude|Longitude|LocuncertKm|CrownLat|CrownLon|TipLat|TipLon|Type|AreaTotal|AreaSource|AreaSourceLow|AreaSourceHigh|Volume|VolumeLow|VolumeHigh|Mass|MassLow|MassHigh|H|HLow|HHigh|L|LLow|LHigh|HFreefall|HFreefallLow|HFreefallHigh|UpstreamDrainarea|PeakDischarge|PeakDischargeLow|PeakDischargeHigh|PeakFlowheight|PeakFlowheightLow|PeakFlowheightHigh|Otherdataquality1to5|LPpotential|MaxdistvhfKm|MaxdistvhfReached|MaxdisthfKm|MaxdisthfReached|MaxdistipKm|MaxdistipReached|MaxdistlpKm|MaxdistlpReached|InfraDetected|MaxdistinfraKm|MaxdistinfraReached|DatLocation|Sources
+331|Avalanche Gulch, Mount Shasta|2024-02-20 07:10:22|2024-02-20 07:29:06|41.3882|-122.2069|0.0|41.3882|-122.2069|41.3592|-122.2337|snow avalanche|None|None|None|None|33000.0|3300.0|330000.0|None|None|None|980.0|None|None|4000.0|None|None|None|None|None|None|None|None|None|None|None|None|4|0|None|None|8.0|1|None|None|0.0|None|None|None|None|NCEDC|Collins, E.A., Allstadt, K.E., Groult, C., Hibert, C., Malet, J.-P., Toney, L.D., and Jensen, E.K., 2022, Seismogenic Landslides and other Mass Movements (ver. 3.0, May 2025): U.S. Geological Survey data release, https://doi.org/10.5066/P90VGCSK.
+
+# 
+# gisfiles
+# 
+# GisId|Eventid|Type|Source|Description|FileExtension|ApplyAlso
+215|331|Static map - pdf|QGIS - ecollins; Planet|Static map with pre- and post-event NIR PlanetScope satellite imagery (~3m resolution). The black arrows in the post-event image point to evidence of the snow avalanche runout.|EventData/331_AvalancheGulchMountShasta_20Feb2024/maps_gis/331_AvalancheGulchMountShasta_20240220_map.pdf|None
+218|331|Static map - png|QGIS - ecollins; Planet|Static map with pre- and post-event NIR PlanetScope satellite imagery (~3m resolution). The black arrows in the post-event image point to evidence of the snow avalanche runout.|EventData/331_AvalancheGulchMountShasta_20Feb2024/maps_gis/331_AvalancheGulchMountShasta_20240220_map.png|None
+
+# 
+# information
+# 
+# Iid|Eventid|RefId|Note|PhoId|GISId|ApplyAlso
+843|331|357|Location coordinates, H, and L taken from the NWAC avalanche report: https://www.shastaavalanche.org/node/7867/#/view/avalanches/8845fe95-f5b5-4ad1-8021-79433848d164 (NWAC, 2024c).|None|None|None
+844|331|357|This was a natural trigger, D4, storm slab snow avalanche that scoured 60 ft deep walls along Avalanche Gulch (NWAC, 2024c).|None|None|None
+845|331|None|The avalanche flow path is visible in Planet Labs imagery captured 2024-02-27 in the NIR band.|None|215|None
+886|331|369|Volume estimated using the snow avalanche destructive potential classification (D scale) provided in Table 3.8 from American Avalanche Association (2022), using the reported NWAC size of D4 and a density of 300 kg/m3 (American Avalanche Association, 2022), rounded to two significant digits. Volume_low and Volume_high estimated as a D size below and above the reported size.|None|None|None
+836|330|353|This event was reported by Thelen (written commun., 2024) and identified during routine, daily checks of spectrogram plots. Locations were determined using an amplitude-based seismic location method and confirmed using NWAC reports, photographs, and/or satellite imagery.|None|None|327,328,329,331,332,333,334
+
+# 
+# photos
+# 
+# PhotoId|Eventid|Photographer|Description|Latitude|Longitude|Date|FileExtension|ApplyAlso
+1708|331|Elaine Collins|Raw waveforms from closest stations. Data was demeaned but no other processing was applied. Dashed lines show approximate start and end times of event (from database). Figure generation is automated and there may be artifacts present.|None|None|None|EventData/331_AvalancheGulchMountShasta_20Feb2024/photos_figures/331_AvalancheGulchMountShasta_20Feb2024_waveforms_raw.png|None
+1709|331|Elaine Collins|High frequency (1-5 Hz) ground velocity waveforms from closest stations with detections. Dashed lines show approximate start and end times of event (from database). Waveforms are corrected for station response after removing the mean. Figure generation is automated and there may be artifacts present. Clipped waveforms have not been removed before station correction so check raw plots before interpreting high amplitude signals.|None|None|None|EventData/331_AvalancheGulchMountShasta_20Feb2024/photos_figures/331_AvalancheGulchMountShasta_20Feb2024_waveforms_1-5Hz.png|None
+1710|331|Elaine Collins|Spectrograms of velocity waveforms corrected for station sensitivity from closest stations with detections. Figure generation is automated and there may be artifacts present|None|None|None|EventData/331_AvalancheGulchMountShasta_20Feb2024/photos_figures/331_AvalancheGulchMountShasta_20Feb2024_spectrogram.png|None
+1711|331|Elaine Collins|Multitaper spectra (same units as Power Spectral Density) of velocity waveforms corrected for station sensitivity from closest stations with detections. Linear trend was removed and a taper was applied before generating spectra. Figure generation is automated and there may be artifacts present. Since station response was not removed to avoid adding artifacts at low frequencies for short and intermediate period stations, the lower frequency amplitudes should be interpreted with care.|None|None|None|EventData/331_AvalancheGulchMountShasta_20Feb2024/photos_figures/331_AvalancheGulchMountShasta_20Feb2024_spectra.png|None
+
+# 
+# reference
+# 
+# Refid|Eventid|ApplyAlso|LongRef|ShortRef|FileExtension|Url
+357|331|None|Northwest Avalanche Center, 21 Feb 2024, Nick Meyers: Mount Shasta Avalanche Center [Observation], Accessed 25 Nov 2024, at https://www.shastaavalanche.org/node/7867/#/view/avalanches/8845fe95-f5b5-4ad1-8021-79433848d164|NWAC (2024)c|None|https://www.shastaavalanche.org/node/7867/#/view/avalanches/8845fe95-f5b5-4ad1-8021-79433848d164
+
+# 
+# sta_nearby
+# 
+# SRid|Eventid|Sid|StasourceRadiusKm|Az|Baz|DetectVHF|DetectHF|DetectIP|DetectLP|DetectINFRA
+237390|331|49564|34.555|148.89|329.03|None|None|None|None|None
+237391|331|49565|34.555|148.89|329.03|None|None|None|None|None
+237392|331|49566|34.555|148.89|329.03|None|None|None|None|None
+237393|331|49567|34.555|148.89|329.03|None|None|None|None|None
+237394|331|49568|34.555|148.89|329.03|None|None|None|None|None
+237395|331|49569|34.555|148.89|329.03|None|None|None|None|None
+237396|331|49570|31.947|232.57|52.37|None|None|None|None|None
+237397|331|49571|31.947|232.57|52.37|None|None|None|None|None
+237398|331|49572|31.947|232.57|52.37|None|None|None|None|None
+237399|331|49573|31.947|232.57|52.37|None|None|None|None|None
+237400|331|49574|31.947|232.57|52.37|None|None|None|None|None
+237401|331|49575|31.947|232.57|52.37|None|None|None|None|None
+237402|331|50076|38.839|52.72|232.96|None|0|None|0|None
+237403|331|50077|38.839|52.72|232.96|None|0|None|0|None
+237404|331|50078|38.839|52.72|232.96|None|0|None|0|None
+237405|331|50079|38.839|52.72|232.96|None|0|None|0|None
+237406|331|50080|38.839|52.72|232.96|None|0|None|0|None
+237407|331|50081|38.839|52.72|232.96|None|0|None|0|None
+237408|331|50082|25.654|37.38|217.5|None|0|None|0|None
+237409|331|50083|25.654|37.38|217.5|None|0|None|0|None
+237410|331|50084|25.654|37.38|217.5|None|0|None|0|None
+237411|331|50085|25.654|37.38|217.5|None|0|None|0|None
+237412|331|50086|25.654|37.38|217.5|None|0|None|0|None
+237413|331|50087|25.654|37.38|217.5|None|0|None|0|None
+237414|331|50088|34.098|71.16|251.41|None|0|None|None|None
+237415|331|61|42.762|305.31|125.04|None|0|None|None|None
+237416|331|50089|41.948|103.07|283.39|None|0|None|None|None
+237417|331|64|26.824|99.7|279.91|None|None|None|None|None
+237418|331|4|11.955|344.87|164.84|None|0|None|None|None
+237419|331|35721|11.872|78.5|258.6|None|None|None|None|None
+237420|331|35722|11.872|78.5|258.6|None|None|None|None|None
+237421|331|35723|11.872|78.5|258.6|None|None|None|None|None
+237422|331|5|15.93|281.19|101.06|None|0|None|None|None
+237423|331|35727|7.299|264.05|84.0|None|1|None|0|None
+237424|331|35728|7.299|264.05|84.0|None|1|None|0|None
+237425|331|35729|7.299|264.05|84.0|None|1|None|0|None
+237426|331|35733|4.9|169.08|349.09|None|1|None|0|None
+237427|331|35734|4.9|169.08|349.09|None|1|None|0|None
+237428|331|35735|4.9|169.08|349.09|None|1|None|0|None
+237429|331|7|26.777|355.59|175.57|None|0|None|None|None
+237430|331|8|14.525|150.66|330.72|None|None|None|None|None
+237431|331|9|14.525|150.66|330.72|None|None|None|None|None
+237432|331|10|14.525|150.66|330.72|None|None|None|None|None
+237433|331|11|11.906|21.45|201.49|None|0|None|None|None
+237434|331|70|29.125|284.93|104.7|None|0|None|None|None
+237435|331|50091|40.81|327.35|147.17|None|0|None|None|None
+237436|331|50092|33.863|186.82|6.79|None|0|None|None|None
+237437|331|1|24.804|290.67|110.49|None|None|None|None|None
+237438|331|2|24.804|290.67|110.49|None|None|None|None|None
+237439|331|3|24.804|290.67|110.49|None|None|None|None|None
+239118|331|37636|92.511|355.0|174.93|None|None|None|None|None
+239119|331|37637|92.511|355.0|174.93|None|None|None|None|None
+239120|331|37755|271.296|16.81|197.47|None|None|None|None|None
+239121|331|37760|272.709|15.33|195.94|None|None|None|None|None
+239122|331|37777|262.448|17.05|197.7|None|None|None|None|None
+239123|331|37610|139.596|306.11|125.2|None|None|None|None|None
+239124|331|37611|139.596|306.11|125.2|None|None|None|None|None
+239125|331|37614|205.921|2.21|182.27|None|None|None|None|None
+239126|331|37615|205.921|2.21|182.27|None|None|None|None|None
+239127|331|37616|273.095|340.3|159.53|None|None|None|None|None
+239128|331|37617|273.095|340.3|159.53|None|None|None|None|None
+239129|331|37622|242.963|324.74|143.58|None|None|None|None|None
+239130|331|37623|242.963|324.74|143.58|None|None|None|None|None
+239131|331|37626|267.785|356.48|176.34|None|None|None|None|None
+239132|331|37627|267.785|356.48|176.34|None|None|None|None|None
+239133|331|37630|188.852|320.74|139.76|None|None|None|None|None
+239134|331|37631|188.852|320.74|139.76|None|None|None|None|None
+239135|331|37632|225.401|20.5|201.15|None|None|None|None|None
+239136|331|37633|225.401|20.5|201.15|None|None|None|None|None
+
+# 
+# stations
+# 
+# Sid|Name|Network|Channel|LocationCode|Latitude|Longitude|ElevationMasl|Source
+49564|GRPK|BK|BHE|00|41.12162|-121.99428|1495.8|NCEDC,IRIS
+49565|GRPK|BK|BHN|00|41.12162|-121.99428|1495.8|NCEDC,IRIS
+49566|GRPK|BK|BHZ|00|41.12162|-121.99428|1495.8|NCEDC,IRIS
+49567|GRPK|BK|HHE|00|41.12162|-121.99428|1495.8|NCEDC,IRIS
+49568|GRPK|BK|HHN|00|41.12162|-121.99428|1495.8|NCEDC,IRIS
+49569|GRPK|BK|HHZ|00|41.12162|-121.99428|1495.8|NCEDC,IRIS
+49570|GUMB|BK|BHE|00|41.21297|-122.5094|1848.6|NCEDC,IRIS
+49571|GUMB|BK|BHN|00|41.21297|-122.5094|1848.6|NCEDC,IRIS
+49572|GUMB|BK|BHZ|00|41.21297|-122.5094|1848.6|NCEDC,IRIS
+49573|GUMB|BK|HHE|00|41.21297|-122.5094|1848.6|NCEDC,IRIS
+49574|GUMB|BK|HHN|00|41.21297|-122.5094|1848.6|NCEDC,IRIS
+49575|GUMB|BK|HHZ|00|41.21297|-122.5094|1848.6|NCEDC,IRIS
+50076|LGMB|BK|BHE|00|41.59944|-121.83623|1622.0|NCEDC
+50077|LGMB|BK|BHN|00|41.59944|-121.83623|1622.0|NCEDC
+50078|LGMB|BK|BHZ|00|41.59944|-121.83623|1622.0|NCEDC
+50079|LGMB|BK|HHE|00|41.59944|-121.83623|1622.0|NCEDC
+50080|LGMB|BK|HHN|00|41.59944|-121.83623|1622.0|NCEDC
+50081|LGMB|BK|HHZ|00|41.59944|-121.83623|1622.0|NCEDC
+50082|WHMT|BK|BHE|00|41.5716|-122.02018|1846.4|NCEDC
+50083|WHMT|BK|BHN|00|41.5716|-122.02018|1846.4|NCEDC
+50084|WHMT|BK|BHZ|00|41.5716|-122.02018|1846.4|NCEDC
+50085|WHMT|BK|HHE|00|41.5716|-122.02018|1846.4|NCEDC
+50086|WHMT|BK|HHN|00|41.5716|-122.02018|1846.4|NCEDC
+50087|WHMT|BK|HHZ|00|41.5716|-122.02018|1846.4|NCEDC
+50088|LAB|NC|EHZ|01|41.48671|-121.82048|1618.0|NCEDC
+61|LAMB|NC|EHZ||41.610001|-122.625526|1789.0|NCEDC,IRIS
+50089|LBE|NC|EHZ|01|41.301744|-121.719011|1750.0|NCEDC
+64|LBF|NC|EHZ||41.347065|-121.890976|1961.0|NCEDC,IRIS
+4|LBO|NC|EHZ||41.4921|-122.24427|1544.0|NCEDC
+35721|LBR|NC|HH2|01|41.40942|-122.06776|1601.0|IRIS,NCEDC
+35722|LBR|NC|HH3|01|41.40942|-122.06776|1601.0|IRIS,NCEDC
+35723|LBR|NC|HHZ|01|41.40942|-122.06776|1601.0|IRIS,NCEDC
+5|LCSB|NC|EHZ||41.415878|-122.393814|1115.0|NCEDC,IRIS
+35727|LDL|NC|HHE|01|41.38136|-122.29369|1705.0|IRIS,NCEDC
+35728|LDL|NC|HHN|01|41.38136|-122.29369|1705.0|IRIS,NCEDC
+35729|LDL|NC|HHZ|01|41.38136|-122.29369|1705.0|IRIS,NCEDC
+35733|LGY|NC|HHE|01|41.34488|-122.19581|2419.0|IRIS,NCEDC
+35734|LGY|NC|HHN|01|41.34488|-122.19581|2419.0|IRIS,NCEDC
+35735|LGY|NC|HHZ|01|41.34488|-122.19581|2419.0|IRIS,NCEDC
+7|LHE|NC|EHZ|02|41.628582|-122.231636|2117.0|NCEDC
+8|LMC|NC|HHE||41.274158|-122.121971|1062.0|NCEDC,IRIS
+9|LMC|NC|HHN||41.274158|-122.121971|1062.0|NCEDC,IRIS
+10|LMC|NC|HHZ||41.274158|-122.121971|1062.0|NCEDC,IRIS
+11|LMP|NC|EHZ||41.487965|-122.154762|1860.0|NCEDC,IRIS
+70|LPK|NC|EHZ||41.455257|-122.543716|1880.0|NCEDC,IRIS
+50091|LSB|NC|EHZ|01|41.697278|-122.471395|923.6|NCEDC
+50092|LSG|NC|EHZ|01|41.085435|-122.254766|1439.0|NCEDC
+1|B039|PB|EH1||41.4667|-122.4847|923.9|IRIS
+2|B039|PB|EH2||41.4667|-122.4847|923.9|IRIS
+3|B039|PB|EHZ||41.4667|-122.4847|923.9|IRIS
+37636|WOOD|UO|BDF|EP|42.217899|-122.304604|1437.0|IRIS,NCEDC
+37637|WOOD|UO|LDF|EP|42.217899|-122.304604|1437.0|IRIS,NCEDC
+37755|CPCO|CC|BDF|01|43.72201|-121.23319|2135.0|IRIS
+37760|KWBU|CC|BDF|01|43.752399|-121.311852|1783.0|IRIS
+37777|SVIC|CC|BDF|01|43.643082|-121.253273|1765.0|IRIS
+37610|CAVE|UO|BDF|EP|42.120899|-123.570702|440.0|IRIS,NCEDC
+37611|CAVE|UO|LDF|EP|42.120899|-123.570702|440.0|IRIS,NCEDC
+37614|DFAZ|UO|BDF|EP|43.240601|-122.109299|1948.0|IRIS
+37615|DFAZ|UO|LDF|EP|43.240601|-122.109299|1948.0|IRIS
+37616|DRAN|UO|BDF|EP|43.697201|-123.348701|140.6|IRIS
+37617|DRAN|UO|LDF|EP|43.697201|-123.348701|140.6|IRIS
+37622|LAIR|UO|BDF|EP|43.161499|-123.931396|127.8|IRIS
+37623|LAIR|UO|LDF|EP|43.161499|-123.931396|127.8|IRIS
+37626|NATH|UO|BDF|EP|43.794102|-122.411301|729.0|IRIS
+37627|NATH|UO|LDF|EP|43.794102|-122.411301|729.0|IRIS
+37630|ROGE|UO|BDF|EP|42.695499|-123.665398|989.0|IRIS,NCEDC
+37631|ROGE|UO|LDF|EP|42.695499|-123.665398|989.0|IRIS,NCEDC
+37632|TOOM|UO|BDF|EP|43.284901|-121.234703|1541.0|IRIS
+37633|TOOM|UO|LDF|EP|43.284901|-121.234703|1541.0|IRIS
+

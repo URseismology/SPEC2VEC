@@ -1,0 +1,303 @@
+# 
+# events
+# 
+# Eventid|Name|Starttime|Endtime|Latitude|Longitude|LocuncertKm|CrownLat|CrownLon|TipLat|TipLon|Type|AreaTotal|AreaSource|AreaSourceLow|AreaSourceHigh|Volume|VolumeLow|VolumeHigh|Mass|MassLow|MassHigh|H|HLow|HHigh|L|LLow|LHigh|HFreefall|HFreefallLow|HFreefallHigh|UpstreamDrainarea|PeakDischarge|PeakDischargeLow|PeakDischargeHigh|PeakFlowheight|PeakFlowheightLow|PeakFlowheightHigh|Otherdataquality1to5|LPpotential|MaxdistvhfKm|MaxdistvhfReached|MaxdisthfKm|MaxdisthfReached|MaxdistipKm|MaxdistipReached|MaxdistlpKm|MaxdistlpReached|InfraDetected|MaxdistinfraKm|MaxdistinfraReached|DatLocation|Sources
+267|Villa Santa Lucía, Chile|2017-12-16 12:02:13|2017-12-16 12:07:06|-43.3599|-72.43125|0.0|-43.3599|-72.43125|-43.42634|-72.37298|rock slide, debris flow|4800000.0|350000.0|260000.0|400000.0|7200000.0|3400000.0|12500000.0|None|None|None|1200.0|1100.0|1300.0|10800.0|None|12000.0|None|None|None|None|300000.0|None|None|30.0|20.0|50.0|5|1|None|None|331.0|1|None|None|433.0|0|None|None|None|IRIS|Collins, E.A., Allstadt, K.E., Groult, C., Hibert, C., Malet, J.-P., Toney, L.D., and Jensen, E.K., 2022, Seismogenic Landslides and other Mass Movements (ver. 2.0, December 2023): U.S. Geological Survey data release, https://doi.org/10.5066/P90VGCSK.
+
+# 
+# gisfiles
+# 
+# GisId|Eventid|Type|Source|Description|FileExtension|ApplyAlso
+164|267|Static map - pdf|QGIS - ecollins; Planet|Static map with centerline and runout overlain on PlanetScope satellite imagery (~3m resolution, captured 2018-01-29).|EventData/267_VillaSantaLucíaChile_16Dec2017/maps_gis/267_VillaSantaLucíaChile_20171216_map.pdf|None
+165|267|GIS shapefile|QGIS - ecollins|Outline of source and runout based on PlanetScope satellite imagery (gis_id 164).|EventData/267_VillaSantaLucíaChile_16Dec2017/maps_gis/267_VillaSantaLucíaChile_20171216_outlines_UTM18S.zip|None
+189|267|GIS shapefile|QGIS - ecollins|Centerline based on outline (gis_id 165).|EventData/267_VillaSantaLucíaChile_16Dec2017/maps_gis/267_VillaSantaLucíaChile_20171216_centerline_UTM18S.zip|None
+240|267|Static map - png|QGIS - ecollins; Planet|Static map with centerline and runout overlain on PlanetScope satellite imagery (~3m resolution, captured 2018-01-29).|EventData/267_VillaSantaLucíaChile_16Dec2017/maps_gis/267_VillaSantaLucíaChile_20171216_map.png|None
+
+# 
+# information
+# 
+# Iid|Eventid|RefId|Note|PhoId|GISId|ApplyAlso
+625|267|257|This event began as a rock slide near the headwaters of the Burritos River in the Cordón Yelcho mountains and is thought to be triggered by heavy rainfall (122.8 mm of rainfall in 24 hours) (Duhart and others, 2019). The rock slide produced a debris flow which contained some ice and covered regions of Route 7, Route 235, and 50% of the total urban area of Santa Lucía (Duhart and others, 2019).|None|None|None
+626|267|256|Chubb and others (2020) report a volume range of 3,400,000-4,700,000 m3 for the initial failure. Volume_low taken from the low end of this range. They additionally report a volume of 33 million m3, for the initial failure and material entrained and eroded by the debris flow.|None|None|None
+627|267|257|A volume of 7,200,000 m3 taken from Duhart and others (2019) based on pre- and post-event DEM analysis, where 2,200,000 m3 of debris was deposited in the upper region of the river basin and 5,000,000 m3 was deposited in the village of Santa Lucía. L_high and peak flow heights (based on field observations and a digital surface mode) also taken from Duhart and others (2019), where L_high represents the total runout length from the source area to the confluence of the Burrito and Frio rivers.|None|None|None
+629|267|256|The debris flow destroyed 5 km of the Panamerican Highway and Villa Santa Lucía, resulting in 22 fatalities (Chubb and others, 2020).|None|None|None
+630|267|None|Centerline, total area and source areas were digitized using PlanetScope satellite imagery. H and L estimated using crown and toe locations.|None|164|None
+752|267|256|Peak discharge taken from Figure 6 of Chubb and others (2020).|None|None|None
+753|267|None|It is uncertain if the seismic signal for this event contains all parts of the debris flow outlined in the satellite imagery.|None|None|None
+835|267|352|Volume_high taken from the volume estimate of 12.5 million m3, reported by Singh and Sepúlveda (2024), based on elevation differences in the main and secondary failure zones using DEMs from 2010 and 2021.|None|None|None
+
+# 
+# photos
+# 
+# PhotoId|Eventid|Photographer|Description|Latitude|Longitude|Date|FileExtension|ApplyAlso
+1384|267|Elaine Collins|Raw waveforms from closest stations. Data was demeaned but no other processing was applied. Dashed lines show approximate start and end times of event (from database). Figure generation is automated and there may be artifacts present.|None|None|None|EventData/267_VillaSantaLucíaChile_16Dec2017/photos_figures/267_VillaSantaLucíaChile_16Dec2017_waveforms_raw.png|None
+1385|267|Elaine Collins|High frequency (1-5 Hz) ground velocity waveforms from closest stations with detections. Dashed lines show approximate start and end times of event (from database). Waveforms are corrected for station response after removing the mean. Figure generation is automated and there may be artifacts present. Clipped waveforms have not been removed before station correction so check raw plots before interpreting high amplitude signals.|None|None|None|EventData/267_VillaSantaLucíaChile_16Dec2017/photos_figures/267_VillaSantaLucíaChile_16Dec2017_waveforms_1-5Hz.png|None
+1386|267|Elaine Collins|Long period (20-60 sec) ground displacement waveforms from closest stations with detections. Dashed lines show approximate start and end times of event (from database, based on high frequency waveform). Waveforms are corrected for station response after detrending using a linear fit and tapering. Zero mean cosine filter applied with station correction may cause acausal arrivals. Figure generation is automated and there may be artifacts present. Signals with clipped waveforms and data gaps have not been removed so check raw figures before interpreting.|None|None|None|EventData/267_VillaSantaLucíaChile_16Dec2017/photos_figures/267_VillaSantaLucíaChile_16Dec2017_waveforms_20-60sec.png|None
+1387|267|Elaine Collins|Displacement spectrum from closest broadband stations with detections, corrected for station response with no prefiltering after detrending using a linear fit and tapering. Note that long period signals often contain noise unrelated to the event signal of interest, especially on horizontal components (e.g. tilt), so interpret with care. Figure generation is automated and there may be artifacts present. Signals with clipped waveforms and data gaps have not been removed so check raw figures before interpreting.|None|None|None|EventData/267_VillaSantaLucíaChile_16Dec2017/photos_figures/267_VillaSantaLucíaChile_16Dec2017_displspectra.png|None
+1388|267|Elaine Collins|Spectrograms of velocity waveforms corrected for station sensitivity from closest stations with detections. Figure generation is automated and there may be artifacts present|None|None|None|EventData/267_VillaSantaLucíaChile_16Dec2017/photos_figures/267_VillaSantaLucíaChile_16Dec2017_spectrogram.png|None
+1389|267|Elaine Collins|Multitaper spectra (same units as Power Spectral Density) of velocity waveforms corrected for station sensitivity from closest stations with detections. Linear trend was removed and a taper was applied before generating spectra. Figure generation is automated and there may be artifacts present. Since station response was not removed to avoid adding artifacts at low frequencies for short and intermediate period stations, the lower frequency amplitudes should be interpreted with care.|None|None|None|EventData/267_VillaSantaLucíaChile_16Dec2017/photos_figures/267_VillaSantaLucíaChile_16Dec2017_spectra.png|None
+
+# 
+# reference
+# 
+# Refid|Eventid|ApplyAlso|LongRef|ShortRef|FileExtension|Url
+256|267|None|Chubb, H., Russel, A., Dussaillant, A., and Dunning, S., 2020, The dynamics and impacts of the December 2017 catastrophic mass flow Villa Santa Lucia, Chile [Abstract]: 22nd EGU General Assembly, doi: 10.5194/egusphere-egu2020-7406.|Chubb and others (2020)|None|https://doi.org/10.5194/egusphere-egu2020-7406
+257|267|None|Duhart, P., Sepúlveda,V., Garrido, N., Mella, M., Quiroz, D., Fernández, J., Moreno, H., and Hermosilla, G., 2019, The Santa Lucía landslide disaster, Chaitén-Chile: origin and effects: 7th International Conference on Debris-Flow Hazards Mitigation, doi: 10.25676/11124/173159.|Duhart and others (2019)|None|https://doi.org/10.25676/11124/173159
+352|267|None|Singh, J. and Sepúlveda, S.A., 2024, Understanding the failure mechanisms of the 2017 Santa Lucía landslide, Patagonian Andes, using remote sensing and 3D numerical modelling techniques: Landslides, v. 21, p. 3029-3047, doi: 10.1007/s10346-024-02346-1|Singh and Sepúlveda (2024)|None|https://doi.org/10.1007/s10346-024-02346-1
+
+# 
+# sta_nearby
+# 
+# SRid|Eventid|Sid|StasourceRadiusKm|Az|Baz|DetectVHF|DetectHF|DetectIP|DetectLP|DetectINFRA
+197854|267|41746|103.816|284.82|105.67|None|None|None|None|None
+197855|267|41747|103.816|284.82|105.67|None|None|None|None|None
+197856|267|41748|103.816|284.82|105.67|None|None|None|None|None
+197857|267|41749|119.17|188.33|8.48|None|1|None|1|None
+197858|267|41750|119.17|188.33|8.48|None|1|None|1|None
+197859|267|41751|119.17|188.33|8.48|None|1|None|1|None
+197860|267|41752|119.17|188.33|8.48|None|1|None|1|None
+197861|267|41753|119.17|188.33|8.48|None|1|None|1|None
+197862|267|41754|119.17|188.33|8.48|None|1|None|1|None
+197863|267|41755|109.012|0.81|180.8|None|1|None|0|None
+197864|267|41756|109.012|0.81|180.8|None|1|None|0|None
+197865|267|41757|109.012|0.81|180.8|None|1|None|0|None
+197866|267|41758|109.012|0.81|180.8|None|1|None|0|None
+197867|267|41759|109.012|0.81|180.8|None|1|None|0|None
+197868|267|41760|109.012|0.81|180.8|None|1|None|0|None
+197869|267|41761|50.918|68.52|248.12|None|1|None|1|None
+197870|267|41762|50.918|68.52|248.12|None|1|None|1|None
+197871|267|41763|50.918|68.52|248.12|None|1|None|1|None
+197872|267|41764|50.918|68.52|248.12|None|1|None|1|None
+197873|267|41765|50.918|68.52|248.12|None|1|None|1|None
+197874|267|41766|50.918|68.52|248.12|None|1|None|1|None
+197875|267|41767|160.512|321.99|142.8|None|1|None|0|None
+197876|267|41768|160.512|321.99|142.8|None|1|None|0|None
+197877|267|41769|160.512|321.99|142.8|None|1|None|1|None
+197878|267|41770|160.512|321.99|142.8|None|1|None|0|None
+197879|267|41771|160.512|321.99|142.8|None|1|None|0|None
+197880|267|41772|160.512|321.99|142.8|None|1|None|1|None
+197881|267|41773|103.416|304.16|124.88|None|1|None|1|None
+197882|267|41774|103.416|304.16|124.88|None|1|None|1|None
+197883|267|41775|103.416|304.16|124.88|None|1|None|1|None
+197884|267|41776|103.416|304.16|124.88|None|1|None|1|None
+197885|267|41777|103.416|304.16|124.88|None|1|None|1|None
+197886|267|41778|103.416|304.16|124.88|None|1|None|1|None
+197887|267|41779|246.771|0.54|180.53|None|0|None|0|None
+197888|267|41780|246.771|0.54|180.53|None|0|None|0|None
+197889|267|41781|246.771|0.54|180.53|None|0|None|0|None
+197890|267|41782|246.771|0.54|180.53|None|0|None|0|None
+197891|267|41783|246.771|0.54|180.53|None|0|None|0|None
+197892|267|41784|246.771|0.54|180.53|None|0|None|0|None
+197893|267|41785|272.163|0.41|180.39|None|None|None|None|None
+197894|267|41786|272.163|0.41|180.39|None|None|None|None|None
+197895|267|41787|272.163|0.41|180.39|None|None|None|None|None
+197896|267|41788|272.163|0.41|180.39|None|None|None|None|None
+197897|267|41789|272.163|0.41|180.39|None|None|None|None|None
+197898|267|41790|272.163|0.41|180.39|None|None|None|None|None
+197899|267|41791|233.487|338.06|158.76|None|0|None|0|None
+197900|267|41792|233.487|338.06|158.76|None|0|None|0|None
+197901|267|41793|233.487|338.06|158.76|None|0|None|1|None
+197902|267|41794|233.487|338.06|158.76|None|0|None|0|None
+197903|267|41795|233.487|338.06|158.76|None|0|None|0|None
+197904|267|41796|233.487|338.06|158.76|None|0|None|1|None
+197905|267|41797|247.492|173.66|353.42|None|1|None|0|None
+197906|267|41798|247.492|173.66|353.42|None|1|None|0|None
+197907|267|41799|247.492|173.66|353.42|None|1|None|1|None
+197908|267|41803|352.362|189.58|10.12|None|0|None|0|None
+197909|267|41804|352.362|189.58|10.12|None|0|None|0|None
+197910|267|41805|352.362|189.58|10.12|None|0|None|0|None
+197911|267|41806|352.362|189.58|10.12|None|0|None|0|None
+197912|267|41807|352.362|189.58|10.12|None|0|None|0|None
+197913|267|41808|352.362|189.58|10.12|None|0|None|0|None
+197914|267|41809|395.257|347.56|168.22|None|0|None|None|None
+197915|267|41810|395.257|347.56|168.22|None|0|None|None|None
+197916|267|41811|395.257|347.56|168.22|None|0|None|None|None
+197917|267|41812|395.257|347.56|168.22|None|0|None|None|None
+197918|267|41813|395.257|347.56|168.22|None|0|None|None|None
+197919|267|41814|395.257|347.56|168.22|None|0|None|None|None
+197920|267|41815|349.443|5.97|185.69|None|0|None|0|None
+197921|267|41816|349.443|5.97|185.69|None|0|None|0|None
+197922|267|41817|349.443|5.97|185.69|None|0|None|1|None
+197923|267|41818|349.443|5.97|185.69|None|0|None|0|None
+197924|267|41819|349.443|5.97|185.69|None|0|None|0|None
+197925|267|41820|349.443|5.97|185.69|None|0|None|1|None
+197926|267|41821|330.718|28.71|207.45|None|1|None|0|None
+197927|267|41822|330.718|28.71|207.45|None|1|None|0|None
+197928|267|41823|330.718|28.71|207.45|None|1|None|1|None
+197929|267|41824|426.951|11.14|190.5|None|0|None|0|None
+197930|267|41825|426.951|11.14|190.5|None|0|None|0|None
+197931|267|41826|426.951|11.14|190.5|None|0|None|1|None
+197932|267|41827|432.856|181.6|1.71|None|0|None|0|None
+197933|267|41828|432.856|181.6|1.71|None|0|None|0|None
+197934|267|41829|432.856|181.6|1.71|None|0|None|1|None
+197935|267|41830|432.856|181.6|1.71|None|0|None|0|None
+197936|267|41831|432.856|181.6|1.71|None|0|None|0|None
+197937|267|41832|432.856|181.6|1.71|None|0|None|1|None
+197938|267|41833|497.761|5.56|185.19|None|0|None|None|None
+197939|267|41834|497.761|5.56|185.19|None|0|None|None|None
+197940|267|41835|497.761|5.56|185.19|None|0|None|None|None
+197941|267|41836|497.761|5.56|185.19|None|0|None|None|None
+197942|267|41837|497.761|5.56|185.19|None|0|None|None|None
+197943|267|41838|497.761|5.56|185.19|None|0|None|None|None
+197944|267|41839|430.854|3.19|183.0|None|0|None|None|None
+197945|267|41840|430.854|3.19|183.0|None|0|None|None|None
+197946|267|41841|430.854|3.19|183.0|None|0|None|None|None
+197947|267|41842|430.854|3.19|183.0|None|0|None|None|None
+197948|267|41843|414.075|1.02|180.96|None|0|None|None|None
+197949|267|41844|414.075|1.02|180.96|None|0|None|None|None
+197950|267|41845|414.075|1.02|180.96|None|0|None|None|None
+197951|267|41846|414.075|1.02|180.96|None|0|None|None|None
+197952|267|41847|414.075|1.02|180.96|None|0|None|None|None
+197953|267|41848|414.075|1.02|180.96|None|0|None|None|None
+197954|267|41849|562.946|346.95|167.9|None|0|None|0|None
+197955|267|41850|562.946|346.95|167.9|None|0|None|0|None
+197956|267|41851|562.946|346.95|167.9|None|0|None|0|None
+197957|267|41852|562.946|346.95|167.9|None|0|None|0|None
+197958|267|41853|562.946|346.95|167.9|None|0|None|0|None
+197959|267|41854|562.946|346.95|167.9|None|0|None|0|None
+197960|267|41855|567.491|180.94|1.03|None|0|None|0|None
+197961|267|41856|567.491|180.94|1.03|None|0|None|0|None
+197962|267|41857|567.491|180.94|1.03|None|0|None|0|None
+197963|267|41858|563.005|346.94|167.89|None|0|None|0|None
+197964|267|41859|563.005|346.94|167.89|None|0|None|0|None
+197965|267|41860|563.005|346.94|167.89|None|0|None|0|None
+197966|267|41861|563.005|346.94|167.89|None|0|None|0|None
+197967|267|41862|563.005|346.94|167.89|None|0|None|0|None
+197968|267|41863|563.005|346.94|167.89|None|0|None|0|None
+197969|267|41864|513.712|350.61|171.25|None|0|None|0|None
+197970|267|41865|513.712|350.61|171.25|None|0|None|0|None
+197971|267|41866|513.712|350.61|171.25|None|0|None|0|None
+197972|267|41867|513.712|350.61|171.25|None|0|None|0|None
+197973|267|41868|513.712|350.61|171.25|None|0|None|0|None
+197974|267|41869|513.712|350.61|171.25|None|0|None|0|None
+197975|267|41870|103.816|284.82|105.67|None|None|None|None|None
+197976|267|41871|103.816|284.82|105.67|None|None|None|None|None
+
+# 
+# stations
+# 
+# Sid|Name|Network|Channel|LocationCode|Latitude|Longitude|ElevationMasl|Source
+41746|GO07|C|BHE||-43.1142|-73.6644|178.0|IRIS
+41747|GO07|C|BHN||-43.1142|-73.6644|178.0|IRIS
+41748|GO07|C|BHZ||-43.1142|-73.6644|178.0|IRIS
+41749|AY01|C1|BHE||-44.42092|-72.64803|9.0|IRIS
+41750|AY01|C1|BHN||-44.42092|-72.64803|9.0|IRIS
+41751|AY01|C1|BHZ||-44.42092|-72.64803|9.0|IRIS
+41752|AY01|C1|HHE||-44.42092|-72.64803|9.0|IRIS
+41753|AY01|C1|HHN||-44.42092|-72.64803|9.0|IRIS
+41754|AY01|C1|HHZ||-44.42092|-72.64803|9.0|IRIS
+41755|LL01|C1|BHE||-42.3787|-72.4125|62.0|IRIS
+41756|LL01|C1|BHN||-42.3787|-72.4125|62.0|IRIS
+41757|LL01|C1|BHZ||-42.3787|-72.4125|62.0|IRIS
+41758|LL01|C1|HHE||-42.3787|-72.4125|62.0|IRIS
+41759|LL01|C1|HHN||-42.3787|-72.4125|62.0|IRIS
+41760|LL01|C1|HHZ||-42.3787|-72.4125|62.0|IRIS
+41761|LL02|C1|BHE||-43.19055|-71.84838|368.0|IRIS
+41762|LL02|C1|BHN||-43.19055|-71.84838|368.0|IRIS
+41763|LL02|C1|BHZ||-43.19055|-71.84838|368.0|IRIS
+41764|LL02|C1|HHE||-43.19055|-71.84838|368.0|IRIS
+41765|LL02|C1|HHN||-43.19055|-71.84838|368.0|IRIS
+41766|LL02|C1|HHZ||-43.19055|-71.84838|368.0|IRIS
+41767|LL06|C1|BHE||-42.215136|-73.6283|180.0|IRIS
+41768|LL06|C1|BHN||-42.215136|-73.6283|180.0|IRIS
+41769|LL06|C1|BHZ||-42.215136|-73.6283|180.0|IRIS
+41770|LL06|C1|HHE||-42.215136|-73.6283|180.0|IRIS
+41771|LL06|C1|HHN||-42.215136|-73.6283|180.0|IRIS
+41772|LL06|C1|HHZ||-42.215136|-73.6283|180.0|IRIS
+41773|LL07|C1|BHE||-42.83235|-73.47785|53.5|IRIS
+41774|LL07|C1|BHN||-42.83235|-73.47785|53.5|IRIS
+41775|LL07|C1|BHZ||-42.83235|-73.47785|53.5|IRIS
+41776|LL07|C1|HHE||-42.83235|-73.47785|53.5|IRIS
+41777|LL07|C1|HHN||-42.83235|-73.47785|53.5|IRIS
+41778|LL07|C1|HHZ||-42.83235|-73.47785|53.5|IRIS
+41779|LL03|C1|BHE||-41.1384|-72.40336|227.0|IRIS
+41780|LL03|C1|BHN||-41.1384|-72.40336|227.0|IRIS
+41781|LL03|C1|BHZ||-41.1384|-72.40336|227.0|IRIS
+41782|LL03|C1|HHE||-41.1384|-72.40336|227.0|IRIS
+41783|LL03|C1|HHN||-41.1384|-72.40336|227.0|IRIS
+41784|LL03|C1|HHZ||-41.1384|-72.40336|227.0|IRIS
+41785|LL04|C1|BHE||-40.90972|-72.40817|247.0|IRIS
+41786|LL04|C1|BHN||-40.90972|-72.40817|247.0|IRIS
+41787|LL04|C1|BHZ||-40.90972|-72.40817|247.0|IRIS
+41788|LL04|C1|HHE||-40.90972|-72.40817|247.0|IRIS
+41789|LL04|C1|HHN||-40.90972|-72.40817|247.0|IRIS
+41790|LL04|C1|HHZ||-40.90972|-72.40817|247.0|IRIS
+41791|LL05|C1|BHE||-41.405341|-73.47445|208.0|IRIS
+41792|LL05|C1|BHN||-41.405341|-73.47445|208.0|IRIS
+41793|LL05|C1|BHZ||-41.405341|-73.47445|208.0|IRIS
+41794|LL05|C1|HHE||-41.405341|-73.47445|208.0|IRIS
+41795|LL05|C1|HHN||-41.405341|-73.47445|208.0|IRIS
+41796|LL05|C1|HHZ||-41.405341|-73.47445|208.0|IRIS
+41797|COYC|G|BHE|00|-45.57299|-72.08139|235.0|IRIS
+41798|COYC|G|BHN|00|-45.57299|-72.08139|235.0|IRIS
+41799|COYC|G|BHZ|00|-45.57299|-72.08139|235.0|IRIS
+41803|AY02|C1|BHE||-46.48392|-73.19474|79.0|IRIS
+41804|AY02|C1|BHN||-46.48392|-73.19474|79.0|IRIS
+41805|AY02|C1|BHZ||-46.48392|-73.19474|79.0|IRIS
+41806|AY02|C1|HHE||-46.48392|-73.19474|79.0|IRIS
+41807|AY02|C1|HHN||-46.48392|-73.19474|79.0|IRIS
+41808|AY02|C1|HHZ||-46.48392|-73.19474|79.0|IRIS
+41809|LR04|C1|BHE||-39.88019|-73.425822|93.6|IRIS
+41810|LR04|C1|BHN||-39.88019|-73.425822|93.6|IRIS
+41811|LR04|C1|BHZ||-39.88019|-73.425822|93.6|IRIS
+41812|LR04|C1|HHE||-39.88019|-73.425822|93.6|IRIS
+41813|LR04|C1|HHN||-39.88019|-73.425822|93.6|IRIS
+41814|LR04|C1|HHZ||-39.88019|-73.425822|93.6|IRIS
+41815|LR05|C1|BHE||-40.229975|-72.0044|203.5|IRIS
+41816|LR05|C1|BHN||-40.229975|-72.0044|203.5|IRIS
+41817|LR05|C1|BHZ||-40.229975|-72.0044|203.5|IRIS
+41818|LR05|C1|HHE||-40.229975|-72.0044|203.5|IRIS
+41819|LR05|C1|HHN||-40.229975|-72.0044|203.5|IRIS
+41820|LR05|C1|HHZ||-40.229975|-72.0044|203.5|IRIS
+41821|PLCA|GT|BHE|00|-40.73274|-70.5508|986.7|IRIS
+41822|PLCA|GT|BHN|00|-40.73274|-70.5508|986.7|IRIS
+41823|PLCA|GT|BHZ|00|-40.73274|-70.5508|986.7|IRIS
+41824|GO06|C|BHE||-39.5839|-71.472|1258.0|IRIS
+41825|GO06|C|BHN||-39.5839|-71.472|1258.0|IRIS
+41826|GO06|C|BHZ||-39.5839|-71.472|1258.0|IRIS
+41827|AY03|C1|BHE||-47.253042|-72.590769|206.5|IRIS
+41828|AY03|C1|BHN||-47.253042|-72.590769|206.5|IRIS
+41829|AY03|C1|BHZ||-47.253042|-72.590769|206.5|IRIS
+41830|AY03|C1|HHE||-47.253042|-72.590769|206.5|IRIS
+41831|AY03|C1|HHN||-47.253042|-72.590769|206.5|IRIS
+41832|AY03|C1|HHZ||-47.253042|-72.590769|206.5|IRIS
+41833|LC01|C1|BHE||-38.89752|-71.87605|406.0|IRIS
+41834|LC01|C1|BHN||-38.89752|-71.87605|406.0|IRIS
+41835|LC01|C1|BHZ||-38.89752|-71.87605|406.0|IRIS
+41836|LC01|C1|HHE||-38.89752|-71.87605|406.0|IRIS
+41837|LC01|C1|HHN||-38.89752|-71.87605|406.0|IRIS
+41838|LC01|C1|HHZ||-38.89752|-71.87605|406.0|IRIS
+41839|LC09|C1|BHZ||-39.486146|-72.153133|213.0|IRIS
+41840|LC09|C1|HHE||-39.486146|-72.153133|213.0|IRIS
+41841|LC09|C1|HHN||-39.486146|-72.153133|213.0|IRIS
+41842|LC09|C1|HHZ||-39.486146|-72.153133|213.0|IRIS
+41843|LR03|C1|BHE||-39.632184|-72.345701|253.2|IRIS
+41844|LR03|C1|BHN||-39.632184|-72.345701|253.2|IRIS
+41845|LR03|C1|BHZ||-39.632184|-72.345701|253.2|IRIS
+41846|LR03|C1|HHE||-39.632184|-72.345701|253.2|IRIS
+41847|LR03|C1|HHN||-39.632184|-72.345701|253.2|IRIS
+41848|LR03|C1|HHZ||-39.632184|-72.345701|253.2|IRIS
+41849|BI04|C|BHE||-38.411999|-73.8853|61.0|IRIS
+41850|BI04|C|BHN||-38.411999|-73.8853|61.0|IRIS
+41851|BI04|C|BHZ||-38.411999|-73.8853|61.0|IRIS
+41852|BI04|C|HHE||-38.411999|-73.8853|61.0|IRIS
+41853|BI04|C|HHN||-38.411999|-73.8853|61.0|IRIS
+41854|BI04|C|HHZ||-38.411999|-73.8853|61.0|IRIS
+41855|GO08|C|BHE||-48.4648|-72.5566|1000.0|IRIS
+41856|GO08|C|BHN||-48.4648|-72.5566|1000.0|IRIS
+41857|GO08|C|BHZ||-48.4648|-72.5566|1000.0|IRIS
+41858|BI04|C1|BHE||-38.41161|-73.88622|41.0|IRIS
+41859|BI04|C1|BHN||-38.41161|-73.88622|41.0|IRIS
+41860|BI04|C1|BHZ||-38.41161|-73.88622|41.0|IRIS
+41861|BI04|C1|HHE||-38.41161|-73.88622|41.0|IRIS
+41862|BI04|C1|HHN||-38.41161|-73.88622|41.0|IRIS
+41863|BI04|C1|HHZ||-38.41161|-73.88622|41.0|IRIS
+41864|LC02|C1|BHE||-38.79189|-73.39471|67.0|IRIS
+41865|LC02|C1|BHN||-38.79189|-73.39471|67.0|IRIS
+41866|LC02|C1|BHZ||-38.79189|-73.39471|67.0|IRIS
+41867|LC02|C1|HHE||-38.79189|-73.39471|67.0|IRIS
+41868|LC02|C1|HHN||-38.79189|-73.39471|67.0|IRIS
+41869|LC02|C1|HHZ||-38.79189|-73.39471|67.0|IRIS
+41870|GO07|C|BDF|EP|-43.1142|-73.6644|178.0|IRIS
+41871|GO07|C|LDF|EP|-43.1142|-73.6644|178.0|IRIS
+

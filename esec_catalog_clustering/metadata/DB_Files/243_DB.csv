@@ -1,0 +1,48 @@
+# 
+# events
+# 
+# Eventid|Name|Starttime|Endtime|Latitude|Longitude|LocuncertKm|CrownLat|CrownLon|TipLat|TipLon|Type|AreaTotal|AreaSource|AreaSourceLow|AreaSourceHigh|Volume|VolumeLow|VolumeHigh|Mass|MassLow|MassHigh|H|HLow|HHigh|L|LLow|LHigh|HFreefall|HFreefallLow|HFreefallHigh|UpstreamDrainarea|PeakDischarge|PeakDischargeLow|PeakDischargeHigh|PeakFlowheight|PeakFlowheightLow|PeakFlowheightHigh|Otherdataquality1to5|LPpotential|MaxdistvhfKm|MaxdistvhfReached|MaxdisthfKm|MaxdisthfReached|MaxdistipKm|MaxdistipReached|MaxdistlpKm|MaxdistlpReached|InfraDetected|MaxdistinfraKm|MaxdistinfraReached|DatLocation|Sources
+243|Kärpf 1, Switzerland|2007-09-29 13:02:42|2007-09-29 13:03:33|46.917005|9.090499|0.15|None|None|None|None|rock fall|None|None|None|None|3000.0|2400.0|3600.0|None|None|None|130.0|None|None|150.0|None|None|None|None|None|None|None|None|None|None|None|None|3|0|None|None|74.0|0|None|None|0.0|None|None|None|None|INGV, ETH|Collins, E.A., Allstadt, K.E., Groult, C., Hibert, C., Malet, J.-P., Toney, L.D., and Bessette-Kirton, E., 2022, Seismogenic Landslides and other Mass Movements: U.S. Geological Survey data release, https://doi.org/10.5066/P90VGCSK.
+
+
+# 
+# information
+# 
+# Iid|Eventid|RefId|Note|PhoId|GISId|ApplyAlso
+493|198|220|This event occurred in marlstones, limestones and sands based on ELSUS v2 (Wilde and others, 2018).|None|None|243,244,250,251
+495|238|208|Location, H, L, volume, and type were taken from Dammeier and others (2011). Low and high volume estimates were calculated from a 20% uncertainty range noted in Dammeier and others (2011).|None|None|237,239,240,241,242,243,244,250,251,235,255,256
+530|191|None|Horizontal components for several stations which detected these events were not reviewed.|None|None|192,193,194,195,196,197,198,199,200,201,202,203,204,205,206,207,208,209,210,211,212,213,214,215,216,217,218,219,220,221,222,223,224,225,226,227,228,229,230,231,232,233,234,235,236,237,238,239,240,241,242,243,244,245,246,247,248,249,250,251,252,253,254,255,256,257,258
+583|205|None|Location uncertainty was estimated from the maximum distance between event coordinates and suspected crown location using Google Earth and photographs of event site, when available.|None|None|206,208,209,215,216,228,230,231,232,243,244
+
+# 
+# photos
+# 
+# PhotoId|Eventid|Photographer|Description|Latitude|Longitude|Date|FileExtension|ApplyAlso
+1253|243|Elaine Collins|Raw waveforms from closest stations. Data was demeaned but no other processing was applied. Dashed lines show approximate start and end times of event (from database). Figure generation is automated and there may be artifacts present.|None|None|None|EventData/243_Kärpf1Switzerland_29Sep2007/photos_figures/243_Kärpf1Switzerland_29Sep2007_waveforms_raw.png|None
+1254|243|Elaine Collins|High frequency (1-5 Hz) ground velocity waveforms for station response from closest stations with detections. Dashed lines show approximate start and end times of event (from database). Waveforms are corrected for station response after removing the mean. Figure generation is automated and there may be artifacts present. Clipped waveforms have not been removed before station correction so check raw plots before interpreting high amplitude signals.|None|None|None|EventData/243_Kärpf1Switzerland_29Sep2007/photos_figures/243_Kärpf1Switzerland_29Sep2007_waveforms_1-5Hz.png|None
+1255|243|Elaine Collins|Spectrograms of velocity waveforms corrected for station sensitivity from closest stations with detections. Figure generation is automated and there may be artifacts present|None|None|None|EventData/243_Kärpf1Switzerland_29Sep2007/photos_figures/243_Kärpf1Switzerland_29Sep2007_spectrogram.png|None
+1256|243|Elaine Collins|Multitaper spectra (same units as Power Spectral Density) of velocity waveforms corrected for station sensitivity from closest stations with detections. Linear trend was removed and a taper was applied before generating spectra. Figure generation is automated and there may be artifacts present. Since station response was not removed to avoid adding artifacts at low frequencies for short and intermediate period stations, the lower frequency amplitudes should be interpreted with care.|None|None|None|EventData/243_Kärpf1Switzerland_29Sep2007/photos_figures/243_Kärpf1Switzerland_29Sep2007_spectra.png|None
+
+
+# 
+# sta_nearby
+# 
+# SRid|Eventid|Sid|StasourceRadiusKm|Az|Baz|DetectVHF|DetectHF|DetectIP|DetectLP|DetectINFRA
+187050|243|37861|10.004314127298032|218.78845918465512|38.7284218249868|None|1|None|None|None
+187051|243|37864|26.475136503642663|56.248332731542355|236.460558168779|None|1|None|None|None
+187052|243|37848|53.19407158456851|158.2386047649104|338.42549710359714|None|1|None|None|None
+187053|243|37859|60.87000569246208|212.639118664823|32.32799268225628|None|1|None|None|None
+187054|243|37851|61.89410928247822|103.86485812063005|284.4404937309086|None|1|None|None|None
+187055|243|37877|73.63735186261243|256.38656992585095|75.7014066183044|None|1|None|None|None
+
+# 
+# stations
+# 
+# Sid|Name|Network|Channel|LocationCode|Latitude|Longitude|ElevationMasl|Source
+37861|LLS|CH|HHZ||46.84676|9.00825|1860.0|ETH
+37864|PLONS|CH|HHZ||47.04921|9.38076|1022.0|ETH
+37848|TUE|MN|BHZ||46.47223|9.34732|1924.0|IRIS,INGV
+37859|FUSIO|CH|HHZ||46.45481|8.6629|1460.0|ETH
+37851|DAVOX|CH|HHZ||46.7805|9.87952|1830.0|ETH
+37877|HASLI|CH|HHZ||46.75681|8.15117|1280.0|ETH,IRIS
+

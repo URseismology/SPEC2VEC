@@ -1,0 +1,37 @@
+# 
+# events
+# 
+# Eventid|Name|Starttime|Endtime|Latitude|Longitude|LocuncertKm|CrownLat|CrownLon|TipLat|TipLon|Type|AreaTotal|AreaSource|AreaSourceLow|AreaSourceHigh|Volume|VolumeLow|VolumeHigh|Mass|MassLow|MassHigh|H|HLow|HHigh|L|LLow|LHigh|HFreefall|HFreefallLow|HFreefallHigh|UpstreamDrainarea|PeakDischarge|PeakDischargeLow|PeakDischargeHigh|PeakFlowheight|PeakFlowheightLow|PeakFlowheightHigh|Otherdataquality1to5|LPpotential|MaxdistvhfKm|MaxdistvhfReached|MaxdisthfKm|MaxdisthfReached|MaxdistipKm|MaxdistipReached|MaxdistlpKm|MaxdistlpReached|InfraDetected|MaxdistinfraKm|MaxdistinfraReached|DatLocation|Sources
+250|Kärpf 3, Switzerland|2008-08-16 12:11:32|2008-08-16 12:12:12|46.916356|9.088073|0.3|None|None|None|None|rock fall|None|None|None|None|3000.0|2400.0|3600.0|None|None|None|130.0|None|None|180.0|None|None|None|None|None|None|None|None|None|None|None|None|3|0|None|None|10.0|0|None|None|0.0|None|None|None|None|ETH|Collins, E.A., Allstadt, K.E., Groult, C., Hibert, C., Malet, J.-P., Toney, L.D., and Bessette-Kirton, E., 2022, Seismogenic Landslides and other Mass Movements: U.S. Geological Survey data release, https://doi.org/10.5066/P90VGCSK.
+
+
+# 
+# information
+# 
+# Iid|Eventid|RefId|Note|PhoId|GISId|ApplyAlso
+493|198|220|This event occurred in marlstones, limestones and sands based on ELSUS v2 (Wilde and others, 2018).|None|None|243,244,250,251
+495|238|208|Location, H, L, volume, and type were taken from Dammeier and others (2011). Low and high volume estimates were calculated from a 20% uncertainty range noted in Dammeier and others (2011).|None|None|237,239,240,241,242,243,244,250,251,235,255,256
+530|191|None|Horizontal components for several stations which detected these events were not reviewed.|None|None|192,193,194,195,196,197,198,199,200,201,202,203,204,205,206,207,208,209,210,211,212,213,214,215,216,217,218,219,220,221,222,223,224,225,226,227,228,229,230,231,232,233,234,235,236,237,238,239,240,241,242,243,244,245,246,247,248,249,250,251,252,253,254,255,256,257,258
+
+# 
+# photos
+# 
+# PhotoId|Eventid|Photographer|Description|Latitude|Longitude|Date|FileExtension|ApplyAlso
+1317|250|Elaine Collins|High frequency (1-5 Hz) ground velocity waveforms for station response from closest stations with detections. Dashed lines show approximate start and end times of event (from database). Waveforms are corrected for station response after removing the mean. Figure generation is automated and there may be artifacts present. Clipped waveforms have not been removed before station correction so check raw plots before interpreting high amplitude signals.|None|None|None|EventData/250_Kärpf3Switzerland_16Aug2008/photos_figures/250_Kärpf3Switzerland_16Aug2008_waveforms_1-5Hz.png|None
+1318|250|Elaine Collins|Raw waveforms from closest stations. Data was demeaned but no other processing was applied. Dashed lines show approximate start and end times of event (from database). Figure generation is automated and there may be artifacts present.|None|None|None|EventData/250_Kärpf3Switzerland_16Aug2008/photos_figures/250_Kärpf3Switzerland_16Aug2008_waveforms_raw.png|None
+1319|250|Elaine Collins|Spectrograms of velocity waveforms corrected for station sensitivity from closest stations with detections. Figure generation is automated and there may be artifacts present|None|None|None|EventData/250_Kärpf3Switzerland_16Aug2008/photos_figures/250_Kärpf3Switzerland_16Aug2008_spectrogram.png|None
+1367|250|Elaine Collins|Multitaper spectra (same units as Power Spectral Density) of velocity waveforms corrected for station sensitivity from closest stations with detections. Linear trend was removed and a taper was applied before generating spectra. Figure generation is automated and there may be artifacts present. Since station response was not removed to avoid adding artifacts at low frequencies for short and intermediate period stations, the lower frequency amplitudes should be interpreted with care.|None|None|None|EventData/250_Kärpf3Switzerland_16Aug2008/photos_figures/250_Kärpf3Switzerland_16Aug2008_spectra.png|None
+
+
+# 
+# sta_nearby
+# 
+# SRid|Eventid|Sid|StasourceRadiusKm|Az|Baz|DetectVHF|DetectHF|DetectIP|DetectLP|DetectINFRA
+187229|250|37861|9.833281367934193|218.21126583845606|38.15299963818079|None|1|None|None|None
+
+# 
+# stations
+# 
+# Sid|Name|Network|Channel|LocationCode|Latitude|Longitude|ElevationMasl|Source
+37861|LLS|CH|HHZ||46.84676|9.00825|1860.0|ETH
+

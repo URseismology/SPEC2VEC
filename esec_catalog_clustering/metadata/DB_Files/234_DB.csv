@@ -1,0 +1,60 @@
+# 
+# events
+# 
+# Eventid|Name|Starttime|Endtime|Latitude|Longitude|LocuncertKm|CrownLat|CrownLon|TipLat|TipLon|Type|AreaTotal|AreaSource|AreaSourceLow|AreaSourceHigh|Volume|VolumeLow|VolumeHigh|Mass|MassLow|MassHigh|H|HLow|HHigh|L|LLow|LHigh|HFreefall|HFreefallLow|HFreefallHigh|UpstreamDrainarea|PeakDischarge|PeakDischargeLow|PeakDischargeHigh|PeakFlowheight|PeakFlowheightLow|PeakFlowheightHigh|Otherdataquality1to5|LPpotential|MaxdistvhfKm|MaxdistvhfReached|MaxdisthfKm|MaxdisthfReached|MaxdistipKm|MaxdistipReached|MaxdistlpKm|MaxdistlpReached|InfraDetected|MaxdistinfraKm|MaxdistinfraReached|DatLocation|Sources
+234|Medji, Switzerland|2002-11-21 14:20:49|2002-11-21 14:23:06|46.1674|7.7871|0.3|None|None|None|None|rock slide|None|None|None|None|70000.0|56000.0|84000.0|None|None|None|480.0|None|None|800.0|None|None|None|None|None|None|None|None|None|None|None|None|3|0|None|None|121.0|0|None|None|0.0|None|None|None|None|ETH|Collins, E.A., Allstadt, K.E., Groult, C., Hibert, C., Malet, J.-P., Toney, L.D., and Bessette-Kirton, E., 2022, Seismogenic Landslides and other Mass Movements: U.S. Geological Survey data release, https://doi.org/10.5066/P90VGCSK.
+
+
+# 
+# information
+# 
+# Iid|Eventid|RefId|Note|PhoId|GISId|ApplyAlso
+489|234|220|This event occurred in gneisses based on ELSUS v2 (Wilde and others, 2018).|None|None|235,238,239,240,241,242,257,258,254,233,210,225,213
+587|234|208|H, L, volume, and type were taken from Dammeier and others (2011). Low and high volume estimates were calculated from a 20% uncertainty range noted in Dammeier and others (2011). Location coordinates were adjusted to suspected event region in Google Earth.|None|None|None
+530|191|None|Horizontal components for several stations which detected these events were not reviewed.|None|None|192,193,194,195,196,197,198,199,200,201,202,203,204,205,206,207,208,209,210,211,212,213,214,215,216,217,218,219,220,221,222,223,224,225,226,227,228,229,230,231,232,233,234,235,236,237,238,239,240,241,242,243,244,245,246,247,248,249,250,251,252,253,254,255,256,257,258
+
+# 
+# photos
+# 
+# PhotoId|Eventid|Photographer|Description|Latitude|Longitude|Date|FileExtension|ApplyAlso
+1213|234|Elaine Collins|Raw waveforms from closest stations. Data was demeaned but no other processing was applied. Dashed lines show approximate start and end times of event (from database). Figure generation is automated and there may be artifacts present.|None|None|None|EventData/234_MedjiSwitzerland_21Nov2002/photos_figures/234_MedjiSwitzerland_21Nov2002_waveforms_raw.png|None
+1214|234|Elaine Collins|High frequency (1-5 Hz) ground velocity waveforms for station response from closest stations with detections. Dashed lines show approximate start and end times of event (from database). Waveforms are corrected for station response after removing the mean. Figure generation is automated and there may be artifacts present. Clipped waveforms have not been removed before station correction so check raw plots before interpreting high amplitude signals.|None|None|None|EventData/234_MedjiSwitzerland_21Nov2002/photos_figures/234_MedjiSwitzerland_21Nov2002_waveforms_1-5Hz.png|None
+1215|234|Elaine Collins|Spectrograms of velocity waveforms corrected for station sensitivity from closest stations with detections. Figure generation is automated and there may be artifacts present|None|None|None|EventData/234_MedjiSwitzerland_21Nov2002/photos_figures/234_MedjiSwitzerland_21Nov2002_spectrogram.png|None
+1216|234|Elaine Collins|Multitaper spectra (same units as Power Spectral Density) of velocity waveforms corrected for station sensitivity from closest stations with detections. Linear trend was removed and a taper was applied before generating spectra. Figure generation is automated and there may be artifacts present. Since station response was not removed to avoid adding artifacts at low frequencies for short and intermediate period stations, the lower frequency amplitudes should be interpreted with care.|None|None|None|EventData/234_MedjiSwitzerland_21Nov2002/photos_figures/234_MedjiSwitzerland_21Nov2002_spectra.png|None
+
+# 
+# reference
+# 
+# Refid|Eventid|ApplyAlso|LongRef|ShortRef|FileExtension|Url
+208|234|235,236,237,238,239,240,241,242,243,244,250,251,254,255,256,257,258,261|Dammeier, F., J. R. Moore, F. Haslinger, and S. Loew, 2011, Characterization of alpine rockslides using statistical analysis of seismic signals: Journal of Geophysical Research, v. 116, no. F4, doi: 10.1029/2011JF002037|Dammeier and others (2011)|None|https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2011JF002037
+
+# 
+# sta_nearby
+# 
+# SRid|Eventid|Sid|StasourceRadiusKm|Az|Baz|DetectVHF|DetectHF|DetectIP|DetectLP|DetectINFRA
+186819|234|37881|18.855|133.41|313.53|None|1|None|None|None
+186820|234|37896|27.35|333.26|153.15|None|1|None|None|None
+186821|234|37914|30.804|251.98|71.71|None|1|None|None|None
+186822|234|37920|43.453|300.26|119.91|None|1|None|None|None
+186823|234|37931|52.983|280.29|99.8|None|1|None|None|None
+186824|234|37934|62.937|267.94|87.35|None|1|None|None|None
+186825|234|38222|69.635|260.74|80.1|None|1|None|None|None
+186826|234|37859|74.643|64.34|244.98|None|1|None|None|None
+186827|234|37869|92.201|31.83|212.29|None|1|None|None|None
+186828|234|37861|120.362|50.7|231.58|None|1|None|None|None
+
+# 
+# stations
+# 
+# Sid|Name|Network|Channel|LocationCode|Latitude|Longitude|ElevationMasl|Source
+37881|MMK|CH|HHZ||46.0507|7.96409|2200.0|ETH
+37896|LKBD|CH|EHZ||46.38703|7.62714|1550.0|ETH
+37914|DIX|CH|HHZ||46.081053|7.408391|2370.2|ETH
+37920|SENIN|CH|HHZ||46.36335|7.29938|2019.6|ETH,IRIS
+37931|GRYON|CH|HHZ||46.25053|7.11106|1282.0|ETH
+37934|SALAN|CH|HHZ||46.14415|6.97302|1881.3|ETH
+38222|EMV|CH|HHZ||46.06318|6.89883|2130.0|ETH
+37859|FUSIO|CH|HHZ||46.45481|8.6629|1460.0|ETH
+37869|BNALP|CH|HHZ||46.87034|8.4249|1549.0|ETH
+37861|LLS|CH|HHZ||46.84676|9.00825|1860.0|ETH
+

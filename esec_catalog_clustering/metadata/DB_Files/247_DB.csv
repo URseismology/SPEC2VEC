@@ -1,0 +1,89 @@
+# 
+# events
+# 
+# Eventid|Name|Starttime|Endtime|Latitude|Longitude|LocuncertKm|CrownLat|CrownLon|TipLat|TipLon|Type|AreaTotal|AreaSource|AreaSourceLow|AreaSourceHigh|Volume|VolumeLow|VolumeHigh|Mass|MassLow|MassHigh|H|HLow|HHigh|L|LLow|LHigh|HFreefall|HFreefallLow|HFreefallHigh|UpstreamDrainarea|PeakDischarge|PeakDischargeLow|PeakDischargeHigh|PeakFlowheight|PeakFlowheightLow|PeakFlowheightHigh|Otherdataquality1to5|LPpotential|MaxdistvhfKm|MaxdistvhfReached|MaxdisthfKm|MaxdisthfReached|MaxdistipKm|MaxdistipReached|MaxdistlpKm|MaxdistlpReached|InfraDetected|MaxdistinfraKm|MaxdistinfraReached|DatLocation|Sources
+247|Mont Granier 3, France|2016-04-30 05:47:14|2016-04-30 05:48:18|45.468008|5.931353|0.35|None|None|None|None|rock fall|None|None|None|None|10000.0|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|4|0|None|None|130.0|0|None|None|0.0|None|None|None|None|RESIF, ETH, INGV|Collins, E.A., Allstadt, K.E., Groult, C., Hibert, C., Malet, J.-P., Toney, L.D., and Bessette-Kirton, E., 2022, Seismogenic Landslides and other Mass Movements: U.S. Geological Survey data release, https://doi.org/10.5066/P90VGCSK.
+
+
+# 
+# information
+# 
+# Iid|Eventid|RefId|Note|PhoId|GISId|ApplyAlso
+490|252|220|This event occurred in limestones based on ELSUS v2 (Wilde and others, 2018).|None|None|197,200,196,195,245,246,247,194,211,253,219,237,208,215,230,224,212,260
+530|191|None|Horizontal components for several stations which detected these events were not reviewed.|None|None|192,193,194,195,196,197,198,199,200,201,202,203,204,205,206,207,208,209,210,211,212,213,214,215,216,217,218,219,220,221,222,223,224,225,226,227,228,229,230,231,232,233,234,235,236,237,238,239,240,241,242,243,244,245,246,247,248,249,250,251,252,253,254,255,256,257,258
+531|245|193|Volume estimate taken from IRMA (2016). Photographs of the event region are also provided by IRMA (2016) at http://www.irma-grenoble.com/04risques_isere/00commune_evenements_fiche.php?id_evenements=4055|None|None|246,247,260
+552|191|None|Location uncertainty was estimated from the maximum distance between event coordinates and suspected crown location using imagery from Google Earth and Planet Labs Explorer. Event type was estimated or confirmed using satellite imagery.|None|None|194,195,202,210,212,213,214,226,227,236,245,246,247,255
+553|245|None|Multiple events occurred on Mont Granier, France within days of each other. Separate events are indistinguishable in available imagery therefore coordinates and location uncertainties for the Mont Granier events are identical. Location uncertainty was estimated from the largest distance between coordinates and landslide crowns.|None|None|246,247,260
+
+# 
+# photos
+# 
+# PhotoId|Eventid|Photographer|Description|Latitude|Longitude|Date|FileExtension|ApplyAlso
+1269|247|Elaine Collins|Raw waveforms from closest stations. Data was demeaned but no other processing was applied. Dashed lines show approximate start and end times of event (from database). Figure generation is automated and there may be artifacts present.|None|None|None|EventData/247_MontGranier3France_30Apr2016/photos_figures/247_MontGranier3France_30Apr2016_waveforms_raw.png|None
+1270|247|Elaine Collins|High frequency (1-5 Hz) ground velocity waveforms for station response from closest stations with detections. Dashed lines show approximate start and end times of event (from database). Waveforms are corrected for station response after removing the mean. Figure generation is automated and there may be artifacts present. Clipped waveforms have not been removed before station correction so check raw plots before interpreting high amplitude signals.|None|None|None|EventData/247_MontGranier3France_30Apr2016/photos_figures/247_MontGranier3France_30Apr2016_waveforms_1-5Hz.png|None
+1271|247|Elaine Collins|Spectrograms of velocity waveforms corrected for station sensitivity from closest stations with detections. Figure generation is automated and there may be artifacts present|None|None|None|EventData/247_MontGranier3France_30Apr2016/photos_figures/247_MontGranier3France_30Apr2016_spectrogram.png|None
+1272|247|Elaine Collins|Multitaper spectra (same units as Power Spectral Density) of velocity waveforms corrected for station sensitivity from closest stations with detections. Linear trend was removed and a taper was applied before generating spectra. Figure generation is automated and there may be artifacts present. Since station response was not removed to avoid adding artifacts at low frequencies for short and intermediate period stations, the lower frequency amplitudes should be interpreted with care.|None|None|None|EventData/247_MontGranier3France_30Apr2016/photos_figures/247_MontGranier3France_30Apr2016_spectra.png|None
+
+
+# 
+# sta_nearby
+# 
+# SRid|Eventid|Sid|StasourceRadiusKm|Az|Baz|DetectVHF|DetectHF|DetectIP|DetectLP|DetectINFRA
+187132|247|38160|24.06556874991492|310.72433915778964|130.55723000817363|None|1|None|None|None
+187133|247|37837|28.643796227782595|204.8929035497642|24.78366169902924|None|1|None|None|None
+187134|247|38332|29.073852447252367|207.21770336573115|27.097203442030896|None|1|None|None|None
+187135|247|37843|29.155180938830718|210.30775928697548|30.174391759334213|None|1|None|None|None
+187136|247|38333|29.52876584989358|206.22021029233818|26.102009124741542|None|1|None|None|None
+187137|247|38315|32.56656903375571|153.43886285472314|333.5707165522985|None|1|None|None|None
+187138|247|37828|45.38259479931217|192.56097090059563|12.471968737209684|None|1|None|None|None
+187139|247|38162|46.03982598585233|355.9337723925565|175.9037004008113|None|1|None|None|None
+187140|247|37827|46.35351276965603|192.43544864648527|12.345457235725688|None|1|None|None|None
+187141|247|38337|54.35883847773724|67.8522001271133|248.3144660430998|None|1|None|None|None
+187142|247|38334|54.38259296416984|67.89990372667896|248.3625254480814|None|1|None|None|None
+187143|247|38338|54.39389955362978|67.80398751036913|248.2663982061992|None|1|None|None|None
+187144|247|38339|54.40215782320795|67.8703581620129|248.3330524720711|None|1|None|None|None
+187145|247|38340|54.469266709285016|67.93609829020488|248.39957679758206|None|1|None|None|None
+187146|247|38335|54.57023004933126|67.80258861019378|248.26650107766733|None|1|None|None|None
+187147|247|37846|59.244620048518485|65.4123985485514|245.90746382729677|None|1|None|None|None
+187148|247|37824|61.25705395573849|183.7973725535198|3.76093786996095|None|1|None|None|None
+187149|247|38165|69.92733879005579|336.51281425930887|156.25485137875182|None|1|None|None|None
+187150|247|37819|73.9669568373036|168.83581191502913|348.964099966571|None|1|None|None|None
+187151|247|37816|89.43162134689821|147.4423886133528|327.8735557856748|None|1|None|None|None
+187152|247|38164|90.69973025336724|131.7134337614295|312.3226591437477|None|1|None|None|None
+187153|247|38163|94.90293354761798|224.01023565552836|43.418166379265266|None|1|None|None|None
+187154|247|37934|110.32456243900056|46.76271568562356|227.50959791225105|None|1|None|None|None
+187155|247|38065|110.54054813854769|259.57036049676367|78.58153087197887|None|1|None|None|None
+187156|247|38066|110.54054813854769|259.57036049676367|78.58153087197887|None|1|None|None|None
+187157|247|37833|129.7753555412489|147.3519111692732|327.974158831115|None|1|None|None|None
+
+# 
+# stations
+# 
+# Sid|Name|Network|Channel|LocationCode|Latitude|Longitude|ElevationMasl|Source
+38160|OGSM|FR|HHZ|00|45.609238|5.697216|532.0|RESIF
+37837|RES|MT|HHZ|00|45.2341|5.7778|608.0|RESIF
+38332|FOR|MT|HHZ|00|45.235205|5.761977|1337.0|RESIF
+37843|GRN|FR|HHZ|00|45.2413|5.7439|1040.0|RESIF
+38333|MOL|MT|HHZ|00|45.2295|5.7652|715.0|RESIF
+38315|OGGM|FR|HHZ|00|45.205717|6.116735|1575.0|RESIF
+37828|OGS3|FR|HHZ|00|45.06951|5.806072|1130.0|RESIF
+38162|OGMY|FR|HHZ|00|45.881011|5.889317|656.0|RESIF
+37827|OGS1|FR|HHZ|00|45.060788|5.80467|723.0|RESIF
+38337|SG09|YI|HHZ|00|45.651|6.5788|1569.0|RESIF
+38334|SG13|YI|HHZ|00|45.6507|6.5793|1561.0|RESIF
+38338|SG15|YI|HHZ|00|45.6515|6.579|1617.0|RESIF
+38339|SG14|YI|HHZ|00|45.651|6.5794|1582.0|RESIF
+38340|SG01|YI|HHZ|00|45.6507|6.5805|1613.0|RESIF
+38335|SG18|YI|HHZ|00|45.6521|6.5811|1686.0|RESIF
+37846|RSL|FR|HHZ|00|45.688207|6.624517|1590.0|RESIF
+37824|ORIF|RD|BHZ||44.9183|5.88|0.0|RESIF
+38165|OG35|FR|HHZ|00|46.044516|5.571265|896.0|RESIF
+37819|OGVG|FR|HHZ|00|44.81517|6.11233|1090.0|RESIF
+37816|OGAG|FR|HHZ|00|44.78784|6.539745|1280.0|RESIF
+38164|RRL|GU|HHZ||44.921|6.79|2086.0|INGV
+38163|OGCB|FR|HHZ|00|44.850189|5.096617|781.0|RESIF
+37934|SALAN|CH|HHZ||46.14415|6.97302|1881.3|ETH
+38065|SSB|G|BHZ|00|45.279|4.542|700.0|RESIF
+38066|SSB|G|HHZ|10|45.279|4.542|700.0|RESIF
+37833|SURF|FR|HHZ|00|44.480935|6.811695|1820.0|RESIF
+

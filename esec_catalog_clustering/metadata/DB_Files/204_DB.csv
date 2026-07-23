@@ -1,0 +1,98 @@
+# 
+# events
+# 
+# Eventid|Name|Starttime|Endtime|Latitude|Longitude|LocuncertKm|CrownLat|CrownLon|TipLat|TipLon|Type|AreaTotal|AreaSource|AreaSourceLow|AreaSourceHigh|Volume|VolumeLow|VolumeHigh|Mass|MassLow|MassHigh|H|HLow|HHigh|L|LLow|LHigh|HFreefall|HFreefallLow|HFreefallHigh|UpstreamDrainarea|PeakDischarge|PeakDischargeLow|PeakDischargeHigh|PeakFlowheight|PeakFlowheightLow|PeakFlowheightHigh|Otherdataquality1to5|LPpotential|MaxdistvhfKm|MaxdistvhfReached|MaxdisthfKm|MaxdisthfReached|MaxdistipKm|MaxdistipReached|MaxdistlpKm|MaxdistlpReached|InfraDetected|MaxdistinfraKm|MaxdistinfraReached|DatLocation|Sources
+204|Grand Darray, Switzerland|2017-06-28 03:48:24|2017-06-28 03:49:36|45.95|7.06|4.0|None|None|None|None|landslide|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|1|0|None|None|148.0|0|None|None|0.0|None|None|None|None|RESIF, ETH, INGV|Collins, E.A., Allstadt, K.E., Groult, C., Hibert, C., Malet, J.-P., Toney, L.D., and Bessette-Kirton, E., 2022, Seismogenic Landslides and other Mass Movements: U.S. Geological Survey data release, https://doi.org/10.5066/P90VGCSK.
+
+
+# 
+# information
+# 
+# Iid|Eventid|RefId|Note|PhoId|GISId|ApplyAlso
+543|204|204|Location coordinates, maximum location uncertainty, and type were taken from Renass (2017)b.|None|None|None
+488|191|220|This event occurred in plutonic rocks based on ELSUS v2 (Wilde and others, 2018).|None|None|193,202,248,249,256,204,192,217,218,207,255,209
+530|191|None|Horizontal components for several stations which detected these events were not reviewed.|None|None|192,193,194,195,196,197,198,199,200,201,202,203,204,205,206,207,208,209,210,211,212,213,214,215,216,217,218,219,220,221,222,223,224,225,226,227,228,229,230,231,232,233,234,235,236,237,238,239,240,241,242,243,244,245,246,247,248,249,250,251,252,253,254,255,256,257,258
+
+# 
+# photos
+# 
+# PhotoId|Eventid|Photographer|Description|Latitude|Longitude|Date|FileExtension|ApplyAlso
+1081|204|Elaine Collins|Raw waveforms from closest stations. Data was demeaned but no other processing was applied. Dashed lines show approximate start and end times of event (from database). Figure generation is automated and there may be artifacts present.|None|None|None|EventData/204_GrandDarraySwitzerland_28Jun2017/photos_figures/204_GrandDarraySwitzerland_28Jun2017_waveforms_raw.png|None
+1082|204|Elaine Collins|High frequency (1-5 Hz) ground velocity waveforms for station response from closest stations with detections. Dashed lines show approximate start and end times of event (from database). Waveforms are corrected for station response after removing the mean. Figure generation is automated and there may be artifacts present. Clipped waveforms have not been removed before station correction so check raw plots before interpreting high amplitude signals.|None|None|None|EventData/204_GrandDarraySwitzerland_28Jun2017/photos_figures/204_GrandDarraySwitzerland_28Jun2017_waveforms_1-5Hz.png|None
+1083|204|Elaine Collins|Spectrograms of velocity waveforms corrected for station sensitivity from closest stations with detections. Figure generation is automated and there may be artifacts present|None|None|None|EventData/204_GrandDarraySwitzerland_28Jun2017/photos_figures/204_GrandDarraySwitzerland_28Jun2017_spectrogram.png|None
+1084|204|Elaine Collins|Multitaper spectra (same units as Power Spectral Density) of velocity waveforms corrected for station sensitivity from closest stations with detections. Linear trend was removed and a taper was applied before generating spectra. Figure generation is automated and there may be artifacts present. Since station response was not removed to avoid adding artifacts at low frequencies for short and intermediate period stations, the lower frequency amplitudes should be interpreted with care.|None|None|None|EventData/204_GrandDarraySwitzerland_28Jun2017/photos_figures/204_GrandDarraySwitzerland_28Jun2017_spectra.png|None
+
+# 
+# reference
+# 
+# Refid|Eventid|ApplyAlso|LongRef|ShortRef|FileExtension|Url
+204|204||Renass, Jun 2017, Glissement de terrain de magnitude 1.2, proche de Aosta [Bulletin], Accessed 5 Nov 2021, at https://renass.unistra.fr/fr/evenements/fr2017wdlgam/|Renass (2017)b|None|https://renass.unistra.fr/fr/evenements/fr2017wdlgam/
+
+# 
+# sta_nearby
+# 
+# SRid|Eventid|Sid|StasourceRadiusKm|Az|Baz|DetectVHF|DetectHF|DetectIP|DetectLP|DetectINFRA
+185552|204|37932|14.540494592588992|148.97822919394105|329.0475212728048|None|1|None|None|None
+185553|204|37932|14.540494592588992|148.97822919394105|329.0475212728048|None|None|None|None|None
+185554|204|37937|20.043038128269394|179.77532566376775|359.7760504798187|None|1|None|None|None
+185555|204|37937|20.043038128269394|179.77532566376775|359.7760504798187|None|None|None|None|None
+185556|204|37934|22.608075044566654|342.70575507027223|162.64313717664166|None|1|None|None|None
+185557|204|37934|22.608075044566654|342.70575507027223|162.64313717664166|None|None|None|None|None
+185558|204|38168|26.23585339680318|296.8599115159609|116.64185227446723|None|1|None|None|None
+185559|204|38168|26.23585339680318|296.8599115159609|116.64185227446723|None|None|None|None|None
+185560|204|37914|30.59618378241831|61.509686912584016|241.7603645364341|None|1|None|None|None
+185561|204|37914|30.59618378241831|61.509686912584016|241.7603645364341|None|None|None|None|None
+185562|204|37931|33.648506675649585|6.722132552134368|186.75892418362506|None|1|None|None|None
+185563|204|37935|44.33548675186272|349.28450274826196|169.2073078744601|None|1|None|None|None
+185564|204|37846|44.56775156583257|229.46845292648797|49.15614778510161|None|1|None|None|None
+185565|204|37920|49.522653256067464|21.835984664282705|202.00863553964376|None|1|None|None|None
+185566|204|37915|55.23584937565034|134.21156575467984|314.5756821621378|None|1|None|None|None
+185567|204|37889|63.096375266659|97.23961028194311|277.8203448968412|None|1|None|None|None
+185568|204|37894|65.22083698268187|43.51194396124075|223.93342838736464|None|1|None|None|None
+185569|204|37896|65.3365783506341|41.83429867729505|222.24342659183446|None|1|None|None|None
+185570|204|37876|80.69695398165898|66.2023379937871|246.89371416481313|None|1|None|None|None
+185571|204|37972|89.13632482273451|316.91881284006854|136.3449251298321|None|1|None|None|None
+185572|204|38208|90.57244971173026|169.7476326472488|349.89390434871274|None|1|None|None|None
+185573|204|37940|91.91249087707828|355.1715445256639|175.09825953220715|None|1|None|None|None
+185574|204|37818|104.19646544761181|196.79055604973288|16.518080822824693|None|1|None|None|None
+185575|204|38165|115.47680845367934|275.74002930519987|94.66914292518217|None|1|None|None|None
+185576|204|38164|116.34268012943207|190.56279885035585|10.37042644288941|None|1|None|None|None
+185577|204|37969|118.711235851109|337.8837216119806|157.45828983712565|None|1|None|None|None
+185578|204|37877|122.7233742948446|42.727220503777005|223.51683391662422|None|1|None|None|None
+185579|204|38174|125.3515924310296|316.1779429092472|135.35477908735322|None|1|None|None|None
+185580|204|37824|147.09565265175337|219.2648574931348|38.42412424406093|None|1|None|None|None
+
+# 
+# stations
+# 
+# Sid|Name|Network|Channel|LocationCode|Latitude|Longitude|ElevationMasl|Source
+37932|REMY|GU|HHZ||45.8378|7.1565|2390.0|INGV
+37932|REMY|GU|HHZ||45.8378|7.1565|2390.0|INGV
+37937|MRGE|IV|HHZ||45.76975|7.06101|1660.0|INGV
+37937|MRGE|IV|HHZ||45.76975|7.06101|1660.0|INGV
+37934|SALAN|CH|HHZ||46.14415|6.97302|1881.3|ETH
+37934|SALAN|CH|HHZ||46.14415|6.97302|1881.3|ETH
+38168|OGSI|FR|HHZ|00|46.056477|6.756879|750.0|RESIF
+38168|OGSI|FR|HHZ|00|46.056477|6.756879|750.0|RESIF
+37914|DIX|CH|HHZ||46.081053|7.408391|2370.2|ETH
+37914|DIX|CH|HHZ||46.081053|7.408391|2370.2|ETH
+37931|GRYON|CH|HHZ||46.25053|7.11106|1282.0|ETH
+37935|AIGLE|CH|HHZ||46.34176|6.95295|785.0|ETH
+37846|RSL|FR|HHZ|00|45.688207|6.624517|1590.0|RESIF
+37920|SENIN|CH|HHZ||46.36335|7.29938|2019.6|ETH,IRIS
+37915|CIRO|GU|HHZ||45.6019|7.5681|2462.0|INGV
+37889|SATI|GU|HHZ||45.8754|7.8685|2935.0|INGV
+37894|LKBD2|CH|HHZ||46.37455|7.64433|2128.0|ETH
+37896|LKBD|CH|EHZ||46.38703|7.62714|1550.0|ETH
+37876|SIMPL|CH|HHZ||46.23962|8.01958|1930.0|ETH
+37972|GIMEL|CH|HHZ||46.53364|6.26545|1094.0|ETH
+38208|RSP|GU|HHZ||45.1482|7.2649|1265.0|INGV
+37940|TORNY|CH|HHZ||46.77363|6.95874|710.0|ETH
+37818|BNI|MN|HHZ||45.052|6.678|1395.0|INGV,IRIS
+38165|OG35|FR|HHZ|00|46.044516|5.571265|896.0|RESIF
+38164|RRL|GU|HHZ||44.921|6.79|2086.0|INGV
+37969|BRANT|CH|HHZ||46.93801|6.47298|1145.0|ETH,IRIS
+37877|HASLI|CH|HHZ||46.75681|8.15117|1280.0|ETH,IRIS
+38174|RIVEL|FR|HHZ|00|46.759014|5.922489|871.0|RESIF
+37824|ORIF|RD|BHZ||44.9183|5.88|0.0|RESIF
+

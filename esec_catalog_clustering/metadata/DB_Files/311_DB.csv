@@ -1,0 +1,286 @@
+# 
+# events
+# 
+# Eventid|Name|Starttime|Endtime|Latitude|Longitude|LocuncertKm|CrownLat|CrownLon|TipLat|TipLon|Type|AreaTotal|AreaSource|AreaSourceLow|AreaSourceHigh|Volume|VolumeLow|VolumeHigh|Mass|MassLow|MassHigh|H|HLow|HHigh|L|LLow|LHigh|HFreefall|HFreefallLow|HFreefallHigh|UpstreamDrainarea|PeakDischarge|PeakDischargeLow|PeakDischargeHigh|PeakFlowheight|PeakFlowheightLow|PeakFlowheightHigh|Otherdataquality1to5|LPpotential|MaxdistvhfKm|MaxdistvhfReached|MaxdisthfKm|MaxdisthfReached|MaxdistipKm|MaxdistipReached|MaxdistlpKm|MaxdistlpReached|InfraDetected|MaxdistinfraKm|MaxdistinfraReached|DatLocation|Sources
+311|Tbilisa Glacier-Shovi 2, Georgia|2023-08-03 10:59:06|2023-08-03 12:19:15|42.7397|43.7615|0.1|42.7397|43.7615|42.7032|43.5946|outburst flood, debris flow|1900000.0|None|None|None|2000000.0|1100000.0|5000000.0|None|None|None|1800.0|1700.0|1900.0|15900.0|15700.0|16200.0|None|None|None|None|None|None|None|None|None|None|4|0|None|None|269.0|1|None|None|0.0|None|None|None|None|IRIS, ORFEUS|Collins, E.A., Allstadt, K.E., Groult, C., Hibert, C., Malet, J.-P., Toney, L.D., and Jensen, E.K., 2022, Seismogenic Landslides and other Mass Movements (ver. 3.0, May 2025): U.S. Geological Survey data release, https://doi.org/10.5066/P90VGCSK.
+
+# 
+# gisfiles
+# 
+# GisId|Eventid|Type|Source|Description|FileExtension|ApplyAlso
+197|311|Static map - pdf|QGIS - ecollins: Planet|Static map with runout of the debris flow overlain on PlanetScope satellite imagery (~3m resolution, captured 2023-08-06).|EventData/311_TbilisaGlacier-Shovi2Georgia_03Aug2023/maps_gis/311_TbilisaGlacier-Shovi2_20230803_map.pdf|None
+226|311|Static map - png|QGIS - ecollins: Planet|Static map with runout of the debris flow overlain on PlanetScope satellite imagery (~3m resolution, captured 2023-08-06).|EventData/311_TbilisaGlacier-Shovi2Georgia_03Aug2023/maps_gis/311_TbilisaGlacier-Shovi2_20230803_map.png|None
+195|310|GIS shapefile|QGIS - ecollins|Outline of source and runout based on PlanetScope satellite imagery (gis_id 194). This file includes a polygon that represents the total area of the avalanche and debris flow and a separate polygon that represents the total area of the avalanche only.|EventData/310_TbilisaGlacier-Shovi1Georgia_03Aug2023/maps_gis/310_TbilisaGlacier-Shovi120230803_outlines_UTM38N.zip|311
+
+# 
+# information
+# 
+# Iid|Eventid|RefId|Note|PhoId|GISId|ApplyAlso
+783|311|None|This event has a location uncertainty of 0.2 because it is not entirely clear in satellite imagery where the rock and ice avalanche stopped (EID 310) and where the debris flow initiated.|None|None|None
+791|311|None|L and H were estimated from the crown and toe locations of the debris flow event only. Total event area digitized using PlanetScope satellite imagery. The total area reported was determined by subtracting the total area outline of EID 310 from the total event outline.|None|197|None
+910|311|324|Best volume estimate (2 million m3) taken from Sukhishvili and others (2024) and represents the volume of material deposited in the Shovi resort area.|None|None|None
+913|311|None|Volume_low taken from Kull and Tobler (2023), where they report an estimate of 1.1-2 million m3 for the combination of debris flow volumes in the upper channel, middle flat part, and middle and lower channel.|None|None|None
+782|310|None|This landslide, which occurred near the Shovi resort in Georgia, is separated into two events: the initial rock and ice avalanche (EID 310) and the subsequent debris flow (EID 311).|None|None|311
+784|310|326|This event originated in the Bubisskali region in the country of Georgia. The rock and ice avalanche (EID 310) collided with the Buba Glacier, causing a partial collapse of the glacier and overflow of subglacial water, resulting in a high speed debris flow (EID 311).  This debris flow spread to the town of Shovi, where it covered ~26 hectares (260,000 m2) (National Environment Agency, 2023).|None|None|311
+785|310|324|This event resulted in the loss of 32 lives in the resort of Shovi, where ~2 million m3 of material was deposited with boulders exceeding 200 tons (Sukhishvili and others, 2024).|None|None|311
+786|310|327|Video footage of the deposits, posted by Georgia's Department of Highways, can be seen at https://www.facebook.com/georoad.ge/videos/6480267225435761/?ref=embed_video&t=28 (Department of Highways, 2023).|None|None|311
+787|310|328|Additional satellite images of the event region, photographs of the deposits (posted to X by Levan Tielidze), and seismic timing (posted to X by Kristin Cook) can be seen at https://eos.org/thelandslideblog/the-4-august-2023-debris-flow-at-shovi-in-georgia (Petley, 2023a).|None|None|311
+788|310|325|This event is briefly mentioned in this paper on glacial geomorphology in the Georgian Caucasus region, where the authors report that the event began as a rockslide that collided with the Tbilisa Glacier, rather than the Buba Glacier (Tielidze and others, 2023).|None|None|311
+871|310|326|A preliminary estimate of 5 million m3 for total event volume was made by The National Environment Agency of Georgia (National Environment Agency, 2023). This total event volume estimate is used as Volume_high for EID 311.|None|None|311
+912|310|384|Information about the event sequence and additional satellite imagery and outlines of the event are provided by Sukhishvili (2023).|None|None|311
+914|310|385|Additional photographs and analysis are provided in a report by the Swiss company, Geotest (Kull and Tobler, 2023).|None|None|311
+
+# 
+# photos
+# 
+# PhotoId|Eventid|Photographer|Description|Latitude|Longitude|Date|FileExtension|ApplyAlso
+1627|311|Elaine Collins|Raw waveforms from closest stations. Data was demeaned but no other processing was applied. Dashed lines show approximate start and end times of event (from database). Figure generation is automated and there may be artifacts present.|None|None|None|EventData/311_TbilisaGlacier-Shovi2Georgia_03Aug2023/photos_figures/311_TbilisaGlacier-Shovi2Georgia_03Aug2023_waveforms_raw.png|None
+1628|311|Elaine Collins|High frequency (1-5 Hz) ground velocity waveforms from closest stations with detections. Dashed lines show approximate start and end times of event (from database). Waveforms are corrected for station response after removing the mean. Figure generation is automated and there may be artifacts present. Clipped waveforms have not been removed before station correction so check raw plots before interpreting high amplitude signals.|None|None|None|EventData/311_TbilisaGlacier-Shovi2Georgia_03Aug2023/photos_figures/311_TbilisaGlacier-Shovi2Georgia_03Aug2023_waveforms_1-5Hz.png|None
+1629|311|Elaine Collins|Spectrograms of velocity waveforms corrected for station sensitivity from closest stations with detections. Figure generation is automated and there may be artifacts present|None|None|None|EventData/311_TbilisaGlacier-Shovi2Georgia_03Aug2023/photos_figures/311_TbilisaGlacier-Shovi2Georgia_03Aug2023_spectrogram.png|None
+1630|311|Elaine Collins|Multitaper spectra (same units as Power Spectral Density) of velocity waveforms corrected for station sensitivity from closest stations with detections. Linear trend was removed and a taper was applied before generating spectra. Figure generation is automated and there may be artifacts present. Since station response was not removed to avoid adding artifacts at low frequencies for short and intermediate period stations, the lower frequency amplitudes should be interpreted with care.|None|None|None|EventData/311_TbilisaGlacier-Shovi2Georgia_03Aug2023/photos_figures/311_TbilisaGlacier-Shovi2Georgia_03Aug2023_spectra.png|None
+
+
+# 
+# sta_nearby
+# 
+# SRid|Eventid|Sid|StasourceRadiusKm|Az|Baz|DetectVHF|DetectHF|DetectIP|DetectLP|DetectINFRA
+231053|311|49292|194.535|182.25|2.19|None|1|None|0|None
+231054|311|49293|194.535|182.25|2.19|None|1|None|0|None
+231055|311|49294|194.535|182.25|2.19|None|1|None|0|None
+231056|311|49298|149.457|188.67|8.49|None|None|None|None|None
+231057|311|49299|149.457|188.67|8.49|None|None|None|None|None
+231058|311|49300|149.457|188.67|8.49|None|None|None|None|None
+231059|311|49301|161.404|196.63|16.26|None|1|None|0|None
+231060|311|49302|161.404|196.63|16.26|None|1|None|0|None
+231061|311|49303|161.404|196.63|16.26|None|1|None|0|None
+231062|311|49307|164.504|184.78|4.67|None|None|None|None|None
+231063|311|49308|164.504|184.78|4.67|None|None|None|None|None
+231064|311|49309|164.504|184.78|4.67|None|None|None|None|None
+231065|311|49310|140.344|283.02|101.88|None|1|None|0|None
+231066|311|49311|140.344|283.02|101.88|None|1|None|0|None
+231067|311|49312|140.344|283.02|101.88|None|1|None|0|None
+231068|311|49313|175.836|219.16|38.27|None|1|None|0|None
+231069|311|49314|175.836|219.16|38.27|None|1|None|0|None
+231070|311|49315|175.836|219.16|38.27|None|1|None|0|None
+231071|311|49316|137.46|269.54|88.4|None|None|None|None|None
+231072|311|49317|137.46|269.54|88.4|None|None|None|None|None
+231073|311|49318|137.46|269.54|88.4|None|None|None|None|None
+231074|311|49325|195.652|136.53|317.61|None|None|None|None|None
+231075|311|49326|195.652|136.53|317.61|None|None|None|None|None
+231076|311|49327|195.652|136.53|317.61|None|None|None|None|None
+231077|311|49328|113.85|135.93|316.57|None|1|None|None|None
+231078|311|49329|113.85|135.93|316.57|None|1|None|0|None
+231079|311|49330|113.85|135.93|316.57|None|1|None|0|None
+231080|311|49331|170.407|174.66|354.78|None|1|None|0|None
+231081|311|49332|170.407|174.66|354.78|None|1|None|0|None
+231082|311|49333|170.407|174.66|354.78|None|1|None|0|None
+231083|311|49334|161.991|226.88|45.93|None|1|None|None|None
+231084|311|49335|161.991|226.88|45.93|None|1|None|0|None
+231085|311|49336|161.991|226.88|45.93|None|1|None|0|None
+231086|311|49337|66.191|117.34|297.82|None|None|None|None|None
+231087|311|49338|66.191|117.34|297.82|None|None|None|None|None
+231088|311|49339|66.191|117.34|297.82|None|None|None|None|None
+231089|311|49340|95.329|212.66|32.24|None|1|None|0|None
+231090|311|49341|95.329|212.66|32.24|None|1|None|0|None
+231091|311|49342|95.329|212.66|32.24|None|1|None|0|None
+231092|311|49343|62.098|226.11|45.74|None|1|None|0|None
+231093|311|49344|62.098|226.11|45.74|None|1|None|0|None
+231094|311|49345|62.098|226.11|45.74|None|1|None|0|None
+231095|311|49349|141.225|206.07|25.57|None|1|None|0|None
+231096|311|49350|141.225|206.07|25.57|None|1|None|0|None
+231097|311|49351|141.225|206.07|25.57|None|1|None|0|None
+231098|311|49352|135.954|121.48|302.43|None|1|None|0|None
+231099|311|49353|135.954|121.48|302.43|None|1|None|0|None
+231100|311|49354|135.954|121.48|302.43|None|1|None|0|None
+231101|311|49355|30.376|236.84|56.63|None|None|None|None|None
+231102|311|49356|30.376|236.84|56.63|None|None|None|None|None
+231103|311|49357|30.376|236.84|56.63|None|None|None|None|None
+231104|311|49361|138.414|141.27|321.97|None|None|None|None|None
+231105|311|49362|138.414|141.27|321.97|None|None|None|None|None
+231106|311|49363|138.414|141.27|321.97|None|None|None|None|None
+231107|311|49364|160.654|104.13|285.41|None|1|None|0|None
+231108|311|49365|160.654|104.13|285.41|None|1|None|0|None
+231109|311|49366|160.654|104.13|285.41|None|1|None|0|None
+231110|311|49367|138.073|143.98|324.64|None|None|None|None|None
+231111|311|49368|138.073|143.98|324.64|None|None|None|None|None
+231112|311|49369|138.073|143.98|324.64|None|None|None|None|None
+231113|311|49370|136.355|168.01|348.24|None|None|None|None|None
+231114|311|49371|136.355|168.01|348.24|None|None|None|None|None
+231115|311|49372|136.355|168.01|348.24|None|None|None|None|None
+231116|311|49373|134.045|165.87|346.14|None|1|None|0|None
+231117|311|49374|134.045|165.87|346.14|None|1|None|0|None
+231118|311|49375|134.045|165.87|346.14|None|1|None|0|None
+231119|311|49376|160.702|327.49|146.75|None|1|None|0|None
+231120|311|49377|160.702|327.49|146.75|None|1|None|0|None
+231121|311|49378|160.702|327.49|146.75|None|1|None|0|None
+231122|311|49394|161.847|212.25|31.56|None|None|None|None|None
+231123|311|49395|161.847|212.25|31.56|None|None|None|None|None
+231124|311|49396|161.847|212.25|31.56|None|None|None|None|None
+231125|311|49280|265.901|164.68|345.23|None|0|None|None|None
+231126|311|49281|265.901|164.68|345.23|None|0|None|None|None
+231127|311|49282|265.901|164.68|345.23|None|0|None|None|None
+231128|311|49283|275.795|178.03|358.1|None|0|None|None|None
+231129|311|49284|275.795|178.03|358.1|None|0|None|None|None
+231130|311|49285|275.795|178.03|358.1|None|0|None|None|None
+231131|311|49286|217.552|156.21|336.9|None|1|None|None|None
+231132|311|49287|217.552|156.21|336.9|None|1|None|None|None
+231133|311|49288|217.552|156.21|336.9|None|1|None|None|None
+231134|311|49289|272.916|150.18|331.25|None|0|None|None|None
+231135|311|49290|272.916|150.18|331.25|None|0|None|None|None
+231136|311|49291|272.916|150.18|331.25|None|0|None|None|None
+231137|311|49295|268.659|145.5|326.7|None|1|None|None|None
+231138|311|49296|268.659|145.5|326.7|None|1|None|None|None
+231139|311|49297|268.659|145.5|326.7|None|1|None|None|None
+231140|311|49304|212.482|234.25|52.86|None|0|None|None|None
+231141|311|49305|212.482|234.25|52.86|None|0|None|None|None
+231142|311|49306|212.482|234.25|52.86|None|0|None|None|None
+231143|311|49319|240.728|133.13|314.53|None|1|None|None|None
+231144|311|49320|240.728|133.13|314.53|None|1|None|None|None
+231145|311|49321|240.728|133.13|314.53|None|1|None|None|None
+231146|311|49322|242.205|125.63|307.21|None|None|None|None|None
+231147|311|49323|242.205|125.63|307.21|None|None|None|None|None
+231148|311|49324|242.205|125.63|307.21|None|None|None|None|None
+231149|311|49346|227.949|115.37|297.03|None|None|None|None|None
+231150|311|49347|227.949|115.37|297.03|None|None|None|None|None
+231151|311|49348|227.949|115.37|297.03|None|None|None|None|None
+231152|311|49406|299.314|163.82|344.46|None|0|None|None|None
+231153|311|49407|299.314|163.82|344.46|None|0|None|None|None
+231154|311|49408|299.314|163.82|344.46|None|0|None|None|None
+231155|311|49412|299.314|163.82|344.46|None|0|None|None|None
+231156|311|49413|299.314|163.82|344.46|None|0|None|None|None
+231157|311|49414|299.314|163.82|344.46|None|0|None|None|None
+231158|311|49382|242.525|193.49|13.05|None|None|None|None|None
+231159|311|49383|242.525|193.49|13.05|None|None|None|None|None
+231160|311|49384|242.525|193.49|13.05|None|None|None|None|None
+231161|311|49385|230.607|144.06|325.14|None|None|None|None|None
+231162|311|49386|230.607|144.06|325.14|None|None|None|None|None
+231163|311|49387|230.607|144.06|325.14|None|None|None|None|None
+231164|311|49388|266.542|116.33|298.25|None|None|None|None|None
+231165|311|49389|266.542|116.33|298.25|None|None|None|None|None
+231166|311|49390|266.542|116.33|298.25|None|None|None|None|None
+231167|311|49391|260.334|187.27|7.01|None|None|None|None|None
+231168|311|49392|260.334|187.27|7.01|None|None|None|None|None
+231169|311|49393|260.334|187.27|7.01|None|None|None|None|None
+
+# 
+# stations
+# 
+# Sid|Name|Network|Channel|LocationCode|Latitude|Longitude|ElevationMasl|Source
+49292|ZRSH|A2|HHE|00|40.990359|43.67155|2161.0|IRIS
+49293|ZRSH|A2|HHN|00|40.990359|43.67155|2161.0|IRIS
+49294|ZRSH|A2|HHZ|00|40.990359|43.67155|2161.0|IRIS
+49298|AKH|GO|HHE||41.41|43.492901|1720.0|IRIS,ORFEUS
+49299|AKH|GO|HHN||41.41|43.492901|1720.0|IRIS,ORFEUS
+49300|AKH|GO|HHZ||41.41|43.492901|1720.0|IRIS,ORFEUS
+49301|AZNN|GO|HHE|00|41.34683|43.210327|1855.0|IRIS
+49302|AZNN|GO|HHN|00|41.34683|43.210327|1855.0|IRIS
+49303|AZNN|GO|HHZ|00|41.34683|43.210327|1855.0|IRIS
+49307|BGD|GO|HHE||41.2645|43.598598|1978.0|IRIS
+49308|BGD|GO|HHN||41.2645|43.598598|1978.0|IRIS
+49309|BGD|GO|HHZ||41.2645|43.598598|1978.0|IRIS
+49310|CHBG|GO|HHE|00|43.012943|42.084974|2177.0|IRIS
+49311|CHBG|GO|HHN|00|43.012943|42.084974|2177.0|IRIS
+49312|CHBG|GO|HHZ|00|43.012943|42.084974|2177.0|IRIS
+49313|CHRK|GO|HHE|00|41.505297|42.432266|2151.0|IRIS
+49314|CHRK|GO|HHN|00|41.505297|42.432266|2151.0|IRIS
+49315|CHRK|GO|HHZ|00|41.505297|42.432266|2151.0|IRIS
+49316|CHVG|GO|HHE||42.71833|42.08411|390.0|IRIS,ORFEUS
+49317|CHVG|GO|HHN||42.71833|42.08411|390.0|IRIS,ORFEUS
+49318|CHVG|GO|HHZ||42.71833|42.08411|390.0|IRIS,ORFEUS
+49325|DGRG|GO|HHE||41.450722|45.373169|690.0|IRIS,ORFEUS
+49326|DGRG|GO|HHN||41.450722|45.373169|690.0|IRIS,ORFEUS
+49327|DGRG|GO|HHZ||41.450722|45.373169|690.0|IRIS,ORFEUS
+49328|DSHG|GO|HHE|00|42.000099|44.718096|1169.0|IRIS
+49329|DSHG|GO|HHN|00|42.000099|44.718096|1169.0|IRIS
+49330|DSHG|GO|HHZ|00|42.000099|44.718096|1169.0|IRIS
+49331|EMLK|GO|HHE|00|41.212819|43.951521|2939.0|IRIS
+49332|EMLK|GO|HHN|00|41.212819|43.951521|2939.0|IRIS
+49333|EMLK|GO|HHZ|00|41.212819|43.951521|2939.0|IRIS
+49334|GHRG|GO|HHE|00|41.7348|42.341|1970.0|IRIS
+49335|GHRG|GO|HHN|00|41.7348|42.341|1970.0|IRIS
+49336|GHRG|GO|HHZ|00|41.7348|42.341|1970.0|IRIS
+49337|GUDG|GO|HHE||42.4646|44.4772|2012.0|IRIS,ORFEUS
+49338|GUDG|GO|HHN||42.4646|44.4772|2012.0|IRIS,ORFEUS
+49339|GUDG|GO|HHZ||42.4646|44.4772|2012.0|IRIS,ORFEUS
+49340|KHAR|GO|HHE|00|42.016319|43.141173|680.0|IRIS
+49341|KHAR|GO|HHN|00|42.016319|43.141173|680.0|IRIS
+49342|KHAR|GO|HHZ|00|42.016319|43.141173|680.0|IRIS
+49343|KHRT|GO|HHE|00|42.351656|43.219132|1164.0|IRIS
+49344|KHRT|GO|HHN|00|42.351656|43.219132|1164.0|IRIS
+49345|KHRT|GO|HHZ|00|42.351656|43.219132|1164.0|IRIS
+49349|MINA|GO|HHE|00|41.595964|43.018005|1568.0|IRIS
+49350|MINA|GO|HHN|00|41.595964|43.018005|1568.0|IRIS
+49351|MINA|GO|HHZ|00|41.595964|43.018005|1568.0|IRIS
+49352|MTAG|GO|HHE|00|42.092662|45.163739|728.0|IRIS
+49353|MTAG|GO|HHN|00|42.092662|45.163739|728.0|IRIS
+49354|MTAG|GO|HHZ|00|42.092662|45.163739|728.0|IRIS
+49355|ONI|GO|HHE||42.5905|43.452499|810.0|IRIS,ORFEUS
+49356|ONI|GO|HHN||42.5905|43.452499|810.0|IRIS,ORFEUS
+49357|ONI|GO|HHZ||42.5905|43.452499|810.0|IRIS,ORFEUS
+49361|SEAG|GO|HHE||41.763599|44.8036|607.0|IRIS
+49362|SEAG|GO|HHN||41.763599|44.8036|607.0|IRIS
+49363|SEAG|GO|HHZ||41.763599|44.8036|607.0|IRIS
+49364|SHNK|GO|HHE|00|42.371719|45.653891|2009.0|IRIS
+49365|SHNK|GO|HHN|00|42.371719|45.653891|2009.0|IRIS
+49366|SHNK|GO|HHZ|00|42.371719|45.653891|2009.0|IRIS
+49367|TBLG|GO|HHE||41.730919|44.73819|510.0|IRIS,ORFEUS
+49368|TBLG|GO|HHN||41.730919|44.73819|510.0|IRIS,ORFEUS
+49369|TBLG|GO|HHZ||41.730919|44.73819|510.0|IRIS,ORFEUS
+49370|TRLG|GO|HHE||41.5392|44.101799|1600.0|IRIS
+49371|TRLG|GO|HHN||41.5392|44.101799|1600.0|IRIS
+49372|TRLG|GO|HHZ||41.5392|44.101799|1600.0|IRIS
+49373|TRLT|GO|HHE|00|41.569541|44.154554|1668.0|IRIS
+49374|TRLT|GO|HHN|00|41.569541|44.154554|1668.0|IRIS
+49375|TRLT|GO|HHZ|00|41.569541|44.154554|1668.0|IRIS
+49376|KIV|II|BH1|00|43.9553|42.6863|1054.0|IRIS
+49377|KIV|II|BH2|00|43.9553|42.6863|1054.0|IRIS
+49378|KIV|II|BHZ|00|43.9553|42.6863|1054.0|IRIS
+49394|EPOS|TU|BHE||41.5035|42.7279|1499.0|ORFEUS
+49395|EPOS|TU|BHN||41.5035|42.7279|1499.0|ORFEUS
+49396|EPOS|TU|BHZ||41.5035|42.7279|1499.0|ORFEUS
+49280|ARZK|A2|HHE|00|40.428408|44.589914|1561.0|IRIS
+49281|ARZK|A2|HHN|00|40.428408|44.589914|1561.0|IRIS
+49282|ARZK|A2|HHZ|00|40.428408|44.589914|1561.0|IRIS
+49283|LRNG|A2|HHE|00|40.258703|43.873974|1077.0|IRIS
+49284|LRNG|A2|HHN|00|40.258703|43.873974|1077.0|IRIS
+49285|LRNG|A2|HHZ|00|40.258703|43.873974|1077.0|IRIS
+49286|SHMT|A2|HHE|00|40.943472|44.804487|1594.0|IRIS
+49287|SHMT|A2|HHN|00|40.943472|44.804487|1594.0|IRIS
+49288|SHMT|A2|HHZ|00|40.943472|44.804487|1594.0|IRIS
+49289|TTJR|A2|HHE|00|40.597151|45.365255|1966.0|IRIS
+49290|TTJR|A2|HHN|00|40.597151|45.365255|1966.0|IRIS
+49291|TTJR|A2|HHZ|00|40.597151|45.365255|1966.0|IRIS
+49295|TOVZ|AB|HHE|00|40.732552|45.563321|1434.0|IRIS
+49296|TOVZ|AB|HHN|00|40.732552|45.563321|1434.0|IRIS
+49297|TOVZ|AB|HHZ|00|40.732552|45.563321|1434.0|IRIS
+49304|BATM|GO|HHE||41.604|41.6936|298.0|IRIS
+49305|BATM|GO|HHN||41.604|41.6936|298.0|IRIS
+49306|BATM|GO|HHZ||41.604|41.6936|298.0|IRIS
+49319|DALI|GO|HHE|00|41.239301|45.857899|657.0|IRIS
+49320|DALI|GO|HHN|00|41.239301|45.857899|657.0|IRIS
+49321|DALI|GO|HHZ|00|41.239301|45.857899|657.0|IRIS
+49322|DDFL|GO|HHE||41.445801|46.118301|1342.0|IRIS
+49323|DDFL|GO|HHN||41.445801|46.118301|1342.0|IRIS
+49324|DDFL|GO|HHZ||41.445801|46.118301|1342.0|IRIS
+49346|LGD|GO|HHE||41.834301|46.242199|406.0|IRIS
+49347|LGD|GO|HHN||41.834301|46.242199|406.0|IRIS
+49348|LGD|GO|HHZ||41.834301|46.242199|406.0|IRIS
+49406|GNI|IU|BH1|00|40.148|44.741|1509.0|IRIS
+49407|GNI|IU|BH2|00|40.148|44.741|1509.0|IRIS
+49408|GNI|IU|BHZ|00|40.148|44.741|1509.0|IRIS
+49412|GNI|IU|HH1|10|40.148|44.741|1509.0|IRIS
+49413|GNI|IU|HH2|10|40.148|44.741|1509.0|IRIS
+49414|GNI|IU|HHZ|10|40.148|44.741|1509.0|IRIS
+49382|KARS|KO|HHE||40.6152|43.0937|1747.0|IRIS
+49383|KARS|KO|HHN||40.6152|43.0937|1747.0|IRIS
+49384|KARS|KO|HHZ||40.6152|43.0937|1747.0|IRIS
+49385|QZX|AB|BHE||41.048|45.372|574.0|ORFEUS
+49386|QZX|AB|BHN||41.048|45.372|574.0|ORFEUS
+49387|QZX|AB|BHZ||41.048|45.372|574.0|ORFEUS
+49388|ZKT|AB|BHE||41.64|46.63|508.0|ORFEUS
+49389|ZKT|AB|BHN||41.64|46.63|508.0|ORFEUS
+49390|ZKT|AB|BHZ||41.64|46.63|508.0|ORFEUS
+49391|DIGO|TU|BHE||40.4147|43.3742|2278.0|ORFEUS
+49392|DIGO|TU|BHN||40.4147|43.3742|2278.0|ORFEUS
+49393|DIGO|TU|BHZ||40.4147|43.3742|2278.0|ORFEUS
+

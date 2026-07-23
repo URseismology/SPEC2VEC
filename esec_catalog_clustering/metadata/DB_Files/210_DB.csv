@@ -1,0 +1,174 @@
+# 
+# events
+# 
+# Eventid|Name|Starttime|Endtime|Latitude|Longitude|LocuncertKm|CrownLat|CrownLon|TipLat|TipLon|Type|AreaTotal|AreaSource|AreaSourceLow|AreaSourceHigh|Volume|VolumeLow|VolumeHigh|Mass|MassLow|MassHigh|H|HLow|HHigh|L|LLow|LHigh|HFreefall|HFreefallLow|HFreefallHigh|UpstreamDrainarea|PeakDischarge|PeakDischargeLow|PeakDischargeHigh|PeakFlowheight|PeakFlowheightLow|PeakFlowheightHigh|Otherdataquality1to5|LPpotential|MaxdistvhfKm|MaxdistvhfReached|MaxdisthfKm|MaxdisthfReached|MaxdistipKm|MaxdistipReached|MaxdistlpKm|MaxdistlpReached|InfraDetected|MaxdistinfraKm|MaxdistinfraReached|DatLocation|Sources
+210|Preonzo, Switzerland|2012-05-15 02:45:29|2012-05-15 02:47:43|46.2516|8.9846|0.2|None|None|None|None|rock slide|None|None|None|None|210000.0|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|5|0|None|None|254.0|0|None|None|0.0|None|None|None|None|RESIF, ETH, LMU, BGR, IRIS, INGV|Collins, E.A., Allstadt, K.E., Groult, C., Hibert, C., Malet, J.-P., Toney, L.D., and Bessette-Kirton, E., 2022, Seismogenic Landslides and other Mass Movements: U.S. Geological Survey data release, https://doi.org/10.5066/P90VGCSK.
+
+# 
+# gisfiles
+# 
+# GisId|Eventid|Type|Source|Description|FileExtension|ApplyAlso
+162|210|Static map - jpg|Google Earth - ecollins; Maxar Technologies|Google Earth Historical Imagery captured 2021-08-13 from Maxar Technologies showing the event location post-landslide.|EventData/210_PreonzoSwitzerland_15May2012/maps_gis/210_PreonzoSwitzerland_15May2012_Staticmap_NoOutline.jpg|None
+
+# 
+# information
+# 
+# Iid|Eventid|RefId|Note|PhoId|GISId|ApplyAlso
+546|210|210|Event times and locations were initially provided by Pedrazzini (pers. comm., 2021).|None|None|254
+569|210|206|A local magnitude of 2.2 was estimated for this event by the Austrian seismological service, ZAMG (Fuchs and others, 2018).|None|None|None
+580|210|233|The rock slide took place in two events, where the second event was recorded seismically and through direct observations. A large secondary debris avalanche was produced from the rock slide deposits around 7:31 am local time (Loew and others, 2017).|None|None|None
+489|234|220|This event occurred in gneisses based on ELSUS v2 (Wilde and others, 2018).|None|None|235,238,239,240,241,242,257,258,254,233,210,225,213
+497|205|206|Location, type, and volumes (where applicable) were taken from Fuchs and others (2018). Fuchs and others (2018) estimated volumes from photographs which matched volumes from news articles and on-site geological estimates. Fuchs and others (2018) note that volumes may have large uncertainities and should be considered as order of magnitude estimates.|None|None|206,208,209,210,211,212,213,214,215,216,230,231,232
+530|191|None|Horizontal components for several stations which detected these events were not reviewed.|None|None|192,193,194,195,196,197,198,199,200,201,202,203,204,205,206,207,208,209,210,211,212,213,214,215,216,217,218,219,220,221,222,223,224,225,226,227,228,229,230,231,232,233,234,235,236,237,238,239,240,241,242,243,244,245,246,247,248,249,250,251,252,253,254,255,256,257,258
+552|191|None|Location uncertainty was estimated from the maximum distance between event coordinates and suspected crown location using imagery from Google Earth and Planet Labs Explorer. Event type was estimated or confirmed using satellite imagery.|None|None|194,195,202,210,212,213,214,226,227,236,245,246,247,255
+
+# 
+# photos
+# 
+# PhotoId|Eventid|Photographer|Description|Latitude|Longitude|Date|FileExtension|ApplyAlso
+1105|210|Elaine Collins|Raw waveforms from closest stations. Data was demeaned but no other processing was applied. Dashed lines show approximate start and end times of event (from database). Figure generation is automated and there may be artifacts present.|None|None|None|EventData/210_PreonzoSwitzerland_15May2012/photos_figures/210_PreonzoSwitzerland_15May2012_waveforms_raw.png|None
+1106|210|Elaine Collins|High frequency (1-5 Hz) ground velocity waveforms for station response from closest stations with detections. Dashed lines show approximate start and end times of event (from database). Waveforms are corrected for station response after removing the mean. Figure generation is automated and there may be artifacts present. Clipped waveforms have not been removed before station correction so check raw plots before interpreting high amplitude signals.|None|None|None|EventData/210_PreonzoSwitzerland_15May2012/photos_figures/210_PreonzoSwitzerland_15May2012_waveforms_1-5Hz.png|None
+1107|210|Elaine Collins|Spectrograms of velocity waveforms corrected for station sensitivity from closest stations with detections. Figure generation is automated and there may be artifacts present|None|None|None|EventData/210_PreonzoSwitzerland_15May2012/photos_figures/210_PreonzoSwitzerland_15May2012_spectrogram.png|None
+1108|210|Elaine Collins|Multitaper spectra (same units as Power Spectral Density) of velocity waveforms corrected for station sensitivity from closest stations with detections. Linear trend was removed and a taper was applied before generating spectra. Figure generation is automated and there may be artifacts present. Since station response was not removed to avoid adding artifacts at low frequencies for short and intermediate period stations, the lower frequency amplitudes should be interpreted with care.|None|None|None|EventData/210_PreonzoSwitzerland_15May2012/photos_figures/210_PreonzoSwitzerland_15May2012_spectra.png|None
+
+# 
+# reference
+# 
+# Refid|Eventid|ApplyAlso|LongRef|ShortRef|FileExtension|Url
+210|210|254|Pedrazzini, A., 2021, Geologo cantonale, personal communication|Pedrazzini (pers. comm., 2021)|None|None
+233|210|None|Loew, S., Gschwind, S., Gischig, V., Keller-Singer, A., and Valenti, G., 2017, Monitoring and early warning of the 2012 Preonzo catastrophic rockslope failure: Landslides, v. 14, p. 141-145, doi: 10.1007/s10346-016-0701-y|Loew and others (2017)|None|None
+
+# 
+# sta_nearby
+# 
+# SRid|Eventid|Sid|StasourceRadiusKm|Az|Baz|DetectVHF|DetectHF|DetectIP|DetectLP|DetectINFRA
+185817|210|37850|6.524153022001897|159.6889973204811|339.71018229933617|None|1|None|None|None
+185818|210|37859|33.468773803743474|312.4893505206114|132.25656504273107|None|1|None|None|None
+185819|210|37853|36.93120979339323|173.10805581810413|353.1491974848295|None|1|None|None|None
+185820|210|37848|37.10212067601278|48.56647137192495|228.82897756852154|None|1|None|None|None
+185821|210|37858|42.27500139811451|334.6437674075851|154.47256379479768|None|1|None|None|None
+185822|210|37847|43.99791407651092|54.09724456541364|234.43377453444646|None|1|None|None|None
+185823|210|37862|45.78716744336138|201.34075703142892|21.186230645174586|None|1|None|None|None
+185824|210|37865|62.63450148803928|305.5846343816338|125.10240339472284|None|1|None|None|None
+185825|210|37861|66.20347974496303|1.5618300847974473|181.5789993881576|None|1|None|None|None
+185826|210|37872|70.13365220757039|287.18900588258407|106.55660354835668|None|1|None|None|None
+185827|210|37876|74.22047140732876|269.32345564116605|88.62640319268216|None|1|None|None|None
+185828|210|37869|81.02242513822995|328.2405660232094|147.8341567695704|None|1|None|None|None
+185829|210|37881|81.72288246725202|254.5533189511938|73.8173474072709|None|1|None|None|None
+185830|210|37867|83.93006552670312|341.63185132168786|161.37929214244292|None|1|None|None|None
+185831|210|37877|84.99688878570323|311.5812606904401|130.976658871003|None|1|None|None|None
+185832|210|37887|88.71964613014643|267.90438364235|87.07216130640688|None|1|None|None|None
+185833|210|37851|90.26527762270341|49.109365274537055|229.7587030468739|None|1|None|None|None
+185834|210|37864|93.70305344801343|18.738411501508565|199.0264982079309|None|1|None|None|None
+185835|210|37888|94.89049872893844|281.4794598679498|100.60203668721675|None|1|None|None|None
+185836|210|37889|95.73299649461536|244.56574312501095|63.762012589502724|None|1|None|None|None
+185837|210|37896|105.32755186564711|278.6843909216618|97.70265317690907|None|1|None|None|None
+185838|210|37854|106.23502456042206|66.90031115007895|247.82704563485117|None|1|None|None|None
+185839|210|37855|109.36025451948507|76.34083208171934|257.34510041106535|None|1|None|None|None
+185840|210|37899|113.889360982893|294.2214286824804|113.23526919138148|None|1|None|None|None
+185841|210|37860|119.81775499454174|99.93144925401064|281.034478596835|None|1|None|None|None
+185842|210|37870|122.22095165175868|18.29221483850374|198.66178097963515|None|1|None|None|None
+185843|210|37914|122.85409394336934|261.7176119266045|80.58057256088082|None|1|None|None|None
+185844|210|37875|125.07683728470803|12.71998742350109|192.98565450799222|None|1|None|None|None
+185845|210|38173|126.29264346245706|229.9216315694347|49.032469086850995|None|1|None|None|None
+185846|210|37863|126.59698863615078|70.80187596930867|251.93581206380492|None|1|None|None|None
+185847|210|37886|129.4774724090476|357.43030529804474|177.37421420312347|None|1|None|None|None
+185848|210|37920|130.03786981978732|276.0746873212573|94.85613410624069|None|1|None|None|None
+185849|210|37915|131.23019150738045|237.19503735383137|56.17730978302596|None|1|None|None|None
+185850|210|37880|137.1183795701192|15.028957051213107|195.37283967692449|None|1|None|None|None
+185851|210|38214|137.55650990380227|111.98553046968206|293.1684426635438|None|1|None|None|None
+185852|210|38261|141.7136744761807|8.04791547169089|188.2401443429984|None|1|None|None|None
+185853|210|37892|142.01040893788382|0.038293095698217976|180.03921300962404|None|1|None|None|None
+185854|210|37931|144.05553321420098|270.62956534752806|89.27610563646849|None|1|None|None|None
+185855|210|37905|150.23880026813487|347.9525918419894|167.6482526852765|None|1|None|None|None
+185856|210|37928|154.6012744781751|212.57456165084503|31.818146362024606|None|1|None|None|None
+185857|210|38155|155.49267643923716|321.22476057587386|140.28460806279847|None|1|None|None|None
+185858|210|37906|157.93380941680866|356.84760087680326|176.7630967200977|None|1|None|None|None
+185859|210|38220|158.22500611757675|278.0661693070214|96.58705129496683|None|1|None|None|None
+185860|210|37919|158.57185978991288|339.7461895501165|159.21306253631818|None|1|None|None|None
+185861|210|38222|162.0067095955596|263.34641065510243|81.84197685260702|None|1|None|None|None
+185862|210|37884|162.5310869061088|37.38786431981639|218.34243368486787|None|1|None|None|None
+185863|210|37940|165.5313506568882|291.2006199161469|109.73071795473038|None|1|None|None|None
+185864|210|38226|167.3973562402525|275.9946386949565|94.42458815456392|None|1|None|None|None
+185865|210|37845|168.2127785671675|239.1811407658993|57.8530148918956|None|1|None|None|None
+185866|210|37913|168.8794080241531|167.45334049953155|347.7838163218632|None|1|None|None|None
+185867|210|38158|172.31633643005335|347.6324796489398|167.27239845993458|None|1|None|None|None
+185868|210|37878|173.984454603779|80.8710077043606|262.4948696702321|None|1|None|None|None
+185869|210|37942|184.23708616988137|314.11659754806107|132.8370373963978|None|1|None|None|None
+185870|210|37947|185.87399244438242|309.5580108368107|128.17471986131181|None|1|None|None|None
+185871|210|38216|186.51461584401488|72.68769389373396|254.3819429157441|None|1|None|None|None
+185872|210|38225|193.24153435673736|190.40955815944238|10.096890968142958|None|1|None|None|None
+185873|210|37969|206.51663576576902|292.53538442593094|110.7104902098031|None|1|None|None|None
+185874|210|38202|209.45491935014238|302.7122359378419|121.01284431827786|None|1|None|None|None
+185875|210|37972|210.87253095904563|279.5084493630618|97.53937665616202|None|1|None|None|None
+185876|210|37965|236.33671016899527|348.1384335051819|167.65705362261122|None|1|None|None|None
+185877|210|38262|248.49369655017026|197.20835568859462|16.55712271644893|None|1|None|None|None
+185878|210|38228|253.51173102239002|42.132674012521925|223.80162527237184|None|1|None|None|None
+
+# 
+# stations
+# 
+# Sid|Name|Network|Channel|LocationCode|Latitude|Longitude|ElevationMasl|Source
+37850|EBELL|S|EHZ||46.19655|9.01394|225.0|ETH
+37859|FUSIO|CH|HHZ||46.45481|8.6629|1460.0|ETH
+37853|MUGIO|CH|HHZ||45.92184|9.04171|924.0|ETH,IRIS
+37848|TUE|MN|BHZ||46.47223|9.34732|1924.0|IRIS,INGV
+37858|NALPS|CH|HHZ||46.595121|8.74828|2345.68|ETH
+37847|VDL|CH|HHZ||46.48311|9.44933|1927.75|ETH
+37862|VARE|IV|HHZ||45.867695|8.77|1219.0|INGV
+37865|GRIMS|CH|HHZ||46.578146|8.318864|1746.0|ETH
+37861|LLS|CH|HHZ||46.84676|9.00825|1860.0|ETH
+37872|FIESA|CH|HHZ||46.43521|8.11051|2340.5|IRIS,ETH
+37876|SIMPL|CH|HHZ||46.23962|8.01958|1930.0|ETH
+37869|BNALP|CH|HHZ||46.87034|8.4249|1549.0|ETH
+37881|MMK|CH|HHZ||46.0507|7.96409|2200.0|ETH
+37867|MUO|CH|HHZ||46.96765|8.63706|1920.0|ETH
+37877|HASLI|CH|HHZ||46.75681|8.15117|1280.0|ETH,IRIS
+37887|EMBD|CH|HHZ||46.21652|7.83223|1180.0|ETH
+37851|DAVOX|CH|HHZ||46.7805|9.87952|1830.0|ETH
+37864|PLONS|CH|HHZ||47.04921|9.38076|1022.0|ETH
+37888|LAUCH|CH|HHZ||46.41554|7.77166|2160.0|ETH
+37889|SATI|GU|HHZ||45.8754|7.8685|2935.0|INGV
+37896|LKBD|CH|EHZ||46.38703|7.62714|1550.0|ETH
+37854|FUORN|CH|HHZ||46.620334|10.26352|2286.0|ETH,IRIS
+37855|BRMO|IV|BHZ||46.47616|10.37218|1380.0|INGV
+37899|WIMIS|CH|HHZ||46.66488|7.62418|770.0|ETH
+37860|MABI|IV|HHZ||46.05492|10.514|1853.0|INGV
+37870|LIENZ|CH|HHZ||47.294437|9.491773|1567.0|ETH,IRIS
+37914|DIX|CH|HHZ||46.081053|7.408391|2370.2|ETH
+37875|SGT04|CH|HHZ||47.348435|9.349025|987.0|ETH
+38173|TRAV|GU|HHZ||45.5122|7.7461|973.0|INGV
+37863|MOSI|SI|HHZ||46.6164|10.5495|1957.0|INGV
+37886|WILA|CH|HHZ||47.41483|8.9077|853.0|ETH
+37920|SENIN|CH|HHZ||46.36335|7.29938|2019.6|ETH,IRIS
+37915|CIRO|GU|HHZ||45.6019|7.5681|2462.0|INGV
+37880|SGT05|CH|HHZ||47.441856|9.455951|856.0|ETH
+38214|MAGA|IV|BHZ||45.7753|10.6286|1265.0|INGV
+38261|SGT02|CH|HHZ||47.513291|9.247928|569.0|ETH
+37892|WEIN|CH|EHZ||47.52873|8.98586|555.0|ETH
+37931|GRYON|CH|HHZ||46.25053|7.11106|1282.0|ETH
+37905|FLACH|CH|EHZ||47.57241|8.5679|412.0|ETH
+37928|MONC|IV|HHZ||45.0739|7.9271|480.0|INGV
+38155|BALST|CH|HHZ||47.33599|7.69485|860.0|ETH
+37906|STEIN|CH|EHZ||47.66974|8.86899|540.0|ETH
+38220|NOV3|CH|EHZ||46.43366|6.94026|1090.0|ETH
+37919|ACB|CH|EHZ||47.58772|8.25474|468.0|ETH
+38222|EMV|CH|HHZ||46.06318|6.89883|2130.0|ETH
+37884|OBER|BW|EHZ||47.406963|10.293358|896.0|LMU
+37940|TORNY|CH|HHZ||46.77363|6.95874|710.0|ETH
+38226|NOV1|CH|EHZ||46.38875|6.81378|465.0|ETH
+37845|LSD|GU|HHZ||45.4596|7.1339|2271.0|INGV
+37913|BOB|IV|HHZ||44.76792|9.44782|910.0|INGV
+38158|SLE|CH|HHZ||47.7645|8.49236|648.0|ETH,IRIS
+37878|APPI|IV|EHZ||46.47868|11.22813|1056.0|INGV
+37942|BOURR|CH|HHZ||47.39364|7.2301|846.8|ETH
+37947|SAIRA|CH|HHZ||47.30267|7.08645|966.0|ETH
+38216|ABSI|SI|HHZ||46.7285|11.3205|1801.0|INGV
+38225|PCP|GU|HHZ||44.5413|8.5455|772.0|INGV
+37969|BRANT|CH|HHZ||46.93801|6.47298|1145.0|ETH,IRIS
+38202|CHMF|FR|HHZ|00|47.2484|6.6517|868.0|RESIF
+37972|GIMEL|CH|HHZ||46.53364|6.26545|1094.0|ETH
+37965|BFO|GR|HHZ||48.3301|8.3296|638.0|BGR
+38262|RORO|GU|HHZ||44.1125|8.0667|246.0|INGV
+38228|BE2|BW|EHZ||47.922588|11.262993|708.0|LMU
+

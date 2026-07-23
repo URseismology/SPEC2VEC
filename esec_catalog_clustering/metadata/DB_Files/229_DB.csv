@@ -1,0 +1,50 @@
+# 
+# events
+# 
+# Eventid|Name|Starttime|Endtime|Latitude|Longitude|LocuncertKm|CrownLat|CrownLon|TipLat|TipLon|Type|AreaTotal|AreaSource|AreaSourceLow|AreaSourceHigh|Volume|VolumeLow|VolumeHigh|Mass|MassLow|MassHigh|H|HLow|HHigh|L|LLow|LHigh|HFreefall|HFreefallLow|HFreefallHigh|UpstreamDrainarea|PeakDischarge|PeakDischargeLow|PeakDischargeHigh|PeakFlowheight|PeakFlowheightLow|PeakFlowheightHigh|Otherdataquality1to5|LPpotential|MaxdistvhfKm|MaxdistvhfReached|MaxdisthfKm|MaxdisthfReached|MaxdistipKm|MaxdistipReached|MaxdistlpKm|MaxdistlpReached|InfraDetected|MaxdistinfraKm|MaxdistinfraReached|DatLocation|Sources
+229|Dorn, Austria|2020-08-08 00:39:46|2020-08-08 00:40:36|47.2122|11.7886|0.0|47.2122|11.7886|47.2125|11.7921|rock fall|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|4|0|None|None|65.0|0|None|None|0.0|None|None|None|None|ORFEUS, LMU, INGV|Collins, E.A., Allstadt, K.E., Groult, C., Hibert, C., Malet, J.-P., Toney, L.D., and Bessette-Kirton, E., 2022, Seismogenic Landslides and other Mass Movements: U.S. Geological Survey data release, https://doi.org/10.5066/P90VGCSK.
+
+
+# 
+# information
+# 
+# Iid|Eventid|RefId|Note|PhoId|GISId|ApplyAlso
+487|229|220|This event occurred in shales based on ELSUS v2 (Wilde and others, 2018).|None|None|None
+530|191|None|Horizontal components for several stations which detected these events were not reviewed.|None|None|192,193,194,195,196,197,198,199,200,201,202,203,204,205,206,207,208,209,210,211,212,213,214,215,216,217,218,219,220,221,222,223,224,225,226,227,228,229,230,231,232,233,234,235,236,237,238,239,240,241,242,243,244,245,246,247,248,249,250,251,252,253,254,255,256,257,258
+549|217|207|These events were cataloged through ZAMG (2021). Individual reports for each event were recieved by mail.|None|None|218,219,220,221,222,223,224,225,226,227,228,229,230,253
+609|225|None|Event location and type were estimated using satellite imagery from Planet Labs Explorer.|None|None|229
+
+# 
+# photos
+# 
+# PhotoId|Eventid|Photographer|Description|Latitude|Longitude|Date|FileExtension|ApplyAlso
+1193|229|Elaine Collins|Raw waveforms from closest stations. Data was demeaned but no other processing was applied. Dashed lines show approximate start and end times of event (from database). Figure generation is automated and there may be artifacts present.|None|None|None|EventData/229_DornAustria_08Aug2020/photos_figures/229_DornAustria_08Aug2020_waveforms_raw.png|None
+1194|229|Elaine Collins|High frequency (1-5 Hz) ground velocity waveforms for station response from closest stations with detections. Dashed lines show approximate start and end times of event (from database). Waveforms are corrected for station response after removing the mean. Figure generation is automated and there may be artifacts present. Clipped waveforms have not been removed before station correction so check raw plots before interpreting high amplitude signals.|None|None|None|EventData/229_DornAustria_08Aug2020/photos_figures/229_DornAustria_08Aug2020_waveforms_1-5Hz.png|None
+1195|229|Elaine Collins|Spectrograms of velocity waveforms corrected for station sensitivity from closest stations with detections. Figure generation is automated and there may be artifacts present|None|None|None|EventData/229_DornAustria_08Aug2020/photos_figures/229_DornAustria_08Aug2020_spectrogram.png|None
+1196|229|Elaine Collins|Multitaper spectra (same units as Power Spectral Density) of velocity waveforms corrected for station sensitivity from closest stations with detections. Linear trend was removed and a taper was applied before generating spectra. Figure generation is automated and there may be artifacts present. Since station response was not removed to avoid adding artifacts at low frequencies for short and intermediate period stations, the lower frequency amplitudes should be interpreted with care.|None|None|None|EventData/229_DornAustria_08Aug2020/photos_figures/229_DornAustria_08Aug2020_spectra.png|None
+
+
+# 
+# sta_nearby
+# 
+# SRid|Eventid|Sid|StasourceRadiusKm|Az|Baz|DetectVHF|DetectHF|DetectIP|DetectLP|DetectINFRA
+186752|229|37929|20.205213394132752|311.6098517229885|131.46278009422565|None|1|None|None|None
+186753|229|37923|20.354752333619118|194.59809472492765|14.548626850963357|None|1|None|None|None
+186754|229|37898|42.19686647849172|221.10743633330333|40.840399984835024|None|1|None|None|None
+186755|229|37903|42.88744459427959|271.0228875110568|90.60615462005163|None|1|None|None|None
+186756|229|37908|52.76584632253843|286.0747824687785|105.58048908277|None|1|None|None|None
+186757|229|38216|64.21420166131409|212.850588416796|32.517240673071214|None|1|None|None|None
+186758|229|37907|64.31516472821515|290.6530003402416|110.06523636514079|None|1|None|None|None
+
+# 
+# stations
+# 
+# Sid|Name|Network|Channel|LocationCode|Latitude|Longitude|ElevationMasl|Source
+37929|WATA|OE|HHZ||47.3357|11.5763|1492.0|ORFEUS
+37923|SCE|BW|EHZ||47.0378|11.709|1730.0|LMU
+37898|ROSI|SI|HHZ||46.9281|11.4118|1917.0|INGV
+37903|SQTA|OE|HHZ||47.2205|11.2087|1307.0|ORFEUS
+37908|MOTA|OE|HHZ||47.3448|11.1037|1575.0|ORFEUS
+38216|ABSI|SI|HHZ||46.7285|11.3205|1801.0|INGV
+37907|ZUGS|BW|EHZ||47.416309|10.97883|2650.0|LMU
+

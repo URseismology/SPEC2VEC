@@ -1,0 +1,83 @@
+# 
+# events
+# 
+# Eventid|Name|Starttime|Endtime|Latitude|Longitude|LocuncertKm|CrownLat|CrownLon|TipLat|TipLon|Type|AreaTotal|AreaSource|AreaSourceLow|AreaSourceHigh|Volume|VolumeLow|VolumeHigh|Mass|MassLow|MassHigh|H|HLow|HHigh|L|LLow|LHigh|HFreefall|HFreefallLow|HFreefallHigh|UpstreamDrainarea|PeakDischarge|PeakDischargeLow|PeakDischargeHigh|PeakFlowheight|PeakFlowheightLow|PeakFlowheightHigh|Otherdataquality1to5|LPpotential|MaxdistvhfKm|MaxdistvhfReached|MaxdisthfKm|MaxdisthfReached|MaxdistipKm|MaxdistipReached|MaxdistlpKm|MaxdistlpReached|InfraDetected|MaxdistinfraKm|MaxdistinfraReached|DatLocation|Sources
+231|Trins, Austria|2014-11-24 16:27:20|2014-11-24 16:28:50|47.089|11.3634|0.15|None|None|None|None|rock slide|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|3|0|None|None|169.0|0|None|None|0.0|None|None|None|None|IRIS, LMU, ETH, INGV|Collins, E.A., Allstadt, K.E., Groult, C., Hibert, C., Malet, J.-P., Toney, L.D., and Bessette-Kirton, E., 2022, Seismogenic Landslides and other Mass Movements: U.S. Geological Survey data release, https://doi.org/10.5066/P90VGCSK.
+
+
+# 
+# information
+# 
+# Iid|Eventid|RefId|Note|PhoId|GISId|ApplyAlso
+575|231|206|A local magnitude of 1.5 was estimated for this event by the Austrian seismological service, ZAMG (Fuchs and others, 2018).|None|None|None
+486|201|220|This event occurred in schists, phyllites, quartzites and marbles based on ELSUS v2 (Wilde and others, 2018).|None|None|236,206,232,231
+497|205|206|Location, type, and volumes (where applicable) were taken from Fuchs and others (2018). Fuchs and others (2018) estimated volumes from photographs which matched volumes from news articles and on-site geological estimates. Fuchs and others (2018) note that volumes may have large uncertainities and should be considered as order of magnitude estimates.|None|None|206,208,209,210,211,212,213,214,215,216,230,231,232
+530|191|None|Horizontal components for several stations which detected these events were not reviewed.|None|None|192,193,194,195,196,197,198,199,200,201,202,203,204,205,206,207,208,209,210,211,212,213,214,215,216,217,218,219,220,221,222,223,224,225,226,227,228,229,230,231,232,233,234,235,236,237,238,239,240,241,242,243,244,245,246,247,248,249,250,251,252,253,254,255,256,257,258
+583|205|None|Location uncertainty was estimated from the maximum distance between event coordinates and suspected crown location using Google Earth and photographs of event site, when available.|None|None|206,208,209,215,216,228,230,231,232,243,244
+
+# 
+# photos
+# 
+# PhotoId|Eventid|Photographer|Description|Latitude|Longitude|Date|FileExtension|ApplyAlso
+1201|231|Elaine Collins|Raw waveforms from closest stations. Data was demeaned but no other processing was applied. Dashed lines show approximate start and end times of event (from database). Figure generation is automated and there may be artifacts present.|None|None|None|EventData/231_TrinsAustria_24Nov2014/photos_figures/231_TrinsAustria_24Nov2014_waveforms_raw.png|None
+1202|231|Elaine Collins|High frequency (1-5 Hz) ground velocity waveforms for station response from closest stations with detections. Dashed lines show approximate start and end times of event (from database). Waveforms are corrected for station response after removing the mean. Figure generation is automated and there may be artifacts present. Clipped waveforms have not been removed before station correction so check raw plots before interpreting high amplitude signals.|None|None|None|EventData/231_TrinsAustria_24Nov2014/photos_figures/231_TrinsAustria_24Nov2014_waveforms_1-5Hz.png|None
+1203|231|Elaine Collins|Spectrograms of velocity waveforms corrected for station sensitivity from closest stations with detections. Figure generation is automated and there may be artifacts present|None|None|None|EventData/231_TrinsAustria_24Nov2014/photos_figures/231_TrinsAustria_24Nov2014_spectrogram.png|None
+1204|231|Elaine Collins|Multitaper spectra (same units as Power Spectral Density) of velocity waveforms corrected for station sensitivity from closest stations with detections. Linear trend was removed and a taper was applied before generating spectra. Figure generation is automated and there may be artifacts present. Since station response was not removed to avoid adding artifacts at low frequencies for short and intermediate period stations, the lower frequency amplitudes should be interpreted with care.|None|None|None|EventData/231_TrinsAustria_24Nov2014/photos_figures/231_TrinsAustria_24Nov2014_spectra.png|None
+
+
+# 
+# sta_nearby
+# 
+# SRid|Eventid|Sid|StasourceRadiusKm|Az|Baz|DetectVHF|DetectHF|DetectIP|DetectLP|DetectINFRA
+186763|231|37898|18.263756953139165|168.35535981164293|348.3907622921085|None|1|None|None|None
+186764|231|37923|26.78928959438618|102.1062434608816|282.35926033742203|None|1|None|None|None
+186765|231|38216|40.21801928313544|184.67799486949465|4.6466662756651|None|1|None|None|None
+186766|231|37907|46.55185944632038|321.481614635626|141.19920248985778|None|1|None|None|None
+186767|231|38278|51.74076204097517|146.7985949528487|327.069240891046|None|1|None|None|None
+186768|231|38213|56.446674440770714|105.81673454401911|286.3400329000164|None|1|None|None|None
+186769|231|37863|81.19144973482604|230.0527149318135|49.45888540859613|None|1|None|None|None
+186770|231|38279|116.00463406360214|195.65625643602124|15.362266485056665|None|1|None|None|None
+186771|231|37851|117.7713252090491|253.65911870413586|72.57499849570013|None|1|None|None|None
+186772|231|37904|117.78490393379018|169.1539412650655|349.3618605221063|None|1|None|None|None
+186773|231|38327|119.4678016247641|135.86340863556669|316.6504551514746|None|1|None|None|None
+186774|231|37849|126.7518000146284|234.24420455511162|53.267906220540716|None|1|None|None|None
+186775|231|37997|129.65107664467232|55.78412810084969|236.83871375232087|None|1|None|None|None
+186776|231|37998|131.9094051525408|55.96844079509146|237.04398312908233|None|1|None|None|None
+186777|231|37860|132.04759558489195|209.83941177800884|29.22251441389808|None|1|None|None|None
+186778|231|37882|135.01207547116184|185.7769978950656|5.650082015483345|None|1|None|None|None
+186779|231|38282|135.2913299752595|120.66397276787329|301.7701037561407|None|1|None|None|None
+186780|231|38273|135.92657392746676|115.06572776976954|296.23950726844765|None|1|None|None|None
+186781|231|37870|143.25363239078115|279.83323048802004|98.4600869116311|None|1|None|None|None
+186782|231|38277|144.23789862465657|81.17376322125016|262.5595683768258|None|1|None|None|None
+186783|231|37875|154.83941546591856|281.4427512601053|99.96422286116434|None|1|None|None|None
+186784|231|38328|155.35093907529068|66.31895302769894|247.71529886381092|None|1|None|None|None
+186785|231|37848|168.1314771917749|246.73193206925697|65.26264737820756|None|1|None|None|None
+
+# 
+# stations
+# 
+# Sid|Name|Network|Channel|LocationCode|Latitude|Longitude|ElevationMasl|Source
+37898|ROSI|SI|HHZ||46.9281|11.4118|1917.0|INGV
+37923|SCE|BW|EHZ||47.0378|11.709|1730.0|LMU
+38216|ABSI|SI|HHZ||46.7285|11.3205|1801.0|INGV
+37907|ZUGS|BW|EHZ||47.416309|10.97883|2650.0|LMU
+38278|BRES|IV|EHZ||46.69868|11.7341|2454.0|INGV
+38213|RISI|SI|HHZ||46.948|12.0787|1785.0|INGV
+37863|MOSI|SI|HHZ||46.6164|10.5495|1957.0|INGV
+38279|GAGG|ST|HHZ||46.0835|10.9587|1617.0|INGV
+37851|DAVOX|CH|HHZ||46.7805|9.87952|1830.0|ETH
+37904|CTI|IV|EHZ||46.04818|11.6497|1180.0|INGV
+38327|CIMO|NI|HHZ||46.3116|12.4448|710.0|IRIS
+37849|BERNI|CH|HHZ||46.413636|10.023095|2311.0|ETH
+37997|RJOB|BW|EHZ||47.737167|12.795714|860.0|LMU
+37998|RTBE|BW|EHZ||47.745098|12.824082|1162.0|LMU
+37860|MABI|IV|HHZ||46.05492|10.514|1853.0|INGV
+37882|DOSS|ST|HHZ||45.8808|11.1884|1660.0|INGV
+38282|CLUD|NI|HHZ||46.4569|12.8814|635.0|IRIS
+38273|ZOU2|NI|HHZ||46.558399|12.9729|1911.0|IRIS
+37870|LIENZ|CH|HHZ||47.294437|9.491773|1567.0|ETH,IRIS
+38277|AAE38|XT|HHZ||47.2731|13.25261|1451.0|ETH
+37875|SGT04|CH|HHZ||47.348435|9.349025|987.0|ETH
+38328|AAE34|XT|HHZ|00|47.636|13.2614|1479.0|ETH
+37848|TUE|MN|BHZ||46.47223|9.34732|1924.0|IRIS,INGV
+

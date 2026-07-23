@@ -1,0 +1,53 @@
+# 
+# events
+# 
+# Eventid|Name|Starttime|Endtime|Latitude|Longitude|LocuncertKm|CrownLat|CrownLon|TipLat|TipLon|Type|AreaTotal|AreaSource|AreaSourceLow|AreaSourceHigh|Volume|VolumeLow|VolumeHigh|Mass|MassLow|MassHigh|H|HLow|HHigh|L|LLow|LHigh|HFreefall|HFreefallLow|HFreefallHigh|UpstreamDrainarea|PeakDischarge|PeakDischargeLow|PeakDischargeHigh|PeakFlowheight|PeakFlowheightLow|PeakFlowheightHigh|Otherdataquality1to5|LPpotential|MaxdistvhfKm|MaxdistvhfReached|MaxdisthfKm|MaxdisthfReached|MaxdistipKm|MaxdistipReached|MaxdistlpKm|MaxdistlpReached|InfraDetected|MaxdistinfraKm|MaxdistinfraReached|DatLocation|Sources
+206|Kalkkögel, Austria|2011-05-06 05:22:05|2011-05-06 05:23:05|47.1494|11.2736|0.1|None|None|None|None|rock fall|None|None|None|None|1000.0|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|3|0|None|None|97.0|0|None|None|0.0|None|None|None|None|LMU, ETH, INGV|Collins, E.A., Allstadt, K.E., Groult, C., Hibert, C., Malet, J.-P., Toney, L.D., and Bessette-Kirton, E., 2022, Seismogenic Landslides and other Mass Movements: U.S. Geological Survey data release, https://doi.org/10.5066/P90VGCSK.
+
+
+# 
+# information
+# 
+# Iid|Eventid|RefId|Note|PhoId|GISId|ApplyAlso
+566|206|206|A local magnitude of 0.9 was estimated for this event by the Austrian seismological service, ZAMG (Fuchs and others, 2018).|None|None|None
+578|206|231|A report and photograph of this event are provided at https://tirv1.orf.at/stories/514304 (Tirol ORF, 2011).|None|None|None
+486|201|220|This event occurred in schists, phyllites, quartzites and marbles based on ELSUS v2 (Wilde and others, 2018).|None|None|236,206,232,231
+497|205|206|Location, type, and volumes (where applicable) were taken from Fuchs and others (2018). Fuchs and others (2018) estimated volumes from photographs which matched volumes from news articles and on-site geological estimates. Fuchs and others (2018) note that volumes may have large uncertainities and should be considered as order of magnitude estimates.|None|None|206,208,209,210,211,212,213,214,215,216,230,231,232
+530|191|None|Horizontal components for several stations which detected these events were not reviewed.|None|None|192,193,194,195,196,197,198,199,200,201,202,203,204,205,206,207,208,209,210,211,212,213,214,215,216,217,218,219,220,221,222,223,224,225,226,227,228,229,230,231,232,233,234,235,236,237,238,239,240,241,242,243,244,245,246,247,248,249,250,251,252,253,254,255,256,257,258
+583|205|None|Location uncertainty was estimated from the maximum distance between event coordinates and suspected crown location using Google Earth and photographs of event site, when available.|None|None|206,208,209,215,216,228,230,231,232,243,244
+
+# 
+# photos
+# 
+# PhotoId|Eventid|Photographer|Description|Latitude|Longitude|Date|FileExtension|ApplyAlso
+1089|206|Elaine Collins|Raw waveforms from closest stations. Data was demeaned but no other processing was applied. Dashed lines show approximate start and end times of event (from database). Figure generation is automated and there may be artifacts present.|None|None|None|EventData/206_KalkkögelAustria_06May2011/photos_figures/206_KalkkögelAustria_06May2011_waveforms_raw.png|None
+1090|206|Elaine Collins|High frequency (1-5 Hz) ground velocity waveforms for station response from closest stations with detections. Dashed lines show approximate start and end times of event (from database). Waveforms are corrected for station response after removing the mean. Figure generation is automated and there may be artifacts present. Clipped waveforms have not been removed before station correction so check raw plots before interpreting high amplitude signals.|None|None|None|EventData/206_KalkkögelAustria_06May2011/photos_figures/206_KalkkögelAustria_06May2011_waveforms_1-5Hz.png|None
+1091|206|Elaine Collins|Spectrograms of velocity waveforms corrected for station sensitivity from closest stations with detections. Figure generation is automated and there may be artifacts present|None|None|None|EventData/206_KalkkögelAustria_06May2011/photos_figures/206_KalkkögelAustria_06May2011_spectrogram.png|None
+1092|206|Elaine Collins|Multitaper spectra (same units as Power Spectral Density) of velocity waveforms corrected for station sensitivity from closest stations with detections. Linear trend was removed and a taper was applied before generating spectra. Figure generation is automated and there may be artifacts present. Since station response was not removed to avoid adding artifacts at low frequencies for short and intermediate period stations, the lower frequency amplitudes should be interpreted with care.|None|None|None|EventData/206_KalkkögelAustria_06May2011/photos_figures/206_KalkkögelAustria_06May2011_spectra.png|None
+
+# 
+# reference
+# 
+# Refid|Eventid|ApplyAlso|LongRef|ShortRef|FileExtension|Url
+231|206|None|Tirol ORF, May 2011, Felssturz in den Kalkkögeln [Article], Accessed 31 Jan 2022, at https://tirv1.orf.at/stories/514304|Tirol ORF (2011)|None|https://tirv1.orf.at/stories/514304
+
+# 
+# sta_nearby
+# 
+# SRid|Eventid|Sid|StasourceRadiusKm|Az|Baz|DetectVHF|DetectHF|DetectIP|DetectLP|DetectINFRA
+185589|206|37898|26.743298917610176|156.83053945067024|336.93167646511563|None|1|None|None|None
+185590|206|37907|37.084202896076924|323.1827868503151|142.96621509509833|None|1|None|None|None
+185591|206|38213|64.97950070514668|109.80701548126703|290.39630026323977|None|1|None|None|None
+185592|206|37863|80.87637517878575|223.23277983486238|42.704207988782684|None|1|None|None|None
+185593|206|37854|96.71278122684788|232.99104190421383|52.25368507968273|None|1|None|None|None
+
+# 
+# stations
+# 
+# Sid|Name|Network|Channel|LocationCode|Latitude|Longitude|ElevationMasl|Source
+37898|ROSI|SI|HHZ||46.9281|11.4118|1917.0|INGV
+37907|ZUGS|BW|EHZ||47.416309|10.97883|2650.0|LMU
+38213|RISI|SI|HHZ||46.948|12.0787|1785.0|INGV
+37863|MOSI|SI|HHZ||46.6164|10.5495|1957.0|INGV
+37854|FUORN|CH|HHZ||46.620334|10.26352|2286.0|ETH,IRIS
+

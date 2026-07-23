@@ -1,0 +1,211 @@
+# 
+# events
+# 
+# Eventid|Name|Starttime|Endtime|Latitude|Longitude|LocuncertKm|CrownLat|CrownLon|TipLat|TipLon|Type|AreaTotal|AreaSource|AreaSourceLow|AreaSourceHigh|Volume|VolumeLow|VolumeHigh|Mass|MassLow|MassHigh|H|HLow|HHigh|L|LLow|LHigh|HFreefall|HFreefallLow|HFreefallHigh|UpstreamDrainarea|PeakDischarge|PeakDischargeLow|PeakDischargeHigh|PeakFlowheight|PeakFlowheightLow|PeakFlowheightHigh|Otherdataquality1to5|LPpotential|MaxdistvhfKm|MaxdistvhfReached|MaxdisthfKm|MaxdisthfReached|MaxdistipKm|MaxdistipReached|MaxdistlpKm|MaxdistlpReached|InfraDetected|MaxdistinfraKm|MaxdistinfraReached|DatLocation|Sources
+315|Mud Creek, Mount Shasta|2022-07-25 22:32:24|2022-07-26 08:21:42|41.3907|-122.1855|1.0|None|None|None|None|debris flow|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|3|0|10.0|1|34.0|1|None|None|0.0|None|1|10.0|1|NCEDC, IRIS|Collins, E.A., Allstadt, K.E., Groult, C., Hibert, C., Malet, J.-P., Toney, L.D., and Jensen, E.K., 2022, Seismogenic Landslides and other Mass Movements (ver. 3.0, May 2025): U.S. Geological Survey data release, https://doi.org/10.5066/P90VGCSK.
+
+
+# 
+# information
+# 
+# Iid|Eventid|RefId|Note|PhoId|GISId|ApplyAlso
+800|315|332|"Actually 5 distinct pulses, two large, three small. Mostly reflects increased runoff with a couple of bigger pulses" - Hotovec-Ellis and Dawson (written commun., 2024).|None|None|None
+801|315|333|These debris flows were reported by Chapman (2022). The McCloud Community Services District notes that a water pipeline was bumped during these flows.|None|None|316
+797|313|None|Location coordinates are estimated near the beginning of the channel on Mount Shasta. Location uncertainty represents distance along the drainage. Many of the close-in seismic/infrasound stations are along the debris flow channel but the source-station distance represents the distance from the station to the initiation point, not distance from the flow front.|None|None|314,315,316,317,318,319
+798|313|332|These events were detected using seismic stations surrounding Mount Shasta and confirmed by trail camera images and/or ground-based reports (Hotovec-Ellis and Dawson, written commun., 2024).|None|None|314,315,316,317,318,319
+853|314|None|A coherent infrasound signal from this event was observed on the GM.LST4 and GM.LST3 temporary arrays in the 1-10 Hz frequency band, with back azimuth values consistent with flow in this drainage.|None|None|315
+872|313|366|"These seismometers [on Mount Shasta] were used to track debris flows fed by glacial melt during hot, dry summer months. In 2020, 2021 and 2022, flows like these on Mount Shasta threatened the water supply for the town of McCloud and caused road closures on important transportation and (potential) evacuation routes." - Quote from USGS Volcanoes Page (2025)|None|None|278,279,280,281,282,314,315,316,317,318,319
+
+# 
+# photos
+# 
+# PhotoId|Eventid|Photographer|Description|Latitude|Longitude|Date|FileExtension|ApplyAlso
+1728|315|Elaine Collins|Raw waveforms from closest stations. Data was demeaned but no other processing was applied. Dashed lines show approximate start and end times of event (from database). Figure generation is automated and there may be artifacts present.|None|None|None|EventData/315_MudCreekMountShasta_25Jul2022/photos_figures/315_MudCreekMountShasta_25Jul2022_waveforms_raw.png|None
+1729|315|Elaine Collins|High frequency (1-5 Hz) ground velocity waveforms from closest stations with detections. Dashed lines show approximate start and end times of event (from database). Waveforms are corrected for station response after removing the mean. Figure generation is automated and there may be artifacts present. Clipped waveforms have not been removed before station correction so check raw plots before interpreting high amplitude signals.|None|None|None|EventData/315_MudCreekMountShasta_25Jul2022/photos_figures/315_MudCreekMountShasta_25Jul2022_waveforms_1-5Hz.png|None
+1730|315|Elaine Collins|Spectrograms of velocity waveforms corrected for station sensitivity from closest stations with detections. Figure generation is automated and there may be artifacts present|None|None|None|EventData/315_MudCreekMountShasta_25Jul2022/photos_figures/315_MudCreekMountShasta_25Jul2022_spectrogram.png|None
+1731|315|Elaine Collins|Multitaper spectra (same units as Power Spectral Density) of velocity waveforms corrected for station sensitivity from closest stations with detections. Linear trend was removed and a taper was applied before generating spectra. Figure generation is automated and there may be artifacts present. Since station response was not removed to avoid adding artifacts at low frequencies for short and intermediate period stations, the lower frequency amplitudes should be interpreted with care.|None|None|None|EventData/315_MudCreekMountShasta_25Jul2022/photos_figures/315_MudCreekMountShasta_25Jul2022_spectra.png|None
+
+# 
+# reference
+# 
+# Refid|Eventid|ApplyAlso|LongRef|ShortRef|FileExtension|Url
+333|315|316|Chapman, M., 30 Jul 2022, Out-of-control creek threatens to dry up Siskiyou County town [Article], Mount Shasta Herald, Accessed 23 Jul 2024, at https://www.mtshastanews.com/story/news/2022/07/30/out-control-mud-creek-threatens-dry-up-siskiyou-county-town/10187861002/|Chapman (2022)|None|https://www.mtshastanews.com/story/news/2022/07/30/out-control-mud-creek-threatens-dry-up-siskiyou-county-town/10187861002/
+
+# 
+# sta_nearby
+# 
+# SRid|Eventid|Sid|StasourceRadiusKm|Az|Baz|DetectVHF|DetectHF|DetectIP|DetectLP|DetectINFRA
+231350|315|49564|33.91|151.73|331.86|None|1|None|None|None
+231351|315|49565|33.91|151.73|331.86|None|1|None|None|None
+231352|315|49566|33.91|151.73|331.86|None|1|None|None|None
+231353|315|49567|33.91|151.73|331.86|None|1|None|None|None
+231354|315|49568|33.91|151.73|331.86|None|1|None|None|None
+231355|315|49569|33.91|151.73|331.86|None|1|None|None|None
+231356|315|49570|33.548|234.07|53.85|None|0|None|None|None
+231357|315|49571|33.548|234.07|53.85|None|0|None|None|None
+231358|315|49572|33.548|234.07|53.85|None|0|None|None|None
+231359|315|49573|33.548|234.07|53.85|None|0|None|None|None
+231360|315|49574|33.548|234.07|53.85|None|0|None|None|None
+231361|315|49575|33.548|234.07|53.85|None|0|None|None|None
+231362|315|49576|13.36|312.13|132.05|None|0|None|None|None
+231363|315|49577|13.36|312.13|132.05|None|0|None|None|None
+231364|315|49578|13.36|312.13|132.05|None|0|None|None|None
+231365|315|49579|8.373|341.13|161.11|0|1|None|None|None
+231366|315|49580|8.373|341.13|161.11|0|1|None|None|None
+231367|315|49581|8.373|341.13|161.11|0|1|None|None|None
+231368|315|49582|9.142|133.05|313.11|1|1|None|None|None
+231369|315|49583|9.142|133.05|313.11|1|1|None|None|None
+231370|315|49584|9.142|133.05|313.11|1|1|None|None|None
+231371|315|49585|5.294|108.13|288.17|1|1|None|None|None
+231372|315|49586|5.294|108.13|288.17|1|1|None|None|None
+231373|315|49587|5.294|108.13|288.17|1|1|None|None|None
+231374|315|49588|0.753|232.67|52.66|1|1|None|None|None
+231375|315|49589|0.753|232.67|52.66|1|1|None|None|None
+231376|315|49590|0.753|232.67|52.66|1|1|None|None|None
+231377|315|61|44.08|303.69|123.4|None|0|None|None|None
+231378|315|64|25.113|101.03|281.22|None|1|None|None|None
+231379|315|4|12.286|336.46|156.42|None|0|None|None|None
+231380|315|35721|10.063|78.04|258.12|None|1|None|None|None
+231381|315|35722|10.063|78.04|258.12|None|None|None|None|None
+231382|315|35723|10.063|78.04|258.12|None|1|None|None|None
+231383|315|5|17.642|279.19|99.05|None|0|None|None|None
+231384|315|35727|9.109|263.5|83.42|0|1|None|None|None
+231385|315|35728|9.109|263.5|83.42|0|1|None|None|None
+231386|315|35729|9.109|263.5|83.42|0|1|None|None|None
+231387|315|35733|5.161|189.62|9.62|1|1|None|None|None
+231388|315|35734|5.161|189.62|9.62|1|1|None|None|None
+231389|315|35735|5.161|189.62|9.62|1|1|None|None|None
+231390|315|8|13.993|157.64|337.68|None|1|None|None|None
+231391|315|9|13.993|157.64|337.68|None|1|None|None|None
+231392|315|10|13.993|157.64|337.68|None|1|None|None|None
+231393|315|68|48.712|64.45|244.8|None|0|None|None|None
+231394|315|11|11.104|13.37|193.39|None|1|None|None|None
+231395|315|70|30.791|283.58|103.35|None|0|None|None|None
+231396|315|73|32.31|192.78|12.73|None|0|None|None|None
+231397|315|1|26.395|288.75|108.55|None|None|None|None|None
+231398|315|2|26.395|288.75|108.55|None|None|None|None|None
+231399|315|3|26.395|288.75|108.55|None|0|None|None|None
+239801|315|37755|270.518|16.48|197.13|None|None|None|None|0
+239802|315|37760|271.973|15.0|195.59|None|None|None|None|0
+239803|315|37777|261.662|16.71|197.34|None|None|None|None|0
+239804|315|50185|9.147|133.03|313.09|None|None|None|None|1
+239805|315|50186|9.143|133.13|313.18|None|None|None|None|1
+239806|315|50187|9.133|133.0|313.06|None|None|None|None|1
+239807|315|50188|9.149|132.94|312.99|None|None|None|None|1
+239808|315|50189|9.161|133.08|313.14|None|None|None|None|1
+239809|315|50190|5.297|108.07|288.11|None|None|None|None|1
+239810|315|50191|5.295|107.91|287.95|None|None|None|None|1
+239811|315|50192|5.311|108.09|288.13|None|None|None|None|1
+239812|315|50193|5.294|108.24|288.28|None|None|None|None|1
+239813|315|50194|5.282|108.02|288.06|None|None|None|None|1
+239814|315|50195|11.875|337.21|157.17|None|None|None|None|0
+239815|315|50196|11.878|337.13|157.1|None|None|None|None|0
+239816|315|50197|11.89|337.22|157.18|None|None|None|None|0
+239817|315|50198|11.87|337.29|157.25|None|None|None|None|0
+239818|315|50199|11.858|337.19|157.16|None|None|None|None|0
+239819|315|37610|140.884|305.61|124.68|None|None|None|None|0
+239820|315|37611|140.884|305.61|124.68|None|None|None|None|None
+239821|315|37614|205.582|1.73|181.78|None|None|None|None|0
+239822|315|37615|205.582|1.73|181.78|None|None|None|None|None
+239823|315|37616|273.443|339.94|159.15|None|None|None|None|None
+239824|315|37617|273.443|339.94|159.15|None|None|None|None|None
+239825|315|37622|243.774|324.37|143.2|None|None|None|None|0
+239826|315|37623|243.774|324.37|143.2|None|None|None|None|None
+239827|315|37626|267.624|356.11|175.95|None|None|None|None|None
+239828|315|37627|267.624|356.11|175.95|None|None|None|None|None
+239829|315|37630|189.776|320.28|139.29|None|None|None|None|0
+239830|315|37631|189.776|320.28|139.29|None|None|None|None|None
+239831|315|37632|224.52|20.11|200.75|None|None|None|None|None
+239832|315|37633|224.52|20.11|200.75|None|None|None|None|None
+239833|315|37636|92.408|353.89|173.81|None|None|None|None|0
+239834|315|37637|92.408|353.89|173.81|None|None|None|None|None
+
+# 
+# stations
+# 
+# Sid|Name|Network|Channel|LocationCode|Latitude|Longitude|ElevationMasl|Source
+49564|GRPK|BK|BHE|00|41.12162|-121.99428|1495.8|NCEDC,IRIS
+49565|GRPK|BK|BHN|00|41.12162|-121.99428|1495.8|NCEDC,IRIS
+49566|GRPK|BK|BHZ|00|41.12162|-121.99428|1495.8|NCEDC,IRIS
+49567|GRPK|BK|HHE|00|41.12162|-121.99428|1495.8|NCEDC,IRIS
+49568|GRPK|BK|HHN|00|41.12162|-121.99428|1495.8|NCEDC,IRIS
+49569|GRPK|BK|HHZ|00|41.12162|-121.99428|1495.8|NCEDC,IRIS
+49570|GUMB|BK|BHE|00|41.21297|-122.5094|1848.6|NCEDC,IRIS
+49571|GUMB|BK|BHN|00|41.21297|-122.5094|1848.6|NCEDC,IRIS
+49572|GUMB|BK|BHZ|00|41.21297|-122.5094|1848.6|NCEDC,IRIS
+49573|GUMB|BK|HHE|00|41.21297|-122.5094|1848.6|NCEDC,IRIS
+49574|GUMB|BK|HHN|00|41.21297|-122.5094|1848.6|NCEDC,IRIS
+49575|GUMB|BK|HHZ|00|41.21297|-122.5094|1848.6|NCEDC,IRIS
+49576|LST1|GM|EHE|01|41.471331|-122.304108|1335.0|NCEDC,IRIS
+49577|LST1|GM|EHN|01|41.471331|-122.304108|1335.0|NCEDC,IRIS
+49578|LST1|GM|EHZ|01|41.471331|-122.304108|1335.0|NCEDC,IRIS
+49579|LST2|GM|EHE|01|41.462034|-122.217914|2180.0|NCEDC,IRIS
+49580|LST2|GM|EHN|01|41.462034|-122.217914|2180.0|NCEDC,IRIS
+49581|LST2|GM|EHZ|01|41.462034|-122.217914|2180.0|NCEDC,IRIS
+49582|LST3|GM|EHE|01|41.334475|-122.105693|1537.0|NCEDC,IRIS
+49583|LST3|GM|EHN|01|41.334475|-122.105693|1537.0|NCEDC,IRIS
+49584|LST3|GM|EHZ|01|41.334475|-122.105693|1537.0|NCEDC,IRIS
+49585|LST4|GM|EHE|01|41.37585|-122.125359|2056.0|NCEDC,IRIS
+49586|LST4|GM|EHN|01|41.37585|-122.125359|2056.0|NCEDC,IRIS
+49587|LST4|GM|EHZ|01|41.37585|-122.125359|2056.0|NCEDC,IRIS
+49588|LST5|GM|EHE|01|41.386588|-122.192659|3386.0|NCEDC,IRIS
+49589|LST5|GM|EHN|01|41.386588|-122.192659|3386.0|NCEDC,IRIS
+49590|LST5|GM|EHZ|01|41.386588|-122.192659|3386.0|NCEDC,IRIS
+61|LAMB|NC|EHZ||41.610001|-122.625526|1789.0|NCEDC,IRIS
+64|LBF|NC|EHZ||41.347065|-121.890976|1961.0|NCEDC,IRIS
+4|LBO|NC|EHZ||41.4921|-122.24427|1544.0|NCEDC
+35721|LBR|NC|HH2|01|41.40942|-122.06776|1601.0|IRIS,NCEDC
+35722|LBR|NC|HH3|01|41.40942|-122.06776|1601.0|IRIS,NCEDC
+35723|LBR|NC|HHZ|01|41.40942|-122.06776|1601.0|IRIS,NCEDC
+5|LCSB|NC|EHZ||41.415878|-122.393814|1115.0|NCEDC,IRIS
+35727|LDL|NC|HHE|01|41.38136|-122.29369|1705.0|IRIS,NCEDC
+35728|LDL|NC|HHN|01|41.38136|-122.29369|1705.0|IRIS,NCEDC
+35729|LDL|NC|HHZ|01|41.38136|-122.29369|1705.0|IRIS,NCEDC
+35733|LGY|NC|HHE|01|41.34488|-122.19581|2419.0|IRIS,NCEDC
+35734|LGY|NC|HHN|01|41.34488|-122.19581|2419.0|IRIS,NCEDC
+35735|LGY|NC|HHZ|01|41.34488|-122.19581|2419.0|IRIS,NCEDC
+8|LMC|NC|HHE||41.274158|-122.121971|1062.0|NCEDC,IRIS
+9|LMC|NC|HHN||41.274158|-122.121971|1062.0|NCEDC,IRIS
+10|LMC|NC|HHZ||41.274158|-122.121971|1062.0|NCEDC,IRIS
+68|LMH|NC|EHZ||41.578678|-121.658516|2201.0|NCEDC,IRIS
+11|LMP|NC|EHZ||41.487965|-122.154762|1860.0|NCEDC,IRIS
+70|LPK|NC|EHZ||41.455257|-122.543716|1880.0|NCEDC,IRIS
+73|LSR|NC|EHZ||41.106956|-122.270615|1524.0|NCEDC,IRIS
+1|B039|PB|EH1||41.4667|-122.4847|923.9|IRIS
+2|B039|PB|EH2||41.4667|-122.4847|923.9|IRIS
+3|B039|PB|EHZ||41.4667|-122.4847|923.9|IRIS
+37755|CPCO|CC|BDF|01|43.72201|-121.23319|2135.0|IRIS
+37760|KWBU|CC|BDF|01|43.752399|-121.311852|1783.0|IRIS
+37777|SVIC|CC|BDF|01|43.643082|-121.253273|1765.0|IRIS
+50185|LST3|GM|HDF|01|41.33447|-122.10563|1537.0|IRIS,NCEDC
+50186|LST3|GM|HDF|02|41.334393|-122.105791|1537.0|IRIS,NCEDC
+50187|LST3|GM|HDF|03|41.334585|-122.105712|1537.0|IRIS,NCEDC
+50188|LST3|GM|HDF|04|41.334559|-122.105486|1537.0|IRIS,NCEDC
+50189|LST3|GM|HDF|05|41.334329|-122.105571|1537.0|IRIS,NCEDC
+50190|LST4|GM|HDF|01|41.37589|-122.1253|2056.0|IRIS,NCEDC
+50191|LST4|GM|HDF|02|41.376018|-122.125268|2056.0|IRIS,NCEDC
+50192|LST4|GM|HDF|03|41.375832|-122.125154|2056.0|IRIS,NCEDC
+50193|LST4|GM|HDF|04|41.375764|-122.125399|2056.0|IRIS,NCEDC
+50194|LST4|GM|HDF|05|41.375972|-122.125453|2056.0|IRIS,NCEDC
+50195|LST6|GM|HDF|01|41.48926|-122.24058|1587.6|IRIS,NCEDC
+50196|LST6|GM|HDF|02|41.489229|-122.240766|1587.6|IRIS,NCEDC
+50197|LST6|GM|HDF|03|41.489392|-122.240632|1587.6|IRIS,NCEDC
+50198|LST6|GM|HDF|04|41.489274|-122.240383|1587.6|IRIS,NCEDC
+50199|LST6|GM|HDF|05|41.489105|-122.240542|1587.6|IRIS,NCEDC
+37610|CAVE|UO|BDF|EP|42.120899|-123.570702|440.0|IRIS,NCEDC
+37611|CAVE|UO|LDF|EP|42.120899|-123.570702|440.0|IRIS,NCEDC
+37614|DFAZ|UO|BDF|EP|43.240601|-122.109299|1948.0|IRIS
+37615|DFAZ|UO|LDF|EP|43.240601|-122.109299|1948.0|IRIS
+37616|DRAN|UO|BDF|EP|43.697201|-123.348701|140.6|IRIS
+37617|DRAN|UO|LDF|EP|43.697201|-123.348701|140.6|IRIS
+37622|LAIR|UO|BDF|EP|43.161499|-123.931396|127.8|IRIS
+37623|LAIR|UO|LDF|EP|43.161499|-123.931396|127.8|IRIS
+37626|NATH|UO|BDF|EP|43.794102|-122.411301|729.0|IRIS
+37627|NATH|UO|LDF|EP|43.794102|-122.411301|729.0|IRIS
+37630|ROGE|UO|BDF|EP|42.695499|-123.665398|989.0|IRIS,NCEDC
+37631|ROGE|UO|LDF|EP|42.695499|-123.665398|989.0|IRIS,NCEDC
+37632|TOOM|UO|BDF|EP|43.284901|-121.234703|1541.0|IRIS
+37633|TOOM|UO|LDF|EP|43.284901|-121.234703|1541.0|IRIS
+37636|WOOD|UO|BDF|EP|42.217899|-122.304604|1437.0|IRIS,NCEDC
+37637|WOOD|UO|LDF|EP|42.217899|-122.304604|1437.0|IRIS,NCEDC
+

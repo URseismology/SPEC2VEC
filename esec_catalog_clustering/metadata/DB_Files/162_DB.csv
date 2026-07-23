@@ -1,0 +1,276 @@
+# 
+# events
+# 
+# Eventid|Name|Starttime|Endtime|Latitude|Longitude|LocuncertKm|CrownLat|CrownLon|TipLat|TipLon|Type|AreaTotal|AreaSource|AreaSourceLow|AreaSourceHigh|Volume|VolumeLow|VolumeHigh|Mass|MassLow|MassHigh|H|HLow|HHigh|L|LLow|LHigh|HFreefall|HFreefallLow|HFreefallHigh|UpstreamDrainarea|PeakDischarge|PeakDischargeLow|PeakDischargeHigh|PeakFlowheight|PeakFlowheightLow|PeakFlowheightHigh|Otherdataquality1to5|LPpotential|MaxdistvhfKm|MaxdistvhfReached|MaxdisthfKm|MaxdisthfReached|MaxdistipKm|MaxdistipReached|MaxdistlpKm|MaxdistlpReached|InfraDetected|MaxdistinfraKm|MaxdistinfraReached|DatLocation|Sources
+162|Shishaldin|2019-10-29 00:26:44|2019-10-29 00:58:18|54.7566|-163.9706|0.0|54.7566|-163.9706|54.7818|-163.9878|lahar|270000.0|None|None|None|None|None|None|None|None|None|1500.0|1400.0|1800.0|3100.0|2500.0|4100.0|None|None|None|None|None|None|None|None|None|None|4|0|None|None|11.0|1|None|None|0.0|None|1|None|None|IRIS|Collins, E.A., Allstadt, K.E., Groult, C., Hibert, C., Malet, J.-P., Toney, L.D., and Bessette-Kirton, E., 2022, Seismogenic Landslides and other Mass Movements: U.S. Geological Survey data release, https://doi.org/10.5066/P90VGCSK.
+
+# 
+# gisfiles
+# 
+# GisId|Eventid|Type|Source|Description|FileExtension|ApplyAlso
+122|162|GIS shapefile|QGIS - ecollins|Outline of runout based on PlanetScope imagery.|EventData/162_Shishaldin_29Oct2019/maps_gis/162_Shishaldin_20191029_outlines_UTM3N.zip|None
+123|162|Static map - pdf|QGIS - ecollins; Planet|Static map with runout and centerline overlain on PlanetScope satellite imagery (3.7m resolution, captured on 2019-10-29).|EventData/162_Shishaldin_29Oct2019/maps_gis/162_Shishaldin_20191029_map.pdf|None
+124|162|GIS shapefile|QGIS - ecollins|Centerline based on outline (gis_id 122).|EventData/162_Shishaldin_29Oct2019/maps_gis/162_Shishaldin_20191029_centerline_UTM3N.zip|None
+169|162|Static map - png|QGIS - ecollins; Planet|Static map with runout and centerline overlain on PlanetScope satellite imagery (3.7m resolution, captured on 2019-10-29).|EventData/162_Shishaldin_29Oct2019/maps_gis/162_Shishaldin_20191029_map.png|None
+
+# 
+# information
+# 
+# Iid|Eventid|RefId|Note|PhoId|GISId|ApplyAlso
+484|162|185|Infrasound from this event was observed via seismoacoustic coherence on station SSLN (network AV) at 00:30 UTC on 2019-10-29 - Toney (written commun., 2021).|None|None|None
+505|162|None|Centerline and total area were digitized using PlanetScope satellite imagery. L and H were estimated using the centerline and crown and toe locations.|None|123|None
+515|162|214|Low-level eruptive activity and a ~4 km lahar northwest of the summit was reported at Shishaldin by the Alaska Volcano Observatory.|None|None|None
+
+# 
+# photos
+# 
+# PhotoId|Eventid|Photographer|Description|Latitude|Longitude|Date|FileExtension|ApplyAlso
+726|162|Matthew Haney|Waveform plot provided by Matthew Haney.|None|None|None|EventData/162_Shishaldin_29Oct2019/photos_figures/162_Shishaldin_29Oct2019_source-MatthewHaney_1.png|None
+799|162|Elaine Collins|Raw waveforms from closest stations. Data was demeaned but no other processing was applied. Dashed lines show approximate start and end times of event (from database). Figure generation is automated and there may be artifacts present.|None|None|None|EventData/162_Shishaldin_29Oct2019/photos_figures/162_Shishaldin_29Oct2019_waveforms_raw.png|None
+800|162|Elaine Collins|High frequency (1-5 Hz) ground velocity waveforms for station response from closest stations with detections. Dashed lines show approximate start and end times of event (from database). Waveforms are corrected for station response after removing the mean. Figure generation is automated and there may be artifacts present. Clipped waveforms have not been removed before station correction so check raw plots before interpreting high amplitude signals.|None|None|None|EventData/162_Shishaldin_29Oct2019/photos_figures/162_Shishaldin_29Oct2019_waveforms_1-5Hz.png|None
+801|162|Elaine Collins|Spectrograms of velocity waveforms corrected for station sensitivity from closest stations with detections. Figure generation is automated and there may be artifacts present|None|None|None|EventData/162_Shishaldin_29Oct2019/photos_figures/162_Shishaldin_29Oct2019_spectrogram.png|None
+802|162|Elaine Collins|Multitaper spectra (same units as Power Spectral Density) of velocity waveforms corrected for station sensitivity from closest stations with detections. Linear trend was removed and a taper was applied before generating spectra. Figure generation is automated and there may be artifacts present. Since station response was not removed to avoid adding artifacts at low frequencies for short and intermediate period stations, the lower frequency amplitudes should be interpreted with care.|None|None|None|EventData/162_Shishaldin_29Oct2019/photos_figures/162_Shishaldin_29Oct2019_spectra.png|None
+
+# 
+# reference
+# 
+# Refid|Eventid|ApplyAlso|LongRef|ShortRef|FileExtension|Url
+185|162|181,259,163,164,165|Toney, L.D., 2021, written communication.|Toney (written commun., 2021)|None|None
+214|162|None|Alaska Volcano Observatory (AVO), 1 Nov 2019, ALASKA VOLCANO OBSERVATORY WEEKLY UPDATE, Accessed 27 Dec 2021, at https://www.avo.alaska.edu/activity/report.php?type=4&id=379251&mode=hans|AVO (2019)|None|https://www.avo.alaska.edu/activity/report.php?type=4&id=379251&mode=hans
+
+# 
+# sta_nearby
+# 
+# SRid|Eventid|Sid|StasourceRadiusKm|Az|Baz|DetectVHF|DetectHF|DetectIP|DetectLP|DetectINFRA
+164420|162|5792|37.26|72.43|252.88|None|None|None|None|None
+164421|162|5793|37.26|72.43|252.88|None|None|None|None|None
+164422|162|5794|37.26|72.43|252.88|None|None|None|None|None
+164423|162|34536|37.254|72.42|252.88|None|None|None|None|None
+164424|162|34537|37.254|72.42|252.88|None|None|None|None|None
+164425|162|34538|37.254|72.42|252.88|None|None|None|None|None
+164426|162|5816|193.642|239.44|57.38|None|None|None|None|None
+164427|162|5817|193.642|239.44|57.38|None|None|None|None|None
+164428|162|5818|193.642|239.44|57.38|None|None|None|None|None
+164429|162|34539|193.642|239.44|57.38|None|None|None|None|None
+164430|162|34540|193.642|239.44|57.38|None|None|None|None|None
+164431|162|34541|193.642|239.44|57.38|None|None|None|None|None
+164432|162|5819|135.786|240.11|58.65|None|None|None|None|None
+164433|162|5820|135.786|240.11|58.65|None|None|None|None|None
+164434|162|5821|135.786|240.11|58.65|None|None|None|None|None
+164435|162|34542|139.549|239.94|58.44|None|None|None|None|None
+164436|162|34543|139.549|239.94|58.44|None|None|None|None|None
+164437|162|34544|139.549|239.94|58.44|None|None|None|None|None
+164438|162|5833|147.022|240.87|59.27|None|None|None|None|None
+164439|162|5834|147.022|240.87|59.27|None|None|None|None|None
+164440|162|5835|147.022|240.87|59.27|None|None|None|None|None
+164441|162|5836|145.13|245.45|63.81|None|None|None|None|None
+164442|162|5837|145.13|245.45|63.81|None|None|None|None|None
+164443|162|5838|145.13|245.45|63.81|None|None|None|None|None
+164444|162|34545|141.259|242.4|60.84|None|None|None|None|None
+164445|162|34546|141.259|242.4|60.84|None|None|None|None|None
+164446|162|34547|141.259|242.4|60.84|None|None|None|None|None
+164447|162|5839|144.868|243.62|62.0|None|None|None|None|None
+164448|162|5840|144.868|243.62|62.0|None|None|None|None|None
+164449|162|5841|144.868|243.62|62.0|None|None|None|None|None
+164450|162|5842|151.875|241.6|59.94|None|None|None|None|None
+164451|162|5843|151.875|241.6|59.94|None|None|None|None|None
+164452|162|5844|151.875|241.6|59.94|None|None|None|None|None
+164453|162|5845|153.103|243.72|62.01|None|None|None|None|None
+164454|162|5846|153.103|243.72|62.01|None|None|None|None|None
+164455|162|5847|153.103|243.72|62.01|None|None|None|None|None
+164456|162|5851|133.277|237.99|56.59|None|None|None|None|None
+164457|162|5852|133.277|237.99|56.59|None|None|None|None|None
+164458|162|5853|133.277|237.99|56.59|None|None|None|None|None
+164462|162|34548|147.223|242.31|60.68|None|None|None|None|None
+164463|162|34549|147.223|242.31|60.68|None|None|None|None|None
+164464|162|34550|147.223|242.31|60.68|None|None|None|None|None
+164465|162|34551|141.86|71.22|252.94|None|None|None|None|None
+164466|162|34552|141.86|71.22|252.94|None|None|None|None|None
+164467|162|34553|141.86|71.22|252.94|None|None|None|None|None
+164468|162|34554|115.14|69.55|250.94|None|None|None|None|None
+164469|162|34555|115.14|69.55|250.94|None|None|None|None|None
+164470|162|34556|115.14|69.55|250.94|None|None|None|None|None
+164471|162|34557|117.87|67.79|249.19|None|None|None|None|None
+164472|162|34558|117.87|67.79|249.19|None|None|None|None|None
+164473|162|34559|117.87|67.79|249.19|None|None|None|None|None
+164474|162|13715|16.968|101.9|282.11|None|None|None|None|None
+164475|162|13716|16.968|101.9|282.11|None|None|None|None|None
+164476|162|13717|16.968|101.9|282.11|None|None|None|None|None
+164477|162|5896|14.799|55.68|235.84|None|None|None|None|None
+164478|162|34560|149.487|244.47|62.79|None|None|None|None|None
+164479|162|34561|149.487|244.47|62.79|None|None|None|None|None
+164480|162|34562|149.487|244.47|62.79|None|None|None|None|None
+164481|162|34563|196.845|244.63|62.42|None|None|None|None|None
+164482|162|34564|196.845|244.63|62.42|None|None|None|None|None
+164483|162|34565|196.845|244.63|62.42|None|None|None|None|None
+164484|162|34566|146.757|58.33|239.95|None|None|None|None|None
+164485|162|34567|146.757|58.33|239.95|None|None|None|None|None
+164486|162|34568|146.757|58.33|239.95|None|None|None|None|None
+164487|162|34569|160.225|61.64|243.47|None|None|None|None|None
+164488|162|34570|160.225|61.64|243.47|None|None|None|None|None
+164489|162|34571|160.225|61.64|243.47|None|None|None|None|None
+164490|162|34572|150.186|63.23|244.97|None|None|None|None|None
+164491|162|34573|150.186|63.23|244.97|None|None|None|None|None
+164492|162|34574|150.186|63.23|244.97|None|None|None|None|None
+164493|162|5953|10.177|279.63|99.51|None|1|None|None|None
+164494|162|5954|10.177|279.63|99.51|None|1|None|None|None
+164495|162|5955|10.177|279.63|99.51|None|1|None|None|None
+164496|162|13718|6.295|343.81|163.79|None|1|None|None|None
+164497|162|13719|6.295|343.81|163.79|None|1|None|None|None
+164498|162|13720|6.295|343.81|163.79|None|1|None|None|None
+164499|162|5956|6.295|343.81|163.79|None|None|None|None|None
+164500|162|13721|5.426|201.02|21.0|None|1|None|None|None
+164501|162|13722|5.426|201.02|21.0|None|1|None|None|None
+164502|162|13723|5.426|201.02|21.0|None|1|None|None|None
+164503|162|5960|9.964|279.26|99.13|None|None|None|None|None
+164504|162|34575|53.887|250.22|69.58|None|None|None|None|None
+164505|162|34576|53.887|250.22|69.58|None|None|None|None|None
+164506|162|34577|53.887|250.22|69.58|None|None|None|None|None
+164507|162|5976|53.887|250.22|69.58|None|None|None|None|None
+164508|162|13724|58.001|244.55|63.89|None|None|None|None|None
+164509|162|13725|58.001|244.55|63.89|None|None|None|None|None
+164510|162|13726|58.001|244.55|63.89|None|None|None|None|None
+164511|162|5977|58.001|244.55|63.89|None|None|None|None|None
+164512|162|5978|50.816|231.73|51.23|None|None|None|None|None
+164513|162|34578|44.18|243.2|62.7|None|None|None|None|None
+164514|162|34579|44.18|243.2|62.7|None|None|None|None|None
+164515|162|34580|44.18|243.2|62.7|None|None|None|None|None
+164516|162|5979|44.18|243.2|62.7|None|None|None|None|None
+164517|162|5980|56.808|239.16|58.54|None|None|None|None|None
+164518|162|5981|56.808|239.16|58.54|None|None|None|None|None
+164519|162|5982|56.808|239.16|58.54|None|None|None|None|None
+164520|162|5983|28.609|290.67|110.33|None|None|None|None|None
+164521|162|34581|150.009|241.21|59.58|None|None|None|None|None
+164522|162|34582|150.009|241.21|59.58|None|None|None|None|None
+164523|162|34583|150.009|241.21|59.58|None|None|None|None|None
+164524|162|34584|160.813|48.29|229.86|None|None|None|None|None
+164525|162|34585|160.813|48.29|229.86|None|None|None|None|None
+164526|162|34586|160.813|48.29|229.86|None|None|None|None|None
+164527|162|34587|160.813|48.29|229.86|None|None|None|None|None
+164528|162|34588|160.813|48.29|229.86|None|None|None|None|None
+164529|162|34589|160.813|48.29|229.86|None|None|None|None|None
+164530|162|34590|112.876|71.04|252.41|None|None|None|None|None
+164531|162|34591|112.876|71.04|252.41|None|None|None|None|None
+164532|162|34592|112.876|71.04|252.41|None|None|None|None|None
+164533|162|34593|112.876|71.04|252.41|None|None|None|None|None
+164534|162|34594|112.876|71.04|252.41|None|None|None|None|None
+164535|162|34595|112.876|71.04|252.41|None|None|None|None|None
+
+# 
+# stations
+# 
+# Sid|Name|Network|Channel|LocationCode|Latitude|Longitude|ElevationMasl|Source
+5792|FALS|AK|BHE||54.8564|-163.4175|45.7|IRIS
+5793|FALS|AK|BHN||54.8564|-163.4175|45.7|IRIS
+5794|FALS|AK|BHZ||54.8564|-163.4175|45.7|IRIS
+34536|FALS|AK|HNE||54.8564|-163.417603|60.6|IRIS
+34537|FALS|AK|HNN||54.8564|-163.417603|60.6|IRIS
+34538|FALS|AK|HNZ||54.8564|-163.417603|60.6|IRIS
+5816|UNV|AK|BHE||53.8452|-166.5045|65.0|IRIS
+5817|UNV|AK|BHN||53.8452|-166.5045|65.0|IRIS
+5818|UNV|AK|BHZ||53.8452|-166.5045|65.0|IRIS
+34539|UNV|AK|HNE||53.8452|-166.504501|65.0|IRIS
+34540|UNV|AK|HNN||53.8452|-166.504501|65.0|IRIS
+34541|UNV|AK|HNZ||53.8452|-166.504501|65.0|IRIS
+5819|AKUT|AT|BHE||54.13517|-165.77185|19.2|IRIS
+5820|AKUT|AT|BHN||54.13517|-165.77185|19.2|IRIS
+5821|AKUT|AT|BHZ||54.13517|-165.77185|19.2|IRIS
+34542|AHB|AV|BHE||54.1144|-165.8177|447.0|IRIS
+34543|AHB|AV|BHN||54.1144|-165.8177|447.0|IRIS
+34544|AHB|AV|BHZ||54.1144|-165.8177|447.0|IRIS
+5833|AKBB|AV|BHE||54.0975|-165.9338|310.0|IRIS
+5834|AKBB|AV|BHN||54.0975|-165.9338|310.0|IRIS
+5835|AKBB|AV|BHZ||54.0975|-165.9338|310.0|IRIS
+5836|AKGG|AV|BHE||54.1979|-165.9936|326.0|IRIS
+5837|AKGG|AV|BHN||54.1979|-165.9936|326.0|IRIS
+5838|AKGG|AV|BHZ||54.1979|-165.9936|326.0|IRIS
+34545|AKHS|AV|BHE||54.1533|-165.8868|150.0|IRIS
+34546|AKHS|AV|BHN||54.1533|-165.8868|150.0|IRIS
+34547|AKHS|AV|BHZ||54.1533|-165.8868|150.0|IRIS
+5839|AKLV|AV|BHE||54.1618|-165.9576|551.0|IRIS
+5840|AKLV|AV|BHN||54.1618|-165.9576|551.0|IRIS
+5841|AKLV|AV|BHZ||54.1618|-165.9576|551.0|IRIS
+5842|AKMO|AV|BHE||54.0903|-166.0126|277.0|IRIS
+5843|AKMO|AV|BHN||54.0903|-166.0126|277.0|IRIS
+5844|AKMO|AV|BHZ||54.0903|-166.0126|277.0|IRIS
+5845|AKRB|AV|BHE||54.1292|-166.0708|334.0|IRIS
+5846|AKRB|AV|BHN||54.1292|-166.0708|334.0|IRIS
+5847|AKRB|AV|BHZ||54.1292|-166.0708|334.0|IRIS
+5851|AKSA|AV|BHE||54.1095|-165.6987|213.0|IRIS
+5852|AKSA|AV|BHN||54.1095|-165.6987|213.0|IRIS
+5853|AKSA|AV|BHZ||54.1095|-165.6987|213.0|IRIS
+34548|AKV|AV|BHE||54.1253|-165.9647|863.0|IRIS
+34549|AKV|AV|BHN||54.1253|-165.9647|863.0|IRIS
+34550|AKV|AV|BHZ||54.1253|-165.9647|863.0|IRIS
+34551|DOL|AV|BHE||55.1488|-161.8638|439.0|IRIS
+34552|DOL|AV|BHN||55.1488|-161.8638|439.0|IRIS
+34553|DOL|AV|BHZ||55.1488|-161.8638|439.0|IRIS
+34554|DT1|AV|BHE||55.1062|-162.2801|198.0|IRIS
+34555|DT1|AV|BHN||55.1062|-162.2801|198.0|IRIS
+34556|DT1|AV|BHZ||55.1062|-162.2801|198.0|IRIS
+34557|DTN|AV|BHE||55.1448|-162.259|396.0|IRIS
+34558|DTN|AV|BHN||55.1448|-162.259|396.0|IRIS
+34559|DTN|AV|BHZ||55.1448|-162.259|396.0|IRIS
+13715|ISLZ|AV|BHE||54.7249|-163.7129|634.0|IRIS
+13716|ISLZ|AV|BHN||54.7249|-163.7129|634.0|IRIS
+13717|ISLZ|AV|BHZ||54.7249|-163.7129|634.0|IRIS
+5896|ISNN|AV|EHZ||54.8314|-163.7804|466.0|IRIS
+34560|LVA|AV|BHE||54.16|-166.0358|457.0|IRIS
+34561|LVA|AV|BHN||54.16|-166.0358|457.0|IRIS
+34562|LVA|AV|BHZ||54.16|-166.0358|457.0|IRIS
+34563|MTBL|AV|BHE||53.968|-166.6813|810.0|IRIS
+34564|MTBL|AV|BHN||53.968|-166.6813|810.0|IRIS
+34565|MTBL|AV|BHZ||53.968|-166.6813|810.0|IRIS
+34566|PN7A|AV|BHE||55.4329|-161.9973|838.0|IRIS
+34567|PN7A|AV|BHN||55.4329|-161.9973|838.0|IRIS
+34568|PN7A|AV|BHZ||55.4329|-161.9973|838.0|IRIS
+34569|PS1A|AV|BHE||55.4201|-161.7437|283.0|IRIS
+34570|PS1A|AV|BHN||55.4201|-161.7437|283.0|IRIS
+34571|PS1A|AV|BHZ||55.4201|-161.7437|283.0|IRIS
+34572|PS4A|AV|BHE||55.346|-161.8567|322.0|IRIS
+34573|PS4A|AV|BHN||55.346|-161.8567|322.0|IRIS
+34574|PS4A|AV|BHZ||55.346|-161.8567|322.0|IRIS
+5953|SSBA|AV|BHE||54.7718|-164.1265|766.0|IRIS
+5954|SSBA|AV|BHN||54.7718|-164.1265|766.0|IRIS
+5955|SSBA|AV|BHZ||54.7718|-164.1265|766.0|IRIS
+13718|SSLN|AV|BHE||54.8109|-163.9979|637.0|IRIS
+13719|SSLN|AV|BHN||54.8109|-163.9979|637.0|IRIS
+13720|SSLN|AV|BHZ||54.8109|-163.9979|637.0|IRIS
+5956|SSLN|AV|EHZ||54.8109|-163.9979|637.0|IRIS
+13721|SSLS|AV|BHE||54.7111|-164.0008|817.0|IRIS
+13722|SSLS|AV|BHN||54.7111|-164.0008|817.0|IRIS
+13723|SSLS|AV|BHZ||54.7111|-164.0008|817.0|IRIS
+5960|SSLW|AV|EHZ||54.7709|-164.1234|636.0|IRIS
+34575|WEBT|AV|BHE||54.5902|-164.755|467.0|IRIS
+34576|WEBT|AV|BHN||54.5902|-164.755|467.0|IRIS
+34577|WEBT|AV|BHZ||54.5902|-164.755|467.0|IRIS
+5976|WEBT|AV|EHZ||54.5902|-164.755|467.0|IRIS
+13724|WECS|AV|BHE||54.53|-164.7796|639.0|IRIS
+13725|WECS|AV|BHN||54.53|-164.7796|639.0|IRIS
+13726|WECS|AV|BHZ||54.53|-164.7796|639.0|IRIS
+5977|WECS|AV|EHZ||54.53|-164.7796|639.0|IRIS
+5978|WESE|AV|EHZ||54.4723|-164.586|953.0|IRIS
+34578|WESN|AV|BHE||54.5761|-164.5804|549.0|IRIS
+34579|WESN|AV|BHN||54.5761|-164.5804|549.0|IRIS
+34580|WESN|AV|BHZ||54.5761|-164.5804|549.0|IRIS
+5979|WESN|AV|EHZ||54.5761|-164.5804|549.0|IRIS
+5980|WESP|AV|EHE||54.4926|-164.7233|937.0|IRIS
+5981|WESP|AV|EHN||54.4926|-164.7233|937.0|IRIS
+5982|WESP|AV|EHZ||54.4926|-164.7233|937.0|IRIS
+5983|WTUG|AV|EHZ||54.8466|-164.3873|636.0|IRIS
+34581|ZRO|AV|BHE||54.0907|-165.98|446.0|IRIS
+34582|ZRO|AV|BHN||54.0907|-165.98|446.0|IRIS
+34583|ZRO|AV|BHZ||54.0907|-165.98|446.0|IRIS
+34584|S12K|TA|BHE||55.703|-162.061|411.0|IRIS
+34585|S12K|TA|BHN||55.703|-162.061|411.0|IRIS
+34586|S12K|TA|BHZ||55.703|-162.061|411.0|IRIS
+34587|S12K|TA|HNE||55.703|-162.061|411.0|IRIS
+34588|S12K|TA|HNN||55.703|-162.061|411.0|IRIS
+34589|S12K|TA|HNZ||55.703|-162.061|411.0|IRIS
+34590|WS28|XO|HHE||55.0746|-162.2992|45.0|IRIS
+34591|WS28|XO|HHN||55.0746|-162.2992|45.0|IRIS
+34592|WS28|XO|HHZ||55.0746|-162.2992|45.0|IRIS
+34593|WS28|XO|HNE||55.0746|-162.2992|45.0|IRIS
+34594|WS28|XO|HNN||55.0746|-162.2992|45.0|IRIS
+34595|WS28|XO|HNZ||55.0746|-162.2992|45.0|IRIS
+

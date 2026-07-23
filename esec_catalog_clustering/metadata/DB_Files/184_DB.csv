@@ -1,0 +1,39 @@
+# 
+# events
+# 
+# Eventid|Name|Starttime|Endtime|Latitude|Longitude|LocuncertKm|CrownLat|CrownLon|TipLat|TipLon|Type|AreaTotal|AreaSource|AreaSourceLow|AreaSourceHigh|Volume|VolumeLow|VolumeHigh|Mass|MassLow|MassHigh|H|HLow|HHigh|L|LLow|LHigh|HFreefall|HFreefallLow|HFreefallHigh|UpstreamDrainarea|PeakDischarge|PeakDischargeLow|PeakDischargeHigh|PeakFlowheight|PeakFlowheightLow|PeakFlowheightHigh|Otherdataquality1to5|LPpotential|MaxdistvhfKm|MaxdistvhfReached|MaxdisthfKm|MaxdisthfReached|MaxdistipKm|MaxdistipReached|MaxdistlpKm|MaxdistlpReached|InfraDetected|MaxdistinfraKm|MaxdistinfraReached|DatLocation|Sources
+184|Gadria 2|2014-07-15 15:13:05|2014-07-15 15:39:05|46.671986|10.722675|None|None|None|None|None|debris flow|None|None|None|None|11600.0|None|None|None|None|None|None|None|None|None|None|None|None|None|None|6.3|26.0|None|None|1.6|None|None|5|0|3.0|None|3.0|1|None|None|0.0|None|None|None|None|EventData/184_Gadria2_15Jul2014/184_Gadria2_15Jul2014_seismic_data.zip|Coviello, V., Arattano, M., Comiti, F., Macconi, P., Marchi L., 2019, Seismic characterization of debris flows: insights into energy radiation and implications for warning: J. Geophys. Res. Earth Surface, https://doi.org/10.1029/2018JF004683.
+
+
+# 
+# information
+# 
+# Iid|Eventid|RefId|Note|PhoId|GISId|ApplyAlso
+443|184|162|General information (drainage basin, monitoring site)|None|None|None
+444|184|163|Volume estimation and peak discharge (processing data from 2 radar stage sensors along the channel, using the velocities of all the surges)|None|None|None
+445|184|164|Event information (description, hydrographs),  seismic network (linear array of three 10-Hz geophones made by Geospace Technologies)|None|None|None
+446|184|165|Geophone dataset is composed of converted original ascii files digitized by SIAP+MICROS (sampling rate = 128 Hz, the system only stores the amplitude evenvelope) to miniseed files, applied corrections to physical units (m/s).|None|None|None
+
+# 
+# photos
+# 
+# PhotoId|Eventid|Photographer|Description|Latitude|Longitude|Date|FileExtension|ApplyAlso
+975|184|Elaine Collins|Raw waveforms from closest stations. Data was demeaned but no other processing was applied. Figure generation is automated and there may be artifacts present.|None|None|None|EventData/184_Gadria2_15Jul2014/photos_figures/184_Gadria2_15Jul2014_waveforms_raw.png|None
+
+
+# 
+# sta_nearby
+# 
+# SRid|Eventid|Sid|StasourceRadiusKm|Az|Baz|DetectVHF|DetectHF|DetectIP|DetectLP|DetectINFRA
+169766|184|36165|2.4687864718949792|208.6737154030518|28.662460115699055|1|1|None|None|None
+169767|184|36166|2.5579340644857367|208.16961045522356|28.15813704723734|1|1|None|None|None
+169768|184|36167|2.6099012659695813|207.18224973167156|27.170921842819784|1|1|None|None|None
+
+# 
+# stations
+# 
+# Sid|Name|Network|Channel|LocationCode|Latitude|Longitude|ElevationMasl|Source
+36165|Geo1|Gadria|Z|None|46.6525|10.7072|1455.0|miniseed
+36166|Geo2|Gadria|Z|None|46.6517|10.7069|1440.0|miniseed
+36167|Geo3|Gadria|Z|None|46.6511|10.7071|1425.0|miniseed
+

@@ -1,0 +1,83 @@
+# 
+# events
+# 
+# Eventid|Name|Starttime|Endtime|Latitude|Longitude|LocuncertKm|CrownLat|CrownLon|TipLat|TipLon|Type|AreaTotal|AreaSource|AreaSourceLow|AreaSourceHigh|Volume|VolumeLow|VolumeHigh|Mass|MassLow|MassHigh|H|HLow|HHigh|L|LLow|LHigh|HFreefall|HFreefallLow|HFreefallHigh|UpstreamDrainarea|PeakDischarge|PeakDischargeLow|PeakDischargeHigh|PeakFlowheight|PeakFlowheightLow|PeakFlowheightHigh|Otherdataquality1to5|LPpotential|MaxdistvhfKm|MaxdistvhfReached|MaxdisthfKm|MaxdisthfReached|MaxdistipKm|MaxdistipReached|MaxdistlpKm|MaxdistlpReached|InfraDetected|MaxdistinfraKm|MaxdistinfraReached|DatLocation|Sources
+208|Hochwand, Austria|2012-03-22 22:53:25|2012-03-22 22:54:56|47.3535|11.0041|0.15|None|None|None|None|rock slide|None|None|None|None|150000.0|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|3|0|None|None|155.0|0|None|None|0.0|None|None|None|None|LMU, ETH, INGV|Collins, E.A., Allstadt, K.E., Groult, C., Hibert, C., Malet, J.-P., Toney, L.D., and Bessette-Kirton, E., 2022, Seismogenic Landslides and other Mass Movements: U.S. Geological Survey data release, https://doi.org/10.5066/P90VGCSK.
+
+
+# 
+# information
+# 
+# Iid|Eventid|RefId|Note|PhoId|GISId|ApplyAlso
+568|208|206|A local magnitude of 1.4 was estimated for this event by the Austrian seismological service, ZAMG (Fuchs and others, 2018).|None|None|209
+490|252|220|This event occurred in limestones based on ELSUS v2 (Wilde and others, 2018).|None|None|197,200,196,195,245,246,247,194,211,253,219,237,208,215,230,224,212,260
+497|205|206|Location, type, and volumes (where applicable) were taken from Fuchs and others (2018). Fuchs and others (2018) estimated volumes from photographs which matched volumes from news articles and on-site geological estimates. Fuchs and others (2018) note that volumes may have large uncertainities and should be considered as order of magnitude estimates.|None|None|206,208,209,210,211,212,213,214,215,216,230,231,232
+530|191|None|Horizontal components for several stations which detected these events were not reviewed.|None|None|192,193,194,195,196,197,198,199,200,201,202,203,204,205,206,207,208,209,210,211,212,213,214,215,216,217,218,219,220,221,222,223,224,225,226,227,228,229,230,231,232,233,234,235,236,237,238,239,240,241,242,243,244,245,246,247,248,249,250,251,252,253,254,255,256,257,258
+583|205|None|Location uncertainty was estimated from the maximum distance between event coordinates and suspected crown location using Google Earth and photographs of event site, when available.|None|None|206,208,209,215,216,228,230,231,232,243,244
+
+# 
+# photos
+# 
+# PhotoId|Eventid|Photographer|Description|Latitude|Longitude|Date|FileExtension|ApplyAlso
+1097|208|Elaine Collins|Raw waveforms from closest stations. Data was demeaned but no other processing was applied. Dashed lines show approximate start and end times of event (from database). Figure generation is automated and there may be artifacts present.|None|None|None|EventData/208_HochwandAustria_22Mar2012/photos_figures/208_HochwandAustria_22Mar2012_waveforms_raw.png|None
+1098|208|Elaine Collins|High frequency (1-5 Hz) ground velocity waveforms for station response from closest stations with detections. Dashed lines show approximate start and end times of event (from database). Waveforms are corrected for station response after removing the mean. Figure generation is automated and there may be artifacts present. Clipped waveforms have not been removed before station correction so check raw plots before interpreting high amplitude signals.|None|None|None|EventData/208_HochwandAustria_22Mar2012/photos_figures/208_HochwandAustria_22Mar2012_waveforms_1-5Hz.png|None
+1099|208|Elaine Collins|Spectrograms of velocity waveforms corrected for station sensitivity from closest stations with detections. Figure generation is automated and there may be artifacts present|None|None|None|EventData/208_HochwandAustria_22Mar2012/photos_figures/208_HochwandAustria_22Mar2012_spectrogram.png|None
+1100|208|Elaine Collins|Multitaper spectra (same units as Power Spectral Density) of velocity waveforms corrected for station sensitivity from closest stations with detections. Linear trend was removed and a taper was applied before generating spectra. Figure generation is automated and there may be artifacts present. Since station response was not removed to avoid adding artifacts at low frequencies for short and intermediate period stations, the lower frequency amplitudes should be interpreted with care.|None|None|None|EventData/208_HochwandAustria_22Mar2012/photos_figures/208_HochwandAustria_22Mar2012_spectra.png|None
+
+
+# 
+# sta_nearby
+# 
+# SRid|Eventid|Sid|StasourceRadiusKm|Az|Baz|DetectVHF|DetectHF|DetectIP|DetectLP|DetectINFRA
+185791|208|37907|7.238531161580988|344.7264268144784|164.7078301452926|None|1|None|None|None
+185792|208|37907|7.238531161580988|344.7264268144784|164.7078301452926|None|None|None|None|None
+185793|208|37884|53.84318315727242|276.5809717794959|96.05795953941579|None|1|None|None|None
+185794|208|37884|53.84318315727242|276.5809717794959|96.05795953941579|None|None|None|None|None
+185795|208|37898|56.4655902454884|146.66851988649114|326.96737782688524|None|1|None|None|None
+185796|208|38227|61.8141624010982|19.76080070735321|199.96721448616663|None|1|None|None|None
+185797|208|37941|64.07383984944495|14.67632450571809|194.836784941314|None|1|None|None|None
+185798|208|38216|73.51610157350711|160.79490960554003|341.02646799491885|None|1|None|None|None
+185799|208|37863|88.92028217813788|203.04884577776616|22.71644612939441|None|1|None|None|None
+185800|208|38213|92.93181632764131|118.5541951090824|299.3420489883168|None|1|None|None|None
+185801|208|37878|98.75245997612619|169.9654301130013|350.1290562238129|None|1|None|None|None
+185802|208|37854|99.00345837641865|214.92449729095765|34.38297208407691|None|1|None|None|None
+185803|208|38215|103.0077096275806|163.81838534830095|344.09129246495604|None|1|None|None|None
+185804|208|37851|106.36724298217369|233.70040025667907|52.877015593999246|None|1|None|None|None
+185805|208|37870|114.17694392900418|267.2688479762313|86.15695794924731|None|1|None|None|None
+185806|208|37875|124.6843193201875|270.3507014169538|89.13332571165193|None|1|None|None|None
+185807|208|37864|127.22000644482499|255.21845073255972|74.0272905059246|None|1|None|None|None
+185808|208|37997|141.0748205708141|71.78933851601958|253.1112688411071|None|1|None|None|None
+185809|208|37998|143.3611296006539|71.69920072077086|253.04214911324794|None|1|None|None|None
+185810|208|37999|145.51020460184537|71.52993242517736|252.89201901925034|None|1|None|None|None
+185811|208|37860|149.15245068363595|194.73343689237066|14.376706787764235|None|1|None|None|None
+185812|208|37904|153.26582991816716|160.9726196499188|341.4425091281398|None|1|None|None|None
+185813|208|37856|154.81577867161062|248.48312804484243|67.09702976650578|None|1|None|None|None
+
+# 
+# stations
+# 
+# Sid|Name|Network|Channel|LocationCode|Latitude|Longitude|ElevationMasl|Source
+37907|ZUGS|BW|EHZ||47.416309|10.97883|2650.0|LMU
+37907|ZUGS|BW|EHZ||47.416309|10.97883|2650.0|LMU
+37884|OBER|BW|EHZ||47.406963|10.293358|896.0|LMU
+37884|OBER|BW|EHZ||47.406963|10.293358|896.0|LMU
+37898|ROSI|SI|HHZ||46.9281|11.4118|1917.0|INGV
+38227|BE3|BW|EHZ||47.876518|11.283551|630.0|LMU
+37941|BE1|BW|EHZ||47.910835|11.221278|746.0|LMU
+38216|ABSI|SI|HHZ||46.7285|11.3205|1801.0|INGV
+37863|MOSI|SI|HHZ||46.6164|10.5495|1957.0|INGV
+38213|RISI|SI|HHZ||46.948|12.0787|1785.0|INGV
+37878|APPI|IV|EHZ||46.47868|11.22813|1056.0|INGV
+37854|FUORN|CH|HHZ||46.620334|10.26352|2286.0|ETH,IRIS
+38215|KOSI|SI|HHZ||46.463|11.3778|1604.0|INGV
+37851|DAVOX|CH|HHZ||46.7805|9.87952|1830.0|ETH
+37870|LIENZ|CH|HHZ||47.294437|9.491773|1567.0|ETH,IRIS
+37875|SGT04|CH|HHZ||47.348435|9.349025|987.0|ETH
+37864|PLONS|CH|HHZ||47.04921|9.38076|1022.0|ETH
+37997|RJOB|BW|EHZ||47.737167|12.795714|860.0|LMU
+37998|RTBE|BW|EHZ||47.745098|12.824082|1162.0|LMU
+37999|RTSH|BW|EHZ||47.754452|12.849878|1638.0|LMU
+37860|MABI|IV|HHZ||46.05492|10.514|1853.0|INGV
+37904|CTI|IV|EHZ||46.04818|11.6497|1180.0|INGV
+37856|PANIX|CH|HHZ||46.825743|9.111708|1433.0|ETH
+

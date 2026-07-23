@@ -1,0 +1,48 @@
+# 
+# events
+# 
+# Eventid|Name|Starttime|Endtime|Latitude|Longitude|LocuncertKm|CrownLat|CrownLon|TipLat|TipLon|Type|AreaTotal|AreaSource|AreaSourceLow|AreaSourceHigh|Volume|VolumeLow|VolumeHigh|Mass|MassLow|MassHigh|H|HLow|HHigh|L|LLow|LHigh|HFreefall|HFreefallLow|HFreefallHigh|UpstreamDrainarea|PeakDischarge|PeakDischargeLow|PeakDischargeHigh|PeakFlowheight|PeakFlowheightLow|PeakFlowheightHigh|Otherdataquality1to5|LPpotential|MaxdistvhfKm|MaxdistvhfReached|MaxdisthfKm|MaxdisthfReached|MaxdistipKm|MaxdistipReached|MaxdistlpKm|MaxdistlpReached|InfraDetected|MaxdistinfraKm|MaxdistinfraReached|DatLocation|Sources
+227|Karteis 2, Austria|2019-10-24 19:41:14|2019-10-24 19:42:21|47.167075|13.272169|0.05|None|None|None|None|rock fall|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|4|0|None|None|70.0|0|None|None|0.0|None|None|None|None|ORFEUS, LMU, INGV|Collins, E.A., Allstadt, K.E., Groult, C., Hibert, C., Malet, J.-P., Toney, L.D., and Bessette-Kirton, E., 2022, Seismogenic Landslides and other Mass Movements: U.S. Geological Survey data release, https://doi.org/10.5066/P90VGCSK.
+
+
+# 
+# information
+# 
+# Iid|Eventid|RefId|Note|PhoId|GISId|ApplyAlso
+492|203|220|This event occurred in marlstones and limestones based on ELSUS v2 (Wilde and others, 2018).|None|None|222,220,221,226,227
+530|191|None|Horizontal components for several stations which detected these events were not reviewed.|None|None|192,193,194,195,196,197,198,199,200,201,202,203,204,205,206,207,208,209,210,211,212,213,214,215,216,217,218,219,220,221,222,223,224,225,226,227,228,229,230,231,232,233,234,235,236,237,238,239,240,241,242,243,244,245,246,247,248,249,250,251,252,253,254,255,256,257,258
+549|217|207|These events were cataloged through ZAMG (2021). Individual reports for each event were recieved by mail.|None|None|218,219,220,221,222,223,224,225,226,227,228,229,230,253
+551|226|None|Identification of these events and adjustment of location coordinates were completed using Google Earth.|None|None|227
+552|191|None|Location uncertainty was estimated from the maximum distance between event coordinates and suspected crown location using imagery from Google Earth and Planet Labs Explorer. Event type was estimated or confirmed using satellite imagery.|None|None|194,195,202,210,212,213,214,226,227,236,245,246,247,255
+556|226|225|The total volume for the October 24, 2019 Karteis rock falls was estimated at 15,000 cubic meters but no method of estimation was provided (Salzburg ORF, 2019). Rock falls at this location were also reported in July and March of 2019. Photographs of the site are available at https://salzburg.orf.at/stories/3020136/.|None|None|227
+
+# 
+# photos
+# 
+# PhotoId|Eventid|Photographer|Description|Latitude|Longitude|Date|FileExtension|ApplyAlso
+1185|227|Elaine Collins|Raw waveforms from closest stations. Data was demeaned but no other processing was applied. Dashed lines show approximate start and end times of event (from database). Figure generation is automated and there may be artifacts present.|None|None|None|EventData/227_Karteis2Austria_24Oct2019/photos_figures/227_Karteis2Austria_24Oct2019_waveforms_raw.png|None
+1186|227|Elaine Collins|High frequency (1-5 Hz) ground velocity waveforms for station response from closest stations with detections. Dashed lines show approximate start and end times of event (from database). Waveforms are corrected for station response after removing the mean. Figure generation is automated and there may be artifacts present. Clipped waveforms have not been removed before station correction so check raw plots before interpreting high amplitude signals.|None|None|None|EventData/227_Karteis2Austria_24Oct2019/photos_figures/227_Karteis2Austria_24Oct2019_waveforms_1-5Hz.png|None
+1187|227|Elaine Collins|Spectrograms of velocity waveforms corrected for station sensitivity from closest stations with detections. Figure generation is automated and there may be artifacts present|None|None|None|EventData/227_Karteis2Austria_24Oct2019/photos_figures/227_Karteis2Austria_24Oct2019_spectrogram.png|None
+1188|227|Elaine Collins|Multitaper spectra (same units as Power Spectral Density) of velocity waveforms corrected for station sensitivity from closest stations with detections. Linear trend was removed and a taper was applied before generating spectra. Figure generation is automated and there may be artifacts present. Since station response was not removed to avoid adding artifacts at low frequencies for short and intermediate period stations, the lower frequency amplitudes should be interpreted with care.|None|None|None|EventData/227_Karteis2Austria_24Oct2019/photos_figures/227_Karteis2Austria_24Oct2019_spectra.png|None
+
+
+# 
+# sta_nearby
+# 
+# SRid|Eventid|Sid|StasourceRadiusKm|Az|Baz|DetectVHF|DetectHF|DetectIP|DetectLP|DetectINFRA
+186737|227|38007|11.284450160925635|150.7992796704683|330.8524313480556|None|1|None|None|None
+186738|227|38312|53.222547595829425|302.64517544510045|122.20780452226933|None|1|None|None|None
+186739|227|38009|55.22477390392404|340.556167854806|160.37606265188342|None|1|None|None|None
+186740|227|38317|64.469962072996|25.22353975517191|205.49317717792917|None|1|None|None|None
+186741|227|37983|69.36019233789433|187.88667688140714|7.796147078825371|None|1|None|None|None
+
+# 
+# stations
+# 
+# Sid|Name|Network|Channel|LocationCode|Latitude|Longitude|ElevationMasl|Source
+38007|KBA|OE|BHZ||47.0784|13.3447|1721.0|ORFEUS,IRIS
+38312|LESA|OE|HHZ||47.4243|12.677|1029.5|ORFEUS
+38009|BDGS|BW|HHZ||47.6353|13.0275|539.0|LMU
+38317|BIOA|OE|HHZ||47.6913|13.6383|614.0|ORFEUS
+37983|PLRO|OX|HHZ||46.5491|13.1481|1410.0|INGV
+

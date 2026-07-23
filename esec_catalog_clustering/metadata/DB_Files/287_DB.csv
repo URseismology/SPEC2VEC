@@ -1,0 +1,130 @@
+# 
+# events
+# 
+# Eventid|Name|Starttime|Endtime|Latitude|Longitude|LocuncertKm|CrownLat|CrownLon|TipLat|TipLon|Type|AreaTotal|AreaSource|AreaSourceLow|AreaSourceHigh|Volume|VolumeLow|VolumeHigh|Mass|MassLow|MassHigh|H|HLow|HHigh|L|LLow|LHigh|HFreefall|HFreefallLow|HFreefallHigh|UpstreamDrainarea|PeakDischarge|PeakDischargeLow|PeakDischargeHigh|PeakFlowheight|PeakFlowheightLow|PeakFlowheightHigh|Otherdataquality1to5|LPpotential|MaxdistvhfKm|MaxdistvhfReached|MaxdisthfKm|MaxdisthfReached|MaxdistipKm|MaxdistipReached|MaxdistlpKm|MaxdistlpReached|InfraDetected|MaxdistinfraKm|MaxdistinfraReached|DatLocation|Sources
+287|Chaos Canyon, Rocky Mountain National Park|2022-06-28 22:33:44|2022-06-28 22:35:44|40.302|-105.6835|0.0|40.302|-105.6835|40.3013|-105.6779|debris slide|154000.0|88000.0|55639.0|None|2130000.0|2010000.0|2250000.0|None|None|None|380.0|None|None|700.0|None|None|None|None|None|None|None|None|None|None|None|None|5|2|None|None|70.0|1|None|None|156.0|1|0|0.0|None|IRIS|Collins, E.A., Allstadt, K.E., Groult, C., Hibert, C., Malet, J.-P., Toney, L.D., and Jensen, E.K., 2022, Seismogenic Landslides and other Mass Movements (ver. 2.0, December 2023): U.S. Geological Survey data release, https://doi.org/10.5066/P90VGCSK.
+
+
+# 
+# information
+# 
+# Iid|Eventid|RefId|Note|PhoId|GISId|ApplyAlso
+685|287|307|Eyewitness videos show surficial activity on the main failure slope from the hours preceding the event and report the slope slowly moving before the main failure at 4:34 pm MDT, where the slope rapidly accelerated and caused the snowfield to detach and collapse. This main failure occurred about a minute after a M1.4-equivalent construction blast related to the Chimney Hollow Reservoir project. This blast is considered unlikely to have triggered the slide since its shaking was weak: ~0.001 %g (Allstadt and others, 2023).|None|None|None
+727|287|307|Source area, total area, L, and H taken from (Allstadt and others, 2024). Volumes also taken from Allstadt and others (2024) based on pre- and post-event DEMs. Volume_best represents the total volume of the source area, and Volume_low and Volume_high are estimated using the standard deviation reported for this value.|None|None|None
+755|287|319|The construction blast mentioned in iid 685, registered as a M 1.4 seismic event at 2022-06-28 22:32:04 (UTC) by the USGS National Earthquake Information Center (USGS, 2022) and is not a part of the landslide signal.|None|None|None
+756|287|307|Deformation of the slide mass began in the early to mid-2000s and started accelerating in 2018, the warmest year on record at the SNOTEL Bear Lake weather station (Allstadt and others, 2023).|None|None|None
+867|287|363|Morriss and others (2023), report an alternative total area estimate of 120,116 m2 (deposition + erosion area),  deposition volume of 1,258,000 +/- 150,000 m3, and erosion volume of 1,340,000 +/- 133,000 m3. Area_source_low is taken from Morriss and others (2023) based on the erosion area outlined in Figure 9.|None|None|None
+868|287|364|An eyewitness video of this event was posted to Instagram by a climber in the area, @williammondragon, at https://www.instagram.com/reel/CfZNJ9KPoWr/.|None|None|None
+869|287|365|An additional eyewitness video of this event from Lake Haiyaha by Ryan Albert can be seen at https://www.9news.com/video/sports/outdoors/hallett-peak-rockslide-in-rocky-mountains-national-park-captured-by-hiker/73-2c76e565-9ab1-4cf4-a985-39ea7e229fad|None|None|None
+
+# 
+# photos
+# 
+# PhotoId|Eventid|Photographer|Description|Latitude|Longitude|Date|FileExtension|ApplyAlso
+1489|287|Elaine Collins|Raw waveforms from closest stations. Data was demeaned but no other processing was applied. Dashed lines show approximate start and end times of event (from database). Figure generation is automated and there may be artifacts present.|None|None|None|EventData/287_ChaosCanyonRockyMountainNationalPark_28Jun2022/photos_figures/287_ChaosCanyonRockyMountainNationalPark_28Jun2022_waveforms_raw.png|None
+1490|287|Elaine Collins|High frequency (1-5 Hz) ground velocity waveforms from closest stations with detections. Dashed lines show approximate start and end times of event (from database). Waveforms are corrected for station response after removing the mean. Figure generation is automated and there may be artifacts present. Clipped waveforms have not been removed before station correction so check raw plots before interpreting high amplitude signals.|None|None|None|EventData/287_ChaosCanyonRockyMountainNationalPark_28Jun2022/photos_figures/287_ChaosCanyonRockyMountainNationalPark_28Jun2022_waveforms_1-5Hz.png|None
+1491|287|Elaine Collins|Spectrograms of velocity waveforms corrected for station sensitivity from closest stations with detections. Figure generation is automated and there may be artifacts present|None|None|None|EventData/287_ChaosCanyonRockyMountainNationalPark_28Jun2022/photos_figures/287_ChaosCanyonRockyMountainNationalPark_28Jun2022_spectrogram.png|None
+1492|287|Elaine Collins|Multitaper spectra (same units as Power Spectral Density) of velocity waveforms corrected for station sensitivity from closest stations with detections. Linear trend was removed and a taper was applied before generating spectra. Figure generation is automated and there may be artifacts present. Since station response was not removed to avoid adding artifacts at low frequencies for short and intermediate period stations, the lower frequency amplitudes should be interpreted with care.|None|None|None|EventData/287_ChaosCanyonRockyMountainNationalPark_28Jun2022/photos_figures/287_ChaosCanyonRockyMountainNationalPark_28Jun2022_spectra.png|None
+
+# 
+# reference
+# 
+# Refid|Eventid|ApplyAlso|LongRef|ShortRef|FileExtension|Url
+307|287|None|Allstadt, K., Coe, J., Collins, E., Rengers, F., Mangeney, A., Esser, S., Pursley, J., Yeck, W., Bellini, J., and Brady, L., 2024, The 2022 Chaos Canyon landslide in Colorado: insights revealed by seismic analysis, field investigations, and remote sensing: Landslides, v. 21, p. 309-325, doi: 10.1007/s10346-023-02179-4.|Allstadt and others (2024)|None|https://doi.org/10.1007/s10346-023-02179-4
+319|287|None|USGS Earthquake Hazards Program, 28 Jun 2022, M 1.4 - 10 km NE of Grand Lake, Colorado, Accessed 3 Oct 2023, at https://earthquake.usgs.gov/earthquakes/eventpage/us6000hynr/executive|USGS (2022)|None|https://earthquake.usgs.gov/earthquakes/eventpage/us6000hynr/executive
+363|287|None|Morriss, M.C., Lehmann, B., Campforts, B., Brencher, G., Rick, B., Anderson, L.S., Handwerger, A.L., Overeem, I., and Moore, J., 2023, Alpine hillslope failure in the western US: insights from the Chaos Canyon landslide, Rocky Mountain National Park, USA: Earth Surf. Dynam., v. 11, p. 1251–1274, doi: 10.5194/esurf-11-1251-2023|Morriss and others (2023)|None|https://doi.org/10.5194/esurf-11-1251-2023
+364|287|None|W Mondragon [@williammondragon], 2022, Landslide [Video], Accessed 23 Jan 2023, at https://www.instagram.com/reel/CfZNJ9KPoWr/|W Mondragon (2022)|None|https://www.instagram.com/reel/CfZNJ9KPoWr/
+365|287|None|9news, 2022, Hallett Peak rockslide in Rocky Mountains National Park captured by hiker [Video], Accessed 3 Mar 2025, at https://www.9news.com/video/sports/outdoors/hallett-peak-rockslide-in-rocky-mountains-national-park-captured-by-hiker/73-2c76e565-9ab1-4cf4-a985-39ea7e229fad|9news (2022)|None|https://www.9news.com/video/sports/outdoors/hallett-peak-rockslide-in-rocky-mountains-national-park-captured-by-hiker/73-2c76e565-9ab1-4cf4-a985-39ea7e229fad
+
+# 
+# sta_nearby
+# 
+# SRid|Eventid|Sid|StasourceRadiusKm|Az|Baz|DetectVHF|DetectHF|DetectIP|DetectLP|DetectINFRA
+201040|287|43248|90.209|79.42|260.1|None|None|None|0|None
+201041|287|43249|90.209|79.42|260.1|None|None|None|0|None
+201042|287|43250|90.209|79.42|260.1|None|None|None|1|None
+201043|287|43251|30.683|15.32|195.38|None|0|None|0|None
+201044|287|43252|30.683|15.32|195.38|None|0|None|0|None
+201045|287|43253|30.683|15.32|195.38|None|1|None|0|None
+201046|287|43254|69.412|341.56|161.39|None|1|None|0|None
+201047|287|43255|69.412|341.56|161.39|None|1|None|0|None
+201048|287|43256|69.412|341.56|161.39|None|1|None|0|None
+201049|287|1204|73.889|147.47|327.77|None|None|None|None|None
+201050|287|1206|56.552|60.93|241.31|None|None|None|None|None
+201051|287|1207|76.455|133.99|314.4|None|None|None|None|None
+201052|287|1305|56.093|173.86|353.9|None|1|None|1|None
+201053|287|1306|56.093|173.86|353.9|None|1|None|1|None
+201054|287|1307|56.093|173.86|353.9|None|1|None|1|None
+201055|287|8098|91.85|79.64|260.33|None|0|None|None|None
+201056|287|8099|91.85|79.64|260.33|None|0|None|None|None
+201057|287|8100|91.85|79.64|260.33|None|0|None|None|None
+205772|287|43469|69.412|341.56|161.39|None|None|None|None|0
+205773|287|43470|69.412|341.56|161.39|None|None|None|None|None
+241096|287|32510|136.597|281.1|100.08|None|None|None|0|None
+241097|287|32511|136.597|281.1|100.08|None|None|None|0|None
+241098|287|32512|136.597|281.1|100.08|None|None|None|1|None
+241099|287|50426|155.464|162.67|343.01|None|None|None|0|None
+241100|287|50427|155.464|162.67|343.01|None|None|None|0|None
+241101|287|50428|155.464|162.67|343.01|None|None|None|1|None
+241102|287|50429|160.705|235.54|54.55|None|None|None|0|None
+241103|287|50430|160.705|235.54|54.55|None|None|None|0|None
+241104|287|50431|160.705|235.54|54.55|None|None|None|0|None
+241105|287|50432|270.132|345.21|164.66|None|None|None|0|None
+241106|287|50433|270.132|345.21|164.66|None|None|None|0|None
+241107|287|50434|270.132|345.21|164.66|None|None|None|0|None
+241108|287|50435|298.858|117.67|299.62|None|None|None|0|None
+241109|287|50436|298.858|117.67|299.62|None|None|None|0|None
+241110|287|50437|298.858|117.67|299.62|None|None|None|0|None
+241111|287|32333|218.531|265.95|84.3|None|None|None|0|None
+241112|287|32334|218.531|265.95|84.3|None|None|None|0|None
+241113|287|32335|218.531|265.95|84.3|None|None|None|0|None
+241114|287|1311|284.24|176.76|356.87|None|None|None|0|None
+241115|287|1312|284.24|176.76|356.87|None|None|None|0|None
+241116|287|1313|284.24|176.76|356.87|None|None|None|0|None
+
+# 
+# stations
+# 
+# Sid|Name|Network|Channel|LocationCode|Latitude|Longitude|ElevationMasl|Source
+43248|CHIL|C0|HHE|00|40.446466|-104.638217|1423.7|IRIS
+43249|CHIL|C0|HHN|00|40.446466|-104.638217|1423.7|IRIS
+43250|CHIL|C0|HHZ|00|40.446466|-104.638217|1423.7|IRIS
+43251|MCSU|C0|HHE|00|40.568455|-105.587774|2756.1|IRIS
+43252|MCSU|C0|HHN|00|40.568455|-105.587774|2756.1|IRIS
+43253|MCSU|C0|HHZ|00|40.568455|-105.587774|2756.1|IRIS
+43254|N23A|C0|HHE|00|40.8947|-105.944|2452.3|IRIS
+43255|N23A|C0|HHN|00|40.8947|-105.944|2452.3|IRIS
+43256|N23A|C0|HHZ|00|40.8947|-105.944|2452.3|IRIS
+1204|PPCSM|PN|BHZ||39.74|-105.22|1847.0|IRIS
+1206|PPRMH|PN|BHZ||40.548|-105.1|1556.0|IRIS
+1207|PPWES|PN|BHZ||39.822|-105.041|1297.0|IRIS
+1305|ISCO|US|BH1|00|39.7997|-105.6134|2743.0|IRIS
+1306|ISCO|US|BH2|00|39.7997|-105.6134|2743.0|IRIS
+1307|ISCO|US|BHZ|00|39.7997|-105.6134|2743.0|IRIS
+8098|GRWE|XU|EH1|00|40.4459|-104.61846|1417.0|IRIS
+8099|GRWE|XU|EH2|00|40.4459|-104.61846|1417.0|IRIS
+8100|GRWE|XU|EHZ|00|40.4459|-104.61846|1417.0|IRIS
+43469|N23A|C0|BDF|EP|40.8947|-105.944|2452.3|IRIS
+43470|N23A|C0|LDF|EP|40.8947|-105.944|2452.3|IRIS
+32510|HAYD|C0|HHE|00|40.52806|-107.26551|2202.3|IRIS
+32511|HAYD|C0|HHN|00|40.52806|-107.26551|2202.3|IRIS
+32512|HAYD|C0|HHZ|00|40.52806|-107.26551|2202.3|IRIS
+50426|Q24A|C0|HHE|00|38.9641|-105.1492|2772.3|IRIS
+50427|Q24A|C0|HHN|00|38.9641|-105.1492|2772.3|IRIS
+50428|Q24A|C0|HHZ|00|38.9641|-105.1492|2772.3|IRIS
+50429|SPVA|C0|HHE|00|39.472632|-107.223353|2175.2|IRIS
+50430|SPVA|C0|HHN|00|39.472632|-107.223353|2175.2|IRIS
+50431|SPVA|C0|HHZ|00|39.472632|-107.223353|2175.2|IRIS
+50432|K22A|N4|HH1|00|42.6507|-106.524|1686.0|IRIS
+50433|K22A|N4|HH2|00|42.6507|-106.524|1686.0|IRIS
+50434|K22A|N4|HHZ|00|42.6507|-106.524|1686.0|IRIS
+50435|KSCO|N4|HH1|00|39.0112|-102.6273|1382.0|IRIS
+50436|KSCO|N4|HH2|00|39.0112|-102.6273|1382.0|IRIS
+50437|KSCO|N4|HHZ|00|39.0112|-102.6273|1382.0|IRIS
+32333|O20A|N4|HH1|00|40.1348|-108.2416|1915.0|IRIS
+32334|O20A|N4|HH2|00|40.1348|-108.2416|1915.0|IRIS
+32335|O20A|N4|HHZ|00|40.1348|-108.2416|1915.0|IRIS
+1311|SDCO|US|BH1|00|37.7456|-105.5012|2569.0|IRIS
+1312|SDCO|US|BH2|00|37.7456|-105.5012|2569.0|IRIS
+1313|SDCO|US|BHZ|00|37.7456|-105.5012|2569.0|IRIS
+

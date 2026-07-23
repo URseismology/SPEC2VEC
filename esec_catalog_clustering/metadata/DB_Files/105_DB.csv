@@ -1,0 +1,40 @@
+# 
+# events
+# 
+# Eventid|Name|Starttime|Endtime|Latitude|Longitude|LocuncertKm|CrownLat|CrownLon|TipLat|TipLon|Type|AreaTotal|AreaSource|AreaSourceLow|AreaSourceHigh|Volume|VolumeLow|VolumeHigh|Mass|MassLow|MassHigh|H|HLow|HHigh|L|LLow|LHigh|Otherdataquality1to5|LPpotential|MaxdisthfKm|MaxdisthfReached|MaxdistlpKm|MaxdistlpReached|DatLocation|Sources
+105|Mount Baker|1977-07-14 04:19:55|1977-07-14 04:21:10|48.773122|-121.81685|0.05|48.773122|-121.81685|46.179851|-122.111053|ice avalanche|None|None|None|None|300000.0|None|None|None|None|None|220.0|190.0|250.0|480.0|430.0|530.0|3|0|38.0|0|0.0|None|No digital data|Allstadt, Kate E., McVey, Brennah G., and Malone, Stephen D., 2017, Seismogenic Landslides, Debris Flows, and Outburst Floods in the Western United States and Canada from 1977 to 2017: U.S. Geological Survey data release, https://doi.org/10.5066/F7251H3W.
+
+
+# 
+# information
+# 
+# Infoid|Eventid|Refid|Note|Photoid|Gisid|ApplyAlso
+200|105|None|Photos from before and after the avalanche show area of slide and debris field|68|None|None
+203|105|None|No digital data available for this event, but a paper record of seismic data is available.|70|None|None
+263|105|68|Start time, end time, location, location uncertainty, top and toe location, H, L, and maxdistHF_km, all from Steve Malone. (written communication).  "In July 1977, a massive ice avalanche involving 3 X 10^5 m3 of ice and snow occurred in Sherman Crater. This avalanche was indirectly caused by heat from the new fumaroles melting a large pit in the lower part of the glacier descending from the summit of Mount Baker.  Early on 13 July 1977, the number of glacier events began increasing, building up exponentially to a pair of very large events which occurred at about 11.20 p.m. local time. The avalanche involved massive failure of the glacier on its base, and it is likely that many of the detected events involved preliminary basal sliding." "There are no digital records from this period"|None|None|None
+
+# 
+# photos
+# 
+# Photoid|Eventid|Photographer|Description|Latitude|Longitude|Date|FileExtension|ApplyAlso
+68|105|Steve Malone|Photos before avalanche Oct 16, 1976 and after Jul 22, 1977.|None|None|2010-12-12 16:07:27|event_data/105_MountBaker_14Jul1977/photos_figures/105_MountBaker_14Jul1977_source-SteveMalone_1.jpg|None
+69|105|Steve Malone|Outline of slide area on topo map|None|None|None|event_data/105_MountBaker_14Jul1977/photos_figures/105_MountBaker_14Jul1977_source-SteveMalone_11.png|None
+70|105|Steve Malone|Pre-Digital Seismic Data|None|None|None|event_data/105_MountBaker_14Jul1977/photos_figures/105_MountBaker_14Jul1977_source-SteveMalone_13.png|None
+722|105|Steve Malone|Photos before avalanche Oct 16, 1976 and after Jul 22, 1977.|None|None|2010-12-12 16:07:28|event_data/105_MountBaker_14Jul1977/photos_figures/105_MountBaker_14Jul1977_source-SteveMalone_2.jpg|None
+723|105|Steve Malone|Photos before avalanche Oct 16, 1976 and after Jul 22, 1977.|None|None|2010-12-12 16:07:27|event_data/105_MountBaker_14Jul1977/photos_figures/105_MountBaker_14Jul1977_source-SteveMalone_3.jpg|None
+724|105|Steve Malone|Photos before avalanche Oct 16, 1976 and after Jul 22, 1977.|None|None|2010-12-12 16:07:27|event_data/105_MountBaker_14Jul1977/photos_figures/105_MountBaker_14Jul1977_source-SteveMalone_4.jpg|None
+725|105|Steve Malone|Photos before avalanche Oct 16, 1976 and after Jul 22, 1977.|None|None|2010-12-12 16:07:27|event_data/105_MountBaker_14Jul1977/photos_figures/105_MountBaker_14Jul1977_source-SteveMalone_5.jpg|None
+726|105|Steve Malone|Photos before avalanche Oct 16, 1976 and after Jul 22, 1977.|None|None|2010-12-12 16:07:28|event_data/105_MountBaker_14Jul1977/photos_figures/105_MountBaker_14Jul1977_source-SteveMalone_6.jpg|None
+727|105|Steve Malone|Photos before avalanche Oct 16, 1976 and after Jul 22, 1977.|None|None|2010-12-12 16:04:42|event_data/105_MountBaker_14Jul1977/photos_figures/105_MountBaker_14Jul1977_source-SteveMalone_7.jpg|None
+728|105|Steve Malone|Photos before avalanche Oct 16, 1976 and after Jul 22, 1977.|None|None|2010-12-12 16:04:42|event_data/105_MountBaker_14Jul1977/photos_figures/105_MountBaker_14Jul1977_source-SteveMalone_8.jpg|None
+729|105|Steve Malone|Photos before avalanche Oct 16, 1976 and after Jul 22, 1977.|None|None|2010-12-12 16:04:42|event_data/105_MountBaker_14Jul1977/photos_figures/105_MountBaker_14Jul1977_source-SteveMalone_9.jpg|None
+730|105|Steve Malone|Photos before avalanche Oct 16, 1976 and after Jul 22, 1977.|None|None|2010-12-12 16:04:42|event_data/105_MountBaker_14Jul1977/photos_figures/105_MountBaker_14Jul1977_source-SteveMalone_10.jpg|None
+
+# 
+# reference
+# 
+# Refid|Eventid|ApplyAlso|LongRef|ShortRef|FileExtension|Url
+68|105|None|Malone, S.D., 2017, written communication|Malone (written commun., 2017)|None|None
+
+
+

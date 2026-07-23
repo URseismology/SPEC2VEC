@@ -1,0 +1,215 @@
+# 
+# events
+# 
+# Eventid|Name|Starttime|Endtime|Latitude|Longitude|LocuncertKm|CrownLat|CrownLon|TipLat|TipLon|Type|AreaTotal|AreaSource|AreaSourceLow|AreaSourceHigh|Volume|VolumeLow|VolumeHigh|Mass|MassLow|MassHigh|H|HLow|HHigh|L|LLow|LHigh|HFreefall|HFreefallLow|HFreefallHigh|UpstreamDrainarea|PeakDischarge|PeakDischargeLow|PeakDischargeHigh|PeakFlowheight|PeakFlowheightLow|PeakFlowheightHigh|Otherdataquality1to5|LPpotential|MaxdistvhfKm|MaxdistvhfReached|MaxdisthfKm|MaxdisthfReached|MaxdistipKm|MaxdistipReached|MaxdistlpKm|MaxdistlpReached|InfraDetected|MaxdistinfraKm|MaxdistinfraReached|DatLocation|Sources
+32|Mount Rainier|2015-08-13 16:49:48|2015-08-13 20:00:00|46.81934|-121.81323|13.0|None|None|None|None|outburst flood, debris flow|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|3|0|None|None|25.0|1|None|None|0.0|None|0|0.0|None|IRIS|Allstadt, Kate E., McVey, Brennah G., and Malone, Stephen D., 2017, Seismogenic Landslides, Debris Flows, and Outburst Floods in the Western United States and Canada from 1977 to 2017: U.S. Geological Survey data release, https://doi.org/10.5066/F7251H3W.
+
+
+# 
+# information
+# 
+# Iid|Eventid|RefId|Note|PhoId|GISId|ApplyAlso
+25|32|18|PNSN blog entry by Malone, S. (2015) states it was likely started as a glacial outburst from South Tahoma Glacier, pulses of flood noise over three hours|None|None|None
+26|32|19|News Release from Mount Rainier National Park: "A glacial outburst flood and debris flow occurred at Tahoma Creek in Mount Rainier National Park beginning at approximately 9:40 am. The glacial outburst flood originated from the South Tahoma Glacier as a 0.5 acre portion of the terminus of the glacier broke off and quickly released water stored in the glacier. The debris flow was also recorded by seismic monitoring equipment at Emerald Ridge in Mount Rainier National Park at 9:40 am, 10:30 am, 11:30 am and 12:40 pm. The largest event was recorded at 11:30 am and generated a debris flow that reached the Westside Road at approximately 12:00 p.m. As the outburst flood moved down valley, it carried sediment, rocks, and uprooted trees and deposited the debris within the Tahoma Creek valley. A stream gage on the Nisqually River at National registered the 0.5 foot river rise on Thursday afternoon."|None|None|None
+279|32|90|USGS Volcanoes Page posting: "On August 13, a series of small debris flows rumbled down Tahoma Creek, in Mount Rainier National Park. Damage was limited to the stream channel inside the Park and Mount Rainier's Westside Road."  "Observations indicate the debris flows appear to have started at the terminus of South Tahoma Glacier. Some sediment from the debris flow was visible 8 miles downstream at the Highway 706 crossing."  "The vibrations from the debris flow are recorded on seismograms from Rainier station RER, located at Emerald Ridge overlooking Tahoma Creek. The debris flow signal starts at ~9:50 AM PDT. Signals are emergent, pulsatory, and relatively high-frequency - all characteristics of debris flows. There was a period of time from ~9:50 AM through to ~12:45 PM where signals were occurring relatively continuously, with several tens-of-minutes-long higher-amplitude bursts that probably correspond to major debris-flow pulses. No debris-flow-like signals showed up overnight. Water stored in the glacier was released and quickly gathered up loose mud, sand, soil, and rock to form a debris flow."|None|None|None
+280|32|89|Timeline estimates from Seth Moran (written communication) All times in PDT:
+09:49 - first hint of a debris-flow signal (relatively weak)
+10:01 - end of first discrete debris-flow signal/event, RER mostly
+back to background
+10:16 - start of second discrete event, initially same amplitude as
+first.
+10:19-10:21 - signal amplitude gradually increases
+10:30-10:33 - largest-amplitude signals for second event
+10:44 - amplitudes down to levels equivalent to first event
+10:44-11:02 - persistent low-amplitude debris-flow signals with
+several pulses that are lower-amplitude than the second event but
+larger than the first
+11:02-11:21 - RER back to background
+11:21 - start of third discrete event, amplitudes initially equivalent
+to second event
+11:25 - amplitudes start to increase
+11:27 - amplitudes equivalent to peak amplitudes of second discrete
+event
+11:34 - amplitudes exceed those of second discrete event
+11:41-11:43 - largest-amplitude signals for third event & for the
+entire debris flow sequence
+11:43 - amplitudes begin to decay
+11:48-11:52 - data gap
+11:52-12:20 - persistent low-amplitude debris-flow signals, however no
+obvious pulses
+12:26 - start of fourth discrete event
+12:29 - amplitudes start to increase
+12:31-12:34 - largest-amplitude signals for the fourth discrete event,
+equivalent-to-maybe-a-smidgen-larger-then the max amplitudes of second
+discrete event.
+12:34 - amplitudes begin to decay
+12:43 - RER back to background, no more obvious debris-flow signals
+after this.|None|None|None
+
+# 
+# photos
+# 
+# PhotoId|Eventid|Photographer|Description|Latitude|Longitude|Date|FileExtension|ApplyAlso
+3|32|Scott Beason|Photos||||EventData/32_MountRainier_13Aug2015/photos_figures/32_MountRainier_13Aug2015_source-ScottBeason_1.jpg|None
+4|32|Zachary Jones|Video|None|None|None|EventData/32_MountRainier_13Aug2015/photos_figures/32_MountRainier_13Aug2015_source-ZacharyJones_3.mov|None
+548|32|Kate Allstadt|Raw waveforms from closest stations. Data was demeaned but no other processing was applied. Dashed lines show approximate start and end times of event (from database). Figure generation is automated and there may be artifacts present.|None|None|None|EventData/32_MountRainier_13Aug2015/photos_figures/32_MountRainier_13Aug2015_waveforms_raw.png|None
+549|32|Kate Allstadt|High frequency (1-5 Hz) ground velocity waveforms for station response from closest stations with detections. Dashed lines show approximate start and end times of event (from database). Waveforms are corrected for station response after removing the mean. Figure generation is automated and there may be artifacts present. Clipped waveforms have not been removed before station correction so check raw plots before interpreting high amplitude signals.|None|None|None|EventData/32_MountRainier_13Aug2015/photos_figures/32_MountRainier_13Aug2015_waveforms_1-5Hz.png|None
+550|32|Kate Allstadt|Spectrograms of velocity waveforms corrected for station sensitivity from closest stations with detections. Figure generation is automated and there may be artifacts present|None|None|None|EventData/32_MountRainier_13Aug2015/photos_figures/32_MountRainier_13Aug2015_spectrogram.png|None
+551|32|Kate Allstadt|Multitaper spectra (same units as Power Spectral Density) of velocity waveforms corrected for station sensitivity from closest stations with detections. Linear trend was removed and a taper was applied before generating spectra. Figure generation is automated and there may be artifacts present. Since station response was not removed to avoid adding artifacts at low frequencies for short and intermediate period stations, the lower frequency amplitudes should be interpreted with care.|None|None|None|EventData/32_MountRainier_13Aug2015/photos_figures/32_MountRainier_13Aug2015_spectra.png|None
+1598|32|Scott Beason|Photos||||EventData/32_MountRainier_13Aug2015/photos_figures/32_MountRainier_13Aug2015_source-ScottBeason_2.jpg|None
+
+# 
+# reference
+# 
+# Refid|Eventid|ApplyAlso|LongRef|ShortRef|FileExtension|Url
+18|32|36|Malone, S., 14 September 2015, Summer rockfall time, yet again [Blog Post], Pacific Northwest Seismic Network, Accessed 23 July 2016, at https://www.pnsn.org/blog/2015/08/21/summer-rockfall-time-yet-again|Malone (2015)a|None|https://www.pnsn.org/blog/2015/08/21/summer-rockfall-time-yet-again
+19|32|None|Steichen, K., 14 August 2015, Glacier Outburst Flood and Debris Flow Occurs at Mount Rainier National Park [News Release], Mount Rainier National Park, Accessed 23 July 2016, at https://www.nps.gov/mora/learn/news/westside-road-outburst-flood.htm|Steichen (2015)|None|https://www.nps.gov/mora/learn/news/westside-road-outburst-flood.htm
+89|32|None|Moran, S.C., 2015, written communication|Moran (written commun., 2015)|None|None
+90|32|None|USGS Volcanoes, 14 August 2015, Facebook post, Accessed 22 March 2017, at https://www.facebook.com/USGSVolcanoes/photos/pcb.1101881416507085/1101881253173768/?type=1|USGS Volcanoes Page (2015)|None|https://www.facebook.com/USGSVolcanoes/photos/pcb.1101881416507085/1101881253173768/?type=1&theater
+
+# 
+# sta_nearby
+# 
+# SRid|Eventid|Sid|StasourceRadiusKm|Az|Baz|DetectVHF|DetectHF|DetectIP|DetectLP|DetectINFRA
+18238|32|79|8.937|358.97|178.97|None|1|None|None|None
+18239|32|80|8.937|358.97|178.97|None|1|None|None|None
+18240|32|81|8.937|358.97|178.97|None|1|None|None|None
+18241|32|82|13.742|71.22|251.35|None|None|None|None|None
+18242|32|83|13.742|71.22|251.35|None|None|None|None|None
+18243|32|84|13.742|71.22|251.35|None|None|None|None|None
+18244|32|5579|22.383|70.36|250.56|None|None|None|None|None
+18245|32|5580|22.383|70.36|250.56|None|None|None|None|None
+18246|32|5581|22.383|70.36|250.56|None|None|None|None|None
+18247|32|134|17.367|38.57|218.68|None|1|None|None|None
+18248|32|143|7.647|177.92|357.92|None|1|None|None|None
+18249|32|144|7.647|177.92|357.92|None|1|None|None|None
+18250|32|145|7.647|177.92|357.92|None|1|None|None|None
+18251|32|146|7.647|177.92|357.92|None|1|None|None|None
+18252|32|147|7.647|177.92|357.92|None|None|None|None|None
+18253|32|158|6.386|73.49|253.54|None|0|None|None|None
+18254|32|159|6.386|73.49|253.54|None|0|None|None|None
+18255|32|160|6.386|73.49|253.54|None|None|None|None|None
+18256|32|161|8.418|47.13|227.19|None|1|None|None|None
+18257|32|162|2.206|269.17|89.15|None|1|None|None|None
+18258|32|163|18.516|318.56|138.44|None|0|None|None|None
+18259|32|169|3.829|23.82|203.84|None|1|None|None|None
+18260|32|170|3.829|23.82|203.84|None|1|None|None|None
+18261|32|171|3.829|23.82|203.84|None|1|None|None|None
+18262|32|183|24.986|122.38|302.58|None|1|None|None|None
+18263|32|5582|27.92|218.95|38.78|None|None|None|None|None
+18264|32|5583|27.92|218.95|38.78|None|None|None|None|None
+18265|32|5584|27.92|218.95|38.78|None|None|None|None|None
+54065|32|116|36.089|301.2|120.91|None|None|None|None|None
+54066|32|117|36.089|301.2|120.91|None|None|None|None|None
+54067|32|118|36.089|301.2|120.91|None|None|None|None|None
+54068|32|135|42.892|305.32|124.99|None|None|None|None|None
+54069|32|136|32.973|151.9|332.05|None|None|None|None|None
+54070|32|138|42.672|1.78|181.79|None|None|None|None|None
+54071|32|141|49.293|216.62|36.34|None|None|None|None|None
+54072|32|173|43.115|342.02|161.9|None|None|None|None|None
+54073|32|174|43.115|342.02|161.9|None|None|None|None|None
+54074|32|175|43.115|342.02|161.9|None|None|None|None|None
+54075|32|8231|32.342|257.31|77.01|None|None|None|None|None
+54076|32|8232|32.342|257.31|77.01|None|None|None|None|None
+54077|32|8233|32.342|257.31|77.01|None|None|None|None|None
+54078|32|8234|42.021|238.5|58.16|None|None|None|None|None
+54079|32|8235|42.021|238.5|58.16|None|None|None|None|None
+54080|32|8236|42.021|238.5|58.16|None|None|None|None|None
+54081|32|8237|39.692|221.65|41.4|None|None|None|None|None
+54082|32|8238|39.692|221.65|41.4|None|None|None|None|None
+54083|32|8239|39.692|221.65|41.4|None|None|None|None|None
+54084|32|8240|31.717|201.26|21.15|None|None|None|None|None
+54085|32|8241|31.717|201.26|21.15|None|None|None|None|None
+54086|32|8242|31.717|201.26|21.15|None|None|None|None|None
+54087|32|8243|48.475|227.39|47.05|None|None|None|None|None
+54088|32|8244|48.475|227.39|47.05|None|None|None|None|None
+54089|32|8245|48.475|227.39|47.05|None|None|None|None|None
+54090|32|8246|36.111|166.91|346.99|None|None|None|None|None
+54091|32|8247|36.111|166.91|346.99|None|None|None|None|None
+54092|32|8248|36.111|166.91|346.99|None|None|None|None|None
+54093|32|5588|49.293|216.73|36.45|None|None|None|None|None
+54094|32|5589|49.293|216.73|36.45|None|None|None|None|None
+54095|32|5590|49.293|216.73|36.45|None|None|None|None|None
+54096|32|8258|39.931|185.79|5.75|None|None|None|None|None
+54097|32|8259|39.931|185.79|5.75|None|None|None|None|None
+54098|32|8260|39.931|185.79|5.75|None|None|None|None|None
+54099|32|8261|46.099|198.37|18.24|None|None|None|None|None
+54100|32|8262|46.099|198.37|18.24|None|None|None|None|None
+54101|32|8263|46.099|198.37|18.24|None|None|None|None|None
+54102|32|8264|47.874|184.4|4.37|None|None|None|None|None
+54103|32|8265|47.874|184.4|4.37|None|None|None|None|None
+54104|32|8266|47.874|184.4|4.37|None|None|None|None|None
+
+# 
+# stations
+# 
+# Sid|Name|Network|Channel|LocationCode|Latitude|Longitude|ElevationMasl|Source
+79|OBSR|CC|BHE||46.899719|-121.815331|2382.0|IRIS
+80|OBSR|CC|BHN||46.899719|-121.815331|2382.0|IRIS
+81|OBSR|CC|BHZ||46.899719|-121.815331|2382.0|IRIS
+82|PANH|CC|BHE||46.859|-121.64261|2109.0|IRIS
+83|PANH|CC|BHN||46.859|-121.64261|2109.0|IRIS
+84|PANH|CC|BHZ||46.859|-121.64261|2109.0|IRIS
+5579|SR41|CC|EHE||46.88668|-121.536642|1454.3|IRIS
+5580|SR41|CC|EHN||46.88668|-121.536642|1454.3|IRIS
+5581|SR41|CC|EHZ||46.88668|-121.536642|1454.3|IRIS
+134|FMW|UW|EHZ||46.94139|-121.67101|1859.0|IRIS
+143|LO2|UW|EHZ||46.7506|-121.8096|853.0|IRIS
+144|LON|UW|BHE||46.7506|-121.8096|853.0|IRIS
+145|LON|UW|BHN||46.7506|-121.8096|853.0|IRIS
+146|LON|UW|BHZ||46.7506|-121.8096|853.0|IRIS
+147|LON|UW|EHZ||46.7506|-121.8096|853.0|IRIS
+158|RCM|UW|EH1||46.83564|-121.732979|3085.0|IRIS
+159|RCM|UW|EH2||46.83564|-121.732979|3085.0|IRIS
+160|RCM|UW|EHZ||46.83564|-121.732979|3085.0|IRIS
+161|RCS|UW|EHZ||46.87083|-121.73231|2877.0|IRIS
+162|RER|UW|EHZ||46.81905|-121.84213|1756.0|IRIS
+163|RVC|UW|EHZ||46.94408|-121.97419|1000.0|IRIS
+169|STAR|UW|EHE||46.850849|-121.792953|3365.0|IRIS
+170|STAR|UW|EHN||46.850849|-121.792953|3365.0|IRIS
+171|STAR|UW|EHZ||46.850849|-121.792953|3365.0|IRIS
+183|WPW|UW|EHZ||46.69864|-121.53734|1280.0|IRIS
+5582|MB07|XD|BHE||46.62378|-122.04239|2516.0|IRIS
+5583|MB07|XD|BHN||46.62378|-122.04239|2516.0|IRIS
+5584|MB07|XD|BHZ||46.62378|-122.04239|2516.0|IRIS
+116|B941|PB|EH1||46.9868|-122.219|151.0|IRIS
+117|B941|PB|EH2||46.9868|-122.219|151.0|IRIS
+118|B941|PB|EHZ||46.9868|-122.219|151.0|IRIS
+135|GHW|UW|EHZ||47.04149|-122.27373|268.0|IRIS
+136|GLK|UW|EHZ||46.5575|-121.61073|1305.0|IRIS
+138|GSM|UW|EHZ||47.20299|-121.79572|1305.0|IRIS
+141|KOS|UW|EHZ||46.4628|-122.19602|610.0|IRIS
+173|STOR|UW|HHE||47.1881|-121.9888|266.4|IRIS
+174|STOR|UW|HHN||47.1881|-121.9888|266.4|IRIS
+175|STOR|UW|HHZ||47.1881|-121.9888|266.4|IRIS
+8231|MA05|XD|BHE||46.75467|-122.22619|1601.0|IRIS
+8232|MA05|XD|BHN||46.75467|-122.22619|1601.0|IRIS
+8233|MA05|XD|BHZ||46.75467|-122.22619|1601.0|IRIS
+8234|MB05|XD|BHE||46.62087|-122.28102|2102.0|IRIS
+8235|MB05|XD|BHN||46.62087|-122.28102|2102.0|IRIS
+8236|MB05|XD|BHZ||46.62087|-122.28102|2102.0|IRIS
+8237|MC06|XD|BHE||46.55202|-122.1572|2526.0|IRIS
+8238|MC06|XD|BHN||46.55202|-122.1572|2526.0|IRIS
+8239|MC06|XD|BHZ||46.55202|-122.1572|2526.0|IRIS
+8240|MC08|XD|BHE||46.55335|-121.96322|2076.0|IRIS
+8241|MC08|XD|BHN||46.55335|-121.96322|2076.0|IRIS
+8242|MC08|XD|BHZ||46.55335|-121.96322|2076.0|IRIS
+8243|MD05|XD|BHE||46.52316|-122.27817|2354.0|IRIS
+8244|MD05|XD|BHN||46.52316|-122.27817|2354.0|IRIS
+8245|MD05|XD|BHZ||46.52316|-122.27817|2354.0|IRIS
+8246|MD09|XD|BHE||46.50288|-121.70671|3145.0|IRIS
+8247|MD09|XD|BHN||46.50288|-121.70671|3145.0|IRIS
+8248|MD09|XD|BHZ||46.50288|-121.70671|3145.0|IRIS
+5588|ME06|XD|BHE||46.46329|-122.19697|2109.0|IRIS
+5589|ME06|XD|BHN||46.46329|-122.19697|2109.0|IRIS
+5590|ME06|XD|BHZ||46.46329|-122.19697|2109.0|IRIS
+8258|ME08|XD|BHE||46.46195|-121.86564|1963.0|IRIS
+8259|ME08|XD|BHN||46.46195|-121.86564|1963.0|IRIS
+8260|ME08|XD|BHZ||46.46195|-121.86564|1963.0|IRIS
+8261|MF07|XD|BHE||46.42563|-122.00227|1690.0|IRIS
+8262|MF07|XD|BHN||46.42563|-122.00227|1690.0|IRIS
+8263|MF07|XD|BHZ||46.42563|-122.00227|1690.0|IRIS
+8264|MF09|XD|BHE||46.38994|-121.861|3911.0|IRIS
+8265|MF09|XD|BHN||46.38994|-121.861|3911.0|IRIS
+8266|MF09|XD|BHZ||46.38994|-121.861|3911.0|IRIS
+

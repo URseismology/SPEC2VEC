@@ -1,0 +1,189 @@
+# 
+# events
+# 
+# Eventid|Name|Starttime|Endtime|Latitude|Longitude|LocuncertKm|CrownLat|CrownLon|TipLat|TipLon|Type|AreaTotal|AreaSource|AreaSourceLow|AreaSourceHigh|Volume|VolumeLow|VolumeHigh|Mass|MassLow|MassHigh|H|HLow|HHigh|L|LLow|LHigh|HFreefall|HFreefallLow|HFreefallHigh|UpstreamDrainarea|PeakDischarge|PeakDischargeLow|PeakDischargeHigh|PeakFlowheight|PeakFlowheightLow|PeakFlowheightHigh|Otherdataquality1to5|LPpotential|MaxdistvhfKm|MaxdistvhfReached|MaxdisthfKm|MaxdisthfReached|MaxdistipKm|MaxdistipReached|MaxdistlpKm|MaxdistlpReached|InfraDetected|MaxdistinfraKm|MaxdistinfraReached|DatLocation|Sources
+276|Museum Fire, Arizona|2020-07-24 21:41:25|2020-07-24 22:18:11|35.26|-111.62292|0.0|None|None|None|None|debris flow|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|3.0|6.0|None|None|None|5|0|2.0|1|2.0|1|None|None|0.0|None|None|None|None|IRIS|Collins, E.A., Allstadt, K.E., Groult, C., Hibert, C., Malet, J.-P., Toney, L.D., and Jensen, E.K., 2022, Seismogenic Landslides and other Mass Movements (ver. 2.0, December 2023): U.S. Geological Survey data release, https://doi.org/10.5066/P90VGCSK.
+
+
+# 
+# information
+# 
+# Iid|Eventid|RefId|Note|PhoId|GISId|ApplyAlso
+666|276|274|Low and high peak discharges taken from Porter and others (2021) based on high water marks on the upstream flow gauge.|None|None|None
+667|276|274|This event occurred in the northern portion of the Museum Fire burn area during a monsoonal storm where ~18 mm/hr of rain was recorded at the Museum Fire North rain gauge. The Museum Fire occurred in late July, 2019, and burned ~8 km2 of the Spruce Avenue Wash Watershed, north of Flagstaff, Arizona (Porter and others, 2019).|None|None|None
+
+# 
+# photos
+# 
+# PhotoId|Eventid|Photographer|Description|Latitude|Longitude|Date|FileExtension|ApplyAlso
+1438|276|Elaine Collins|Raw waveforms from closest stations. Data was demeaned but no other processing was applied. Dashed lines show approximate start and end times of event (from database). Figure generation is automated and there may be artifacts present.|None|None|None|EventData/276_MuseumFireArizona_24Jul2020/photos_figures/276_MuseumFireArizona_24Jul2020_waveforms_raw.png|None
+1439|276|Elaine Collins|High frequency (1-5 Hz) ground velocity waveforms from closest stations with detections. Dashed lines show approximate start and end times of event (from database). Waveforms are corrected for station response after removing the mean. Figure generation is automated and there may be artifacts present. Clipped waveforms have not been removed before station correction so check raw plots before interpreting high amplitude signals.|None|None|None|EventData/276_MuseumFireArizona_24Jul2020/photos_figures/276_MuseumFireArizona_24Jul2020_waveforms_1-5Hz.png|None
+1440|276|Elaine Collins|Spectrograms of velocity waveforms corrected for station sensitivity from closest stations with detections. Figure generation is automated and there may be artifacts present|None|None|None|EventData/276_MuseumFireArizona_24Jul2020/photos_figures/276_MuseumFireArizona_24Jul2020_spectrogram.png|None
+1441|276|Elaine Collins|Multitaper spectra (same units as Power Spectral Density) of velocity waveforms corrected for station sensitivity from closest stations with detections. Linear trend was removed and a taper was applied before generating spectra. Figure generation is automated and there may be artifacts present. Since station response was not removed to avoid adding artifacts at low frequencies for short and intermediate period stations, the lower frequency amplitudes should be interpreted with care.|None|None|None|EventData/276_MuseumFireArizona_24Jul2020/photos_figures/276_MuseumFireArizona_24Jul2020_spectra.png|None
+
+# 
+# reference
+# 
+# Refid|Eventid|ApplyAlso|LongRef|ShortRef|FileExtension|Url
+274|276|None|Porter, R., Joyal, T., Beers, R., Loverich, J., LaPlante, A., Spruell, J., Youberg, A., Schenk, E., Robichaud, P.R., and Springer, A.E., 2021, Seismic Monitoring of Post-wildfire Debris Flows Following the 2019 Museum Fire, Arizona: Frontiers in Earth Science, doi: 10.3389/feart.2021.649938.|Porter and others (2021)|None|https://doi.org/10.3389/feart.2021.649938
+
+# 
+# sta_nearby
+# 
+# SRid|Eventid|Sid|StasourceRadiusKm|Az|Baz|DetectVHF|DetectHF|DetectIP|DetectLP|DetectINFRA
+199693|276|43084|0.437|188.14|8.14|1|1|None|None|None
+199694|276|43085|0.437|188.14|8.14|1|1|None|None|None
+199695|276|43086|0.437|188.14|8.14|1|1|None|None|None
+199696|276|41164|0.863|96.64|276.65|1|1|None|0|None
+199697|276|41165|0.863|96.64|276.65|1|1|None|0|None
+199698|276|41166|0.863|96.64|276.65|1|1|None|0|None
+199699|276|43087|1.433|106.18|286.19|0|1|None|None|None
+199700|276|43088|1.433|106.18|286.19|0|1|None|None|None
+199701|276|43089|1.433|106.18|286.19|0|1|None|None|None
+199702|276|43090|1.337|107.38|287.39|1|1|None|None|None
+199703|276|43091|1.337|107.38|287.39|1|1|None|None|None
+199704|276|43092|1.337|107.38|287.39|1|1|None|None|None
+199705|276|43093|1.216|109.17|289.18|1|1|None|None|None
+199706|276|43094|1.216|109.17|289.18|1|1|None|None|None
+199707|276|43095|1.216|109.17|289.18|1|1|None|None|None
+199708|276|43096|1.146|105.73|285.73|1|1|None|None|None
+199709|276|43097|1.146|105.73|285.73|1|1|None|None|None
+199710|276|43098|1.146|105.73|285.73|1|1|None|None|None
+199711|276|43099|1.096|111.36|291.37|0|1|None|None|None
+199712|276|43100|1.096|111.36|291.37|0|1|None|None|None
+199713|276|43101|1.096|111.36|291.37|0|1|None|None|None
+199714|276|43102|0.924|113.35|293.35|1|1|None|None|None
+199715|276|43103|0.924|113.35|293.35|1|1|None|None|None
+199716|276|43104|0.924|113.35|293.35|1|1|None|None|None
+199717|276|43105|0.095|249.53|69.53|1|1|None|None|None
+199718|276|43106|0.095|249.53|69.53|1|1|None|None|None
+199719|276|43107|0.095|249.53|69.53|1|1|None|None|None
+199720|276|43108|1.378|216.38|36.37|0|0|None|None|None
+199721|276|43109|1.378|216.38|36.37|0|0|None|None|None
+199722|276|43110|1.378|216.38|36.37|0|0|None|None|None
+199723|276|41185|1.505|92.95|272.96|0|0|None|0|None
+199724|276|41186|1.505|92.95|272.96|0|0|None|0|None
+199725|276|41187|1.505|92.95|272.96|0|0|None|0|None
+199726|276|41143|90.337|306.84|126.38|None|None|None|None|None
+199727|276|41144|90.337|306.84|126.38|None|None|None|None|None
+199728|276|41145|90.337|306.84|126.38|None|None|None|None|None
+199729|276|41191|10.428|280.25|100.19|None|0|None|0|None
+199730|276|41192|10.428|280.25|100.19|None|0|None|0|None
+199731|276|41193|10.428|280.25|100.19|None|0|None|0|None
+199732|276|41194|101.63|257.43|76.81|None|None|None|None|None
+199733|276|41195|101.63|257.43|76.81|None|None|None|None|None
+199734|276|41196|101.63|257.43|76.81|None|None|None|None|None
+199735|276|43111|187.422|162.27|342.62|None|None|None|None|None
+199736|276|43112|187.422|162.27|342.62|None|None|None|None|None
+199737|276|43113|187.422|162.27|342.62|None|None|None|None|None
+199738|276|32507|142.98|335.21|154.82|None|None|None|None|None
+199739|276|32508|142.98|335.21|154.82|None|None|None|None|None
+199740|276|32509|142.98|335.21|154.82|None|None|None|None|None
+199741|276|43114|172.6|94.69|275.78|None|None|None|None|None
+199742|276|43115|172.6|94.69|275.78|None|None|None|None|None
+199743|276|43116|172.6|94.69|275.78|None|None|None|None|None
+199744|276|43117|94.9|169.86|349.96|None|None|None|None|None
+199745|276|43118|94.9|169.86|349.96|None|None|None|None|None
+199746|276|43119|94.9|169.86|349.96|None|None|None|None|None
+199747|276|43120|173.059|117.45|298.41|None|None|None|None|None
+199748|276|43121|173.059|117.45|298.41|None|None|None|None|None
+199749|276|43122|173.059|117.45|298.41|None|None|None|None|None
+199750|276|43123|193.814|221.24|40.45|None|None|None|None|None
+199751|276|43124|193.814|221.24|40.45|None|None|None|None|None
+199752|276|43125|193.814|221.24|40.45|None|None|None|None|None
+199753|276|5452|104.479|113.08|293.69|None|None|None|None|None
+199754|276|5453|75.154|305.52|125.12|None|None|None|None|None
+199755|276|5454|10.468|190.42|10.41|None|0|None|None|None
+199756|276|5455|10.468|190.42|10.41|None|0|None|None|None
+199757|276|5456|10.468|190.42|10.41|None|0|None|None|None
+199758|276|1763|102.115|330.35|150.02|None|None|None|None|None
+199759|276|5457|54.527|157.41|337.54|None|None|None|None|None
+199760|276|1359|183.473|4.48|184.58|None|None|None|None|None
+199761|276|1764|182.761|310.57|129.66|None|None|None|None|None
+199762|276|5458|59.739|271.25|90.87|None|None|None|None|None
+199763|276|5459|65.061|260.12|79.71|None|None|None|None|None
+199764|276|5528|87.551|106.91|287.44|None|None|None|None|None
+199765|276|5555|36.39|38.37|218.51|None|0|None|0|None
+199766|276|5556|36.39|38.37|218.51|None|0|None|0|None
+199767|276|5557|36.39|38.37|218.51|None|0|None|0|None
+
+# 
+# stations
+# 
+# Sid|Name|Network|Channel|LocationCode|Latitude|Longitude|ElevationMasl|Source
+43084|BOC2|1A|EHE||35.2561|-111.6236|2347.0|IRIS
+43085|BOC2|1A|EHN||35.2561|-111.6236|2347.0|IRIS
+43086|BOC2|1A|EHZ||35.2561|-111.6236|2347.0|IRIS
+41164|COCA|1A|HHE|00|35.2591|-111.6135|2434.0|IRIS
+41165|COCA|1A|HHN|00|35.2591|-111.6135|2434.0|IRIS
+41166|COCA|1A|HHZ|00|35.2591|-111.6135|2434.0|IRIS
+43087|D19A|1A|EHE||35.2564|-111.6078|2676.0|IRIS
+43088|D19A|1A|EHN||35.2564|-111.6078|2676.0|IRIS
+43089|D19A|1A|EHZ||35.2564|-111.6078|2676.0|IRIS
+43090|D19B|1A|EHE||35.2564|-111.6089|2622.0|IRIS
+43091|D19B|1A|EHN||35.2564|-111.6089|2622.0|IRIS
+43092|D19B|1A|EHZ||35.2564|-111.6089|2622.0|IRIS
+43093|D19C|1A|EHE||35.2564|-111.6103|2535.0|IRIS
+43094|D19C|1A|EHN||35.2564|-111.6103|2535.0|IRIS
+43095|D19C|1A|EHZ||35.2564|-111.6103|2535.0|IRIS
+43096|D19D|1A|EHE||35.2572|-111.6108|2512.0|IRIS
+43097|D19D|1A|EHN||35.2572|-111.6108|2512.0|IRIS
+43098|D19D|1A|EHZ||35.2572|-111.6108|2512.0|IRIS
+43099|D19E|1A|EHE||35.2564|-111.6117|2486.0|IRIS
+43100|D19E|1A|EHN||35.2564|-111.6117|2486.0|IRIS
+43101|D19E|1A|EHZ||35.2564|-111.6117|2486.0|IRIS
+43102|D19F|1A|EHE||35.2567|-111.6136|2453.0|IRIS
+43103|D19F|1A|EHN||35.2567|-111.6136|2453.0|IRIS
+43104|D19F|1A|EHZ||35.2567|-111.6136|2453.0|IRIS
+43105|LBB2|1A|EHE||35.2597|-111.6239|2384.0|IRIS
+43106|LBB2|1A|EHN||35.2597|-111.6239|2384.0|IRIS
+43107|LBB2|1A|EHZ||35.2597|-111.6239|2384.0|IRIS
+43108|LG2B|1A|EHE||35.25|-111.6319|2250.0|IRIS
+43109|LG2B|1A|EHN||35.25|-111.6319|2250.0|IRIS
+43110|LG2B|1A|EHZ||35.25|-111.6319|2250.0|IRIS
+41185|UO1A|1A|HHE|00|35.2593|-111.6064|2605.0|IRIS
+41186|UO1A|1A|HHN|00|35.2593|-111.6064|2605.0|IRIS
+41187|UO1A|1A|HHZ|00|35.2593|-111.6064|2605.0|IRIS
+41143|BABIT|AE|HHE||35.745548|-112.422218|1693.6|IRIS
+41144|BABIT|AE|HHN||35.745548|-112.422218|1693.6|IRIS
+41145|BABIT|AE|HHZ||35.745548|-112.422218|1693.6|IRIS
+41191|BARN|AE|HHE||35.27668|-111.73571|2254.0|IRIS
+41192|BARN|AE|HHN||35.27668|-111.73571|2254.0|IRIS
+41193|BARN|AE|HHZ||35.27668|-111.73571|2254.0|IRIS
+41194|PRCT|AE|HHE||35.055786|-112.710289|1410.0|IRIS
+41195|PRCT|AE|HHN||35.055786|-112.710289|1410.0|IRIS
+41196|PRCT|AE|HHZ||35.055786|-112.710289|1410.0|IRIS
+43111|TONTO|AE|HHE||33.649147|-111.007675|660.6|IRIS
+43112|TONTO|AE|HHN||33.649147|-111.007675|660.6|IRIS
+43113|TONTO|AE|HHZ||33.649147|-111.007675|660.6|IRIS
+32507|U15A|AE|HHE||36.428001|-112.291496|2489.0|IRIS
+32508|U15A|AE|HHN||36.428001|-112.291496|2489.0|IRIS
+32509|U15A|AE|HHZ||36.428001|-112.291496|2489.0|IRIS
+43114|W18A|AE|HHE||35.1181|-109.7357|1750.0|IRIS
+43115|W18A|AE|HHN||35.1181|-109.7357|1750.0|IRIS
+43116|W18A|AE|HHZ||35.1181|-109.7357|1750.0|IRIS
+43117|X16A|AE|HHE||34.417801|-111.441101|1759.4|IRIS
+43118|X16A|AE|HHN||34.417801|-111.441101|1759.4|IRIS
+43119|X16A|AE|HHZ||34.417801|-111.441101|1759.4|IRIS
+43120|X18A|AE|HHE||34.529301|-109.950104|1751.0|IRIS
+43121|X18A|AE|HHN||34.529301|-109.950104|1751.0|IRIS
+43122|X18A|AE|HHZ||34.529301|-109.950104|1751.0|IRIS
+43123|Y14A|AE|HHE||33.938301|-113.004799|730.7|IRIS
+43124|Y14A|AE|HHN||33.938301|-113.004799|730.7|IRIS
+43125|Y14A|AE|HHZ||33.938301|-113.004799|730.7|IRIS
+5452|AJAR|AR|EHZ||34.8862|-110.5715|1586.0|IRIS
+5453|CCAZ|AR|EHZ|01|35.65163|-112.298417|1724.0|IRIS
+5454|FLAG|AR|EHE|01|35.1672|-111.6437|2120.0|IRIS
+5455|FLAG|AR|EHN|01|35.1672|-111.6437|2120.0|IRIS
+5456|FLAG|AR|EHZ|01|35.1672|-111.6437|2120.0|IRIS
+1763|GCAZ|AR|EHZ|01|36.058538|-112.183605|2072.0|IRIS
+5457|HTCH|AR|EHZ||34.806|-111.394|2559.0|IRIS
+1359|PGAZ|AR|EHZ|01|36.90833|-111.46205|1326.0|IRIS
+1764|SMAZ|AR|EHZ|01|36.321417|-113.16895|2200.0|IRIS
+5458|TSAZ|AR|EHZ|01|35.27|-112.279333|2313.0|IRIS
+5459|WMZ|AR|EHZ|01|35.157295|-112.326392|2037.0|IRIS
+5528|PPWHS|PN|BHZ||35.027|-110.705|4851.0|IRIS
+5555|WUAZ|US|BH1|00|35.5169|-111.3739|1592.0|IRIS
+5556|WUAZ|US|BH2|00|35.5169|-111.3739|1592.0|IRIS
+5557|WUAZ|US|BHZ|00|35.5169|-111.3739|1592.0|IRIS
+

@@ -1,0 +1,58 @@
+# 
+# events
+# 
+# Eventid|Name|Starttime|Endtime|Latitude|Longitude|LocuncertKm|CrownLat|CrownLon|TipLat|TipLon|Type|AreaTotal|AreaSource|AreaSourceLow|AreaSourceHigh|Volume|VolumeLow|VolumeHigh|Mass|MassLow|MassHigh|H|HLow|HHigh|L|LLow|LHigh|HFreefall|HFreefallLow|HFreefallHigh|UpstreamDrainarea|PeakDischarge|PeakDischargeLow|PeakDischargeHigh|PeakFlowheight|PeakFlowheightLow|PeakFlowheightHigh|Otherdataquality1to5|LPpotential|MaxdistvhfKm|MaxdistvhfReached|MaxdisthfKm|MaxdisthfReached|MaxdistipKm|MaxdistipReached|MaxdistlpKm|MaxdistlpReached|InfraDetected|MaxdistinfraKm|MaxdistinfraReached|DatLocation|Sources
+143|Chalk Cliffs, bedrock|2014-08-01 21:22:30|2014-08-01 21:45:56|38.733311|-106.1870315|0.0|None|None|None|None|debris flow|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|0.06|None|None|None|0.65|None|None|5|0|0.003|1|None|None|None|None|0.0|None|None|None|None|EventData/143_ChalkCliffsbedrock_01Aug2014/143_ChalkCliffsbedrock_01Aug2014_seismic_data.zip|Kean, J.W., Coe., J.A., Coviello, V., Smith, J.B., McCoy, S.W., Arattano, M., 2015, Estimating rates of debris flow entrainment from ground vibrations: Geophys. Res. Lett, 42, 6365-6372, doi: 10.1002/2015GL064811.
+
+
+# 
+# information
+# 
+# Iid|Eventid|RefId|Note|PhoId|GISId|ApplyAlso
+419|143|156|This flow, the 1 Aug 2014 debris flow at the USGS Chalk Cliffs debris flow monitoring site, along with one that occurred on 4 July 2014, was studied in detail by Kean and others (2015). They used seismic data to measurement entrainment. Refer to paper for details on monitoring site setup and instrumentation.|None|None|None
+420|143|156|Debris flow over bare bedrock bed|None|None|None
+421|143|156|Event information (drainage area, flow height etc.) from Kean and others (2015).|None|None|None
+422|143|157|Converted original ascii files digitized by Campbell Scientific to miniseed files, including geophones, precip, flow depth, applied corrections to physical units. See README.txt for notes from J.W. Kean on how to do this. Force plate data not included because force plate was damaged prior to this event.|None|None|None
+423|143|157|Corrected seismic data only for sensitivity (32 V/m/s), not for entire station response. Flipped signs of geophone A when doing correction for consistency with geophone B, DHZ channels of corrected miniseed files (labeled with mps.m) are positive up, DH1 channels are positive cross-stream (toward east) and DH2 channels are positive upstream (toward north). See notes in README.txt for how K.Allstadt processed the data to create miniseed files.|None|None|None
+424|143|157|Python code used to convert .dat files to miniseed files|None|None|None
+425|143|158|Original ascii files|None|None|None
+426|143|158|geophoneA and geophoneB are both 4.5 Hz triaxial geophones made by Geospace and assembled by the Italian company Solgeo|None|None|None
+427|143|158|geophoneA is mounted on its side on a rock to protect it from rockfall and may not be functioning correctly as such|None|None|None
+428|143|None|Since this is a debris flow monitored as it passed a specific location, the coordinates are taken as that of the force plate located close to the geophones.|None|None|None
+
+# 
+# photos
+# 
+# PhotoId|Eventid|Photographer|Description|Latitude|Longitude|Date|FileExtension|ApplyAlso
+749|143|Kate Allstadt|Figure showing unfiltered plots of all included data|None|None|None|EventData/143_ChalkCliffsbedrock_01Aug2014/photos_figures/143_ChalkCliffsbedrock_01Aug2014_source-KateAllstadt_1.png|None
+
+# 
+# reference
+# 
+# Refid|Eventid|ApplyAlso|LongRef|ShortRef|FileExtension|Url
+156|143|144|Kean, J.W., Coe., J.A., Coviello, V., Smith, J.B., McCoy, S.W., and Arattano, M., 2015, Estimating rates of debris flow entrainment from ground vibrations: Geophys. Res. Lett, v. 42, p. 6365-6372, doi: 10.1002/2015GL064811|Kean and others (2015)|None|https://agupubs.onlinelibrary.wiley.com/doi/full/10.1002/2015GL064811
+157|143|144|Kate Allstadt (pers. comm.)|Allstadt (pers. comm.)|references/Allstadt_pers_comm.zip|None
+158|143|144|Jason W. Kean (pers. comm.)|Kean (pers. comm.)|references/Kean_pers_comm.zip|None
+
+# 
+# sta_nearby
+# 
+# SRid|Eventid|Sid|StasourceRadiusKm|Az|Baz|DetectVHF|DetectHF|DetectIP|DetectLP|DetectINFRA
+169751|143|36159|0.018164087733473187|84.38832821428642|264.38845829656617|1|None|0|0|None
+169752|143|36160|0.018164087733473187|84.38832821428642|264.38845829656617|1|None|0|0|None
+169753|143|36161|0.018164087733473187|84.38832821428642|264.38845829656617|1|None|0|0|None
+169754|143|36162|0.0029410855290328856|191.07927204254085|11.07926797551617|1|None|0|0|None
+169755|143|36163|0.0029410855290328856|191.07927204254085|11.07926797551617|1|None|0|0|None
+169756|143|36164|0.0029410855290328856|191.07927204254085|11.07926797551617|1|None|0|0|None
+
+# 
+# stations
+# 
+# Sid|Name|Network|Channel|LocationCode|Latitude|Longitude|ElevationMasl|Source
+36159|gpA|chalk|DHZ||38.733327|-106.1868236|2777.8|USGS
+36160|gpA|chalk|DH1||38.733327|-106.1868236|2777.8|USGS
+36161|gpA|chalk|DH2||38.733327|-106.1868236|2777.8|USGS
+36162|gpB|chalk|DHZ||38.733285|-106.187038|2783.2|USGS
+36163|gpB|chalk|DH1||38.733285|-106.187038|2783.2|USGS
+36164|gpB|chalk|DH2||38.733285|-106.187038|2783.2|USGS
+

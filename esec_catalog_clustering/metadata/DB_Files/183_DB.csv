@@ -1,0 +1,47 @@
+# 
+# events
+# 
+# Eventid|Name|Starttime|Endtime|Latitude|Longitude|LocuncertKm|CrownLat|CrownLon|TipLat|TipLon|Type|AreaTotal|AreaSource|AreaSourceLow|AreaSourceHigh|Volume|VolumeLow|VolumeHigh|Mass|MassLow|MassHigh|H|HLow|HHigh|L|LLow|LHigh|HFreefall|HFreefallLow|HFreefallHigh|UpstreamDrainarea|PeakDischarge|PeakDischargeLow|PeakDischargeHigh|PeakFlowheight|PeakFlowheightLow|PeakFlowheightHigh|Otherdataquality1to5|LPpotential|MaxdistvhfKm|MaxdistvhfReached|MaxdisthfKm|MaxdisthfReached|MaxdistipKm|MaxdistipReached|MaxdistlpKm|MaxdistlpReached|InfraDetected|MaxdistinfraKm|MaxdistinfraReached|DatLocation|Sources
+183|Gadria 1|2013-07-18 15:22:40|2013-07-18 15:42:40|46.671986|10.722675|None|None|None|None|None|debris flow|None|None|None|None|10000.0|None|None|None|None|None|None|None|None|None|None|None|None|None|None|6.3|80.0|None|None|2.0|None|None|5|0|3.0|None|3.0|1|None|None|0.0|None|None|None|None|EventData/183_Gadria1_18Jul2013/183_Gadria1_18Jul2013_seismic_data.zip|Coviello, V., Arattano, M., Comiti, F., Macconi, P., Marchi L., 2019, Seismic characterization of debris flows: insights into energy radiation and implications for warning: J. Geophys. Res. Earth Surface, https://doi.org/10.1029/2018JF004683.
+
+
+# 
+# information
+# 
+# Iid|Eventid|RefId|Note|PhoId|GISId|ApplyAlso
+439|183|162|General information (drainage basin, monitoring site), event information (description, hydrographs)|None|None|None
+440|183|163|Volume estimation and peak discharge (processing data from 2 radar stage sensors along the channel, using the velocities of all the surges)|None|None|None
+441|183|164|Seismic network (linear array of three 10-Hz geophones made by Geospace Technologies)|None|None|None
+442|183|165|Geophone dataset is composed of converted original ascii files digitized by SIAP+MICROS (sampling rate = 128 Hz, the system only stores the amplitude evenvelope) to miniseed files, applied corrections to physical units (m/s).|None|None|None
+
+# 
+# photos
+# 
+# PhotoId|Eventid|Photographer|Description|Latitude|Longitude|Date|FileExtension|ApplyAlso
+976|183|Elaine Collins|Raw waveforms from closest stations. Data was demeaned but no other processing was applied. Figure generation is automated and there may be artifacts present.|None|None|None|EventData/183_Gadria1_18Jul2013/photos_figures/183_Gadria1_18Jul2013_waveforms_raw.png|None
+
+# 
+# reference
+# 
+# Refid|Eventid|ApplyAlso|LongRef|ShortRef|FileExtension|Url
+162|183|184,185|Comiti F., Marchi L., Macconi P., Arattano M., Bertoldi G., Borga M., Brardinoni F., Cavalli M., DAgostino V., Penna D., Theule J., 2014. A new monitoring station for debris flows in the European Alps: first observations in the Gadria basin.: Natural Hazards, v. 73, p. 1175-1198, doi: 10.1007/s11069-014-1088-5|Comiti et al. (2014)|None|https://link.springer.com/article/10.1007/s11069-014-1088-5
+163|183|184,185|Coviello V., Theule J.I., Marchi L., Comiti F., Crema S., Cavalli M., Arattano M., Luca A., Macconi P., 2019. Deciphering sediment dynamics in a debris-flow catchment: insights from instrumental monitoring and high-resolution topography. 7th International Conference on Debris-Flow Hazards Mitigation, June 10 - 13, 2019, Golden, Colorado, USA, in press.|Coviello et al. (2019)|None|None
+164|183|184,185|Coviello, V., Arattano, M., Comiti, F., Macconi, P., Marchi L., 2019, Seismic characterization of debris flows: insights into energy radiation and implications for warning: J. Geophys. Res. Earth Surface, doi: https://doi.org/10.1029/2018JF004683|Coviello et al. (2019)|None|https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2018JF004683
+165|183|184,185|Coviello (pers. comm.)|Coviello (pers. comm.)|None|None
+
+# 
+# sta_nearby
+# 
+# SRid|Eventid|Sid|StasourceRadiusKm|Az|Baz|DetectVHF|DetectHF|DetectIP|DetectLP|DetectINFRA
+169763|183|36165|2.4687864718949792|208.6737154030518|28.662460115699055|1|1|None|None|None
+169764|183|36166|2.5579340644857367|208.16961045522356|28.15813704723734|1|1|None|None|None
+169765|183|36167|2.6099012659695813|207.18224973167156|27.170921842819784|1|1|None|None|None
+
+# 
+# stations
+# 
+# Sid|Name|Network|Channel|LocationCode|Latitude|Longitude|ElevationMasl|Source
+36165|Geo1|Gadria|Z|None|46.6525|10.7072|1455.0|miniseed
+36166|Geo2|Gadria|Z|None|46.6517|10.7069|1440.0|miniseed
+36167|Geo3|Gadria|Z|None|46.6511|10.7071|1425.0|miniseed
+

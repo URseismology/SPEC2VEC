@@ -1,0 +1,56 @@
+# 
+# events
+# 
+# Eventid|Name|Starttime|Endtime|Latitude|Longitude|LocuncertKm|CrownLat|CrownLon|TipLat|TipLon|Type|AreaTotal|AreaSource|AreaSourceLow|AreaSourceHigh|Volume|VolumeLow|VolumeHigh|Mass|MassLow|MassHigh|H|HLow|HHigh|L|LLow|LHigh|HFreefall|HFreefallLow|HFreefallHigh|UpstreamDrainarea|PeakDischarge|PeakDischargeLow|PeakDischargeHigh|PeakFlowheight|PeakFlowheightLow|PeakFlowheightHigh|Otherdataquality1to5|LPpotential|MaxdistvhfKm|MaxdistvhfReached|MaxdisthfKm|MaxdisthfReached|MaxdistipKm|MaxdistipReached|MaxdistlpKm|MaxdistlpReached|InfraDetected|MaxdistinfraKm|MaxdistinfraReached|DatLocation|Sources
+228|Ebnit, Austria|2020-03-18 21:16:41|2020-03-18 21:17:32|47.334289|9.7936|0.05|None|None|None|None|landslide|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|1|0|None|None|79.0|0|None|None|0.0|None|None|None|None|ORFEUS, BGR, ETH|Collins, E.A., Allstadt, K.E., Groult, C., Hibert, C., Malet, J.-P., Toney, L.D., and Bessette-Kirton, E., 2022, Seismogenic Landslides and other Mass Movements: U.S. Geological Survey data release, https://doi.org/10.5066/P90VGCSK.
+
+
+# 
+# information
+# 
+# Iid|Eventid|RefId|Note|PhoId|GISId|ApplyAlso
+494|228|220|This event occurred in limestones, marlstones and marls based on ELSUS v2 (Wilde and others, 2018).|None|None|223,214,205,216
+530|191|None|Horizontal components for several stations which detected these events were not reviewed.|None|None|192,193,194,195,196,197,198,199,200,201,202,203,204,205,206,207,208,209,210,211,212,213,214,215,216,217,218,219,220,221,222,223,224,225,226,227,228,229,230,231,232,233,234,235,236,237,238,239,240,241,242,243,244,245,246,247,248,249,250,251,252,253,254,255,256,257,258
+549|217|207|These events were cataloged through ZAMG (2021). Individual reports for each event were recieved by mail.|None|None|218,219,220,221,222,223,224,225,226,227,228,229,230,253
+583|205|None|Location uncertainty was estimated from the maximum distance between event coordinates and suspected crown location using Google Earth and photographs of event site, when available.|None|None|206,208,209,215,216,228,230,231,232,243,244
+
+# 
+# photos
+# 
+# PhotoId|Eventid|Photographer|Description|Latitude|Longitude|Date|FileExtension|ApplyAlso
+1189|228|Elaine Collins|Raw waveforms from closest stations. Data was demeaned but no other processing was applied. Dashed lines show approximate start and end times of event (from database). Figure generation is automated and there may be artifacts present.|None|None|None|EventData/228_EbnitAustria_18Mar2020/photos_figures/228_EbnitAustria_18Mar2020_waveforms_raw.png|None
+1190|228|Elaine Collins|High frequency (1-5 Hz) ground velocity waveforms for station response from closest stations with detections. Dashed lines show approximate start and end times of event (from database). Waveforms are corrected for station response after removing the mean. Figure generation is automated and there may be artifacts present. Clipped waveforms have not been removed before station correction so check raw plots before interpreting high amplitude signals.|None|None|None|EventData/228_EbnitAustria_18Mar2020/photos_figures/228_EbnitAustria_18Mar2020_waveforms_1-5Hz.png|None
+1191|228|Elaine Collins|Spectrograms of velocity waveforms corrected for station sensitivity from closest stations with detections. Figure generation is automated and there may be artifacts present|None|None|None|EventData/228_EbnitAustria_18Mar2020/photos_figures/228_EbnitAustria_18Mar2020_spectrogram.png|None
+1192|228|Elaine Collins|Multitaper spectra (same units as Power Spectral Density) of velocity waveforms corrected for station sensitivity from closest stations with detections. Linear trend was removed and a taper was applied before generating spectra. Figure generation is automated and there may be artifacts present. Since station response was not removed to avoid adding artifacts at low frequencies for short and intermediate period stations, the lower frequency amplitudes should be interpreted with care.|None|None|None|EventData/228_EbnitAustria_18Mar2020/photos_figures/228_EbnitAustria_18Mar2020_spectra.png|None
+
+
+# 
+# sta_nearby
+# 
+# SRid|Eventid|Sid|StasourceRadiusKm|Az|Baz|DetectVHF|DetectHF|DetectIP|DetectLP|DetectINFRA
+186742|228|37871|8.409943493877762|128.87266585094733|308.9363937262719|None|1|None|None|None
+186743|228|37870|23.181431628330913|259.1237391956441|78.90187057384219|None|1|None|None|None
+186744|228|37880|28.092437831260032|295.2555161539526|115.00702085107739|None|1|None|None|None
+186745|228|37875|33.535102526876855|272.843616372003|92.5166733943666|None|1|None|None|None
+186746|228|37864|44.47437765063766|224.7812454414571|44.478371252778736|None|1|None|None|None
+186747|228|37900|45.07063168588415|31.460320641945472|211.69148462803147|None|1|None|None|None
+186748|228|37851|61.92153884673435|173.916154908808|353.97905222707834|None|1|None|None|None
+186749|228|38157|70.63499614483128|248.5801966056339|67.94288710344583|None|1|None|None|None
+186750|228|37856|76.5740300863691|222.73828600008352|42.23892511785588|None|1|None|None|None
+186751|228|37874|78.81729096349089|115.8072428355785|296.4934092560688|None|1|None|None|None
+
+# 
+# stations
+# 
+# Sid|Name|Network|Channel|LocationCode|Latitude|Longitude|ElevationMasl|Source
+37871|DAVA|OE|HHZ||47.286701|9.8803|1602.0|ORFEUS,IRIS
+37870|LIENZ|CH|HHZ||47.294437|9.491773|1567.0|ETH,IRIS
+37880|SGT05|CH|HHZ||47.441856|9.455951|856.0|ETH
+37875|SGT04|CH|HHZ||47.348435|9.349025|987.0|ETH
+37864|PLONS|CH|HHZ||47.04921|9.38076|1022.0|ETH
+37900|UBR|GR|HHZ||47.6799|10.1071|903.0|BGR
+37851|DAVOX|CH|HHZ||46.7805|9.87952|1830.0|ETH
+38157|WGT|CH|HHZ||47.09838|8.92525|913.9|ETH
+37856|PANIX|CH|HHZ||46.825743|9.111708|1433.0|ETH
+37874|FETA|OE|HHZ||47.0211|10.7291|1632.0|ORFEUS
+

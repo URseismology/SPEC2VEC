@@ -1,0 +1,152 @@
+# 
+# events
+# 
+# Eventid|Name|Starttime|Endtime|Latitude|Longitude|LocuncertKm|CrownLat|CrownLon|TipLat|TipLon|Type|AreaTotal|AreaSource|AreaSourceLow|AreaSourceHigh|Volume|VolumeLow|VolumeHigh|Mass|MassLow|MassHigh|H|HLow|HHigh|L|LLow|LHigh|HFreefall|HFreefallLow|HFreefallHigh|UpstreamDrainarea|PeakDischarge|PeakDischargeLow|PeakDischargeHigh|PeakFlowheight|PeakFlowheightLow|PeakFlowheightHigh|Otherdataquality1to5|LPpotential|MaxdistvhfKm|MaxdistvhfReached|MaxdisthfKm|MaxdisthfReached|MaxdistipKm|MaxdistipReached|MaxdistlpKm|MaxdistlpReached|InfraDetected|MaxdistinfraKm|MaxdistinfraReached|DatLocation|Sources
+258|Formazza 3, Italy|2009-04-19 21:43:55|2009-04-19 21:47:20|46.380004|8.439971|0.0|46.380004|8.439971|46.373246|8.431352|rock slide|None|None|None|None|180000.0|144000.0|216000.0|None|None|None|700.0|None|None|960.0|None|None|None|None|None|None|None|None|None|None|None|None|4|1|None|None|424.0|0|None|None|19.0|1|None|None|None|RESIF, ETH, ORFEUS, LMU, BGR, IRIS, INGV|Collins, E.A., Allstadt, K.E., Groult, C., Hibert, C., Malet, J.-P., Toney, L.D., and Bessette-Kirton, E., 2022, Seismogenic Landslides and other Mass Movements: U.S. Geological Survey data release, https://doi.org/10.5066/P90VGCSK.
+
+
+# 
+# information
+# 
+# Iid|Eventid|RefId|Note|PhoId|GISId|ApplyAlso
+594|258|237|A local magnitude of M2.1 was reported for this event. This event also produced a long-period seismic signal just above the background noise, as shown in Fig. 13 from Deichmann and others (2010).|None|None|None
+489|234|220|This event occurred in gneisses based on ELSUS v2 (Wilde and others, 2018).|None|None|235,238,239,240,241,242,257,258,254,233,210,225,213
+496|257|209|Volume, and type were taken from Dammeier and others (2016). Low and high volume estimates were calculated from a 20% uncertainty range noted in the Dammeier and others (2011).|None|None|258,261
+530|191|None|Horizontal components for several stations which detected these events were not reviewed.|None|None|192,193,194,195,196,197,198,199,200,201,202,203,204,205,206,207,208,209,210,211,212,213,214,215,216,217,218,219,220,221,222,223,224,225,226,227,228,229,230,231,232,233,234,235,236,237,238,239,240,241,242,243,244,245,246,247,248,249,250,251,252,253,254,255,256,257,258
+559|257|208|L and H were taken from Dammeier and others (2011) and estimated using photographs of the scarp.|None|None|258,261
+586|257|None|The separate 19 April 2009 Formazza events are indistinguishable in satellite imagery and therefore have the same location coordinates and location uncertainty.|None|None|258,261
+
+# 
+# photos
+# 
+# PhotoId|Eventid|Photographer|Description|Latitude|Longitude|Date|FileExtension|ApplyAlso
+1313|258|Elaine Collins|Raw waveforms from closest stations. Data was demeaned but no other processing was applied. Dashed lines show approximate start and end times of event (from database). Figure generation is automated and there may be artifacts present.|None|None|None|EventData/258_Formazza3Italy_19Apr2009/photos_figures/258_Formazza3Italy_19Apr2009_waveforms_raw.png|None
+1314|258|Elaine Collins|High frequency (1-5 Hz) ground velocity waveforms for station response from closest stations with detections. Dashed lines show approximate start and end times of event (from database). Waveforms are corrected for station response after removing the mean. Figure generation is automated and there may be artifacts present. Clipped waveforms have not been removed before station correction so check raw plots before interpreting high amplitude signals.|None|None|None|EventData/258_Formazza3Italy_19Apr2009/photos_figures/258_Formazza3Italy_19Apr2009_waveforms_1-5Hz.png|None
+1315|258|Elaine Collins|Spectrograms of velocity waveforms corrected for station sensitivity from closest stations with detections. Figure generation is automated and there may be artifacts present|None|None|None|EventData/258_Formazza3Italy_19Apr2009/photos_figures/258_Formazza3Italy_19Apr2009_spectrogram.png|None
+1316|258|Elaine Collins|Multitaper spectra (same units as Power Spectral Density) of velocity waveforms corrected for station sensitivity from closest stations with detections. Linear trend was removed and a taper was applied before generating spectra. Figure generation is automated and there may be artifacts present. Since station response was not removed to avoid adding artifacts at low frequencies for short and intermediate period stations, the lower frequency amplitudes should be interpreted with care.|None|None|None|EventData/258_Formazza3Italy_19Apr2009/photos_figures/258_Formazza3Italy_19Apr2009_spectra.png|None
+
+
+# 
+# sta_nearby
+# 
+# SRid|Eventid|Sid|StasourceRadiusKm|Az|Baz|DetectVHF|DetectHF|DetectIP|DetectLP|DetectINFRA
+187453|258|37859|19.049|64.04|244.2|None|1|None|None|None
+187454|258|37877|47.378|332.24|152.03|None|1|None|None|None
+187455|258|37881|51.848|225.26|44.92|None|1|None|None|None
+187456|258|37869|54.52|358.79|178.78|None|1|None|None|None
+187457|258|37896|62.533|271.01|90.42|None|1|None|None|None
+187458|258|37867|67.043|12.93|193.07|None|1|None|None|None
+187459|258|37861|67.728|39.79|220.2|None|1|None|None|None
+187460|258|37853|68.952|137.39|317.83|None|1|None|None|None
+187461|258|37899|70.15|297.13|116.54|None|1|None|None|None
+187462|258|37847|78.42|81.23|261.96|None|1|None|None|None
+187463|258|37914|86.236|247.71|66.96|None|1|None|None|None
+187464|258|37920|87.779|269.2|88.38|None|1|None|None|None
+187465|258|37931|103.361|262.48|81.52|None|1|None|None|None
+187466|258|37864|103.481|43.7|224.38|None|1|None|None|None
+187467|258|38173|110.446|209.4|28.9|None|1|None|None|None
+187468|258|37890|110.492|5.53|185.63|None|1|None|None|None
+187469|258|37935|114.516|268.41|87.33|None|1|None|None|None
+187470|258|37934|116.094|257.48|76.42|None|1|None|None|None
+187471|258|37851|118.981|67.51|248.55|None|1|None|None|None
+187472|258|37852|119.771|124.04|304.96|None|1|None|None|None
+187473|258|38155|120.51|332.14|151.6|None|1|None|None|None
+187474|258|37886|120.434|17.04|197.39|None|1|None|None|None
+187475|258|37940|121.68|291.61|110.54|None|1|None|None|None
+187476|258|37937|126.411|238.05|57.05|None|1|None|None|None
+187477|258|37870|129.504|37.9|218.67|None|1|None|None|None
+187478|258|37921|129.992|349.04|168.8|None|1|None|None|None
+187479|258|37905|132.917|4.15|184.25|None|1|None|None|None
+187480|258|37892|134.293|17.83|198.22|None|1|None|None|None
+187481|258|37919|135.0|354.08|173.94|None|1|None|None|None
+187482|258|37854|142.503|78.53|259.86|None|1|None|None|None
+187483|258|37909|142.234|7.33|187.51|None|1|None|None|None
+187484|258|37845|143.98|225.19|44.26|None|1|None|None|None
+187485|258|37942|145.601|321.15|140.26|None|1|None|None|None
+187486|258|37906|147.043|12.66|192.97|None|1|None|None|None
+187487|258|37855|148.897|85.18|266.58|None|1|None|None|None
+187488|258|37871|149.108|46.95|228.0|None|1|None|None|None
+187489|258|37928|150.557|195.56|15.19|None|1|None|None|None
+187490|258|38158|153.969|1.46|181.5|None|1|None|None|None
+187491|258|37972|167.919|276.62|95.05|None|1|None|None|None
+187492|258|37884|181.603|50.38|231.73|None|1|None|None|None
+187493|258|37866|182.304|116.92|298.42|None|1|None|None|None
+187494|258|38329|195.677|155.93|336.65|None|1|None|None|None
+187495|258|38225|204.522|177.65|357.72|None|1|None|None|None
+187496|258|37878|214.573|86.06|268.08|None|1|None|None|None
+187497|258|37965|216.968|357.84|177.76|None|1|None|None|None
+187498|258|37907|225.149|58.3|240.16|None|1|None|None|None
+187499|258|38360|225.969|335.08|154.14|None|1|None|None|None
+187500|258|38177|232.565|206.93|25.98|None|1|None|None|None
+187501|258|37918|238.424|57.64|239.59|None|1|None|None|None
+187502|258|37904|250.389|97.31|279.63|None|1|None|None|None
+187503|258|38280|265.867|100.83|283.26|None|1|None|None|None
+187504|258|37987|307.786|31.5|213.11|None|1|None|None|None
+187505|258|37997|363.621|63.91|247.1|None|1|None|None|None
+187506|258|38018|365.694|39.11|221.44|None|1|None|None|None
+187507|258|38021|371.582|37.36|219.64|None|1|None|None|None
+187508|258|38024|379.618|36.44|218.72|None|1|None|None|None
+187509|258|38053|424.25|29.8|211.98|None|None|None|None|None
+
+# 
+# stations
+# 
+# Sid|Name|Network|Channel|LocationCode|Latitude|Longitude|ElevationMasl|Source
+37859|FUSIO|CH|HHZ||46.45481|8.6629|1460.0|ETH
+37877|HASLI|CH|HHZ||46.75681|8.15117|1280.0|ETH,IRIS
+37881|MMK|CH|HHZ||46.0507|7.96409|2200.0|ETH
+37869|BNALP|CH|HHZ||46.87034|8.4249|1549.0|ETH
+37896|LKBD|CH|EHZ||46.38703|7.62714|1550.0|ETH
+37867|MUO|CH|HHZ||46.96765|8.63706|1920.0|ETH
+37861|LLS|CH|HHZ||46.84676|9.00825|1860.0|ETH
+37853|MUGIO|CH|HHZ||45.92184|9.04171|924.0|ETH,IRIS
+37899|WIMIS|CH|HHZ||46.66488|7.62418|770.0|ETH
+37847|VDL|CH|HHZ||46.48311|9.44933|1927.75|ETH
+37914|DIX|CH|HHZ||46.081053|7.408391|2370.2|ETH
+37920|SENIN|CH|HHZ||46.36335|7.29938|2019.6|ETH,IRIS
+37931|GRYON|CH|HHZ||46.25053|7.11106|1282.0|ETH
+37864|PLONS|CH|HHZ||47.04921|9.38076|1022.0|ETH
+38173|TRAV|GU|HHZ||45.5122|7.7461|973.0|INGV
+37890|ZUR|CH|HHZ||47.36921|8.58088|510.0|ETH
+37935|AIGLE|CH|HHZ||46.34176|6.95295|785.0|ETH
+37934|SALAN|CH|HHZ||46.14415|6.97302|1881.3|ETH
+37851|DAVOX|CH|HHZ||46.7805|9.87952|1830.0|ETH
+37852|MDI|IV|HHZ||45.76972|9.716|954.0|INGV
+38155|BALST|CH|HHZ||47.33599|7.69485|860.0|ETH
+37886|WILA|CH|HHZ||47.41483|8.9077|853.0|ETH
+37940|TORNY|CH|HHZ||46.77363|6.95874|710.0|ETH
+37937|MRGE|IV|HHZ||45.76975|7.06101|1660.0|INGV
+37870|LIENZ|CH|HHZ||47.294437|9.491773|1567.0|ETH,IRIS
+37921|SULZ|CH|HHZ||47.52753|8.11187|668.0|ETH
+37905|FLACH|CH|EHZ||47.57241|8.5679|412.0|ETH
+37892|WEIN|CH|EHZ||47.52873|8.98586|555.0|ETH
+37919|ACB|CH|EHZ||47.58772|8.25474|468.0|ETH
+37854|FUORN|CH|HHZ||46.620334|10.26352|2286.0|ETH,IRIS
+37909|TRULL|CH|EHZ||47.6487|8.68161|525.0|ETH
+37845|LSD|GU|HHZ||45.4596|7.1339|2271.0|INGV
+37942|BOURR|CH|HHZ||47.39364|7.2301|846.8|ETH
+37906|STEIN|CH|EHZ||47.66974|8.86899|540.0|ETH
+37855|BRMO|IV|BHZ||46.47616|10.37218|1380.0|INGV
+37871|DAVA|OE|HHZ||47.286701|9.8803|1602.0|ORFEUS,IRIS
+37928|MONC|IV|HHZ||45.0739|7.9271|480.0|INGV
+38158|SLE|CH|HHZ||47.7645|8.49236|648.0|ETH,IRIS
+37972|GIMEL|CH|HHZ||46.53364|6.26545|1094.0|ETH
+37884|OBER|BW|EHZ||47.406963|10.293358|896.0|LMU
+37866|SALO|IV|HHZ||45.6183|10.5243|600.0|INGV
+38329|BOB|YI|HHZ||44.767921|9.44782|910.0|IRIS
+38225|PCP|GU|HHZ||44.5413|8.5455|772.0|INGV
+37878|APPI|IV|EHZ||46.47868|11.22813|1056.0|INGV
+37965|BFO|GR|HHZ||48.3301|8.3296|638.0|BGR
+37907|ZUGS|BW|EHZ||47.416309|10.97883|2650.0|LMU
+38360|ECH|G|BHZ|10|48.216313|7.158961|580.0|RESIF,IRIS
+38177|PZZ|GU|HHZ||44.5065|7.1157|1397.0|INGV
+37918|PART|BW|EHZ||47.497238|11.11313|760.0|LMU
+37904|CTI|IV|EHZ||46.04818|11.6497|1180.0|INGV
+38280|CGRP|NI|HHZ||45.8806|11.8047|1757.0|INGV,IRIS
+37987|NORI|BW|EHZ||48.720268|10.624987|480.0|LMU
+37997|RJOB|BW|EHZ||47.737167|12.795714|860.0|LMU
+38018|GRC3|GR|BHZ||48.890174|11.585822|438.0|BGR
+38021|GRC1|GR|BHZ||48.996168|11.52135|512.0|BGR
+38024|GRC4|GR|BHZ||49.086746|11.526272|503.0|BGR
+38053|GRA2|GR|HHZ||49.655208|11.359444|512.0|BGR
+

@@ -1,0 +1,53 @@
+# 
+# events
+# 
+# Eventid|Name|Starttime|Endtime|Latitude|Longitude|LocuncertKm|CrownLat|CrownLon|TipLat|TipLon|Type|AreaTotal|AreaSource|AreaSourceLow|AreaSourceHigh|Volume|VolumeLow|VolumeHigh|Mass|MassLow|MassHigh|H|HLow|HHigh|L|LLow|LHigh|HFreefall|HFreefallLow|HFreefallHigh|UpstreamDrainarea|PeakDischarge|PeakDischargeLow|PeakDischargeHigh|PeakFlowheight|PeakFlowheightLow|PeakFlowheightHigh|Otherdataquality1to5|LPpotential|MaxdistvhfKm|MaxdistvhfReached|MaxdisthfKm|MaxdisthfReached|MaxdistipKm|MaxdistipReached|MaxdistlpKm|MaxdistlpReached|InfraDetected|MaxdistinfraKm|MaxdistinfraReached|DatLocation|Sources
+249|Pilier Bonatti 2, France|2011-09-11 11:25:13|2011-09-11 11:26:32|45.932444|6.955725|0.08|None|None|None|None|rock fall|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|3|0|None|None|97.0|0|None|None|0.0|None|None|None|None|ETH, INGV|Collins, E.A., Allstadt, K.E., Groult, C., Hibert, C., Malet, J.-P., Toney, L.D., and Bessette-Kirton, E., 2022, Seismogenic Landslides and other Mass Movements: U.S. Geological Survey data release, https://doi.org/10.5066/P90VGCSK.
+
+
+# 
+# information
+# 
+# Iid|Eventid|RefId|Note|PhoId|GISId|ApplyAlso
+488|191|220|This event occurred in plutonic rocks based on ELSUS v2 (Wilde and others, 2018).|None|None|193,202,248,249,256,204,192,217,218,207,255,209
+530|191|None|Horizontal components for several stations which detected these events were not reviewed.|None|None|192,193,194,195,196,197,198,199,200,201,202,203,204,205,206,207,208,209,210,211,212,213,214,215,216,217,218,219,220,221,222,223,224,225,226,227,228,229,230,231,232,233,234,235,236,237,238,239,240,241,242,243,244,245,246,247,248,249,250,251,252,253,254,255,256,257,258
+560|248|189|Location coordinates and location uncertainty were estimated using Google Earth and photographs provided by Dufféal (2011).|None|None|249
+561|248|228|A total volume of 4,530 +/- 200 m3 for the two 2011-09-11 events is provided by Guerin and others (2016) based on comparison of 2005 and 2011 terrestrial LiDAR acquisitions.|None|None|249
+562|248|227|Additional event site photographs and a total volume estimate of 12,000 cubic meters are provided by Geldard (2011) at https://www.ukclimbing.com/news/2011/09/major_rockfall_on_les_dru_chamonix_valley-64068.|None|None|249
+
+# 
+# photos
+# 
+# PhotoId|Eventid|Photographer|Description|Latitude|Longitude|Date|FileExtension|ApplyAlso
+1277|249|Elaine Collins|Raw waveforms from closest stations. Data was demeaned but no other processing was applied. Dashed lines show approximate start and end times of event (from database). Figure generation is automated and there may be artifacts present.|None|None|None|EventData/249_PilierBonatti2France_11Sep2011/photos_figures/249_PilierBonatti2France_11Sep2011_waveforms_raw.png|None
+1278|249|Elaine Collins|High frequency (1-5 Hz) ground velocity waveforms for station response from closest stations with detections. Dashed lines show approximate start and end times of event (from database). Waveforms are corrected for station response after removing the mean. Figure generation is automated and there may be artifacts present. Clipped waveforms have not been removed before station correction so check raw plots before interpreting high amplitude signals.|None|None|None|EventData/249_PilierBonatti2France_11Sep2011/photos_figures/249_PilierBonatti2France_11Sep2011_waveforms_1-5Hz.png|None
+1279|249|Elaine Collins|Spectrograms of velocity waveforms corrected for station sensitivity from closest stations with detections. Figure generation is automated and there may be artifacts present|None|None|None|EventData/249_PilierBonatti2France_11Sep2011/photos_figures/249_PilierBonatti2France_11Sep2011_spectrogram.png|None
+1280|249|Elaine Collins|Multitaper spectra (same units as Power Spectral Density) of velocity waveforms corrected for station sensitivity from closest stations with detections. Linear trend was removed and a taper was applied before generating spectra. Figure generation is automated and there may be artifacts present. Since station response was not removed to avoid adding artifacts at low frequencies for short and intermediate period stations, the lower frequency amplitudes should be interpreted with care.|None|None|None|EventData/249_PilierBonatti2France_11Sep2011/photos_figures/249_PilierBonatti2France_11Sep2011_spectra.png|None
+
+
+# 
+# sta_nearby
+# 
+# SRid|Eventid|Sid|StasourceRadiusKm|Az|Baz|DetectVHF|DetectHF|DetectIP|DetectLP|DetectINFRA
+187221|249|37937|19.843590980089232|155.62878592678305|335.70433137657415|None|1|None|None|None
+187222|249|37934|23.578455885388916|3.250049605800483|183.26249863654516|None|1|None|None|None
+187223|249|37931|37.34287681030408|18.71018430002596|198.8220955674001|None|1|None|None|None
+187224|249|37914|38.66925709783716|64.61084035824271|244.93649915717188|None|1|None|None|None
+187225|249|37845|54.368364529254826|165.14441802312433|345.27192907407607|None|1|None|None|None
+187226|249|37920|54.74164863926834|28.876112313717815|209.1239345349382|None|1|None|None|None
+187227|249|38208|90.46708667183985|164.40483277928064|344.62550988070416|None|1|None|None|None
+187228|249|37899|96.280965944981|32.075257419136264|212.55853015550449|None|1|None|None|None
+
+# 
+# stations
+# 
+# Sid|Name|Network|Channel|LocationCode|Latitude|Longitude|ElevationMasl|Source
+37937|MRGE|IV|HHZ||45.76975|7.06101|1660.0|INGV
+37934|SALAN|CH|HHZ||46.14415|6.97302|1881.3|ETH
+37931|GRYON|CH|HHZ||46.25053|7.11106|1282.0|ETH
+37914|DIX|CH|HHZ||46.081053|7.408391|2370.2|ETH
+37845|LSD|GU|HHZ||45.4596|7.1339|2271.0|INGV
+37920|SENIN|CH|HHZ||46.36335|7.29938|2019.6|ETH,IRIS
+38208|RSP|GU|HHZ||45.1482|7.2649|1265.0|INGV
+37899|WIMIS|CH|HHZ||46.66488|7.62418|770.0|ETH
+

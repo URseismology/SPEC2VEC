@@ -1,0 +1,203 @@
+# 
+# events
+# 
+# Eventid|Name|Starttime|Endtime|Latitude|Longitude|LocuncertKm|CrownLat|CrownLon|TipLat|TipLon|Type|AreaTotal|AreaSource|AreaSourceLow|AreaSourceHigh|Volume|VolumeLow|VolumeHigh|Mass|MassLow|MassHigh|H|HLow|HHigh|L|LLow|LHigh|HFreefall|HFreefallLow|HFreefallHigh|UpstreamDrainarea|PeakDischarge|PeakDischargeLow|PeakDischargeHigh|PeakFlowheight|PeakFlowheightLow|PeakFlowheightHigh|Otherdataquality1to5|LPpotential|MaxdistvhfKm|MaxdistvhfReached|MaxdisthfKm|MaxdisthfReached|MaxdistipKm|MaxdistipReached|MaxdistlpKm|MaxdistlpReached|InfraDetected|MaxdistinfraKm|MaxdistinfraReached|DatLocation|Sources
+270|Yìgòng, Tibet|2000-04-09 12:00:00|2000-04-09 12:10:15|30.2031|94.9675|0.0|None|None|None|None|rock slide, debris avalanche|18900000.0|12900000.0|None|None|300000000.0|None|None|None|None|None|3330.0|None|None|10000.0|None|None|None|None|None|None|None|None|None|None|None|None|5|1|None|None|1982.0|0|None|None|1982.0|0|None|None|None|IRIS|Collins, E.A., Allstadt, K.E., Groult, C., Hibert, C., Malet, J.-P., Toney, L.D., and Jensen, E.K., 2022, Seismogenic Landslides and other Mass Movements (ver. 2.0, December 2023): U.S. Geological Survey data release, https://doi.org/10.5066/P90VGCSK.
+
+
+# 
+# information
+# 
+# Iid|Eventid|RefId|Note|PhoId|GISId|ApplyAlso
+642|270|265|H, L, volume, source area, type, and location coordinates were taken from Xu and others (2012). Total area was estimated by summing source area and deposit accumulation area from Xu and others (2012).|None|None|None
+643|270|265|This event began as a rock slide near Zamu Creek and progressed into a debris avalanche which dammed the Yigong River. The landslide dam failed 62 days later, causing a catastrophic flood (Xu and others, 2012).|None|None|None
+
+# 
+# photos
+# 
+# PhotoId|Eventid|Photographer|Description|Latitude|Longitude|Date|FileExtension|ApplyAlso
+1402|270|Elaine Collins|Raw waveforms from closest stations. Data was demeaned but no other processing was applied. Dashed lines show approximate start and end times of event (from database). Figure generation is automated and there may be artifacts present.|None|None|2023-09-06 09:22:29|EventData/270_YìgòngTibet_09Apr2000/photos_figures/270_YìgòngTibet_09Apr2000_waveforms_raw.png|None
+1403|270|Elaine Collins|High frequency (1-5 Hz) ground velocity waveforms from closest stations with detections. Dashed lines show approximate start and end times of event (from database). Waveforms are corrected for station response after removing the mean. Figure generation is automated and there may be artifacts present. Clipped waveforms have not been removed before station correction so check raw plots before interpreting high amplitude signals.|None|None|None|EventData/270_YìgòngTibet_09Apr2000/photos_figures/270_YìgòngTibet_09Apr2000_waveforms_1-5Hz.png|None
+1404|270|Elaine Collins|Long period (20-60 sec) ground displacement waveforms from closest stations with detections. Dashed lines show approximate start and end times of event (from database, based on high frequency waveform). Waveforms are corrected for station response after detrending using a linear fit and tapering. Zero mean cosine filter applied with station correction may cause acausal arrivals. Figure generation is automated and there may be artifacts present. Signals with clipped waveforms and data gaps have not been removed so check raw figures before interpreting.|None|None|2023-09-06 09:22:30|EventData/270_YìgòngTibet_09Apr2000/photos_figures/270_YìgòngTibet_09Apr2000_waveforms_20-60sec.png|None
+1405|270|Elaine Collins|Displacement spectrum from closest broadband stations with detections, corrected for station response with no prefiltering after detrending using a linear fit and tapering. Note that long period signals often contain noise unrelated to the event signal of interest, especially on horizontal components (e.g. tilt), so interpret with care. Figure generation is automated and there may be artifacts present. Signals with clipped waveforms and data gaps have not been removed so check raw figures before interpreting.|None|None|2023-09-06 09:22:31|EventData/270_YìgòngTibet_09Apr2000/photos_figures/270_YìgòngTibet_09Apr2000_displspectra.png|None
+1406|270|Elaine Collins|Spectrograms of velocity waveforms corrected for station sensitivity from closest stations with detections. Figure generation is automated and there may be artifacts present|None|None|2023-09-06 09:22:32|EventData/270_YìgòngTibet_09Apr2000/photos_figures/270_YìgòngTibet_09Apr2000_spectrogram.png|None
+1407|270|Elaine Collins|Multitaper spectra (same units as Power Spectral Density) of velocity waveforms corrected for station sensitivity from closest stations with detections. Linear trend was removed and a taper was applied before generating spectra. Figure generation is automated and there may be artifacts present. Since station response was not removed to avoid adding artifacts at low frequencies for short and intermediate period stations, the lower frequency amplitudes should be interpreted with care.|None|None|2023-09-06 09:22:33|EventData/270_YìgòngTibet_09Apr2000/photos_figures/270_YìgòngTibet_09Apr2000_spectra.png|None
+
+# 
+# reference
+# 
+# Refid|Eventid|ApplyAlso|LongRef|ShortRef|FileExtension|Url
+265|270|None|Xu, Q., Shang, Y., van Asch, T., Wang, S., Zhang, Z., and Dong, X., 2012, Observations from the large, rapid Yigong rock slide-debris avalanche, southeast Tibet: Canadian Geotechnical Journal, v. 49, no. 5, doi: 10.1139/t2012-021.|Xu and others (2012)|None|https://doi.org/10.1139/t2012-021
+
+# 
+# sta_nearby
+# 
+# SRid|Eventid|Sid|StasourceRadiusKm|Az|Baz|DetectVHF|DetectHF|DetectIP|DetectLP|DetectINFRA
+198921|270|42514|258.426|69.37|250.66|None|None|None|None|None
+198922|270|42515|258.426|69.37|250.66|None|None|None|None|None
+198923|270|42516|258.426|69.37|250.66|None|None|None|None|None
+198924|270|42517|344.274|311.93|130.52|None|None|None|None|None
+198925|270|42518|344.274|311.93|130.52|None|None|None|None|None
+198926|270|42519|344.274|311.93|130.52|None|None|None|None|None
+198927|270|42520|374.831|262.46|80.54|None|1|None|1|None
+198928|270|42521|374.831|262.46|80.54|None|1|None|1|None
+198929|270|42522|374.831|262.46|80.54|None|1|None|1|None
+198930|270|42526|374.831|262.46|80.54|None|None|None|None|None
+198931|270|42527|374.831|262.46|80.54|None|None|None|None|None
+198932|270|42528|374.831|262.46|80.54|None|None|None|None|None
+198933|270|42529|671.972|147.71|329.36|None|0|None|None|None
+198934|270|42530|671.972|147.71|329.36|None|0|None|None|None
+198935|270|42531|671.972|147.71|329.36|None|0|None|None|None
+198936|270|42532|950.833|124.42|308.04|None|0|None|1|None
+198937|270|42533|950.833|124.42|308.04|None|0|None|1|None
+198938|270|42534|950.833|124.42|308.04|None|0|None|1|None
+198939|270|42538|950.833|124.42|308.04|None|0|None|1|None
+198940|270|42539|950.833|124.42|308.04|None|0|None|1|None
+198941|270|42540|950.833|124.42|308.04|None|0|None|1|None
+198942|270|42541|1053.545|49.4|234.27|None|None|None|None|None
+198943|270|42542|1053.545|49.4|234.27|None|None|None|None|None
+198944|270|42543|1053.545|49.4|234.27|None|None|None|None|None
+198945|270|42544|1397.336|86.0|273.34|None|0|None|1|None
+198946|270|42545|1397.336|86.0|273.34|None|0|None|1|None
+198947|270|42546|1397.336|86.0|273.34|None|1|None|1|None
+198948|270|42550|1397.336|86.0|273.34|None|None|None|None|None
+198949|270|42551|1397.336|86.0|273.34|None|None|None|None|None
+198950|270|42552|1397.336|86.0|273.34|None|None|None|None|None
+198951|270|42553|1382.416|68.5|255.95|None|1|None|1|None
+198952|270|42554|1382.416|68.5|255.95|None|0|None|1|None
+198953|270|42555|1382.416|68.5|255.95|None|1|None|1|None
+198954|270|42559|1382.416|68.5|255.95|None|None|None|None|None
+198955|270|42560|1382.416|68.5|255.95|None|None|None|None|None
+198956|270|42561|1382.416|68.5|255.95|None|None|None|None|None
+198957|270|42562|1324.023|161.42|343.08|None|0|None|1|None
+198958|270|42563|1324.023|161.42|343.08|None|1|None|1|None
+198959|270|42564|1324.023|161.42|343.08|None|1|None|1|None
+228996|270|48986|1641.31|338.96|154.55|None|0|None|1|None
+228997|270|48987|1641.31|338.96|154.55|None|0|None|1|None
+228998|270|48988|1641.31|338.96|154.55|None|0|None|1|None
+228999|270|48992|1641.31|338.96|154.55|None|0|None|0|None
+229000|270|48993|1641.31|338.96|154.55|None|0|None|0|None
+229001|270|48994|1641.31|338.96|154.55|None|0|None|0|None
+229032|270|49013|1946.027|126.08|312.33|None|None|None|None|None
+229033|270|49014|1946.027|126.08|312.33|None|None|None|None|None
+229034|270|49015|1946.027|126.08|312.33|None|None|None|None|None
+229035|270|49016|1871.007|314.98|125.71|None|1|None|1|None
+229036|270|49017|1871.007|314.98|125.71|None|1|None|1|None
+229037|270|49018|1871.007|314.98|125.71|None|1|None|1|None
+229038|270|49019|1906.762|313.12|123.43|None|1|None|1|None
+229039|270|49020|1906.762|313.12|123.43|None|1|None|1|None
+229040|270|49021|1906.762|313.12|123.43|None|1|None|1|None
+229041|270|49022|1807.074|316.23|127.49|None|0|None|1|None
+229042|270|49023|1807.074|316.23|127.49|None|0|None|1|None
+229043|270|49024|1807.074|316.23|127.49|None|0|None|1|None
+229044|270|49025|1815.946|310.22|120.87|None|None|None|None|None
+229045|270|49026|1815.946|310.22|120.87|None|None|None|None|None
+229046|270|49027|1815.946|310.22|120.87|None|None|None|None|None
+229047|270|49028|1981.369|308.84|118.29|None|0|None|0|None
+229048|270|49029|1981.369|308.84|118.29|None|0|None|0|None
+229049|270|49030|1981.369|308.84|118.29|None|0|None|1|None
+229050|270|49031|1936.109|312.17|122.2|None|0|None|1|None
+229051|270|49032|1936.109|312.17|122.2|None|0|None|1|None
+229052|270|49033|1936.109|312.17|122.2|None|0|None|1|None
+229053|270|49034|1944.844|318.03|128.63|None|1|None|1|None
+229054|270|49035|1944.844|318.03|128.63|None|1|None|1|None
+229055|270|49036|1944.844|318.03|128.63|None|1|None|1|None
+229056|270|49037|1839.644|312.71|123.42|None|0|None|0|None
+229057|270|49038|1839.644|312.71|123.42|None|0|None|0|None
+229058|270|49039|1839.644|312.71|123.42|None|0|None|1|None
+229059|270|49040|1981.328|314.06|123.97|None|1|None|1|None
+229060|270|49041|1981.328|314.06|123.97|None|1|None|1|None
+229061|270|49042|1981.328|314.06|123.97|None|1|None|1|None
+229062|270|49043|1930.598|310.24|120.13|None|None|None|None|None
+229063|270|49044|1930.598|310.24|120.13|None|None|None|None|None
+229064|270|49045|1930.598|310.24|120.13|None|None|None|None|None
+229065|270|49046|1922.771|308.44|118.25|None|0|None|1|None
+229066|270|49047|1922.771|308.44|118.25|None|0|None|1|None
+229067|270|49048|1922.771|308.44|118.25|None|0|None|1|None
+
+# 
+# stations
+# 
+# Sid|Name|Network|Channel|LocationCode|Latitude|Longitude|ElevationMasl|Source
+42514|CAD|CB|BHE|00|31.0|97.5|3070.0|IRIS
+42515|CAD|CB|BHN|00|31.0|97.5|3070.0|IRIS
+42516|CAD|CB|BHZ|00|31.0|97.5|3070.0|IRIS
+42517|NAQ|CB|BHE|00|32.25|92.25|4500.0|IRIS
+42518|NAQ|CB|BHN|00|32.25|92.25|4500.0|IRIS
+42519|NAQ|CB|BHZ|00|32.25|92.25|4500.0|IRIS
+42520|LSA|IC|BHE|00|29.7031|91.127|3645.0|IRIS
+42521|LSA|IC|BHN|00|29.7031|91.127|3645.0|IRIS
+42522|LSA|IC|BHZ|00|29.7031|91.127|3645.0|IRIS
+42526|LSA|IC|HHE|10|29.7031|91.127|3645.0|IRIS
+42527|LSA|IC|HHN|10|29.7031|91.127|3645.0|IRIS
+42528|LSA|IC|HHZ|10|29.7031|91.127|3645.0|IRIS
+42529|TNC|CB|BHE|00|25.028999|98.519997|1650.0|IRIS
+42530|TNC|CB|BHN|00|25.028999|98.519997|1650.0|IRIS
+42531|TNC|CB|BHZ|00|25.028999|98.519997|1650.0|IRIS
+42532|KMI|IC|BHE|00|25.1233|102.74|1940.0|IRIS
+42533|KMI|IC|BHN|00|25.1233|102.74|1940.0|IRIS
+42534|KMI|IC|BHZ|00|25.1233|102.74|1940.0|IRIS
+42538|KMI|IC|HHE|10|25.1233|102.74|1940.0|IRIS
+42539|KMI|IC|HHN|10|25.1233|102.74|1940.0|IRIS
+42540|KMI|IC|HHZ|10|25.1233|102.74|1940.0|IRIS
+42541|LZH|CD|BHE||36.0867|103.844398|1560.0|IRIS
+42542|LZH|CD|BHN||36.0867|103.844398|1560.0|IRIS
+42543|LZH|CD|BHZ||36.0867|103.844398|1560.0|IRIS
+42544|ENH|IC|BHE|00|30.2762|109.4944|500.0|IRIS
+42545|ENH|IC|BHN|00|30.2762|109.4944|500.0|IRIS
+42546|ENH|IC|BHZ|00|30.2762|109.4944|500.0|IRIS
+42550|ENH|IC|HHE|10|30.2762|109.4944|500.0|IRIS
+42551|ENH|IC|HHN|10|30.2762|109.4944|500.0|IRIS
+42552|ENH|IC|HHZ|10|30.2762|109.4944|500.0|IRIS
+42553|XAN|IC|BHE|00|34.0313|108.9237|630.0|IRIS
+42554|XAN|IC|BHN|00|34.0313|108.9237|630.0|IRIS
+42555|XAN|IC|BHZ|00|34.0313|108.9237|630.0|IRIS
+42559|XAN|IC|HHE|10|34.0313|108.9237|630.0|IRIS
+42560|XAN|IC|HHN|10|34.0313|108.9237|630.0|IRIS
+42561|XAN|IC|HHZ|10|34.0313|108.9237|630.0|IRIS
+42562|CHTO|IU|BHE|00|18.8141|98.9443|320.0|IRIS
+42563|CHTO|IU|BHN|00|18.8141|98.9443|320.0|IRIS
+42564|CHTO|IU|BHZ|00|18.8141|98.9443|320.0|IRIS
+48986|WMQ|IC|BHE|00|43.8138|87.7049|844.0|IRIS
+48987|WMQ|IC|BHN|00|43.8138|87.7049|844.0|IRIS
+48988|WMQ|IC|BHZ|00|43.8138|87.7049|844.0|IRIS
+48992|WMQ|IC|HHE|10|43.8138|87.7049|844.0|IRIS
+48993|WMQ|IC|HHN|10|43.8138|87.7049|844.0|IRIS
+48994|WMQ|IC|HHZ|10|43.8138|87.7049|844.0|IRIS
+49013|QIZ|CD|BHE||19.0294|109.8433|230.0|IRIS
+49014|QIZ|CD|BHN||19.0294|109.8433|230.0|IRIS
+49015|QIZ|CD|BHZ||19.0294|109.8433|230.0|IRIS
+49016|WUS|G|BHE||41.200716|79.216498|1468.0|IRIS
+49017|WUS|G|BHN||41.200716|79.216498|1468.0|IRIS
+49018|WUS|G|BHZ||41.200716|79.216498|1468.0|IRIS
+49019|AHQI|XW|BHE||40.9347|78.457802|1959.0|IRIS
+49020|AHQI|XW|BHN||40.9347|78.457802|1959.0|IRIS
+49021|AHQI|XW|BHZ||40.9347|78.457802|1959.0|IRIS
+49022|AKSU|XW|BHE||41.1441|80.109802|1109.0|IRIS
+49023|AKSU|XW|BHN||41.1441|80.109802|1109.0|IRIS
+49024|AKSU|XW|BHZ||41.1441|80.109802|1109.0|IRIS
+49025|BCHU|XW|BHE||39.793301|78.782501|1140.0|IRIS
+49026|BCHU|XW|BHN||39.793301|78.782501|1140.0|IRIS
+49027|BCHU|XW|BHZ||39.793301|78.782501|1140.0|IRIS
+49028|HARA|XW|BHE||40.174198|76.8367|1585.0|IRIS
+49029|HARA|XW|BHN||40.174198|76.8367|1585.0|IRIS
+49030|HARA|XW|BHZ||40.174198|76.8367|1585.0|IRIS
+49031|HLQI|XW|BHE||40.841499|77.964302|2241.0|IRIS
+49032|HLQI|XW|BHN||40.841499|77.964302|2241.0|IRIS
+49033|HLQI|XW|BHZ||40.841499|77.964302|2241.0|IRIS
+49034|KENS|XW|BHE||42.320099|79.236198|2805.0|IRIS
+49035|KENS|XW|BHN||42.320099|79.236198|2805.0|IRIS
+49036|KENS|XW|BHZ||42.320099|79.236198|2805.0|IRIS
+49037|KOPG|XW|BHE||40.504002|79.036003|1114.0|IRIS
+49038|KOPG|XW|BHN||40.504002|79.036003|1114.0|IRIS
+49039|KOPG|XW|BHZ||40.504002|79.036003|1114.0|IRIS
+49040|KSA|XW|BHE||41.5425|77.925697|3398.0|IRIS
+49041|KSA|XW|BHN||41.5425|77.925697|3398.0|IRIS
+49042|KSA|XW|BHZ||41.5425|77.925697|3398.0|IRIS
+49043|PIQG|XW|BHE||40.3204|77.626999|1736.0|IRIS
+49044|PIQG|XW|BHN||40.3204|77.626999|1736.0|IRIS
+49045|PIQG|XW|BHZ||40.3204|77.626999|1736.0|IRIS
+49046|XIKR|XW|BHE||39.817799|77.3666|1134.0|IRIS
+49047|XIKR|XW|BHN||39.817799|77.3666|1134.0|IRIS
+49048|XIKR|XW|BHZ||39.817799|77.3666|1134.0|IRIS
+

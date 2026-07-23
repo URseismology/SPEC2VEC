@@ -1,0 +1,73 @@
+# 
+# events
+# 
+# Eventid|Name|Starttime|Endtime|Latitude|Longitude|LocuncertKm|CrownLat|CrownLon|TipLat|TipLon|Type|AreaTotal|AreaSource|AreaSourceLow|AreaSourceHigh|Volume|VolumeLow|VolumeHigh|Mass|MassLow|MassHigh|H|HLow|HHigh|L|LLow|LHigh|HFreefall|HFreefallLow|HFreefallHigh|UpstreamDrainarea|PeakDischarge|PeakDischargeLow|PeakDischargeHigh|PeakFlowheight|PeakFlowheightLow|PeakFlowheightHigh|Otherdataquality1to5|LPpotential|MaxdistvhfKm|MaxdistvhfReached|MaxdisthfKm|MaxdisthfReached|MaxdistipKm|MaxdistipReached|MaxdistlpKm|MaxdistlpReached|InfraDetected|MaxdistinfraKm|MaxdistinfraReached|DatLocation|Sources
+217|Piz Cengalo 3, Switzerland|2017-08-23 09:03:54|2017-08-23 09:05:44|46.29552|9.6019|None|None|None|None|None|landslide|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|1|0|None|None|122.0|0|None|None|0.0|None|None|None|None|INGV, ORFEUS, ETH|Collins, E.A., Allstadt, K.E., Groult, C., Hibert, C., Malet, J.-P., Toney, L.D., and Bessette-Kirton, E., 2022, Seismogenic Landslides and other Mass Movements: U.S. Geological Survey data release, https://doi.org/10.5066/P90VGCSK.
+
+
+# 
+# information
+# 
+# Iid|Eventid|RefId|Note|PhoId|GISId|ApplyAlso
+549|217|207|These events were cataloged through ZAMG (2021). Individual reports for each event were recieved by mail.|None|None|218,219,220,221,222,223,224,225,226,227,228,229,230,253
+593|217|219|These two events may be the collapse of more material a few hours after the main rock avalanche at 2017-08-23 07:30:16 (UTC) at Piz Cengalo, but they are not mentioned explicitly by Walter and others,(2020).|None|None|218
+488|191|220|This event occurred in plutonic rocks based on ELSUS v2 (Wilde and others, 2018).|None|None|193,202,248,249,256,204,192,217,218,207,255,209
+530|191|None|Horizontal components for several stations which detected these events were not reviewed.|None|None|192,193,194,195,196,197,198,199,200,201,202,203,204,205,206,207,208,209,210,211,212,213,214,215,216,217,218,219,220,221,222,223,224,225,226,227,228,229,230,231,232,233,234,235,236,237,238,239,240,241,242,243,244,245,246,247,248,249,250,251,252,253,254,255,256,257,258
+
+# 
+# photos
+# 
+# PhotoId|Eventid|Photographer|Description|Latitude|Longitude|Date|FileExtension|ApplyAlso
+1139|217|Elaine Collins|Raw waveforms from closest stations. Data was demeaned but no other processing was applied. Dashed lines show approximate start and end times of event (from database). Figure generation is automated and there may be artifacts present.|None|None|None|EventData/217_PizCengalo3Switzerland_23Aug2017/photos_figures/217_PizCengalo3Switzerland_23Aug2017_waveforms_raw.png|None
+1140|217|Elaine Collins|High frequency (1-5 Hz) ground velocity waveforms for station response from closest stations with detections. Dashed lines show approximate start and end times of event (from database). Waveforms are corrected for station response after removing the mean. Figure generation is automated and there may be artifacts present. Clipped waveforms have not been removed before station correction so check raw plots before interpreting high amplitude signals.|None|None|None|EventData/217_PizCengalo3Switzerland_23Aug2017/photos_figures/217_PizCengalo3Switzerland_23Aug2017_waveforms_1-5Hz.png|None
+1141|217|Elaine Collins|Spectrograms of velocity waveforms corrected for station sensitivity from closest stations with detections. Figure generation is automated and there may be artifacts present|None|None|None|EventData/217_PizCengalo3Switzerland_23Aug2017/photos_figures/217_PizCengalo3Switzerland_23Aug2017_spectrogram.png|None
+1142|217|Elaine Collins|Multitaper spectra (same units as Power Spectral Density) of velocity waveforms corrected for station sensitivity from closest stations with detections. Linear trend was removed and a taper was applied before generating spectra. Figure generation is automated and there may be artifacts present. Since station response was not removed to avoid adding artifacts at low frequencies for short and intermediate period stations, the lower frequency amplitudes should be interpreted with care.|None|None|None|EventData/217_PizCengalo3Switzerland_23Aug2017/photos_figures/217_PizCengalo3Switzerland_23Aug2017_spectra.png|None
+
+# 
+# reference
+# 
+# Refid|Eventid|ApplyAlso|LongRef|ShortRef|FileExtension|Url
+207|217|218,219,220,221,222,223,224,225,226,227,228,229,230,253|ZAMG, 2021, Austrian Earthquake Catalogue from 1000 to 2021 A.D., Zentralanstalt für Meteorologie und Geodynamik, Abteilung Geophysik, 1190 Wien.|ZAMG (2021)|None|https://www.zamg.ac.at/cms/de/aktuell
+
+# 
+# sta_nearby
+# 
+# SRid|Eventid|Sid|StasourceRadiusKm|Az|Baz|DetectVHF|DetectHF|DetectIP|DetectLP|DetectINFRA
+186247|217|37847|23.91713375969045|330.6849487833845|150.5744813263442|None|1|None|None|None
+186248|217|37848|27.702269122630877|315.1784047896623|134.99409416966074|None|1|None|None|None
+186249|217|37849|34.89130447254442|67.79940178923668|248.10418980931448|None|1|None|None|None
+186250|217|37851|57.95732497896313|21.454305584340524|201.65581274487977|None|1|None|None|None
+186251|217|37852|59.126042498767816|171.36409362417677|351.44621628669324|None|1|None|None|None
+186252|217|37853|59.92874988334602|226.3994727880114|45.99576471745379|None|1|None|None|None
+186253|217|37854|62.233133491904546|54.37127972578119|234.850871828373|None|1|None|None|None
+186254|217|37855|62.40280947363991|71.00066669446763|251.55835520272822|None|1|None|None|None
+186255|217|37856|69.86146977472177|327.6520485484884|147.2961141153979|None|1|None|None|None
+186256|217|37859|74.1823951057544|284.11070093702347|103.4309763831973|None|1|None|None|None
+186257|217|37860|75.15209676876562|110.46318874804973|291.12124129489615|None|1|None|None|None
+186258|217|37862|79.8742002419156|233.83483145740286|53.235580923247035|None|1|None|None|None
+186259|217|37867|104.94200356212403|315.67053285459747|134.96911927643353|None|1|None|None|None
+186260|217|37869|110.34621851280608|305.73691434008975|124.88195189845962|None|1|None|None|None
+186261|217|37874|117.93779080807526|46.51830829890518|227.33812000181317|None|1|None|None|None
+186262|217|37876|121.78663217963789|267.65574404300423|86.51236263731042|None|1|None|None|None
+
+# 
+# stations
+# 
+# Sid|Name|Network|Channel|LocationCode|Latitude|Longitude|ElevationMasl|Source
+37847|VDL|CH|HHZ||46.48311|9.44933|1927.75|ETH
+37848|TUE|MN|BHZ||46.47223|9.34732|1924.0|IRIS,INGV
+37849|BERNI|CH|HHZ||46.413636|10.023095|2311.0|ETH
+37851|DAVOX|CH|HHZ||46.7805|9.87952|1830.0|ETH
+37852|MDI|IV|HHZ||45.76972|9.716|954.0|INGV
+37853|MUGIO|CH|HHZ||45.92184|9.04171|924.0|ETH,IRIS
+37854|FUORN|CH|HHZ||46.620334|10.26352|2286.0|ETH,IRIS
+37855|BRMO|IV|BHZ||46.47616|10.37218|1380.0|INGV
+37856|PANIX|CH|HHZ||46.825743|9.111708|1433.0|ETH
+37859|FUSIO|CH|HHZ||46.45481|8.6629|1460.0|ETH
+37860|MABI|IV|HHZ||46.05492|10.514|1853.0|INGV
+37862|VARE|IV|HHZ||45.867695|8.77|1219.0|INGV
+37867|MUO|CH|HHZ||46.96765|8.63706|1920.0|ETH
+37869|BNALP|CH|HHZ||46.87034|8.4249|1549.0|ETH
+37874|FETA|OE|HHZ||47.0211|10.7291|1632.0|ORFEUS
+37876|SIMPL|CH|HHZ||46.23962|8.01958|1930.0|ETH
+

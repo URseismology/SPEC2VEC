@@ -1,0 +1,49 @@
+# 
+# events
+# 
+# Eventid|Name|Starttime|Endtime|Latitude|Longitude|LocuncertKm|CrownLat|CrownLon|TipLat|TipLon|Type|AreaTotal|AreaSource|AreaSourceLow|AreaSourceHigh|Volume|VolumeLow|VolumeHigh|Mass|MassLow|MassHigh|H|HLow|HHigh|L|LLow|LHigh|HFreefall|HFreefallLow|HFreefallHigh|UpstreamDrainarea|PeakDischarge|PeakDischargeLow|PeakDischargeHigh|PeakFlowheight|PeakFlowheightLow|PeakFlowheightHigh|Otherdataquality1to5|LPpotential|MaxdistvhfKm|MaxdistvhfReached|MaxdisthfKm|MaxdisthfReached|MaxdistipKm|MaxdistipReached|MaxdistlpKm|MaxdistlpReached|InfraDetected|MaxdistinfraKm|MaxdistinfraReached|DatLocation|Sources
+193|Glacier Carre, France|2018-08-07 04:08:48|2018-08-07 04:10:23|45.004121|6.304484|0.2|None|None|None|None|landslide|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|3|0|None|None|52.0|0|None|None|0.0|None|None|None|None|RESIF|Collins, E.A., Allstadt, K.E., Groult, C., Hibert, C., Malet, J.-P., Toney, L.D., and Bessette-Kirton, E., 2022, Seismogenic Landslides and other Mass Movements: U.S. Geological Survey data release, https://doi.org/10.5066/P90VGCSK.
+
+
+# 
+# information
+# 
+# Iid|Eventid|RefId|Note|PhoId|GISId|ApplyAlso
+488|191|220|This event occurred in plutonic rocks based on ELSUS v2 (Wilde and others, 2018).|None|None|193,202,248,249,256,204,192,217,218,207,255,209
+530|191|None|Horizontal components for several stations which detected these events were not reviewed.|None|None|192,193,194,195,196,197,198,199,200,201,202,203,204,205,206,207,208,209,210,211,212,213,214,215,216,217,218,219,220,221,222,223,224,225,226,227,228,229,230,231,232,233,234,235,236,237,238,239,240,241,242,243,244,245,246,247,248,249,250,251,252,253,254,255,256,257,258
+
+# 
+# photos
+# 
+# PhotoId|Eventid|Photographer|Description|Latitude|Longitude|Date|FileExtension|ApplyAlso
+1035|193|Elaine Collins|Raw waveforms from closest stations. Data was demeaned but no other processing was applied. Dashed lines show approximate start and end times of event (from database). Figure generation is automated and there may be artifacts present.|None|None|None|EventData/193_GlacierCarreFrance_07Aug2018/photos_figures/193_GlacierCarreFrance_07Aug2018_waveforms_raw.png|None
+1036|193|Elaine Collins|High frequency (1-5 Hz) ground velocity waveforms for station response from closest stations with detections. Dashed lines show approximate start and end times of event (from database). Waveforms are corrected for station response after removing the mean. Figure generation is automated and there may be artifacts present. Clipped waveforms have not been removed before station correction so check raw plots before interpreting high amplitude signals.|None|None|None|EventData/193_GlacierCarreFrance_07Aug2018/photos_figures/193_GlacierCarreFrance_07Aug2018_waveforms_1-5Hz.png|None
+1037|193|Elaine Collins|Spectrograms of velocity waveforms corrected for station sensitivity from closest stations with detections. Figure generation is automated and there may be artifacts present|None|None|None|EventData/193_GlacierCarreFrance_07Aug2018/photos_figures/193_GlacierCarreFrance_07Aug2018_spectrogram.png|None
+1038|193|Elaine Collins|Multitaper spectra (same units as Power Spectral Density) of velocity waveforms corrected for station sensitivity from closest stations with detections. Linear trend was removed and a taper was applied before generating spectra. Figure generation is automated and there may be artifacts present. Since station response was not removed to avoid adding artifacts at low frequencies for short and intermediate period stations, the lower frequency amplitudes should be interpreted with care.|None|None|None|EventData/193_GlacierCarreFrance_07Aug2018/photos_figures/193_GlacierCarreFrance_07Aug2018_spectra.png|None
+
+# 
+# reference
+# 
+# Refid|Eventid|ApplyAlso|LongRef|ShortRef|FileExtension|Url
+188|193||Ribeyre, B., 9 Oct 2018, Alpine Mag, Éboulement à la Meije la Voie Normale Sera-T-Elle Possible dans le Futur ? [BlogPost], Accessed 4 Nov 2021, at https://alpinemag.fr/eboulement-de-la-meije/|Ribeyre (2018)|None|https://alpinemag.fr/eboulement-de-la-meije/
+
+# 
+# sta_nearby
+# 
+# SRid|Eventid|Sid|StasourceRadiusKm|Az|Baz|DetectVHF|DetectHF|DetectIP|DetectLP|DetectINFRA
+185239|193|37815|8.301736424547398|63.9531819333424|244.020281958784|None|1|None|None|None
+185240|193|37819|25.95241111130778|216.1680182425912|36.03123880327039|None|1|None|None|None
+185241|193|37816|30.271641300634048|142.3762006915582|322.5411331080524|None|1|None|None|None
+185242|193|37824|34.85051412388528|254.33757308714183|74.03649903719766|None|1|None|None|None
+185243|193|37838|51.62649671838625|264.331147973347|83.8696532967133|None|1|None|None|None
+
+# 
+# stations
+# 
+# Sid|Name|Network|Channel|LocationCode|Latitude|Longitude|ElevationMasl|Source
+37815|OGSA|FR|HHZ|00|45.036806|6.400931|2106.0|RESIF
+37819|OGVG|FR|HHZ|00|44.81517|6.11233|1090.0|RESIF
+37816|OGAG|FR|HHZ|00|44.78784|6.539745|1280.0|RESIF
+37824|ORIF|RD|BHZ||44.9183|5.88|0.0|RESIF
+37838|AVR|MT|HHZ|00|44.956045|5.653195|871.51|RESIF
+

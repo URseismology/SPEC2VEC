@@ -1,0 +1,51 @@
+# 
+# events
+# 
+# Eventid|Name|Starttime|Endtime|Latitude|Longitude|LocuncertKm|CrownLat|CrownLon|TipLat|TipLon|Type|AreaTotal|AreaSource|AreaSourceLow|AreaSourceHigh|Volume|VolumeLow|VolumeHigh|Mass|MassLow|MassHigh|H|HLow|HHigh|L|LLow|LHigh|HFreefall|HFreefallLow|HFreefallHigh|UpstreamDrainarea|PeakDischarge|PeakDischargeLow|PeakDischargeHigh|PeakFlowheight|PeakFlowheightLow|PeakFlowheightHigh|Otherdataquality1to5|LPpotential|MaxdistvhfKm|MaxdistvhfReached|MaxdisthfKm|MaxdisthfReached|MaxdistipKm|MaxdistipReached|MaxdistlpKm|MaxdistlpReached|InfraDetected|MaxdistinfraKm|MaxdistinfraReached|DatLocation|Sources
+221|Großes Wiesbachhorn 2, Austria|2017-10-20 02:25:13|2017-10-20 02:26:23|47.1673|12.764|None|None|None|None|None|landslide|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|None|1|0|None|None|83.0|0|None|None|0.0|None|None|None|None|INGV, ORFEUS, LMU, IRIS|Collins, E.A., Allstadt, K.E., Groult, C., Hibert, C., Malet, J.-P., Toney, L.D., and Bessette-Kirton, E., 2022, Seismogenic Landslides and other Mass Movements: U.S. Geological Survey data release, https://doi.org/10.5066/P90VGCSK.
+
+
+# 
+# information
+# 
+# Iid|Eventid|RefId|Note|PhoId|GISId|ApplyAlso
+492|203|220|This event occurred in marlstones and limestones based on ELSUS v2 (Wilde and others, 2018).|None|None|222,220,221,226,227
+530|191|None|Horizontal components for several stations which detected these events were not reviewed.|None|None|192,193,194,195,196,197,198,199,200,201,202,203,204,205,206,207,208,209,210,211,212,213,214,215,216,217,218,219,220,221,222,223,224,225,226,227,228,229,230,231,232,233,234,235,236,237,238,239,240,241,242,243,244,245,246,247,248,249,250,251,252,253,254,255,256,257,258
+549|217|207|These events were cataloged through ZAMG (2021). Individual reports for each event were recieved by mail.|None|None|218,219,220,221,222,223,224,225,226,227,228,229,230,253
+
+# 
+# photos
+# 
+# PhotoId|Eventid|Photographer|Description|Latitude|Longitude|Date|FileExtension|ApplyAlso
+1155|221|Elaine Collins|Raw waveforms from closest stations. Data was demeaned but no other processing was applied. Dashed lines show approximate start and end times of event (from database). Figure generation is automated and there may be artifacts present.|None|None|None|EventData/221_GroßesWiesbachhorn2Austria_20Oct2017/photos_figures/221_GroßesWiesbachhorn2Austria_20Oct2017_waveforms_raw.png|None
+1156|221|Elaine Collins|High frequency (1-5 Hz) ground velocity waveforms for station response from closest stations with detections. Dashed lines show approximate start and end times of event (from database). Waveforms are corrected for station response after removing the mean. Figure generation is automated and there may be artifacts present. Clipped waveforms have not been removed before station correction so check raw plots before interpreting high amplitude signals.|None|None|None|EventData/221_GroßesWiesbachhorn2Austria_20Oct2017/photos_figures/221_GroßesWiesbachhorn2Austria_20Oct2017_waveforms_1-5Hz.png|None
+1157|221|Elaine Collins|Spectrograms of velocity waveforms corrected for station sensitivity from closest stations with detections. Figure generation is automated and there may be artifacts present|None|None|None|EventData/221_GroßesWiesbachhorn2Austria_20Oct2017/photos_figures/221_GroßesWiesbachhorn2Austria_20Oct2017_spectrogram.png|None
+1158|221|Elaine Collins|Multitaper spectra (same units as Power Spectral Density) of velocity waveforms corrected for station sensitivity from closest stations with detections. Linear trend was removed and a taper was applied before generating spectra. Figure generation is automated and there may be artifacts present. Since station response was not removed to avoid adding artifacts at low frequencies for short and intermediate period stations, the lower frequency amplitudes should be interpreted with care.|None|None|None|EventData/221_GroßesWiesbachhorn2Austria_20Oct2017/photos_figures/221_GroßesWiesbachhorn2Austria_20Oct2017_spectra.png|None
+
+
+# 
+# sta_nearby
+# 
+# SRid|Eventid|Sid|StasourceRadiusKm|Az|Baz|DetectVHF|DetectHF|DetectIP|DetectLP|DetectINFRA
+186551|221|38312|29.320589045018593|347.0627826596868|166.99884924820944|None|1|None|None|None
+186552|221|37949|50.447368975745725|202.40628029096732|22.222325019447617|None|1|None|None|None
+186553|221|37997|63.41117001989731|2.1500911504120865|182.1734555833173|None|1|None|None|None
+186554|221|37994|64.19638212159502|357.71579275078847|177.69065950180078|None|1|None|None|None
+186555|221|37998|64.40680723888023|4.012051243576293|184.05631786279318|None|1|None|None|None
+186556|221|38273|69.54441485165805|166.6819202557609|346.83436081056084|None|1|None|None|None
+186557|221|37983|74.68733739912128|156.77592204099528|337.05619040968526|None|1|None|None|None
+186558|221|38316|82.4681981694366|181.18064651333407|1.1645368795753248|None|1|None|None|None
+
+# 
+# stations
+# 
+# Sid|Name|Network|Channel|LocationCode|Latitude|Longitude|ElevationMasl|Source
+38312|LESA|OE|HHZ||47.4243|12.677|1029.5|ORFEUS
+37949|ABTA|OE|HHZ||46.7474|12.5123|1041.0|ORFEUS
+37997|RJOB|BW|EHZ||47.737167|12.795714|860.0|LMU
+37994|RWMO|BW|EHZ||47.744171|12.729887|763.0|LMU
+37998|RTBE|BW|EHZ||47.745098|12.824082|1162.0|LMU
+38273|ZOU2|NI|HHZ||46.558399|12.9729|1911.0|IRIS
+37983|PLRO|OX|HHZ||46.5491|13.1481|1410.0|INGV
+38316|PURA|NI|HHZ||46.4258|12.7419|1417.0|INGV
+

@@ -1,0 +1,1 @@
+This folder will contain all the processed datasets from the Tectonic EQ. 'vel' stands for instrument response removal with "VEL" to obtain the ground velocity. 
