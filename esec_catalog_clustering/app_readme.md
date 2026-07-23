@@ -3,7 +3,7 @@
 ## Overview
 This directory contains the necessary scripts, notebooks, and reference catalogs to process, analyze, and cluster both Exotic Seismic Event Catalog (ESEC) events and standard Tectonic Earthquakes using the Spec2VEC framework. 
 
-The **Exotic Seismic Event Catalog (ESEC)** is a curated database of unconventional seismic events (such as landslides, debris flows, and other non-tectonic surface events). You can find more detailed information about the ESEC catalog by visiting the [IRIS SPUD page](https://ds.iris.edu/spud/).
+The **Exotic Seismic Event Catalog (ESEC)** is a curated database of unconventional seismic events (such as landslides, debris flows, and other non-tectonic surface events). You can find more detailed information about the ESEC catalog by visiting the [IRIS SPUD page](https://ds.iris.edu/spud/esec).
 
 ## Data Catalogs & Sourcing
 The master catalogs for both types of events are included in this directory:
