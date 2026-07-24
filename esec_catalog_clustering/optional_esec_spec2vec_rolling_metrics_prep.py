@@ -33,9 +33,9 @@ from PRJ_GIS_QA.src.utils.gisqa_compute_updated import *
 from PRJ_GIS_QA.src.utils.helper import *
 
 
-CATALOG_PATH = "/data/sswar_files/PRJ_GIS_QA/esce_catalog_test/final_test_results_for_production/Master_ESEC_Catalog_vel_all.csv"
-DATA_DIR = "/data/sswar_files/PRJ_GIS_QA/esce_catalog_test/final_test_results_for_production/esec_processed_vel"
-SPEC2VEC_SAVEPATH = "/data/sswar_files/PRJ_GIS_QA/esce_catalog_test/final_test_results_for_production/computed_dataset_files/esec_spec2vec_rolling_metrics.csv"
+CATALOG_PATH = "SPEC2VEC/esec_catalog_clustering/Master_ESEC_Catalog_vel_all.csv"
+DATA_DIR = "SPEC2VEC/esec_catalog_clustering/esec_processed_vel"
+SPEC2VEC_SAVEPATH = "SPEC2VEC/esec_catalog_clustering/computed_dataset_files/esec_spec2vec_rolling_metrics.csv"
 
 TARGET_FS = 20.0
 NSTNS_PER_EVENT = 5

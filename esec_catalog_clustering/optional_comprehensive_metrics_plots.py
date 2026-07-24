@@ -63,19 +63,19 @@ from SPEC2VEC.src.utils.gisqa_helper import *
 #---------------------------- GLOBAL VARIABLES------------------------------
 # Set Global Variables
 #---------------------------------------------------------------------------
-CATALOG_PATH_ESEC = "/data/sswar_files/PRJ_GIS_QA/esce_catalog_test/final_test_results_for_production/Master_ESEC_Catalog_vel_all.csv"
-CATALOG_PATH_EQ = "/data/sswar_files/PRJ_GIS_QA/esce_catalog_test/final_test_results_for_production/Master_tectonic_eq_catalog.csv"
-ESEC_EVENTS_REF = "/data/sswar_files/PRJ_GIS_QA/esce_catalog_test/final_test_results_for_production/metadata/IRIS_DMC_esecEventsDb.txt"
+CATALOG_PATH_ESEC = "SPEC2VEC/esec_catalog_clustering/Master_ESEC_Catalog_vel_all.csv"
+CATALOG_PATH_EQ = "SPEC2VEC/esec_catalog_clustering/Master_tectonic_eq_catalog.csv"
+ESEC_EVENTS_REF = "SPEC2VEC/esec_catalog_clustering/metadata/IRIS_DMC_esecEventsDb.txt"
 
-ESEC_CWT_DICT = "/data/sswar_files/PRJ_GIS_QA/esce_catalog_test/final_test_results_for_production/computed_dataset_files/esec_spec2vec_input_cwt_dict.npy"
-EQS_CWT_DICT = "/data/sswar_files/PRJ_GIS_QA/esce_catalog_test/final_test_results_for_production/computed_dataset_files/tectonic_eq_spec2vec_input_cwt_dict.npy"
+ESEC_CWT_DICT = "SPEC2VEC/esec_catalog_clustering/computed_dataset_files/esec_spec2vec_input_cwt_dict.npy"
+EQS_CWT_DICT = "SPEC2VEC/esec_catalog_clustering/computed_dataset_files/tectonic_eq_spec2vec_input_cwt_dict.npy"
 
-SEPC2VEC_METRICS_ESEC = "/data/sswar_files/PRJ_GIS_QA/esce_catalog_test/final_test_results_for_production/computed_dataset_files/esec_spec2vec_metrics_spatial.csv"
-SEPC2VEC_METRICS_EQS = "/data/sswar_files/PRJ_GIS_QA/esce_catalog_test/final_test_results_for_production/computed_dataset_files/eq_spec2vec_metrics_spatial.csv"
+SEPC2VEC_METRICS_ESEC = "SPEC2VEC/esec_catalog_clustering/computed_dataset_files/esec_spec2vec_metrics_spatial.csv"
+SEPC2VEC_METRICS_EQS = "SPEC2VEC/esec_catalog_clustering/computed_dataset_files/eq_spec2vec_metrics_spatial.csv"
 
-DATA_DIR_LIST = ["/data/sswar_files/PRJ_GIS_QA/esce_catalog_test/final_test_results_for_production/esec_processed_vel",
-                "/data/sswar_files/PRJ_GIS_QA/esce_catalog_test/final_test_results_for_production/eq_processed_vel"]
-FIG_SAVE_PATH = "/data/sswar_files/PRJ_GIS_QA/esce_catalog_test/figures/forpaper_V1/comprehensive_metrics_plots"
+DATA_DIR_LIST = ["SPEC2VEC/esec_catalog_clustering/esec_processed_vel",
+                "SPEC2VEC/esec_catalog_clustering/eq_processed_vel"]
+FIG_SAVE_PATH = "SPEC2VEC/esec_catalog_clustering/comprehensive_metrics_plots"
 COMPUTE_METRICS = ['permutation_entropy','svd_entropy','spectral_entropy','petrosian_fd','hjorth_complexity','detrended_fluctuation',
                     'fisher_shannon','higuchi_fd','renyi_complexity_entropy']
 

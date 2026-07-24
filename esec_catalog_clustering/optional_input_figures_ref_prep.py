@@ -26,16 +26,16 @@ from PRJ_SPEC_MASTER.src.utils.data_preparations import *
 #---------------------------- GLOBAL VARIABLES------------------------------
 # Set Global Variables
 #---------------------------------------------------------------------------
-CATALOG_PATH_ESEC = "/data/sswar_files/PRJ_GIS_QA/esce_catalog_test/final_test_results_for_production/Master_ESEC_Catalog_vel_all.csv"
-CATALOG_PATH_EQ = "/data/sswar_files/PRJ_GIS_QA/esce_catalog_test/final_test_results_for_production/Master_tectonic_eq_catalog.csv"
+CATALOG_PATH_ESEC = "SPEC2VEC/esec_catalog_clustering/Master_ESEC_Catalog_vel_all.csv"
+CATALOG_PATH_EQ = "SPEC2VEC/esec_catalog_clustering/Master_tectonic_eq_catalog.csv"
 
-DATA_DIR_ESEC = "/data/sswar_files/PRJ_GIS_QA/esce_catalog_test/final_test_results_for_production/esec_processed_vel"
-DATA_DIR_EQ = "/data/sswar_files/PRJ_GIS_QA/esce_catalog_test/final_test_results_for_production/eq_processed_vel"
+DATA_DIR_ESEC = "SPEC2VEC/esec_catalog_clustering/esec_processed_vel"
+DATA_DIR_EQ = "SPEC2VEC/esec_catalog_clustering/eq_processed_vel"
 
-SAVE_FIG_DIR_ESEC = "/data/sswar_files/PRJ_GIS_QA/esce_catalog_test/final_test_results_for_production/esec_spec2vec_ip_figures"
-SAVE_FIG_DIR_EQ = "/data/sswar_files/PRJ_GIS_QA/esce_catalog_test/final_test_results_for_production/eq_spec2vec_ip_figures"
+SAVE_FIG_DIR_ESEC = "SPEC2VEC/esec_catalog_clustering/esec_spec2vec_ip_figures"
+SAVE_FIG_DIR_EQ = "SPEC2VEC/esec_catalog_clustering/eq_spec2vec_ip_figures"
 
-SAVE_CWT_ARRAYS = "/data/sswar_files/PRJ_GIS_QA/esce_catalog_test/final_test_results_for_production/computed_dataset_files"
+SAVE_CWT_ARRAYS = "SPEC2VEC/esec_catalog_clustering/computed_dataset_files"
 
 TARGET_FS = 20.0
 NSTNS_PER_EVENT = 5

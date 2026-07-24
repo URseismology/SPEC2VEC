@@ -16,13 +16,13 @@ from obspy import UTCDateTime
 #---------------------------- GLOBAL VARIABLES------------------------------
 # Set Global Variables
 #---------------------------------------------------------------------------
-DB_DIR = "/data/sswar_files/PRJ_GIS_QA/esce_catalog_test/final_test_results_for_production/metadata/DB_Files"
-DB_FILES_PATH = "/data/sswar_files/PRJ_GIS_QA/esce_catalog_test/final_test_results_for_production/metadata/DB_Files/*.csv" ##Set DB_FILES_PATH to None When no DB Files Available
+DB_DIR = "SPEC2VEC/esec_catalog_clustering/metadata/DB_Files"
+DB_FILES_PATH = "SPEC2VEC/esec_catalog_clustering/metadata/DB_Files/*.csv" ##Set DB_FILES_PATH to None When no DB Files Available
 
 SPUD_URL = "https://ds.iris.edu/spud/esec"
-CATALOG_PATH = "/data/sswar_files/PRJ_GIS_QA/esce_catalog_test/final_test_results_for_production/Master_ESEC_Catalog_vel_all.csv"
-SAC_OUT_DIR = "/data/sswar_files/PRJ_GIS_QA/esce_catalog_test/final_test_results_for_production/esec_resp_removed_vel"
-SAC_PROC_DIR = "/data/sswar_files/PRJ_GIS_QA/esce_catalog_test/final_test_results_for_production/esec_processed_vel"
+CATALOG_PATH = "SPEC2VEC/esec_catalog_clustering/Master_ESEC_Catalog_vel_all.csv"
+SAC_OUT_DIR = "SPEC2VEC/esec_catalog_clustering/esec_raw_data"
+SAC_PROC_DIR = "SPEC2VEC/esec_catalog_clustering/esec_processed_vel"
 
 EVENT_COLS = ["Eventid", "Name", "Starttime", "Endtime", "Latitude", "Longitude", 
                 "Type", "AreaTotal", "AreaSource", "AreaSourceLow", "AreaSourceHigh", 

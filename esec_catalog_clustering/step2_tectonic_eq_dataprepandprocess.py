@@ -35,9 +35,9 @@ from scipy.signal import hilbert
 #---------------------------- GLOBAL VARIABLES------------------------------
 # Set Global Variables
 #---------------------------------------------------------------------------
-EQ_RAW_DATA_DIR = "/data/sswar_files/PRJ_GIS_QA/esce_catalog_test/final_test_results_for_production/eq_raw_data"
-EQ_PROC_DATA_DIR = "/data/sswar_files/PRJ_GIS_QA/esce_catalog_test/final_test_results_for_production/eq_processed_vel"
-CATALOG_PATH = "/data/sswar_files/PRJ_GIS_QA/esce_catalog_test/final_test_results_for_production/Master_tectonic_eq_catalog.csv"
+EQ_RAW_DATA_DIR = "SPEC2VEC/esec_catalog_clustering/eq_raw_data"
+EQ_PROC_DATA_DIR = "SPEC2VEC/esec_catalog_clustering/eq_processed_vel"
+CATALOG_PATH = "SPEC2VEC/esec_catalog_clustering/Master_tectonic_eq_catalog.csv"
 
 ##---------------------------- Helper Functions ----------------------------
 def _tectonic_eq_dataprocessing():

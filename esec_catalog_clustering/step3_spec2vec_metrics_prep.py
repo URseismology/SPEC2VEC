@@ -42,15 +42,15 @@ from SPEC2VEC.src.utils.gisqa_helper import *
 #---------------------------- GLOBAL VARIABLES------------------------------
 # Set Global Variables
 #---------------------------------------------------------------------------
-CATALOG_PATH_ESEC = "/data/sswar_files/PRJ_GIS_QA/esce_catalog_test/final_test_results_for_production/Master_ESEC_Catalog_vel_all.csv"
-DATA_DIR_ESEC = "/data/sswar_files/PRJ_GIS_QA/esce_catalog_test/final_test_results_for_production/esec_processed_vel"
-SPEC2VEC_SAVEPATH_ESEC = "/data/sswar_files/PRJ_GIS_QA/esce_catalog_test/final_test_results_for_production/computed_dataset_files/esec_spec2vec_metrics.csv"
-SPATIAL_SAVEPATH_ESEC = "/data/sswar_files/PRJ_GIS_QA/esce_catalog_test/final_test_results_for_production/computed_dataset_files/esec_spec2vec_metrics_spatial.csv"
+CATALOG_PATH_ESEC = "SPEC2VEC/esec_catalog_clustering/Master_ESEC_Catalog_vel_all.csv"
+DATA_DIR_ESEC = "SPEC2VEC/esec_catalog_clustering/esec_processed_vel"
+SPEC2VEC_SAVEPATH_ESEC = "SPEC2VEC/esec_catalog_clustering/computed_dataset_files/esec_spec2vec_metrics.csv"
+SPATIAL_SAVEPATH_ESEC = "SPEC2VEC/esec_catalog_clustering/computed_dataset_files/esec_spec2vec_metrics_spatial.csv"
 
-CATALOG_PATH_EQ = "/data/sswar_files/PRJ_GIS_QA/esce_catalog_test/final_test_results_for_production/Master_tectonic_eq_catalog.csv"
-DATA_DIR_EQ = "/data/sswar_files/PRJ_GIS_QA/esce_catalog_test/final_test_results_for_production/eq_processed_vel"
-SPEC2VEC_SAVEPATH_EQ = "/data/sswar_files/PRJ_GIS_QA/esce_catalog_test/final_test_results_for_production/computed_dataset_files/eq_spec2vec_metrics.csv"
-SPATIAL_SAVEPATH_EQ = "/data/sswar_files/PRJ_GIS_QA/esce_catalog_test/final_test_results_for_production/computed_dataset_files/eq_spec2vec_metrics_spatial.csv"
+CATALOG_PATH_EQ = "SPEC2VEC/esec_catalog_clustering/Master_tectonic_eq_catalog.csv"
+DATA_DIR_EQ = "SPEC2VEC/esec_catalog_clustering/eq_processed_vel"
+SPEC2VEC_SAVEPATH_EQ = "SPEC2VEC/esec_catalog_clustering/computed_dataset_files/eq_spec2vec_metrics.csv"
+SPATIAL_SAVEPATH_EQ = "SPEC2VEC/esec_catalog_clustering/computed_dataset_files/eq_spec2vec_metrics_spatial.csv"
 
 
 TARGET_FS = 20.0
