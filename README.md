@@ -36,10 +36,10 @@ To run Spec2VEC, you need the following core Python libraries:
    cd Spec2Vec
    ```
 
-2. **Set up a Python virtual environment (Recommended):**
-   Using `conda`:
+- **EITHER: Set up a Python virtual environment and install libararies sequentially:**
+
    ```bash
-   conda create -n spec2vec_env python=3.10 numpy=2.2 matplotlib pandas scikit-learn scipy seaborn notebook jupyterlab
+   conda create -n spec2vec_env python=3.10 numpy=2.2.5 matplotlib pandas scikit-learn scipy seaborn notebook jupyterlab
 
    # Install other dependencies:
    pip install h5py PyWavelets numba tsfel antropy ordpy pyradiomics numpy-hilbert-curve gstools structify-net networkx
@@ -48,11 +48,33 @@ To run Spec2VEC, you need the following core Python libraries:
    pip install jwave jax jaxlib
    ```
    
-3. **Note: If you do not want to install the libraries one by one then you can run the following:**
+- **OR: If you do not want to install the libraries one by one then you can run the following (Recommended):**
+   Note: Please follow these steps as provided to obtain an error free installation.
+   
    ```
-   conda create -n spec2vec_env python=3.10
+   conda create -n spec2vec_env python=3.10.19
    conda activate spec2vec_env
+   pip install numpy==2.2.5
+   pip install pyfastnoisesimd==0.4.2 --no-build-isolation
    pip install -r software_requirements/spec2vec_requirements_hard.txt
+   pip install pyradiomics==3.0.1 --no-build-isolation
+   ```
+
+## Alternative Installation Guide: automated setup script
+   We provide a bash script that automatically handles the environment creation and dependency installation order for you. Update the Environment Name and Software Requirements File Path.
+   
+   ```bash
+   bash setup.sh
+   ```
+   
+   Once it completes, activate the environment:
+   ```bash
+   conda activate spec2vec_env
+   ```
+   
+   Note: After completing the above setup you may need to run the following command for the new environment to show up in your kernel list.
+   ```
+   ~/.conda/envs/spec2vec_env/bin/python -m ipykernel install --user --name=spec2vec_env --display-name "spec2vec_env"
    ```
 
 ## Key Components and Functions

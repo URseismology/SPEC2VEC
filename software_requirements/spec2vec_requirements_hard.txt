@@ -195,7 +195,6 @@ pyparsing
 pyproj==3.7.1
 PyQt6==6.9.1
 PyQt6_sip
-pyradiomics==3.0.1
 pyshp==3.0.2.post1
 PySocks
 python-dateutil
