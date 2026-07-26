@@ -90,6 +90,7 @@ Follow the below steps to use the Spec2Vec library and associated codes in Googl
 
 2. Open the notebook you want to work with and copy the following code block at the beginning of the file and run it. Please ignore any pip dependency resolver related warnings and restart session prompts. 
    ```
+   # mount the google drive first
    %cd /content/drive/MyDrive/
    !pip install -r SPEC2VEC/software_requirements/spec2vec_requirements_google_colab.txt
    !pip install git+https://github.com/Radiomics/pyradiomics
