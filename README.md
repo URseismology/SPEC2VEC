@@ -29,7 +29,7 @@ To run Spec2VEC, you need the following core Python libraries:
 *Detailed hard and soft requirement files can be found in the `software_requirements` folder.*
 (Note: It is highly recommended that users first create and activate a fresh virtual environment before running the installation command so it doesn't conflict with their system's Python packages.)
 
-## Installation Guide
+## Installation Guide (To Local Machine)
 1. **Clone the repository:**
    ```bash
    git clone https://github.com/URseismology/SPEC2VEC.git
@@ -60,7 +60,7 @@ To run Spec2VEC, you need the following core Python libraries:
    pip install pyradiomics==3.0.1 --no-build-isolation
    ```
 
-## Alternative Installation Guide: automated setup script
+## Alternative Installation Guide (To Local Machine): automated setup script
    We provide a bash script that automatically handles the environment creation and dependency installation order for you. Update the Environment Name and Software Requirements File Path.
    
    ```bash
@@ -76,6 +76,26 @@ To run Spec2VEC, you need the following core Python libraries:
    ```
    ~/.conda/envs/spec2vec_env/bin/python -m ipykernel install --user --name=spec2vec_env --display-name "spec2vec_env"
    ```
+
+## Installation Guide (Google Colab):
+Follow the below steps to use the Spec2Vec library and associated codes in Google Colab. The installation would take about 1-2mins.
+
+1. Clone the repo in your google drive. (You might need to use a notebook):
+   ```
+   from google.colab import drive
+   drive.mount('/content/drive')
+   %cd /content/drive/MyDrive/
+   !git clone https://github.com/URseismology/SPEC2VEC.git
+   ```
+
+2. Open the notebook you want to work with and copy the following code block at the beginning of the file and run it. Please ignore any pip dependency resolver related warnings and restart session prompts. 
+   ```
+   %cd /content/drive/MyDrive/
+   !pip install -r SPEC2VEC/software_requirements/spec2vec_requirements_google_colab.txt
+   !pip install git+https://github.com/Radiomics/pyradiomics
+   ```
+
+***Note: While running the notebooks/scripts in google colab make sure to change the path vairable as per google drive paths (e.g. /content/drive/MyDrive/SPEC2VEC/...) for seamelss execution.***
 
 ## Key Components and Functions
 The backend operations of Spec2VEC live under the `utils/` directory. Key components include:
