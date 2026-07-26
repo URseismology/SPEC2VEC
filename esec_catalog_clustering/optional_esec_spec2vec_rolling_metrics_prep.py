@@ -23,16 +23,18 @@ from obspy import read
 from obspy import UTCDateTime
 from obspy.clients.fdsn import Client
 
-sys.path.append('/data/sswar_files/')
-pd.set_option('display.max_columns', None)
+## Update For Local
+sys.path.append('/path/to/my/all_projects') ## e.g. sys.path.append('/data/sswar_files/0_PUBLISHED_CODES')
 
-from PRJ_SPEC_MASTER.src.utils.data_preparations import *
-from PRJ_SPEC_MASTER.src.utils.noise_lib import *
-from PRJ_SPEC_MASTER.src.utils.spectograms_lib import *
-from PRJ_GIS_QA.src.utils.gisqa_compute_updated import *
-from PRJ_GIS_QA.src.utils.helper import *
+from SPEC2VEC.utils.simple_synth_data_models import *
+from SPEC2VEC.utils.noise_lib import *
+from SPEC2VEC.utils.spectograms_lib import *
+from SPEC2VEC.utils.gisqa_compute_updated import *
+from SPEC2VEC.utils.gisqa_helper import *
 
-
+#---------------------------- GLOBAL VARIABLES------------------------------
+# Set Global Variables
+#---------------------------------------------------------------------------
 CATALOG_PATH = "SPEC2VEC/esec_catalog_clustering/Master_ESEC_Catalog_vel_all.csv"
 DATA_DIR = "SPEC2VEC/esec_catalog_clustering/esec_processed_vel"
 SPEC2VEC_SAVEPATH = "SPEC2VEC/esec_catalog_clustering/computed_dataset_files/esec_spec2vec_rolling_metrics.csv"
@@ -78,6 +80,7 @@ SPEC2VEC_FEATURES = [
                     'label']
 
 
+##---------------------------- Helper Functions ----------------------------
 def _signalamp_norm(signal_amp):
     signal_amp = 2 * (signal_amp - signal_amp.min()) / (signal_amp.max() - signal_amp.min()) - 1
     return signal_amp
@@ -250,6 +253,7 @@ def main(filepath: str, outpath: str, spec2vec_cols: list, nstns_per_event=5):
     spec2vec_metrics_df.to_csv(outpath, index=None)
     mastercat_vel.to_csv(CATALOG_PATH, index=None)
 
+##---------------------------- Main ----------------------------
 if __name__ == "__main__":
     print(f"[{dt_log.now().strftime('%Y-%m-%d %H:%M:%S')}] Starting ESEC Spec2Vec Computation!!!")
     main(filepath=CATALOG_PATH, outpath=SPEC2VEC_SAVEPATH, spec2vec_cols=SPEC2VEC_FEATURES, nstns_per_event=NSTNS_PER_EVENT)  

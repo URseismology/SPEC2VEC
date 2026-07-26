@@ -6,13 +6,20 @@ import os
 import sys
 import h5py
 
-# Update sys.path to ensure we can import PRJ_GIS_QA modules
-sys.path.append(os.path.abspath('.'))
+## For Google Colab
+# sys.path.append('/content/drive/MyDrive/')
+
+## For Local
+sys.path.append('/path/to/my/all_projects') ## e.g. sys.path.append('/data/sswar_files/0_PUBLISHED_CODES')
+
 from SPEC2VEC.utils.gisqa_compute_updated import GISQAPipeline
 
-data_path = "SPEC2VEC/time_complexity_analysis/data_noise_ref"
-save_dir = 'SPEC2VEC/time_complexity_analysis/codes_and_files'
+# Update the following paths to match your system when running from terminal
+data_path = "time_complexity_analysis/data_noise_ref"
+save_dir = 'time_complexity_analysis/codes_and_files'
 
+
+#### Helper Functions
 def generate_random_data(n_images, img_size=(256, 256)):
     all_imgs = [np.random.rand(*img_size) for _ in range(n_images)]
     all_ts = [np.linspace(0, 10, img_size[0]) for _ in range(n_images)]
@@ -134,6 +141,7 @@ def run_analysis(N_dim, N_list):
 
     return df
 
+#### Main
 if __name__ == "__main__":
     N_dim = [(128,128),(256,256),(512,512)]
     N_list = [[50, 100, 500, 1000]]*len(N_dim)

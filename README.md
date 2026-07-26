@@ -32,7 +32,7 @@ To run Spec2VEC, you need the following core Python libraries:
 ## Installation Guide
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/URseismology/Spec2Vec.git
+   git clone https://github.com/URseismology/SPEC2VEC.git
    cd Spec2Vec
    ```
 

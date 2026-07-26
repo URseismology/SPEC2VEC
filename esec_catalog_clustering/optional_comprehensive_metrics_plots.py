@@ -45,20 +45,14 @@ from sklearn.model_selection import RandomizedSearchCV
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.calibration import CalibratedClassifierCV
 
-sys.path.append('/data/sswar_files/')
-sys.path.append('/data/sswar_files/0_PUBLISHED_CODES/')
+## For Local
+sys.path.append('/path/to/my/all_projects') ## e.g. sys.path.append('/data/sswar_files/0_PUBLISHED_CODES')
 
-# from PRJ_SPEC_MASTER.src.utils.data_preparations import *
-# from PRJ_SPEC_MASTER.src.utils.noise_lib import *
-# from PRJ_SPEC_MASTER.src.utils.spectograms_lib import *
-# from PRJ_GIS_QA.src.utils.gisqa_compute_updated import *
-# from PRJ_GIS_QA.src.utils.helper import *
-
-from SPEC2VEC.src.utils.data_preparations import *
-from SPEC2VEC.src.utils.noise_lib import *
-from SPEC2VEC.src.utils.spectograms_lib import *
-from SPEC2VEC.src.utils.gisqa_compute_updated import *
-from SPEC2VEC.src.utils.gisqa_helper import *
+from SPEC2VEC.utils.simple_synth_data_models import *
+from SPEC2VEC.utils.noise_lib import *
+from SPEC2VEC.utils.spectograms_lib import *
+from SPEC2VEC.utils.gisqa_compute_updated import *
+from SPEC2VEC.utils.gisqa_helper import *
 
 #---------------------------- GLOBAL VARIABLES------------------------------
 # Set Global Variables

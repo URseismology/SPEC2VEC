@@ -20,8 +20,9 @@ from obspy import read
 from obspy import UTCDateTime
 from obspy.clients.fdsn import Client
 
-sys.path.append('/data/sswar_files/')
-from PRJ_SPEC_MASTER.src.utils.data_preparations import *
+## Update For Local
+sys.path.append('/path/to/my/all_projects') ## e.g. sys.path.append('/data/sswar_files/0_PUBLISHED_CODES')
+from SPEC2VEC.utils.simple_synth_data_models import *
 
 #---------------------------- GLOBAL VARIABLES------------------------------
 # Set Global Variables

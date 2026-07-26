@@ -1,3 +1,5 @@
+## The following libraries are for reference to be installed individually if the automated methods fail
+
 Libraries Required:
 -------------------------
 conda create -n spec2vec python=3.10 numpy=2.2 matplotlib pandas scikit-learn scipy seaborn notebook jupyterlab

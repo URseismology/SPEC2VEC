@@ -43,6 +43,9 @@ Once the metrics have been computed (Step 3), you can explore the data and repro
 - We have also provided the computed metrics files in the **[`computed_dataset_files`](computed_dataset_files/)** directory. So one can directly run the [spec2vec_analysis_main.ipynb](spec2vec_analysis_notebooks/spec2vec_analysis_main.ipynb) notebook.
 - These Jupyter notebooks will walk you through the statistical comparisons, dimensionality reduction, and clustering of the exotic vs. tectonic events.
 
+*Note 1: Please update the path variables in the notebooks to match your setup* <br>
+*Note 2: For some of the figures you will need the sac files which you can download as per instructions in the data_readme files*
+
 ---
 
 ## 🎨 Optional: Generating Figures & Plots

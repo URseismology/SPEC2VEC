@@ -21,10 +21,10 @@ This folder contains pre-computed HDF5 noise reference banks used exclusively by
 
 ## 🚀 How to Run
 
-To run the analysis locally and re-generate the benchmarks or test on your own hardware, execute the Python script from the root repository folder:
+To run the analysis locally and re-generate the benchmarks or test on your own hardware, execute the Python script from your system's terminal and update the paths variables inside the script:
 
 ```bash
-python SPEC2VEC/time_complexity_analysis/codes_and_files/analyze_time.py
+python time_complexity_analysis/codes_and_files/analyze_time.py
 ```
 
 *Note: Make sure your Python environment is fully set up with the required dependencies and that you are executing the script from the root of the project so that relative imports resolve correctly.*
