@@ -1,7 +1,7 @@
 #!/bin/bash
 
 ENV_NAME="spec2vec_env"
-HARD_REQUIREMENTS_PATH="/data/sswar_files/0_PUBLISHED_CODES/SPEC2VEC/software_requirements/spec2vec_requirements_hard.txt"
+HARD_REQUIREMENTS_PATH="SPEC2VEC/software_requirements/spec2vec_requirements_hard.txt"
 
 echo "============================================="
 echo "1. Creating Conda environment '$ENV_NAME' with Python 3.10.19..."
