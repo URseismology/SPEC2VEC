@@ -48,7 +48,7 @@ To run Spec2VEC, you need the following core Python libraries:
    pip install jwave jax jaxlib
    ```
    
-- **OR: If you do not want to install the libraries one by one then you can run the following (Recommended):**
+- **OR: If you do not want to install the libraries one by one then you can run the following:**
    Note: Please follow these steps as provided to obtain an error free installation.
    
    ```
@@ -60,7 +60,7 @@ To run Spec2VEC, you need the following core Python libraries:
    pip install pyradiomics==3.0.1 --no-build-isolation
    ```
 
-## Alternative Installation Guide (To Local Machine): automated setup script
+## Alternative Installation Guide (To Local Machine): automated setup script (Recommended):
    We provide a bash script that automatically handles the environment creation and dependency installation order for you. Update the Environment Name and Software Requirements File Path.
    
    ```bash
