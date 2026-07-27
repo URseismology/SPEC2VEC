@@ -5,6 +5,8 @@ Spec2VEC is an intelligent framework designed to extract objective, interpretabl
 
 Developed initially for geophysics and planetary exploration, Spec2VEC addresses the "input" problem by systematically extracting information content from signal representations and representing it through a suite of numerical identities. It provides a transparent, physics-aware alternative to "black-box" deep learning models, ensuring that signal characterization remains consistent, interpretable, and reproducible.
 
+[Click to access SPEC2VEC Documentation](https://spec2vec.mintlify.site/)
+
 ## Applications
 Spec2VEC is highly versatile and can be used on various forms of time-series data. Currently, this repository includes applications for:
 - **Distributed Acoustic Sensing (DAS):** Processing and characterizing fiber-optic DAS arrays. Available in [das_application](das_application/) folder.
