@@ -16,6 +16,10 @@ This directory contains a collection of supplementary Jupyter notebooks designed
 * **[`spec2vec_on_synth_texture_categories.ipynb`](spec2vec_on_synth_texture_categories.ipynb)**
   Explores Spec2VEC's ability to differentiate complex image textures. This notebook runs the algorithm across distinct synthetic texture categories (e.g., Perlin noise, uniform noise) to demonstrate the discrimination capabilities of the framework. The script can also be used to reproduce one of the figures presented in the manuscript.
 
+* **[`spec2vec_pairplot_distanceplots.ipynb`](spec2vec_pairplot_distanceplots.ipynb)**
+  Explores Spec2VEC's ability to differentiate textures from noisefloors. This notebook plots the spec2VEC computed features against noisefloors with a pairplot to show relative variations. The idea is that the TFRs with more noise components will be located near the respective noisefloors. The script also shows the experiment where spec2VEC features are computed with increasing levels of noise on a STFT of a synthetic signal. The results will indicate that the spec2VEC features for TFR containing higher level of noise are located nearer to the respective noisefloors in the feature space.
+
+
 ## Data Requirements
 To successfully execute these notebooks and reproduce the manuscript results, certain data files are required. 
 All necessary data should be located within the **[`other_data/`](other_data/)** folder. If the data is too large to host on GitHub, this folder will contain its own `README.md` with explicit instructions or links on how to fetch the required files before running the notebooks.
