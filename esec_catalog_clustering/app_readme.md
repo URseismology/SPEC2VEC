@@ -40,7 +40,8 @@ With both catalogs downloaded and processed, run the final preparation step to c
 
 Once the metrics have been computed (Step 3), you can explore the data and reproduce the clustering results discussed in the Spec2VEC publication.
 - Head over to the **[`spec2vec_analysis_notebooks`](spec2vec_analysis_notebooks/)** directory. 
-- We have also provided the computed metrics files in the **[`computed_dataset_files`](computed_dataset_files/)** directory. So one can directly run the [spec2vec_analysis_main.ipynb](spec2vec_analysis_notebooks/spec2vec_analysis_main.ipynb) notebook.
+- We have provided the computed metrics files in the **[`computed_dataset_files`](computed_dataset_files/)** directory. So one can directly run the [spec2vec_analysis_main.ipynb](spec2vec_analysis_notebooks/spec2vec_analysis_main.ipynb) notebook.
+- For the benchmark comparison we have provided the **[`siamese_analysis_cwt.ipynb`](spec2vec_analysis_notebooks/siamese_analysis_cwt.ipynb)** notebook. This notebook runs bunch of experiments on the Siamese Embeddings learned from the CWT ESEC Time Series data to analyze its classification performance. The precomputed embeddings can be found in the **[`computed_dataset_files`](computed_dataset_files/)** directory. 
 - These Jupyter notebooks will walk you through the statistical comparisons, dimensionality reduction, and clustering of the exotic vs. tectonic events.
 
 *Note 1: Please update the path variables in the notebooks to match your setup* <br>
@@ -64,3 +65,11 @@ We also provide optional Python scripts if you wish to generate deeper visual an
 - **Spec2VEC on Rolling Basis:**  
   To run Spec2VEC on 30 sec (or N sec) chunks of time series and generate features accordingly we have provided a rolling version of the Spec2VEC metrics calculation in the [optional_esec_spec2vec_rolling_metrics_prep.py](optional_esec_spec2vec_rolling_metrics_prep.py) script.
   - Users can run this script for the ESEC catalog and analyze/cluster the results.
+
+- **Prepare Self Supervised Siamese Deep Learning Embeddings:**  
+  To prepare the data in form of CWT images (one per component) and generate the embeddings using trained 
+  Siamese Deep Learning architecture we have provided a script [optional_dl_siamese_metrics_prep.py](optional_dl_siamese_metrics_prep.py). 
+  - Users can run this script for the ESEC catalog and the embeddings will be saved in the 
+    [`computed_dataset_files`](computed_dataset_files/) directory. 
+  - Note that the user might need to additionally install pytorch/torchvision libraries in order to use the script.
+    
